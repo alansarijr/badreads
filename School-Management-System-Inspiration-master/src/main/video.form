@@ -45,7 +45,7 @@
               <Component id="jPanel2" alignment="0" max="32767" attributes="0"/>
               <Group type="102" alignment="1" attributes="0">
                   <EmptySpace max="-2" attributes="0"/>
-                  <Component id="tabbedPaneCustom1" pref="754" max="32767" attributes="0"/>
+                  <Component id="tabbedPaneCustom1" max="32767" attributes="0"/>
                   <EmptySpace max="-2" attributes="0"/>
               </Group>
           </Group>
@@ -102,7 +102,7 @@
                 <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
                   <Image iconType="3" name="/main/images/home_48px_1.png"/>
                 </Property>
-                <Property name="text" type="java.lang.String" value=" Home"/>
+                <Property name="text" type="java.lang.String" value="video"/>
               </Properties>
             </Component>
           </SubComponents>
