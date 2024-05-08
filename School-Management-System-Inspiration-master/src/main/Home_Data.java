@@ -41,6 +41,7 @@ public class Home_Data extends javax.swing.JFrame {
 
         setDefaultCloseOperation(javax.swing.WindowConstants.DISPOSE_ON_CLOSE);
         setBackground(new java.awt.Color(255, 255, 255));
+        setBounds(new java.awt.Rectangle(240, 100, 0, 0));
 
         jPanel1.setBackground(new java.awt.Color(45, 118, 232));
 
@@ -238,14 +239,11 @@ public class Home_Data extends javax.swing.JFrame {
     private javax.swing.JLabel jLabel2;
     private javax.swing.JLabel jLabel3;
     private javax.swing.JLabel jLabel4;
-    private javax.swing.JLabel jLabel5;
     private javax.swing.JPanel jPanel1;
     private javax.swing.JPanel jPanel2;
     private javax.swing.JPanel jPanel3;
     private javax.swing.JPanel jPanel4;
     private javax.swing.JPanel jPanel5;
-    private javax.swing.JPanel jPanel6;
     private raven.tabbed.TabbedPaneCustom tabbedPaneCustom1;
-    private raven.tabbed.TabbedPaneCustom tabbedPaneCustom5;
     // End of variables declaration//GEN-END:variables
 }
