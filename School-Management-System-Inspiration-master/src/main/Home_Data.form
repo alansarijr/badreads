@@ -29,110 +29,44 @@
   <Layout>
     <DimensionLayout dim="0">
       <Group type="103" groupAlignment="0" attributes="0">
-          <Component id="jPanel1" max="32767" attributes="0"/>
           <Group type="102" attributes="0">
               <EmptySpace max="-2" attributes="0"/>
               <Component id="tabbedPaneCustom1" max="32767" attributes="0"/>
-              <EmptySpace min="-2" pref="44" max="-2" attributes="0"/>
-          </Group>
-          <Group type="103" rootIndex="1" groupAlignment="0" attributes="0">
-              <Group type="102" attributes="0">
-                  <EmptySpace min="0" pref="0" max="32767" attributes="0"/>
-                  <Component id="myButton2" min="-2" pref="75" max="-2" attributes="0"/>
-                  <EmptySpace min="0" pref="0" max="32767" attributes="0"/>
-              </Group>
           </Group>
       </Group>
     </DimensionLayout>
     <DimensionLayout dim="1">
       <Group type="103" groupAlignment="0" attributes="0">
-          <Group type="102" alignment="0" attributes="0">
-              <Component id="jPanel1" min="-2" max="-2" attributes="0"/>
-              <EmptySpace type="unrelated" max="-2" attributes="0"/>
-              <Component id="tabbedPaneCustom1" min="-2" pref="585" max="-2" attributes="0"/>
-              <EmptySpace pref="22" max="32767" attributes="0"/>
-          </Group>
-          <Group type="103" rootIndex="1" groupAlignment="0" attributes="0">
-              <Group type="102" attributes="0">
-                  <EmptySpace min="0" pref="0" max="32767" attributes="0"/>
-                  <Component id="myButton2" min="-2" pref="76" max="-2" attributes="0"/>
-                  <EmptySpace min="0" pref="0" max="32767" attributes="0"/>
-              </Group>
-          </Group>
+          <Component id="tabbedPaneCustom1" min="-2" pref="739" max="-2" attributes="0"/>
       </Group>
     </DimensionLayout>
   </Layout>
   <SubComponents>
-    <Container class="javax.swing.JPanel" name="jPanel1">
-      <Properties>
-        <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
-          <Color blue="e8" green="76" red="2d" type="rgb"/>
-        </Property>
-      </Properties>
-
-      <Layout>
-        <DimensionLayout dim="0">
-          <Group type="103" groupAlignment="0" attributes="0">
-              <Group type="102" alignment="0" attributes="0">
-                  <EmptySpace min="-2" pref="69" max="-2" attributes="0"/>
-                  <Component id="jLabel15" min="-2" max="-2" attributes="0"/>
-                  <EmptySpace max="32767" attributes="0"/>
-              </Group>
-          </Group>
-        </DimensionLayout>
-        <DimensionLayout dim="1">
-          <Group type="103" groupAlignment="0" attributes="0">
-              <Group type="102" alignment="0" attributes="0">
-                  <EmptySpace min="-2" pref="40" max="-2" attributes="0"/>
-                  <Component id="jLabel15" min="-2" max="-2" attributes="0"/>
-                  <EmptySpace pref="50" max="32767" attributes="0"/>
-              </Group>
-          </Group>
-        </DimensionLayout>
-      </Layout>
-      <SubComponents>
-        <Component class="javax.swing.JLabel" name="jLabel15">
-          <Properties>
-            <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
-              <Font name="Verdana" size="24" style="1"/>
-            </Property>
-            <Property name="foreground" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
-              <Color blue="ff" green="ff" red="ff" type="rgb"/>
-            </Property>
-            <Property name="horizontalAlignment" type="int" value="0"/>
-            <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
-              <Image iconType="3" name="/main/images/home_48px_1.png"/>
-            </Property>
-            <Property name="text" type="java.lang.String" value=" Home"/>
-          </Properties>
-        </Component>
-      </SubComponents>
-    </Container>
     <Container class="raven.tabbed.TabbedPaneCustom" name="tabbedPaneCustom1">
       <Properties>
         <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
           <Font name="sansserif" size="12" style="1"/>
         </Property>
         <Property name="selectedColor" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
-          <Color blue="f2" green="9e" red="31" type="rgb"/>
+          <Color blue="9e" green="ec" red="ff" type="rgb"/>
         </Property>
         <Property name="unselectedColor" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
-          <Color blue="ff" green="d6" red="b9" type="rgb"/>
+          <Color blue="da" green="fb" red="ff" type="rgb"/>
         </Property>
       </Properties>
 
       <Layout class="org.netbeans.modules.form.compat2.layouts.support.JTabbedPaneSupportLayout"/>
       <SubComponents>
-        <Container class="javax.swing.JPanel" name="jPanel3">
+        <Container class="javax.swing.JPanel" name="sophomore">
           <Properties>
             <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
-              <Color blue="f3" green="f3" red="f3" type="rgb"/>
+              <Color blue="da" green="fb" red="ff" type="rgb"/>
             </Property>
           </Properties>
           <Constraints>
             <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.support.JTabbedPaneSupportLayout" value="org.netbeans.modules.form.compat2.layouts.support.JTabbedPaneSupportLayout$JTabbedPaneConstraintsDescription">
-              <JTabbedPaneConstraints tabName="Product">
-                <Property name="tabTitle" type="java.lang.String" value="Product"/>
+              <JTabbedPaneConstraints tabName="Sophomore">
+                <Property name="tabTitle" type="java.lang.String" value="Sophomore"/>
               </JTabbedPaneConstraints>
             </Constraint>
           </Constraints>
@@ -140,279 +74,2238 @@
           <Layout>
             <DimensionLayout dim="0">
               <Group type="103" groupAlignment="0" attributes="0">
-                  <Group type="102" alignment="0" attributes="0">
-                      <EmptySpace max="-2" attributes="0"/>
-                      <Component id="jLabel2" pref="882" max="32767" attributes="0"/>
-                      <EmptySpace max="-2" attributes="0"/>
-                  </Group>
-              </Group>
-            </DimensionLayout>
-            <DimensionLayout dim="1">
-              <Group type="103" groupAlignment="0" attributes="0">
-                  <Group type="102" alignment="0" attributes="0">
-                      <EmptySpace max="-2" attributes="0"/>
-                      <Component id="jLabel2" pref="537" max="32767" attributes="0"/>
-                      <EmptySpace max="-2" attributes="0"/>
-                  </Group>
-              </Group>
-            </DimensionLayout>
-          </Layout>
-          <SubComponents>
-            <Component class="javax.swing.JLabel" name="jLabel2">
-              <Properties>
-                <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
-                  <Font name="sansserif" size="18" style="1"/>
-                </Property>
-                <Property name="foreground" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
-                  <Color blue="5f" green="5f" red="5f" type="rgb"/>
-                </Property>
-                <Property name="horizontalAlignment" type="int" value="0"/>
-                <Property name="text" type="java.lang.String" value="Tabbed 2"/>
-              </Properties>
-            </Component>
-          </SubComponents>
-        </Container>
-        <Container class="javax.swing.JPanel" name="jPanel4">
-          <Properties>
-            <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
-              <Color blue="f3" green="f3" red="f3" type="rgb"/>
-            </Property>
-          </Properties>
-          <Constraints>
-            <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.support.JTabbedPaneSupportLayout" value="org.netbeans.modules.form.compat2.layouts.support.JTabbedPaneSupportLayout$JTabbedPaneConstraintsDescription">
-              <JTabbedPaneConstraints tabName="User">
-                <Property name="tabTitle" type="java.lang.String" value="User"/>
-              </JTabbedPaneConstraints>
-            </Constraint>
-          </Constraints>
-
-          <Layout>
-            <DimensionLayout dim="0">
-              <Group type="103" groupAlignment="0" attributes="0">
-                  <Group type="102" alignment="0" attributes="0">
-                      <EmptySpace max="-2" attributes="0"/>
-                      <Component id="jLabel3" pref="882" max="32767" attributes="0"/>
-                      <EmptySpace max="-2" attributes="0"/>
-                  </Group>
-              </Group>
-            </DimensionLayout>
-            <DimensionLayout dim="1">
-              <Group type="103" groupAlignment="0" attributes="0">
-                  <Group type="102" alignment="0" attributes="0">
-                      <EmptySpace max="-2" attributes="0"/>
-                      <Component id="jLabel3" pref="537" max="32767" attributes="0"/>
-                      <EmptySpace max="-2" attributes="0"/>
-                  </Group>
-              </Group>
-            </DimensionLayout>
-          </Layout>
-          <SubComponents>
-            <Component class="javax.swing.JLabel" name="jLabel3">
-              <Properties>
-                <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
-                  <Font name="sansserif" size="18" style="1"/>
-                </Property>
-                <Property name="foreground" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
-                  <Color blue="5f" green="5f" red="5f" type="rgb"/>
-                </Property>
-                <Property name="horizontalAlignment" type="int" value="0"/>
-                <Property name="text" type="java.lang.String" value="Tabbed 3"/>
-              </Properties>
-            </Component>
-          </SubComponents>
-        </Container>
-        <Container class="javax.swing.JPanel" name="jPanel5">
-          <Properties>
-            <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
-              <Color blue="f3" green="f3" red="f3" type="rgb"/>
-            </Property>
-          </Properties>
-          <Constraints>
-            <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.support.JTabbedPaneSupportLayout" value="org.netbeans.modules.form.compat2.layouts.support.JTabbedPaneSupportLayout$JTabbedPaneConstraintsDescription">
-              <JTabbedPaneConstraints tabName="Staff">
-                <Property name="tabTitle" type="java.lang.String" value="Staff"/>
-              </JTabbedPaneConstraints>
-            </Constraint>
-          </Constraints>
-
-          <Layout>
-            <DimensionLayout dim="0">
-              <Group type="103" groupAlignment="0" attributes="0">
-                  <Group type="102" alignment="0" attributes="0">
-                      <EmptySpace max="-2" attributes="0"/>
-                      <Component id="jLabel4" pref="882" max="32767" attributes="0"/>
-                      <EmptySpace max="-2" attributes="0"/>
-                  </Group>
-              </Group>
-            </DimensionLayout>
-            <DimensionLayout dim="1">
-              <Group type="103" groupAlignment="0" attributes="0">
-                  <Group type="102" alignment="0" attributes="0">
-                      <EmptySpace max="-2" attributes="0"/>
-                      <Component id="jLabel4" pref="537" max="32767" attributes="0"/>
-                      <EmptySpace max="-2" attributes="0"/>
-                  </Group>
-              </Group>
-            </DimensionLayout>
-          </Layout>
-          <SubComponents>
-            <Component class="javax.swing.JLabel" name="jLabel4">
-              <Properties>
-                <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
-                  <Font name="sansserif" size="18" style="1"/>
-                </Property>
-                <Property name="foreground" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
-                  <Color blue="5f" green="5f" red="5f" type="rgb"/>
-                </Property>
-                <Property name="horizontalAlignment" type="int" value="0"/>
-                <Property name="text" type="java.lang.String" value="Tabbed 4"/>
-              </Properties>
-            </Component>
-          </SubComponents>
-        </Container>
-        <Container class="javax.swing.JPanel" name="jPanel2">
-          <Properties>
-            <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
-              <Color blue="f3" green="f3" red="f3" type="rgb"/>
-            </Property>
-          </Properties>
-          <Constraints>
-            <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.support.JTabbedPaneSupportLayout" value="org.netbeans.modules.form.compat2.layouts.support.JTabbedPaneSupportLayout$JTabbedPaneConstraintsDescription">
-              <JTabbedPaneConstraints tabName="Home">
-                <Property name="tabTitle" type="java.lang.String" value="Home"/>
-              </JTabbedPaneConstraints>
-            </Constraint>
-          </Constraints>
-
-          <Layout>
-            <DimensionLayout dim="0">
-              <Group type="103" groupAlignment="0" attributes="0">
-                  <Group type="102" alignment="0" attributes="0">
-                      <EmptySpace min="-2" pref="159" max="-2" attributes="0"/>
-                      <Component id="myButton3" min="-2" pref="101" max="-2" attributes="0"/>
-                      <EmptySpace min="-2" pref="150" max="-2" attributes="0"/>
-                      <Component id="myButton4" min="-2" pref="75" max="-2" attributes="0"/>
-                      <EmptySpace max="-2" attributes="0"/>
-                      <Component id="jLabel1" pref="397" max="32767" attributes="0"/>
-                      <EmptySpace max="-2" attributes="0"/>
-                  </Group>
-                  <Group type="103" rootIndex="1" groupAlignment="0" attributes="0">
-                      <Group type="102" alignment="0" attributes="0">
-                          <EmptySpace min="-2" pref="328" max="-2" attributes="0"/>
-                          <Group type="103" groupAlignment="0" max="-2" attributes="0">
-                              <Component id="textField1" alignment="0" max="32767" attributes="0"/>
-                              <Component id="textField2" alignment="0" pref="237" max="32767" attributes="0"/>
-                              <Component id="passwordField1" alignment="0" max="32767" attributes="0"/>
-                              <Component id="passwordField2" alignment="0" max="32767" attributes="0"/>
-                              <Component id="passwordField3" alignment="0" max="32767" attributes="0"/>
+                  <Group type="102" alignment="1" attributes="0">
+                      <Group type="103" groupAlignment="0" attributes="0">
+                          <Group type="102" attributes="0">
+                              <Group type="103" groupAlignment="0" attributes="0">
+                                  <Component id="jLabel17" min="-2" pref="365" max="-2" attributes="0"/>
+                                  <Component id="jLabel21" alignment="0" min="-2" max="-2" attributes="0"/>
+                                  <Group type="102" alignment="0" attributes="0">
+                                      <Group type="103" groupAlignment="0" attributes="0">
+                                          <Component id="jLabel12" min="-2" max="-2" attributes="0"/>
+                                          <Component id="jLabel22" min="-2" max="-2" attributes="0"/>
+                                          <Component id="jLabel23" min="-2" max="-2" attributes="0"/>
+                                          <Component id="jLabel24" min="-2" max="-2" attributes="0"/>
+                                          <Component id="jLabel25" min="-2" max="-2" attributes="0"/>
+                                          <Component id="jLabel28" min="-2" max="-2" attributes="0"/>
+                                          <Component id="jLabel30" min="-2" max="-2" attributes="0"/>
+                                      </Group>
+                                      <EmptySpace min="-2" pref="27" max="-2" attributes="0"/>
+                                      <Group type="103" groupAlignment="1" attributes="0">
+                                          <Component id="S1" min="-2" pref="187" max="-2" attributes="0"/>
+                                          <Component id="textField12" min="-2" pref="187" max="-2" attributes="0"/>
+                                          <Component id="textField13" min="-2" pref="187" max="-2" attributes="0"/>
+                                          <Component id="S2" alignment="1" min="-2" pref="187" max="-2" attributes="0"/>
+                                          <Component id="S3" alignment="1" min="-2" pref="187" max="-2" attributes="0"/>
+                                          <Component id="S4" alignment="1" min="-2" pref="187" max="-2" attributes="0"/>
+                                          <Component id="S5" min="-2" pref="187" max="-2" attributes="0"/>
+                                          <Component id="S6" min="-2" pref="187" max="-2" attributes="0"/>
+                                      </Group>
+                                  </Group>
+                              </Group>
+                              <EmptySpace pref="173" max="32767" attributes="0"/>
                           </Group>
-                          <EmptySpace pref="329" max="32767" attributes="0"/>
+                          <Group type="102" alignment="1" attributes="0">
+                              <Group type="103" groupAlignment="0" attributes="0">
+                                  <Group type="102" attributes="0">
+                                      <EmptySpace max="-2" attributes="0"/>
+                                      <Component id="TotalTF" min="-2" pref="111" max="-2" attributes="0"/>
+                                  </Group>
+                                  <Group type="102" alignment="0" attributes="0">
+                                      <EmptySpace min="-2" pref="26" max="-2" attributes="0"/>
+                                      <Component id="jLabel16" min="-2" pref="72" max="-2" attributes="0"/>
+                                  </Group>
+                              </Group>
+                              <EmptySpace pref="90" max="32767" attributes="0"/>
+                              <Group type="103" groupAlignment="0" attributes="0">
+                                  <Component id="jLabel1" min="-2" max="-2" attributes="0"/>
+                                  <Component id="averageTF" min="-2" pref="111" max="-2" attributes="0"/>
+                              </Group>
+                              <EmptySpace min="-2" pref="90" max="-2" attributes="0"/>
+                              <Group type="103" groupAlignment="0" attributes="0">
+                                  <Component id="gpaTF" min="-2" pref="111" max="-2" attributes="0"/>
+                                  <Group type="102" alignment="0" attributes="0">
+                                      <EmptySpace min="-2" pref="29" max="-2" attributes="0"/>
+                                      <Component id="jLabel5" min="-2" max="-2" attributes="0"/>
+                                  </Group>
+                              </Group>
+                              <EmptySpace min="-2" pref="84" max="-2" attributes="0"/>
+                          </Group>
+                      </Group>
+                      <Group type="103" groupAlignment="0" attributes="0">
+                          <Component id="calc1" min="-2" pref="232" max="-2" attributes="0"/>
+                          <Group type="103" alignment="0" groupAlignment="1" attributes="0">
+                              <Group type="102" alignment="0" attributes="0">
+                                  <Group type="103" groupAlignment="0" attributes="0">
+                                      <Component id="jLabel26" min="-2" max="-2" attributes="0"/>
+                                      <Component id="jLabel27" alignment="0" min="-2" max="-2" attributes="0"/>
+                                      <Component id="jLabel31" min="-2" max="-2" attributes="0"/>
+                                  </Group>
+                                  <EmptySpace max="32767" attributes="0"/>
+                                  <Group type="103" groupAlignment="0" attributes="0">
+                                      <Component id="S9" alignment="1" min="-2" pref="187" max="-2" attributes="0"/>
+                                      <Component id="S10" alignment="1" min="-2" pref="187" max="-2" attributes="0"/>
+                                      <Group type="102" alignment="1" attributes="0">
+                                          <Component id="S11" min="-2" pref="187" max="-2" attributes="0"/>
+                                          <EmptySpace max="-2" attributes="0"/>
+                                      </Group>
+                                  </Group>
+                              </Group>
+                              <Group type="102" alignment="0" attributes="0">
+                                  <Component id="jLabel14" min="-2" max="-2" attributes="0"/>
+                                  <EmptySpace max="32767" attributes="0"/>
+                                  <Component id="S8" min="-2" pref="187" max="-2" attributes="0"/>
+                              </Group>
+                              <Group type="102" alignment="0" attributes="0">
+                                  <Component id="jLabel13" min="-2" max="-2" attributes="0"/>
+                                  <EmptySpace pref="27" max="32767" attributes="0"/>
+                                  <Component id="S7" min="-2" pref="187" max="-2" attributes="0"/>
+                              </Group>
+                              <Group type="102" alignment="0" attributes="0">
+                                  <Group type="103" groupAlignment="1" attributes="0">
+                                      <Group type="102" alignment="0" attributes="0">
+                                          <Component id="jLabel29" min="-2" max="-2" attributes="0"/>
+                                          <EmptySpace max="32767" attributes="0"/>
+                                          <Component id="S12" min="-2" pref="187" max="-2" attributes="0"/>
+                                      </Group>
+                                      <Group type="102" alignment="0" attributes="0">
+                                          <Component id="jLabel15" min="-2" pref="399" max="-2" attributes="0"/>
+                                          <EmptySpace min="0" pref="0" max="32767" attributes="0"/>
+                                      </Group>
+                                  </Group>
+                                  <EmptySpace max="-2" attributes="0"/>
+                              </Group>
+                          </Group>
                       </Group>
                   </Group>
               </Group>
             </DimensionLayout>
             <DimensionLayout dim="1">
               <Group type="103" groupAlignment="0" attributes="0">
-                  <Group type="102" attributes="0">
+                  <Group type="102" alignment="0" attributes="0">
+                      <EmptySpace min="-2" pref="43" max="-2" attributes="0"/>
+                      <Group type="103" groupAlignment="1" attributes="0">
+                          <Group type="102" attributes="0">
+                              <Group type="103" groupAlignment="3" attributes="0">
+                                  <Component id="jLabel17" alignment="3" min="-2" pref="45" max="-2" attributes="0"/>
+                                  <Component id="jLabel15" alignment="3" min="-2" pref="45" max="-2" attributes="0"/>
+                              </Group>
+                              <EmptySpace min="-2" pref="31" max="-2" attributes="0"/>
+                              <Group type="103" groupAlignment="3" attributes="0">
+                                  <Component id="jLabel12" alignment="3" min="-2" max="-2" attributes="0"/>
+                                  <Component id="S1" alignment="3" min="-2" max="-2" attributes="0"/>
+                                  <Component id="jLabel13" alignment="3" min="-2" max="-2" attributes="0"/>
+                                  <Component id="S7" alignment="3" min="-2" max="-2" attributes="0"/>
+                              </Group>
+                              <EmptySpace min="-2" pref="36" max="-2" attributes="0"/>
+                              <Group type="103" groupAlignment="3" attributes="0">
+                                  <Component id="S8" alignment="3" min="-2" max="-2" attributes="0"/>
+                                  <Component id="jLabel14" alignment="3" min="-2" max="-2" attributes="0"/>
+                                  <Component id="jLabel21" alignment="3" min="-2" max="-2" attributes="0"/>
+                                  <Component id="S2" alignment="3" min="-2" max="-2" attributes="0"/>
+                              </Group>
+                              <EmptySpace min="-2" pref="36" max="-2" attributes="0"/>
+                              <Group type="103" groupAlignment="3" attributes="0">
+                                  <Component id="S3" alignment="3" min="-2" max="-2" attributes="0"/>
+                                  <Component id="jLabel22" alignment="3" min="-2" max="-2" attributes="0"/>
+                              </Group>
+                          </Group>
+                          <Group type="103" groupAlignment="3" attributes="0">
+                              <Component id="jLabel27" alignment="3" min="-2" max="-2" attributes="0"/>
+                              <Component id="S9" alignment="3" min="-2" max="-2" attributes="0"/>
+                          </Group>
+                      </Group>
+                      <EmptySpace min="-2" pref="36" max="-2" attributes="0"/>
+                      <Group type="103" groupAlignment="3" attributes="0">
+                          <Component id="jLabel23" alignment="3" min="-2" max="-2" attributes="0"/>
+                          <Component id="S4" alignment="3" min="-2" max="-2" attributes="0"/>
+                          <Component id="jLabel26" alignment="3" min="-2" max="-2" attributes="0"/>
+                          <Component id="S10" alignment="3" min="-2" max="-2" attributes="0"/>
+                      </Group>
+                      <EmptySpace min="-2" pref="36" max="-2" attributes="0"/>
+                      <Group type="103" groupAlignment="3" attributes="0">
+                          <Component id="jLabel28" alignment="3" min="-2" max="-2" attributes="0"/>
+                          <Component id="jLabel31" alignment="3" min="-2" max="-2" attributes="0"/>
+                          <Component id="S5" alignment="3" min="-2" max="-2" attributes="0"/>
+                          <Component id="S11" alignment="3" min="-2" max="-2" attributes="0"/>
+                      </Group>
+                      <EmptySpace min="-2" pref="36" max="-2" attributes="0"/>
+                      <Group type="103" groupAlignment="3" attributes="0">
+                          <Component id="jLabel30" alignment="3" min="-2" max="-2" attributes="0"/>
+                          <Component id="jLabel29" alignment="3" min="-2" max="-2" attributes="0"/>
+                          <Component id="S6" alignment="3" min="-2" max="-2" attributes="0"/>
+                          <Component id="S12" alignment="3" min="-2" max="-2" attributes="0"/>
+                      </Group>
                       <Group type="103" groupAlignment="0" attributes="0">
                           <Group type="102" alignment="0" attributes="0">
-                              <EmptySpace min="-2" pref="109" max="-2" attributes="0"/>
-                              <Component id="myButton3" min="-2" pref="70" max="-2" attributes="0"/>
+                              <EmptySpace min="-2" pref="51" max="-2" attributes="0"/>
+                              <Group type="103" groupAlignment="3" attributes="0">
+                                  <Component id="calc1" alignment="3" min="-2" pref="76" max="-2" attributes="0"/>
+                                  <Component id="gpaTF" alignment="3" min="-2" pref="76" max="-2" attributes="0"/>
+                              </Group>
                           </Group>
                           <Group type="102" alignment="0" attributes="0">
-                              <EmptySpace min="-2" pref="130" max="-2" attributes="0"/>
-                              <Component id="myButton4" min="-2" pref="76" max="-2" attributes="0"/>
+                              <Group type="103" groupAlignment="3" attributes="0">
+                                  <Component id="jLabel1" alignment="3" min="-2" pref="46" max="-2" attributes="0"/>
+                                  <Component id="jLabel5" alignment="3" min="-2" pref="46" max="-2" attributes="0"/>
+                                  <Component id="jLabel16" alignment="3" min="-2" pref="46" max="-2" attributes="0"/>
+                              </Group>
+                              <EmptySpace max="-2" attributes="0"/>
+                              <Group type="103" groupAlignment="3" attributes="0">
+                                  <Component id="averageTF" alignment="3" min="-2" pref="76" max="-2" attributes="0"/>
+                                  <Component id="TotalTF" alignment="3" min="-2" pref="76" max="-2" attributes="0"/>
+                              </Group>
                           </Group>
                       </Group>
-                      <EmptySpace pref="343" max="32767" attributes="0"/>
-                  </Group>
-                  <Component id="jLabel1" alignment="1" pref="549" max="32767" attributes="0"/>
-                  <Group type="103" rootIndex="1" groupAlignment="0" attributes="0">
-                      <Group type="102" alignment="0" attributes="0">
-                          <EmptySpace min="-2" pref="157" max="-2" attributes="0"/>
-                          <Component id="textField1" min="-2" max="-2" attributes="0"/>
-                          <EmptySpace max="-2" attributes="0"/>
-                          <Component id="textField2" min="-2" max="-2" attributes="0"/>
-                          <EmptySpace max="-2" attributes="0"/>
-                          <Component id="passwordField1" min="-2" max="-2" attributes="0"/>
-                          <EmptySpace max="-2" attributes="0"/>
-                          <Component id="passwordField2" min="-2" max="-2" attributes="0"/>
-                          <EmptySpace max="-2" attributes="0"/>
-                          <Component id="passwordField3" min="-2" max="-2" attributes="0"/>
-                          <EmptySpace pref="158" max="32767" attributes="0"/>
+                      <EmptySpace min="-2" pref="186" max="-2" attributes="0"/>
+                      <Group type="103" groupAlignment="3" attributes="0">
+                          <Component id="textField12" alignment="3" min="-2" max="-2" attributes="0"/>
+                          <Component id="jLabel24" alignment="3" min="-2" max="-2" attributes="0"/>
                       </Group>
+                      <EmptySpace min="-2" pref="36" max="-2" attributes="0"/>
+                      <Group type="103" groupAlignment="3" attributes="0">
+                          <Component id="textField13" alignment="3" min="-2" max="-2" attributes="0"/>
+                          <Component id="jLabel25" alignment="3" min="-2" max="-2" attributes="0"/>
+                      </Group>
+                      <EmptySpace max="32767" attributes="0"/>
                   </Group>
               </Group>
             </DimensionLayout>
           </Layout>
           <SubComponents>
+            <Component class="javax.swing.JLabel" name="jLabel12">
+              <Properties>
+                <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+                  <Font name="Yu Gothic UI Semilight" size="24" style="1"/>
+                </Property>
+                <Property name="text" type="java.lang.String" value="Programming(C++)"/>
+              </Properties>
+            </Component>
+            <Component class="javax.swing.JLabel" name="jLabel15">
+              <Properties>
+                <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+                  <Font name="Wide Latin" size="36" style="1"/>
+                </Property>
+                <Property name="text" type="java.lang.String" value="Second term"/>
+              </Properties>
+            </Component>
+            <Component class="javax.swing.JLabel" name="jLabel17">
+              <Properties>
+                <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+                  <Font name="Wide Latin" size="36" style="1"/>
+                </Property>
+                <Property name="text" type="java.lang.String" value="First term"/>
+              </Properties>
+            </Component>
+            <Component class="textfield.TextField" name="S1">
+              <Properties>
+                <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+                  <Color blue="da" green="fb" red="ff" type="rgb"/>
+                </Property>
+                <Property name="shadowColor" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+                  <Color blue="55" green="94" red="ed" type="rgb"/>
+                </Property>
+              </Properties>
+            </Component>
+            <Component class="javax.swing.JLabel" name="jLabel21">
+              <Properties>
+                <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+                  <Font name="Yu Gothic UI Semilight" size="24" style="1"/>
+                </Property>
+                <Property name="text" type="java.lang.String" value="Electronics1"/>
+              </Properties>
+            </Component>
+            <Component class="textfield.TextField" name="S2">
+              <Properties>
+                <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+                  <Color blue="da" green="fb" red="ff" type="rgb"/>
+                </Property>
+                <Property name="shadowColor" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+                  <Color blue="55" green="94" red="ed" type="rgb"/>
+                </Property>
+              </Properties>
+            </Component>
+            <Component class="javax.swing.JLabel" name="jLabel22">
+              <Properties>
+                <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+                  <Font name="Yu Gothic UI Semilight" size="24" style="1"/>
+                </Property>
+                <Property name="text" type="java.lang.String" value="Math3"/>
+              </Properties>
+            </Component>
+            <Component class="textfield.TextField" name="S3">
+              <Properties>
+                <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+                  <Color blue="da" green="fb" red="ff" type="rgb"/>
+                </Property>
+                <Property name="shadowColor" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+                  <Color blue="55" green="94" red="ed" type="rgb"/>
+                </Property>
+              </Properties>
+            </Component>
+            <Component class="javax.swing.JLabel" name="jLabel23">
+              <Properties>
+                <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+                  <Font name="Yu Gothic UI Semilight" size="24" style="1"/>
+                </Property>
+                <Property name="text" type="java.lang.String" value="Discrete math"/>
+              </Properties>
+            </Component>
+            <Component class="textfield.TextField" name="S4">
+              <Properties>
+                <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+                  <Color blue="da" green="fb" red="ff" type="rgb"/>
+                </Property>
+                <Property name="shadowColor" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+                  <Color blue="55" green="94" red="ed" type="rgb"/>
+                </Property>
+              </Properties>
+            </Component>
+            <Component class="javax.swing.JLabel" name="jLabel24">
+              <Properties>
+                <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+                  <Font name="Yu Gothic UI Semilight" size="24" style="1"/>
+                </Property>
+                <Property name="text" type="java.lang.String" value="Programming(C++)"/>
+              </Properties>
+            </Component>
+            <Component class="textfield.TextField" name="textField12">
+              <Properties>
+                <Property name="text" type="java.lang.String" value="textField1"/>
+                <Property name="shadowColor" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+                  <Color blue="ff" green="0" red="33" type="rgb"/>
+                </Property>
+              </Properties>
+            </Component>
+            <Component class="javax.swing.JLabel" name="jLabel25">
+              <Properties>
+                <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+                  <Font name="Yu Gothic UI Semilight" size="24" style="1"/>
+                </Property>
+                <Property name="text" type="java.lang.String" value="Programming(C++)"/>
+              </Properties>
+            </Component>
+            <Component class="textfield.TextField" name="textField13">
+              <Properties>
+                <Property name="text" type="java.lang.String" value="textField1"/>
+                <Property name="shadowColor" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+                  <Color blue="ff" green="0" red="33" type="rgb"/>
+                </Property>
+              </Properties>
+            </Component>
+            <Component class="javax.swing.JLabel" name="jLabel13">
+              <Properties>
+                <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+                  <Font name="Yu Gothic UI Semilight" size="24" style="1"/>
+                </Property>
+                <Property name="text" type="java.lang.String" value="Programming(Java)"/>
+              </Properties>
+            </Component>
+            <Component class="textfield.TextField" name="S7">
+              <Properties>
+                <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+                  <Color blue="da" green="fb" red="ff" type="rgb"/>
+                </Property>
+                <Property name="shadowColor" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+                  <Color blue="55" green="94" red="ed" type="rgb"/>
+                </Property>
+              </Properties>
+            </Component>
+            <Component class="javax.swing.JLabel" name="jLabel14">
+              <Properties>
+                <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+                  <Font name="Yu Gothic UI Semilight" size="24" style="1"/>
+                </Property>
+                <Property name="text" type="java.lang.String" value="Electronics2"/>
+              </Properties>
+            </Component>
+            <Component class="textfield.TextField" name="S8">
+              <Properties>
+                <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+                  <Color blue="da" green="fb" red="ff" type="rgb"/>
+                </Property>
+                <Property name="shadowColor" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+                  <Color blue="55" green="94" red="ed" type="rgb"/>
+                </Property>
+              </Properties>
+            </Component>
+            <Component class="javax.swing.JLabel" name="jLabel26">
+              <Properties>
+                <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+                  <Font name="Yu Gothic UI Semilight" size="24" style="1"/>
+                </Property>
+                <Property name="text" type="java.lang.String" value="Probability"/>
+              </Properties>
+            </Component>
+            <Component class="textfield.TextField" name="S10">
+              <Properties>
+                <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+                  <Color blue="da" green="fb" red="ff" type="rgb"/>
+                </Property>
+                <Property name="shadowColor" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+                  <Color blue="55" green="94" red="ed" type="rgb"/>
+                </Property>
+              </Properties>
+            </Component>
+            <Component class="javax.swing.JLabel" name="jLabel27">
+              <Properties>
+                <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+                  <Font name="Yu Gothic UI Semilight" size="24" style="1"/>
+                </Property>
+                <Property name="text" type="java.lang.String" value="Logic design"/>
+              </Properties>
+            </Component>
+            <Component class="textfield.TextField" name="S9">
+              <Properties>
+                <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+                  <Color blue="da" green="fb" red="ff" type="rgb"/>
+                </Property>
+                <Property name="shadowColor" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+                  <Color blue="55" green="94" red="ed" type="rgb"/>
+                </Property>
+              </Properties>
+            </Component>
+            <Component class="javax.swing.JLabel" name="jLabel28">
+              <Properties>
+                <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+                  <Font name="Yu Gothic UI Semilight" size="24" style="1"/>
+                </Property>
+                <Property name="text" type="java.lang.String" value="Circuits"/>
+              </Properties>
+            </Component>
+            <Component class="textfield.TextField" name="gpaTF">
+              <Properties>
+                <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+                  <Color blue="9e" green="ec" red="ff" type="rgb"/>
+                </Property>
+                <Property name="shadowColor" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+                  <Color blue="55" green="94" red="ed" type="rgb"/>
+                </Property>
+              </Properties>
+            </Component>
+            <Component class="javax.swing.JLabel" name="jLabel29">
+              <Properties>
+                <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+                  <Font name="Yu Gothic UI Semilight" size="24" style="1"/>
+                </Property>
+                <Property name="text" type="java.lang.String" value="Presentation skills"/>
+              </Properties>
+            </Component>
+            <Component class="textfield.TextField" name="S12">
+              <Properties>
+                <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+                  <Color blue="da" green="fb" red="ff" type="rgb"/>
+                </Property>
+                <Property name="shadowColor" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+                  <Color blue="55" green="94" red="ed" type="rgb"/>
+                </Property>
+              </Properties>
+              <Events>
+                <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="S12ActionPerformed"/>
+              </Events>
+            </Component>
+            <Component class="javax.swing.JLabel" name="jLabel30">
+              <Properties>
+                <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+                  <Font name="Yu Gothic UI Semilight" size="24" style="1"/>
+                </Property>
+                <Property name="text" type="java.lang.String" value="Technical writing"/>
+              </Properties>
+            </Component>
+            <Component class="textfield.TextField" name="S5">
+              <Properties>
+                <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+                  <Color blue="da" green="fb" red="ff" type="rgb"/>
+                </Property>
+                <Property name="shadowColor" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+                  <Color blue="55" green="94" red="ed" type="rgb"/>
+                </Property>
+              </Properties>
+            </Component>
+            <Component class="javax.swing.JLabel" name="jLabel31">
+              <Properties>
+                <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+                  <Font name="Yu Gothic UI Semilight" size="24" style="1"/>
+                </Property>
+                <Property name="text" type="java.lang.String" value="Workshop"/>
+              </Properties>
+            </Component>
+            <Component class="button.Button" name="calc1">
+              <Properties>
+                <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+                  <Color blue="9e" green="ec" red="ff" type="rgb"/>
+                </Property>
+                <Property name="foreground" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+                  <Color blue="0" green="0" red="0" type="rgb"/>
+                </Property>
+                <Property name="text" type="java.lang.String" value="Calculate"/>
+                <Property name="rippleColor" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+                  <Color blue="ff" green="ff" red="ff" type="rgb"/>
+                </Property>
+                <Property name="shadowColor" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+                  <Color blue="55" green="94" red="ed" type="rgb"/>
+                </Property>
+              </Properties>
+              <Events>
+                <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="calc1ActionPerformed"/>
+              </Events>
+            </Component>
+            <Component class="textfield.TextField" name="S6">
+              <Properties>
+                <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+                  <Color blue="da" green="fb" red="ff" type="rgb"/>
+                </Property>
+                <Property name="shadowColor" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+                  <Color blue="55" green="94" red="ed" type="rgb"/>
+                </Property>
+              </Properties>
+            </Component>
+            <Component class="textfield.TextField" name="TotalTF">
+              <Properties>
+                <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+                  <Color blue="9e" green="ec" red="ff" type="rgb"/>
+                </Property>
+                <Property name="shadowColor" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+                  <Color blue="55" green="94" red="ed" type="rgb"/>
+                </Property>
+              </Properties>
+            </Component>
             <Component class="javax.swing.JLabel" name="jLabel1">
               <Properties>
                 <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
-                  <Font name="sansserif" size="18" style="1"/>
+                  <Font name="Wide Latin" size="14" style="3"/>
                 </Property>
-                <Property name="foreground" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
-                  <Color blue="5f" green="5f" red="5f" type="rgb"/>
+                <Property name="text" type="java.lang.String" value="Average"/>
+              </Properties>
+            </Component>
+            <Component class="javax.swing.JLabel" name="jLabel5">
+              <Properties>
+                <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+                  <Font name="Wide Latin" size="14" style="3"/>
                 </Property>
-                <Property name="horizontalAlignment" type="int" value="0"/>
-                <Property name="text" type="java.lang.String" value="Tabbed 1"/>
+                <Property name="text" type="java.lang.String" value="GPA"/>
               </Properties>
             </Component>
-            <Component class="button1.MyButton" name="myButton3">
+            <Component class="textfield.TextField" name="averageTF">
               <Properties>
-                <Property name="text" type="java.lang.String" value="myButton2"/>
-                <Property name="radius" type="int" value="50"/>
-              </Properties>
-            </Component>
-            <Component class="button1.MyButton" name="myButton4">
-              <Properties>
-                <Property name="text" type="java.lang.String" value="myButton2"/>
-                <Property name="radius" type="int" value="500"/>
-              </Properties>
-            </Component>
-            <Component class="textfield.TextField" name="textField1">
-              <Properties>
-                <Property name="text" type="java.lang.String" value="textField1"/>
-              </Properties>
-            </Component>
-            <Component class="textfield.TextField" name="textField2">
-              <Properties>
-                <Property name="text" type="java.lang.String" value="textField1"/>
+                <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+                  <Color blue="9e" green="ec" red="ff" type="rgb"/>
+                </Property>
                 <Property name="shadowColor" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
-                  <Color blue="4c" green="4c" red="db" type="rgb"/>
+                  <Color blue="55" green="94" red="ed" type="rgb"/>
                 </Property>
               </Properties>
             </Component>
-            <Component class="passwordfield.PasswordField" name="passwordField1">
+            <Component class="javax.swing.JLabel" name="jLabel16">
               <Properties>
-                <Property name="text" type="java.lang.String" value="passwordField1"/>
+                <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+                  <Font name="Wide Latin" size="14" style="3"/>
+                </Property>
+                <Property name="text" type="java.lang.String" value="Total"/>
               </Properties>
             </Component>
-            <Component class="passwordfield.PasswordField" name="passwordField2">
+            <Component class="textfield.TextField" name="S11">
               <Properties>
-                <Property name="text" type="java.lang.String" value="passwordField1"/>
+                <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+                  <Color blue="da" green="fb" red="ff" type="rgb"/>
+                </Property>
                 <Property name="shadowColor" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
-                  <Color blue="ff" green="33" red="33" type="rgb"/>
+                  <Color blue="55" green="94" red="ed" type="rgb"/>
                 </Property>
               </Properties>
+              <Events>
+                <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="S11ActionPerformed"/>
+              </Events>
             </Component>
-            <Component class="passwordfield.PasswordField" name="passwordField3">
+          </SubComponents>
+        </Container>
+        <Container class="javax.swing.JPanel" name="junior">
+          <Properties>
+            <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+              <Color blue="f3" green="f3" red="f3" type="rgb"/>
+            </Property>
+          </Properties>
+          <Constraints>
+            <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.support.JTabbedPaneSupportLayout" value="org.netbeans.modules.form.compat2.layouts.support.JTabbedPaneSupportLayout$JTabbedPaneConstraintsDescription">
+              <JTabbedPaneConstraints tabName="Junior   ">
+                <Property name="tabTitle" type="java.lang.String" value="Junior   "/>
+              </JTabbedPaneConstraints>
+            </Constraint>
+          </Constraints>
+
+          <Layout>
+            <DimensionLayout dim="0">
+              <Group type="103" groupAlignment="0" attributes="0">
+                  <EmptySpace min="0" pref="1030" max="32767" attributes="0"/>
+                  <Group type="103" rootIndex="1" groupAlignment="0" attributes="0">
+                      <Group type="102" alignment="0" attributes="0">
+                          <Component id="jPanel7" max="32767" attributes="0"/>
+                          <EmptySpace max="-2" attributes="0"/>
+                      </Group>
+                  </Group>
+              </Group>
+            </DimensionLayout>
+            <DimensionLayout dim="1">
+              <Group type="103" groupAlignment="0" attributes="0">
+                  <EmptySpace min="0" pref="1034" max="32767" attributes="0"/>
+                  <Group type="103" rootIndex="1" groupAlignment="0" attributes="0">
+                      <Group type="102" alignment="0" attributes="0">
+                          <Component id="jPanel7" min="-2" max="-2" attributes="0"/>
+                          <EmptySpace min="0" pref="0" max="32767" attributes="0"/>
+                      </Group>
+                  </Group>
+              </Group>
+            </DimensionLayout>
+          </Layout>
+          <SubComponents>
+            <Container class="javax.swing.JPanel" name="jPanel7">
               <Properties>
-                <Property name="text" type="java.lang.String" value="passwordField1"/>
-                <Property name="shadowColor" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
-                  <Color blue="2" green="c7" red="23" type="rgb"/>
+                <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+                  <Color blue="da" green="fb" red="ff" type="rgb"/>
                 </Property>
               </Properties>
-            </Component>
+
+              <Layout>
+                <DimensionLayout dim="0">
+                  <Group type="103" groupAlignment="0" attributes="0">
+                      <Group type="102" alignment="1" attributes="0">
+                          <Group type="103" groupAlignment="0" attributes="0">
+                              <Group type="102" attributes="0">
+                                  <Group type="103" groupAlignment="0" attributes="0">
+                                      <Component id="jLabel46" alignment="0" min="-2" pref="365" max="-2" attributes="0"/>
+                                      <Component id="jLabel47" alignment="0" min="-2" max="-2" attributes="0"/>
+                                      <Group type="102" alignment="0" attributes="0">
+                                          <Group type="103" groupAlignment="0" attributes="0">
+                                              <Component id="jLabel44" alignment="0" min="-2" max="-2" attributes="0"/>
+                                              <Component id="jLabel48" alignment="0" min="-2" max="-2" attributes="0"/>
+                                              <Component id="jLabel49" alignment="0" min="-2" max="-2" attributes="0"/>
+                                              <Component id="jLabel50" alignment="0" min="-2" max="-2" attributes="0"/>
+                                              <Component id="jLabel51" alignment="0" min="-2" max="-2" attributes="0"/>
+                                              <Component id="jLabel56" alignment="0" min="-2" max="-2" attributes="0"/>
+                                              <Component id="jLabel58" alignment="0" min="-2" max="-2" attributes="0"/>
+                                          </Group>
+                                          <EmptySpace min="-2" pref="27" max="-2" attributes="0"/>
+                                          <Group type="103" groupAlignment="1" attributes="0">
+                                              <Component id="textField6" alignment="1" min="-2" pref="187" max="-2" attributes="0"/>
+                                              <Component id="textField39" alignment="1" min="-2" pref="187" max="-2" attributes="0"/>
+                                              <Component id="textField40" alignment="1" min="-2" pref="187" max="-2" attributes="0"/>
+                                              <Component id="textField36" alignment="1" min="-2" pref="187" max="-2" attributes="0"/>
+                                              <Component id="textField37" alignment="1" min="-2" pref="187" max="-2" attributes="0"/>
+                                              <Component id="textField38" alignment="1" min="-2" pref="187" max="-2" attributes="0"/>
+                                              <Component id="textField48" alignment="1" min="-2" pref="187" max="-2" attributes="0"/>
+                                              <Component id="textField49" alignment="1" min="-2" pref="187" max="-2" attributes="0"/>
+                                          </Group>
+                                      </Group>
+                                  </Group>
+                                  <EmptySpace pref="136" max="32767" attributes="0"/>
+                              </Group>
+                              <Group type="102" alignment="1" attributes="0">
+                                  <Group type="103" groupAlignment="1" attributes="0">
+                                      <Group type="102" attributes="0">
+                                          <EmptySpace max="-2" attributes="0"/>
+                                          <Component id="textField68" min="-2" pref="111" max="-2" attributes="0"/>
+                                          <EmptySpace min="-2" pref="90" max="-2" attributes="0"/>
+                                      </Group>
+                                      <Group type="102" alignment="0" attributes="0">
+                                          <EmptySpace min="-2" pref="20" max="-2" attributes="0"/>
+                                          <Component id="jLabel11" min="-2" pref="72" max="-2" attributes="0"/>
+                                          <EmptySpace max="-2" attributes="0"/>
+                                      </Group>
+                                  </Group>
+                                  <Group type="103" groupAlignment="0" attributes="0">
+                                      <Group type="102" attributes="0">
+                                          <Component id="jLabel2" min="-2" max="-2" attributes="0"/>
+                                          <EmptySpace min="-2" pref="132" max="-2" attributes="0"/>
+                                          <Component id="jLabel6" min="-2" max="-2" attributes="0"/>
+                                      </Group>
+                                      <Group type="102" attributes="0">
+                                          <Component id="textField65" min="-2" pref="111" max="-2" attributes="0"/>
+                                          <EmptySpace min="-2" pref="90" max="-2" attributes="0"/>
+                                          <Component id="textField45" min="-2" pref="111" max="-2" attributes="0"/>
+                                      </Group>
+                                  </Group>
+                                  <EmptySpace min="-2" pref="42" max="-2" attributes="0"/>
+                              </Group>
+                          </Group>
+                          <Group type="103" groupAlignment="1" max="-2" attributes="0">
+                              <Group type="102" alignment="0" attributes="0">
+                                  <Component id="jLabel57" min="-2" max="-2" attributes="0"/>
+                                  <EmptySpace max="32767" attributes="0"/>
+                                  <Component id="textField47" min="-2" pref="187" max="-2" attributes="0"/>
+                              </Group>
+                              <Group type="102" alignment="0" attributes="0">
+                                  <Group type="103" groupAlignment="0" attributes="0">
+                                      <Component id="jLabel54" alignment="0" min="-2" max="-2" attributes="0"/>
+                                      <Component id="jLabel55" alignment="0" min="-2" max="-2" attributes="0"/>
+                                      <Component id="jLabel59" alignment="0" min="-2" max="-2" attributes="0"/>
+                                  </Group>
+                                  <EmptySpace max="32767" attributes="0"/>
+                                  <Group type="103" groupAlignment="0" attributes="0">
+                                      <Component id="textField44" alignment="1" min="-2" pref="187" max="-2" attributes="0"/>
+                                      <Component id="textField43" alignment="1" min="-2" pref="187" max="-2" attributes="0"/>
+                                      <Component id="textField46" alignment="1" min="-2" pref="187" max="-2" attributes="0"/>
+                                  </Group>
+                              </Group>
+                              <Group type="102" alignment="0" attributes="0">
+                                  <Component id="jLabel53" min="-2" max="-2" attributes="0"/>
+                                  <EmptySpace max="32767" attributes="0"/>
+                                  <Component id="textField42" min="-2" pref="187" max="-2" attributes="0"/>
+                              </Group>
+                              <Group type="102" alignment="0" attributes="0">
+                                  <Component id="jLabel52" min="-2" max="-2" attributes="0"/>
+                                  <EmptySpace max="32767" attributes="0"/>
+                                  <Component id="textField41" min="-2" pref="187" max="-2" attributes="0"/>
+                              </Group>
+                              <Component id="jLabel45" alignment="0" min="-2" pref="399" max="-2" attributes="0"/>
+                              <Group type="102" alignment="0" attributes="0">
+                                  <EmptySpace min="-2" pref="59" max="-2" attributes="0"/>
+                                  <Component id="cmd2" min="-2" pref="232" max="-2" attributes="0"/>
+                              </Group>
+                          </Group>
+                          <EmptySpace min="-2" pref="37" max="-2" attributes="0"/>
+                      </Group>
+                  </Group>
+                </DimensionLayout>
+                <DimensionLayout dim="1">
+                  <Group type="103" groupAlignment="0" attributes="0">
+                      <Group type="102" alignment="0" attributes="0">
+                          <EmptySpace min="-2" pref="43" max="-2" attributes="0"/>
+                          <Group type="103" groupAlignment="1" attributes="0">
+                              <Group type="102" alignment="1" attributes="0">
+                                  <Group type="103" groupAlignment="3" attributes="0">
+                                      <Component id="jLabel46" alignment="3" min="-2" pref="45" max="-2" attributes="0"/>
+                                      <Component id="jLabel45" alignment="3" min="-2" pref="45" max="-2" attributes="0"/>
+                                  </Group>
+                                  <EmptySpace min="-2" pref="31" max="-2" attributes="0"/>
+                                  <Group type="103" groupAlignment="3" attributes="0">
+                                      <Component id="jLabel44" alignment="3" min="-2" max="-2" attributes="0"/>
+                                      <Component id="textField6" alignment="3" min="-2" max="-2" attributes="0"/>
+                                      <Component id="jLabel52" alignment="3" min="-2" max="-2" attributes="0"/>
+                                      <Component id="textField41" alignment="3" min="-2" max="-2" attributes="0"/>
+                                  </Group>
+                                  <EmptySpace min="-2" pref="36" max="-2" attributes="0"/>
+                                  <Group type="103" groupAlignment="3" attributes="0">
+                                      <Component id="textField42" alignment="3" min="-2" max="-2" attributes="0"/>
+                                      <Component id="jLabel53" alignment="3" min="-2" max="-2" attributes="0"/>
+                                      <Component id="jLabel47" alignment="3" min="-2" max="-2" attributes="0"/>
+                                      <Component id="textField36" alignment="3" min="-2" max="-2" attributes="0"/>
+                                  </Group>
+                                  <EmptySpace min="-2" pref="36" max="-2" attributes="0"/>
+                                  <Group type="103" groupAlignment="3" attributes="0">
+                                      <Component id="textField37" alignment="3" min="-2" max="-2" attributes="0"/>
+                                      <Component id="jLabel48" alignment="3" min="-2" max="-2" attributes="0"/>
+                                  </Group>
+                              </Group>
+                              <Group type="103" alignment="1" groupAlignment="3" attributes="0">
+                                  <Component id="jLabel55" alignment="3" min="-2" max="-2" attributes="0"/>
+                                  <Component id="textField44" alignment="3" min="-2" max="-2" attributes="0"/>
+                              </Group>
+                          </Group>
+                          <EmptySpace min="-2" pref="36" max="-2" attributes="0"/>
+                          <Group type="103" groupAlignment="3" attributes="0">
+                              <Component id="jLabel49" alignment="3" min="-2" max="-2" attributes="0"/>
+                              <Component id="textField38" alignment="3" min="-2" max="-2" attributes="0"/>
+                              <Component id="jLabel54" alignment="3" min="-2" max="-2" attributes="0"/>
+                              <Component id="textField43" alignment="3" min="-2" max="-2" attributes="0"/>
+                          </Group>
+                          <EmptySpace min="-2" pref="36" max="-2" attributes="0"/>
+                          <Group type="103" groupAlignment="3" attributes="0">
+                              <Component id="textField46" alignment="3" min="-2" max="-2" attributes="0"/>
+                              <Component id="jLabel56" alignment="3" min="-2" max="-2" attributes="0"/>
+                              <Component id="jLabel59" alignment="3" min="-2" max="-2" attributes="0"/>
+                              <Component id="textField48" alignment="3" min="-2" max="-2" attributes="0"/>
+                          </Group>
+                          <EmptySpace min="-2" pref="36" max="-2" attributes="0"/>
+                          <Group type="103" groupAlignment="3" attributes="0">
+                              <Component id="jLabel58" alignment="3" min="-2" max="-2" attributes="0"/>
+                              <Component id="textField47" alignment="3" min="-2" max="-2" attributes="0"/>
+                              <Component id="jLabel57" alignment="3" min="-2" max="-2" attributes="0"/>
+                              <Component id="textField49" alignment="3" min="-2" max="-2" attributes="0"/>
+                          </Group>
+                          <EmptySpace max="-2" attributes="0"/>
+                          <Group type="103" groupAlignment="3" attributes="0">
+                              <Component id="jLabel2" alignment="3" min="-2" pref="46" max="-2" attributes="0"/>
+                              <Component id="jLabel6" alignment="3" min="-2" pref="46" max="-2" attributes="0"/>
+                              <Component id="jLabel11" alignment="3" min="-2" pref="46" max="-2" attributes="0"/>
+                          </Group>
+                          <EmptySpace min="-2" pref="5" max="-2" attributes="0"/>
+                          <Group type="103" groupAlignment="3" attributes="0">
+                              <Component id="cmd2" alignment="3" min="-2" pref="76" max="-2" attributes="0"/>
+                              <Component id="textField45" alignment="3" min="-2" pref="76" max="-2" attributes="0"/>
+                              <Component id="textField65" alignment="3" min="-2" pref="76" max="-2" attributes="0"/>
+                              <Component id="textField68" alignment="3" min="-2" pref="76" max="-2" attributes="0"/>
+                          </Group>
+                          <EmptySpace min="-2" pref="193" max="-2" attributes="0"/>
+                          <Group type="103" groupAlignment="3" attributes="0">
+                              <Component id="textField39" alignment="3" min="-2" max="-2" attributes="0"/>
+                              <Component id="jLabel50" alignment="3" min="-2" max="-2" attributes="0"/>
+                          </Group>
+                          <EmptySpace min="-2" pref="36" max="-2" attributes="0"/>
+                          <Group type="103" groupAlignment="3" attributes="0">
+                              <Component id="textField40" alignment="3" min="-2" max="-2" attributes="0"/>
+                              <Component id="jLabel51" alignment="3" min="-2" max="-2" attributes="0"/>
+                          </Group>
+                          <EmptySpace pref="21" max="32767" attributes="0"/>
+                      </Group>
+                  </Group>
+                </DimensionLayout>
+              </Layout>
+              <SubComponents>
+                <Component class="javax.swing.JLabel" name="jLabel44">
+                  <Properties>
+                    <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+                      <Font name="Yu Gothic UI Semilight" size="24" style="1"/>
+                    </Property>
+                    <Property name="text" type="java.lang.String" value="Data structures"/>
+                  </Properties>
+                </Component>
+                <Component class="javax.swing.JLabel" name="jLabel45">
+                  <Properties>
+                    <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+                      <Font name="Wide Latin" size="36" style="1"/>
+                    </Property>
+                    <Property name="text" type="java.lang.String" value="Second term"/>
+                  </Properties>
+                </Component>
+                <Component class="javax.swing.JLabel" name="jLabel46">
+                  <Properties>
+                    <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+                      <Font name="Wide Latin" size="36" style="1"/>
+                    </Property>
+                    <Property name="text" type="java.lang.String" value="First term"/>
+                  </Properties>
+                </Component>
+                <Component class="textfield.TextField" name="textField6">
+                  <Properties>
+                    <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+                      <Color blue="da" green="fb" red="ff" type="rgb"/>
+                    </Property>
+                    <Property name="shadowColor" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+                      <Color blue="55" green="94" red="ed" type="rgb"/>
+                    </Property>
+                  </Properties>
+                </Component>
+                <Component class="javax.swing.JLabel" name="jLabel47">
+                  <Properties>
+                    <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+                      <Font name="Yu Gothic UI Semilight" size="24" style="1"/>
+                    </Property>
+                    <Property name="text" type="java.lang.String" value="Computer Architect"/>
+                  </Properties>
+                </Component>
+                <Component class="textfield.TextField" name="textField36">
+                  <Properties>
+                    <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+                      <Color blue="da" green="fb" red="ff" type="rgb"/>
+                    </Property>
+                    <Property name="shadowColor" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+                      <Color blue="55" green="94" red="ed" type="rgb"/>
+                    </Property>
+                  </Properties>
+                </Component>
+                <Component class="javax.swing.JLabel" name="jLabel48">
+                  <Properties>
+                    <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+                      <Font name="Yu Gothic UI Semilight" size="24" style="1"/>
+                    </Property>
+                    <Property name="text" type="java.lang.String" value="Electronics ciruits"/>
+                  </Properties>
+                </Component>
+                <Component class="textfield.TextField" name="textField37">
+                  <Properties>
+                    <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+                      <Color blue="da" green="fb" red="ff" type="rgb"/>
+                    </Property>
+                    <Property name="shadowColor" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+                      <Color blue="55" green="94" red="ed" type="rgb"/>
+                    </Property>
+                  </Properties>
+                </Component>
+                <Component class="javax.swing.JLabel" name="jLabel49">
+                  <Properties>
+                    <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+                      <Font name="Yu Gothic UI Semilight" size="24" style="1"/>
+                    </Property>
+                    <Property name="text" type="java.lang.String" value="Numerical"/>
+                  </Properties>
+                </Component>
+                <Component class="textfield.TextField" name="textField38">
+                  <Properties>
+                    <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+                      <Color blue="da" green="fb" red="ff" type="rgb"/>
+                    </Property>
+                    <Property name="shadowColor" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+                      <Color blue="55" green="94" red="ed" type="rgb"/>
+                    </Property>
+                  </Properties>
+                </Component>
+                <Component class="javax.swing.JLabel" name="jLabel50">
+                  <Properties>
+                    <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+                      <Font name="Yu Gothic UI Semilight" size="24" style="1"/>
+                    </Property>
+                    <Property name="text" type="java.lang.String" value="Programming(C++)"/>
+                  </Properties>
+                </Component>
+                <Component class="textfield.TextField" name="textField39">
+                  <Properties>
+                    <Property name="text" type="java.lang.String" value="textField1"/>
+                    <Property name="shadowColor" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+                      <Color blue="ff" green="0" red="33" type="rgb"/>
+                    </Property>
+                  </Properties>
+                </Component>
+                <Component class="javax.swing.JLabel" name="jLabel51">
+                  <Properties>
+                    <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+                      <Font name="Yu Gothic UI Semilight" size="24" style="1"/>
+                    </Property>
+                    <Property name="text" type="java.lang.String" value="Programming(C++)"/>
+                  </Properties>
+                </Component>
+                <Component class="textfield.TextField" name="textField40">
+                  <Properties>
+                    <Property name="text" type="java.lang.String" value="textField1"/>
+                    <Property name="shadowColor" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+                      <Color blue="ff" green="0" red="33" type="rgb"/>
+                    </Property>
+                  </Properties>
+                </Component>
+                <Component class="javax.swing.JLabel" name="jLabel52">
+                  <Properties>
+                    <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+                      <Font name="Yu Gothic UI Semilight" size="24" style="1"/>
+                    </Property>
+                    <Property name="text" type="java.lang.String" value="Database"/>
+                  </Properties>
+                </Component>
+                <Component class="textfield.TextField" name="textField41">
+                  <Properties>
+                    <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+                      <Color blue="da" green="fb" red="ff" type="rgb"/>
+                    </Property>
+                    <Property name="shadowColor" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+                      <Color blue="55" green="94" red="ed" type="rgb"/>
+                    </Property>
+                  </Properties>
+                </Component>
+                <Component class="javax.swing.JLabel" name="jLabel53">
+                  <Properties>
+                    <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+                      <Font name="Yu Gothic UI Semilight" size="24" style="1"/>
+                    </Property>
+                    <Property name="text" type="java.lang.String" value="Communication"/>
+                  </Properties>
+                </Component>
+                <Component class="textfield.TextField" name="textField42">
+                  <Properties>
+                    <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+                      <Color blue="da" green="fb" red="ff" type="rgb"/>
+                    </Property>
+                    <Property name="shadowColor" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+                      <Color blue="55" green="94" red="ed" type="rgb"/>
+                    </Property>
+                  </Properties>
+                </Component>
+                <Component class="javax.swing.JLabel" name="jLabel54">
+                  <Properties>
+                    <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+                      <Font name="Yu Gothic UI Semilight" size="24" style="1"/>
+                    </Property>
+                    <Property name="text" type="java.lang.String" value="Measure"/>
+                  </Properties>
+                </Component>
+                <Component class="textfield.TextField" name="textField43">
+                  <Properties>
+                    <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+                      <Color blue="da" green="fb" red="ff" type="rgb"/>
+                    </Property>
+                    <Property name="shadowColor" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+                      <Color blue="55" green="94" red="ed" type="rgb"/>
+                    </Property>
+                  </Properties>
+                </Component>
+                <Component class="javax.swing.JLabel" name="jLabel55">
+                  <Properties>
+                    <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+                      <Font name="Yu Gothic UI Semilight" size="24" style="1"/>
+                    </Property>
+                    <Property name="text" type="java.lang.String" value="Power &amp; machine"/>
+                  </Properties>
+                </Component>
+                <Component class="textfield.TextField" name="textField44">
+                  <Properties>
+                    <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+                      <Color blue="da" green="fb" red="ff" type="rgb"/>
+                    </Property>
+                    <Property name="shadowColor" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+                      <Color blue="55" green="94" red="ed" type="rgb"/>
+                    </Property>
+                  </Properties>
+                </Component>
+                <Component class="javax.swing.JLabel" name="jLabel56">
+                  <Properties>
+                    <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+                      <Font name="Yu Gothic UI Semilight" size="24" style="1"/>
+                    </Property>
+                    <Property name="text" type="java.lang.String" value="Signals"/>
+                  </Properties>
+                </Component>
+                <Component class="textfield.TextField" name="textField45">
+                  <Properties>
+                    <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+                      <Color blue="9e" green="ec" red="ff" type="rgb"/>
+                    </Property>
+                    <Property name="shadowColor" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+                      <Color blue="55" green="94" red="ed" type="rgb"/>
+                    </Property>
+                  </Properties>
+                </Component>
+                <Component class="javax.swing.JLabel" name="jLabel57">
+                  <Properties>
+                    <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+                      <Font name="Yu Gothic UI Semilight" size="24" style="1"/>
+                    </Property>
+                    <Property name="text" type="java.lang.String" value="Operations Research"/>
+                  </Properties>
+                </Component>
+                <Component class="textfield.TextField" name="textField46">
+                  <Properties>
+                    <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+                      <Color blue="da" green="fb" red="ff" type="rgb"/>
+                    </Property>
+                    <Property name="shadowColor" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+                      <Color blue="55" green="94" red="ed" type="rgb"/>
+                    </Property>
+                  </Properties>
+                </Component>
+                <Component class="javax.swing.JLabel" name="jLabel58">
+                  <Properties>
+                    <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+                      <Font name="Yu Gothic UI Semilight" size="24" style="1"/>
+                    </Property>
+                    <Property name="text" type="java.lang.String" value="Creative Thinking"/>
+                  </Properties>
+                </Component>
+                <Component class="textfield.TextField" name="textField47">
+                  <Properties>
+                    <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+                      <Color blue="da" green="fb" red="ff" type="rgb"/>
+                    </Property>
+                    <Property name="shadowColor" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+                      <Color blue="55" green="94" red="ed" type="rgb"/>
+                    </Property>
+                  </Properties>
+                </Component>
+                <Component class="textfield.TextField" name="textField48">
+                  <Properties>
+                    <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+                      <Color blue="da" green="fb" red="ff" type="rgb"/>
+                    </Property>
+                    <Property name="shadowColor" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+                      <Color blue="55" green="94" red="ed" type="rgb"/>
+                    </Property>
+                  </Properties>
+                </Component>
+                <Component class="javax.swing.JLabel" name="jLabel59">
+                  <Properties>
+                    <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+                      <Font name="Yu Gothic UI Semilight" size="24" style="1"/>
+                    </Property>
+                    <Property name="text" type="java.lang.String" value="MP-MC"/>
+                  </Properties>
+                </Component>
+                <Component class="button.Button" name="cmd2">
+                  <Properties>
+                    <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+                      <Color blue="9e" green="ec" red="ff" type="rgb"/>
+                    </Property>
+                    <Property name="foreground" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+                      <Color blue="0" green="0" red="0" type="rgb"/>
+                    </Property>
+                    <Property name="text" type="java.lang.String" value="Calculate"/>
+                    <Property name="rippleColor" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+                      <Color blue="ff" green="ff" red="ff" type="rgb"/>
+                    </Property>
+                    <Property name="shadowColor" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+                      <Color blue="55" green="94" red="ed" type="rgb"/>
+                    </Property>
+                  </Properties>
+                  <Events>
+                    <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="cmd2ActionPerformed"/>
+                  </Events>
+                </Component>
+                <Component class="textfield.TextField" name="textField49">
+                  <Properties>
+                    <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+                      <Color blue="da" green="fb" red="ff" type="rgb"/>
+                    </Property>
+                    <Property name="shadowColor" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+                      <Color blue="55" green="94" red="ed" type="rgb"/>
+                    </Property>
+                  </Properties>
+                </Component>
+                <Component class="textfield.TextField" name="textField65">
+                  <Properties>
+                    <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+                      <Color blue="9e" green="ec" red="ff" type="rgb"/>
+                    </Property>
+                    <Property name="shadowColor" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+                      <Color blue="55" green="94" red="ed" type="rgb"/>
+                    </Property>
+                  </Properties>
+                </Component>
+                <Component class="javax.swing.JLabel" name="jLabel2">
+                  <Properties>
+                    <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+                      <Font name="Wide Latin" size="14" style="3"/>
+                    </Property>
+                    <Property name="text" type="java.lang.String" value="Average"/>
+                  </Properties>
+                </Component>
+                <Component class="javax.swing.JLabel" name="jLabel6">
+                  <Properties>
+                    <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+                      <Font name="Wide Latin" size="14" style="3"/>
+                    </Property>
+                    <Property name="text" type="java.lang.String" value="GPA"/>
+                  </Properties>
+                </Component>
+                <Component class="textfield.TextField" name="textField68">
+                  <Properties>
+                    <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+                      <Color blue="9e" green="ec" red="ff" type="rgb"/>
+                    </Property>
+                    <Property name="shadowColor" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+                      <Color blue="55" green="94" red="ed" type="rgb"/>
+                    </Property>
+                  </Properties>
+                </Component>
+                <Component class="javax.swing.JLabel" name="jLabel11">
+                  <Properties>
+                    <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+                      <Font name="Wide Latin" size="14" style="3"/>
+                    </Property>
+                    <Property name="text" type="java.lang.String" value="Total"/>
+                  </Properties>
+                </Component>
+              </SubComponents>
+            </Container>
+          </SubComponents>
+        </Container>
+        <Container class="javax.swing.JPanel" name="senior1">
+          <Properties>
+            <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+              <Color blue="f3" green="f3" red="f3" type="rgb"/>
+            </Property>
+          </Properties>
+          <Constraints>
+            <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.support.JTabbedPaneSupportLayout" value="org.netbeans.modules.form.compat2.layouts.support.JTabbedPaneSupportLayout$JTabbedPaneConstraintsDescription">
+              <JTabbedPaneConstraints tabName="Senior 1  ">
+                <Property name="tabTitle" type="java.lang.String" value="Senior 1  "/>
+              </JTabbedPaneConstraints>
+            </Constraint>
+          </Constraints>
+
+          <Layout>
+            <DimensionLayout dim="0">
+              <Group type="103" groupAlignment="0" attributes="0">
+                  <EmptySpace min="0" pref="1030" max="32767" attributes="0"/>
+                  <Group type="103" rootIndex="1" groupAlignment="0" attributes="0">
+                      <Group type="102" alignment="0" attributes="0">
+                          <Component id="jPanel8" min="-2" max="-2" attributes="0"/>
+                          <EmptySpace min="0" pref="0" max="32767" attributes="0"/>
+                      </Group>
+                  </Group>
+              </Group>
+            </DimensionLayout>
+            <DimensionLayout dim="1">
+              <Group type="103" groupAlignment="0" attributes="0">
+                  <EmptySpace min="0" pref="1034" max="32767" attributes="0"/>
+                  <Group type="103" rootIndex="1" groupAlignment="0" attributes="0">
+                      <Group type="102" alignment="0" attributes="0">
+                          <Component id="jPanel8" min="-2" max="-2" attributes="0"/>
+                          <EmptySpace min="0" pref="0" max="32767" attributes="0"/>
+                      </Group>
+                  </Group>
+              </Group>
+            </DimensionLayout>
+          </Layout>
+          <SubComponents>
+            <Container class="javax.swing.JPanel" name="jPanel8">
+              <Properties>
+                <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+                  <Color blue="da" green="fb" red="ff" type="rgb"/>
+                </Property>
+              </Properties>
+
+              <Layout>
+                <DimensionLayout dim="0">
+                  <Group type="103" groupAlignment="0" attributes="0">
+                      <Group type="102" alignment="1" attributes="0">
+                          <Group type="103" groupAlignment="0" attributes="0">
+                              <Component id="jLabel62" alignment="0" min="-2" pref="365" max="-2" attributes="0"/>
+                              <Component id="jLabel63" alignment="0" min="-2" max="-2" attributes="0"/>
+                              <Group type="102" alignment="0" attributes="0">
+                                  <Group type="103" groupAlignment="0" attributes="0">
+                                      <Component id="jLabel60" alignment="0" min="-2" max="-2" attributes="0"/>
+                                      <Component id="jLabel64" alignment="0" min="-2" max="-2" attributes="0"/>
+                                      <Component id="jLabel65" alignment="0" min="-2" max="-2" attributes="0"/>
+                                      <Component id="jLabel66" alignment="0" min="-2" max="-2" attributes="0"/>
+                                      <Component id="jLabel67" alignment="0" min="-2" max="-2" attributes="0"/>
+                                      <Component id="jLabel72" alignment="0" min="-2" max="-2" attributes="0"/>
+                                      <Component id="jLabel74" alignment="0" min="-2" max="-2" attributes="0"/>
+                                  </Group>
+                                  <EmptySpace min="-2" pref="27" max="-2" attributes="0"/>
+                                  <Group type="103" groupAlignment="1" attributes="0">
+                                      <Component id="textField7" alignment="1" min="-2" pref="187" max="-2" attributes="0"/>
+                                      <Component id="textField53" alignment="1" min="-2" pref="187" max="-2" attributes="0"/>
+                                      <Component id="textField54" alignment="1" min="-2" pref="187" max="-2" attributes="0"/>
+                                      <Component id="textField50" alignment="1" min="-2" pref="187" max="-2" attributes="0"/>
+                                      <Component id="textField51" alignment="1" min="-2" pref="187" max="-2" attributes="0"/>
+                                      <Component id="textField52" alignment="1" min="-2" pref="187" max="-2" attributes="0"/>
+                                      <Component id="textField62" alignment="1" min="-2" pref="187" max="-2" attributes="0"/>
+                                      <Component id="textField63" alignment="1" min="-2" pref="187" max="-2" attributes="0"/>
+                                  </Group>
+                              </Group>
+                              <Group type="102" alignment="0" attributes="0">
+                                  <Group type="103" groupAlignment="0" attributes="0">
+                                      <Group type="102" attributes="0">
+                                          <EmptySpace max="-2" attributes="0"/>
+                                          <Component id="textField69" min="-2" pref="111" max="-2" attributes="0"/>
+                                      </Group>
+                                      <Group type="102" alignment="0" attributes="0">
+                                          <EmptySpace min="-2" pref="28" max="-2" attributes="0"/>
+                                          <Component id="jLabel10" min="-2" pref="72" max="-2" attributes="0"/>
+                                      </Group>
+                                  </Group>
+                                  <EmptySpace min="-2" pref="90" max="-2" attributes="0"/>
+                                  <Group type="103" groupAlignment="0" max="-2" attributes="0">
+                                      <Group type="102" attributes="0">
+                                          <Component id="jLabel3" min="-2" max="-2" attributes="0"/>
+                                          <EmptySpace max="32767" attributes="0"/>
+                                          <Component id="jLabel7" min="-2" max="-2" attributes="0"/>
+                                          <EmptySpace min="-2" pref="21" max="-2" attributes="0"/>
+                                      </Group>
+                                      <Group type="102" attributes="0">
+                                          <Component id="textField64" min="-2" pref="111" max="-2" attributes="0"/>
+                                          <EmptySpace min="-2" pref="90" max="-2" attributes="0"/>
+                                          <Component id="textField59" min="-2" pref="111" max="-2" attributes="0"/>
+                                      </Group>
+                                  </Group>
+                              </Group>
+                          </Group>
+                          <EmptySpace pref="59" max="32767" attributes="0"/>
+                          <Group type="103" groupAlignment="1" max="-2" attributes="0">
+                              <Group type="102" alignment="0" attributes="0">
+                                  <Component id="jLabel73" min="-2" max="-2" attributes="0"/>
+                                  <EmptySpace max="32767" attributes="0"/>
+                                  <Component id="textField61" min="-2" pref="187" max="-2" attributes="0"/>
+                              </Group>
+                              <Group type="102" alignment="0" attributes="0">
+                                  <Group type="103" groupAlignment="0" attributes="0">
+                                      <Component id="jLabel70" alignment="0" min="-2" max="-2" attributes="0"/>
+                                      <Component id="jLabel71" alignment="0" min="-2" max="-2" attributes="0"/>
+                                      <Component id="jLabel75" alignment="0" min="-2" max="-2" attributes="0"/>
+                                  </Group>
+                                  <EmptySpace max="32767" attributes="0"/>
+                                  <Group type="103" groupAlignment="0" attributes="0">
+                                      <Component id="textField58" alignment="1" min="-2" pref="187" max="-2" attributes="0"/>
+                                      <Component id="textField57" alignment="1" min="-2" pref="187" max="-2" attributes="0"/>
+                                      <Component id="textField60" alignment="1" min="-2" pref="187" max="-2" attributes="0"/>
+                                  </Group>
+                              </Group>
+                              <Group type="102" alignment="0" attributes="0">
+                                  <Component id="jLabel69" min="-2" max="-2" attributes="0"/>
+                                  <EmptySpace max="32767" attributes="0"/>
+                                  <Component id="textField56" min="-2" pref="187" max="-2" attributes="0"/>
+                              </Group>
+                              <Group type="102" alignment="0" attributes="0">
+                                  <Component id="jLabel68" min="-2" max="-2" attributes="0"/>
+                                  <EmptySpace max="32767" attributes="0"/>
+                                  <Component id="textField55" min="-2" pref="187" max="-2" attributes="0"/>
+                              </Group>
+                              <Component id="jLabel61" alignment="0" min="-2" pref="399" max="-2" attributes="0"/>
+                              <Group type="102" alignment="0" attributes="0">
+                                  <EmptySpace min="-2" pref="92" max="-2" attributes="0"/>
+                                  <Component id="cmd3" min="-2" pref="232" max="-2" attributes="0"/>
+                              </Group>
+                          </Group>
+                          <EmptySpace min="-2" pref="29" max="-2" attributes="0"/>
+                      </Group>
+                  </Group>
+                </DimensionLayout>
+                <DimensionLayout dim="1">
+                  <Group type="103" groupAlignment="0" attributes="0">
+                      <Group type="102" alignment="0" attributes="0">
+                          <EmptySpace min="-2" pref="43" max="-2" attributes="0"/>
+                          <Group type="103" groupAlignment="1" attributes="0">
+                              <Group type="102" alignment="1" attributes="0">
+                                  <Group type="103" groupAlignment="3" attributes="0">
+                                      <Component id="jLabel62" alignment="3" min="-2" pref="45" max="-2" attributes="0"/>
+                                      <Component id="jLabel61" alignment="3" min="-2" pref="45" max="-2" attributes="0"/>
+                                  </Group>
+                                  <EmptySpace min="-2" pref="31" max="-2" attributes="0"/>
+                                  <Group type="103" groupAlignment="3" attributes="0">
+                                      <Component id="jLabel60" alignment="3" min="-2" max="-2" attributes="0"/>
+                                      <Component id="textField7" alignment="3" min="-2" max="-2" attributes="0"/>
+                                      <Component id="jLabel68" alignment="3" min="-2" max="-2" attributes="0"/>
+                                      <Component id="textField55" alignment="3" min="-2" max="-2" attributes="0"/>
+                                  </Group>
+                                  <EmptySpace min="-2" pref="36" max="-2" attributes="0"/>
+                                  <Group type="103" groupAlignment="3" attributes="0">
+                                      <Component id="textField56" alignment="3" min="-2" max="-2" attributes="0"/>
+                                      <Component id="jLabel69" alignment="3" min="-2" max="-2" attributes="0"/>
+                                      <Component id="jLabel63" alignment="3" min="-2" max="-2" attributes="0"/>
+                                      <Component id="textField50" alignment="3" min="-2" max="-2" attributes="0"/>
+                                  </Group>
+                                  <EmptySpace min="-2" pref="36" max="-2" attributes="0"/>
+                                  <Group type="103" groupAlignment="3" attributes="0">
+                                      <Component id="textField51" alignment="3" min="-2" max="-2" attributes="0"/>
+                                      <Component id="jLabel64" alignment="3" min="-2" max="-2" attributes="0"/>
+                                  </Group>
+                              </Group>
+                              <Group type="103" alignment="1" groupAlignment="3" attributes="0">
+                                  <Component id="jLabel71" alignment="3" min="-2" max="-2" attributes="0"/>
+                                  <Component id="textField58" alignment="3" min="-2" max="-2" attributes="0"/>
+                              </Group>
+                          </Group>
+                          <EmptySpace min="-2" pref="36" max="-2" attributes="0"/>
+                          <Group type="103" groupAlignment="3" attributes="0">
+                              <Component id="jLabel65" alignment="3" min="-2" max="-2" attributes="0"/>
+                              <Component id="textField52" alignment="3" min="-2" max="-2" attributes="0"/>
+                              <Component id="jLabel70" alignment="3" min="-2" max="-2" attributes="0"/>
+                              <Component id="textField57" alignment="3" min="-2" max="-2" attributes="0"/>
+                          </Group>
+                          <EmptySpace min="-2" pref="36" max="-2" attributes="0"/>
+                          <Group type="103" groupAlignment="3" attributes="0">
+                              <Component id="textField60" alignment="3" min="-2" max="-2" attributes="0"/>
+                              <Component id="jLabel72" alignment="3" min="-2" max="-2" attributes="0"/>
+                              <Component id="jLabel75" alignment="3" min="-2" max="-2" attributes="0"/>
+                              <Component id="textField62" alignment="3" min="-2" max="-2" attributes="0"/>
+                          </Group>
+                          <EmptySpace min="-2" pref="36" max="-2" attributes="0"/>
+                          <Group type="103" groupAlignment="3" attributes="0">
+                              <Component id="jLabel74" alignment="3" min="-2" max="-2" attributes="0"/>
+                              <Component id="textField61" alignment="3" min="-2" max="-2" attributes="0"/>
+                              <Component id="jLabel73" alignment="3" min="-2" max="-2" attributes="0"/>
+                              <Component id="textField63" alignment="3" min="-2" max="-2" attributes="0"/>
+                          </Group>
+                          <EmptySpace max="-2" attributes="0"/>
+                          <Group type="103" groupAlignment="3" attributes="0">
+                              <Component id="jLabel3" alignment="3" min="-2" pref="46" max="-2" attributes="0"/>
+                              <Component id="jLabel7" alignment="3" min="-2" pref="46" max="-2" attributes="0"/>
+                              <Component id="jLabel10" alignment="3" min="-2" pref="46" max="-2" attributes="0"/>
+                          </Group>
+                          <EmptySpace min="-2" pref="5" max="-2" attributes="0"/>
+                          <Group type="103" groupAlignment="3" attributes="0">
+                              <Component id="cmd3" alignment="3" min="-2" pref="76" max="-2" attributes="0"/>
+                              <Component id="textField59" alignment="3" min="-2" pref="76" max="-2" attributes="0"/>
+                              <Component id="textField64" alignment="3" min="-2" pref="76" max="-2" attributes="0"/>
+                              <Component id="textField69" alignment="3" min="-2" pref="76" max="-2" attributes="0"/>
+                          </Group>
+                          <EmptySpace min="-2" pref="193" max="-2" attributes="0"/>
+                          <Group type="103" groupAlignment="3" attributes="0">
+                              <Component id="textField53" alignment="3" min="-2" max="-2" attributes="0"/>
+                              <Component id="jLabel66" alignment="3" min="-2" max="-2" attributes="0"/>
+                          </Group>
+                          <EmptySpace min="-2" pref="36" max="-2" attributes="0"/>
+                          <Group type="103" groupAlignment="3" attributes="0">
+                              <Component id="textField54" alignment="3" min="-2" max="-2" attributes="0"/>
+                              <Component id="jLabel67" alignment="3" min="-2" max="-2" attributes="0"/>
+                          </Group>
+                          <EmptySpace pref="21" max="32767" attributes="0"/>
+                      </Group>
+                  </Group>
+                </DimensionLayout>
+              </Layout>
+              <SubComponents>
+                <Component class="javax.swing.JLabel" name="jLabel60">
+                  <Properties>
+                    <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+                      <Font name="Yu Gothic UI Semilight" size="24" style="1"/>
+                    </Property>
+                    <Property name="text" type="java.lang.String" value="Software engineering"/>
+                  </Properties>
+                </Component>
+                <Component class="javax.swing.JLabel" name="jLabel61">
+                  <Properties>
+                    <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+                      <Font name="Wide Latin" size="36" style="1"/>
+                    </Property>
+                    <Property name="text" type="java.lang.String" value="Second term"/>
+                  </Properties>
+                </Component>
+                <Component class="javax.swing.JLabel" name="jLabel62">
+                  <Properties>
+                    <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+                      <Font name="Wide Latin" size="36" style="1"/>
+                    </Property>
+                    <Property name="text" type="java.lang.String" value="First term"/>
+                  </Properties>
+                </Component>
+                <Component class="textfield.TextField" name="textField7">
+                  <Properties>
+                    <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+                      <Color blue="da" green="fb" red="ff" type="rgb"/>
+                    </Property>
+                    <Property name="shadowColor" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+                      <Color blue="55" green="94" red="ed" type="rgb"/>
+                    </Property>
+                  </Properties>
+                </Component>
+                <Component class="javax.swing.JLabel" name="jLabel63">
+                  <Properties>
+                    <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+                      <Font name="Yu Gothic UI Semilight" size="24" style="1"/>
+                    </Property>
+                    <Property name="text" type="java.lang.String" value="System &amp; Control"/>
+                  </Properties>
+                </Component>
+                <Component class="textfield.TextField" name="textField50">
+                  <Properties>
+                    <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+                      <Color blue="da" green="fb" red="ff" type="rgb"/>
+                    </Property>
+                    <Property name="shadowColor" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+                      <Color blue="55" green="94" red="ed" type="rgb"/>
+                    </Property>
+                  </Properties>
+                </Component>
+                <Component class="javax.swing.JLabel" name="jLabel64">
+                  <Properties>
+                    <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+                      <Font name="Yu Gothic UI Semilight" size="24" style="1"/>
+                    </Property>
+                    <Property name="text" type="java.lang.String" value="Digital signal"/>
+                  </Properties>
+                </Component>
+                <Component class="textfield.TextField" name="textField51">
+                  <Properties>
+                    <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+                      <Color blue="da" green="fb" red="ff" type="rgb"/>
+                    </Property>
+                    <Property name="shadowColor" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+                      <Color blue="55" green="94" red="ed" type="rgb"/>
+                    </Property>
+                  </Properties>
+                </Component>
+                <Component class="javax.swing.JLabel" name="jLabel65">
+                  <Properties>
+                    <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+                      <Font name="Yu Gothic UI Semilight" size="24" style="1"/>
+                    </Property>
+                    <Property name="text" type="java.lang.String" value="Computer network"/>
+                  </Properties>
+                </Component>
+                <Component class="textfield.TextField" name="textField52">
+                  <Properties>
+                    <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+                      <Color blue="da" green="fb" red="ff" type="rgb"/>
+                    </Property>
+                    <Property name="shadowColor" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+                      <Color blue="55" green="94" red="ed" type="rgb"/>
+                    </Property>
+                  </Properties>
+                </Component>
+                <Component class="javax.swing.JLabel" name="jLabel66">
+                  <Properties>
+                    <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+                      <Font name="Yu Gothic UI Semilight" size="24" style="1"/>
+                    </Property>
+                    <Property name="text" type="java.lang.String" value="Programming(C++)"/>
+                  </Properties>
+                </Component>
+                <Component class="textfield.TextField" name="textField53">
+                  <Properties>
+                    <Property name="text" type="java.lang.String" value="textField1"/>
+                    <Property name="shadowColor" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+                      <Color blue="ff" green="0" red="33" type="rgb"/>
+                    </Property>
+                  </Properties>
+                </Component>
+                <Component class="javax.swing.JLabel" name="jLabel67">
+                  <Properties>
+                    <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+                      <Font name="Yu Gothic UI Semilight" size="24" style="1"/>
+                    </Property>
+                    <Property name="text" type="java.lang.String" value="Programming(C++)"/>
+                  </Properties>
+                </Component>
+                <Component class="textfield.TextField" name="textField54">
+                  <Properties>
+                    <Property name="text" type="java.lang.String" value="textField1"/>
+                    <Property name="shadowColor" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+                      <Color blue="ff" green="0" red="33" type="rgb"/>
+                    </Property>
+                  </Properties>
+                </Component>
+                <Component class="javax.swing.JLabel" name="jLabel68">
+                  <Properties>
+                    <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+                      <Font name="Yu Gothic UI Semilight" size="24" style="1"/>
+                    </Property>
+                    <Property name="text" type="java.lang.String" value="Digital control"/>
+                  </Properties>
+                </Component>
+                <Component class="textfield.TextField" name="textField55">
+                  <Properties>
+                    <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+                      <Color blue="da" green="fb" red="ff" type="rgb"/>
+                    </Property>
+                    <Property name="shadowColor" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+                      <Color blue="55" green="94" red="ed" type="rgb"/>
+                    </Property>
+                  </Properties>
+                  <Events>
+                    <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="textField55ActionPerformed"/>
+                  </Events>
+                </Component>
+                <Component class="javax.swing.JLabel" name="jLabel69">
+                  <Properties>
+                    <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+                      <Font name="Yu Gothic UI Semilight" size="24" style="1"/>
+                    </Property>
+                    <Property name="text" type="java.lang.String" value="Operating system"/>
+                  </Properties>
+                </Component>
+                <Component class="textfield.TextField" name="textField56">
+                  <Properties>
+                    <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+                      <Color blue="da" green="fb" red="ff" type="rgb"/>
+                    </Property>
+                    <Property name="shadowColor" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+                      <Color blue="55" green="94" red="ed" type="rgb"/>
+                    </Property>
+                  </Properties>
+                </Component>
+                <Component class="javax.swing.JLabel" name="jLabel70">
+                  <Properties>
+                    <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+                      <Font name="Yu Gothic UI Semilight" size="24" style="1"/>
+                    </Property>
+                    <Property name="text" type="java.lang.String" value="Parallel&amp;Distributed"/>
+                  </Properties>
+                </Component>
+                <Component class="textfield.TextField" name="textField57">
+                  <Properties>
+                    <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+                      <Color blue="da" green="fb" red="ff" type="rgb"/>
+                    </Property>
+                    <Property name="shadowColor" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+                      <Color blue="55" green="94" red="ed" type="rgb"/>
+                    </Property>
+                  </Properties>
+                </Component>
+                <Component class="javax.swing.JLabel" name="jLabel71">
+                  <Properties>
+                    <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+                      <Font name="Yu Gothic UI Semilight" size="24" style="1"/>
+                    </Property>
+                    <Property name="text" type="java.lang.String" value="Artificial intelligen"/>
+                  </Properties>
+                </Component>
+                <Component class="textfield.TextField" name="textField58">
+                  <Properties>
+                    <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+                      <Color blue="da" green="fb" red="ff" type="rgb"/>
+                    </Property>
+                    <Property name="shadowColor" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+                      <Color blue="55" green="94" red="ed" type="rgb"/>
+                    </Property>
+                  </Properties>
+                  <Events>
+                    <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="textField58ActionPerformed"/>
+                  </Events>
+                </Component>
+                <Component class="javax.swing.JLabel" name="jLabel72">
+                  <Properties>
+                    <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+                      <Font name="Yu Gothic UI Semilight" size="24" style="1"/>
+                    </Property>
+                    <Property name="text" type="java.lang.String" value="VLSI"/>
+                  </Properties>
+                </Component>
+                <Component class="textfield.TextField" name="textField59">
+                  <Properties>
+                    <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+                      <Color blue="9e" green="ec" red="ff" type="rgb"/>
+                    </Property>
+                    <Property name="shadowColor" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+                      <Color blue="55" green="94" red="ed" type="rgb"/>
+                    </Property>
+                  </Properties>
+                </Component>
+                <Component class="javax.swing.JLabel" name="jLabel73">
+                  <Properties>
+                    <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+                      <Font name="Yu Gothic UI Semilight" size="24" style="1"/>
+                    </Property>
+                    <Property name="text" type="java.lang.String" value="Project Management"/>
+                  </Properties>
+                </Component>
+                <Component class="textfield.TextField" name="textField60">
+                  <Properties>
+                    <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+                      <Color blue="da" green="fb" red="ff" type="rgb"/>
+                    </Property>
+                    <Property name="shadowColor" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+                      <Color blue="55" green="94" red="ed" type="rgb"/>
+                    </Property>
+                  </Properties>
+                </Component>
+                <Component class="javax.swing.JLabel" name="jLabel74">
+                  <Properties>
+                    <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+                      <Font name="Yu Gothic UI Semilight" size="24" style="1"/>
+                    </Property>
+                    <Property name="text" type="java.lang.String" value="Engineering economics"/>
+                  </Properties>
+                </Component>
+                <Component class="textfield.TextField" name="textField61">
+                  <Properties>
+                    <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+                      <Color blue="da" green="fb" red="ff" type="rgb"/>
+                    </Property>
+                    <Property name="shadowColor" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+                      <Color blue="55" green="94" red="ed" type="rgb"/>
+                    </Property>
+                  </Properties>
+                </Component>
+                <Component class="textfield.TextField" name="textField62">
+                  <Properties>
+                    <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+                      <Color blue="da" green="fb" red="ff" type="rgb"/>
+                    </Property>
+                    <Property name="shadowColor" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+                      <Color blue="55" green="94" red="ed" type="rgb"/>
+                    </Property>
+                  </Properties>
+                </Component>
+                <Component class="javax.swing.JLabel" name="jLabel75">
+                  <Properties>
+                    <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+                      <Font name="Yu Gothic UI Semilight" size="24" style="1"/>
+                    </Property>
+                    <Property name="text" type="java.lang.String" value="Elective course"/>
+                  </Properties>
+                </Component>
+                <Component class="button.Button" name="cmd3">
+                  <Properties>
+                    <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+                      <Color blue="9e" green="ec" red="ff" type="rgb"/>
+                    </Property>
+                    <Property name="foreground" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+                      <Color blue="0" green="0" red="0" type="rgb"/>
+                    </Property>
+                    <Property name="text" type="java.lang.String" value="Calculate"/>
+                    <Property name="rippleColor" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+                      <Color blue="ff" green="ff" red="ff" type="rgb"/>
+                    </Property>
+                    <Property name="shadowColor" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+                      <Color blue="55" green="94" red="ed" type="rgb"/>
+                    </Property>
+                  </Properties>
+                  <Events>
+                    <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="cmd3ActionPerformed"/>
+                  </Events>
+                </Component>
+                <Component class="textfield.TextField" name="textField63">
+                  <Properties>
+                    <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+                      <Color blue="da" green="fb" red="ff" type="rgb"/>
+                    </Property>
+                    <Property name="shadowColor" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+                      <Color blue="55" green="94" red="ed" type="rgb"/>
+                    </Property>
+                  </Properties>
+                </Component>
+                <Component class="textfield.TextField" name="textField64">
+                  <Properties>
+                    <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+                      <Color blue="9e" green="ec" red="ff" type="rgb"/>
+                    </Property>
+                    <Property name="shadowColor" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+                      <Color blue="55" green="94" red="ed" type="rgb"/>
+                    </Property>
+                  </Properties>
+                </Component>
+                <Component class="javax.swing.JLabel" name="jLabel3">
+                  <Properties>
+                    <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+                      <Font name="Wide Latin" size="14" style="3"/>
+                    </Property>
+                    <Property name="text" type="java.lang.String" value="Average"/>
+                  </Properties>
+                </Component>
+                <Component class="javax.swing.JLabel" name="jLabel7">
+                  <Properties>
+                    <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+                      <Font name="Wide Latin" size="14" style="3"/>
+                    </Property>
+                    <Property name="text" type="java.lang.String" value="GPA"/>
+                  </Properties>
+                </Component>
+                <Component class="textfield.TextField" name="textField69">
+                  <Properties>
+                    <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+                      <Color blue="9e" green="ec" red="ff" type="rgb"/>
+                    </Property>
+                    <Property name="shadowColor" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+                      <Color blue="55" green="94" red="ed" type="rgb"/>
+                    </Property>
+                  </Properties>
+                </Component>
+                <Component class="javax.swing.JLabel" name="jLabel10">
+                  <Properties>
+                    <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+                      <Font name="Wide Latin" size="14" style="3"/>
+                    </Property>
+                    <Property name="text" type="java.lang.String" value="Total"/>
+                  </Properties>
+                </Component>
+              </SubComponents>
+            </Container>
+          </SubComponents>
+        </Container>
+        <Container class="javax.swing.JPanel" name="senior2">
+          <Properties>
+            <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+              <Color blue="f3" green="f3" red="f3" type="rgb"/>
+            </Property>
+          </Properties>
+          <Constraints>
+            <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.support.JTabbedPaneSupportLayout" value="org.netbeans.modules.form.compat2.layouts.support.JTabbedPaneSupportLayout$JTabbedPaneConstraintsDescription">
+              <JTabbedPaneConstraints tabName="Senior 2  ">
+                <Property name="tabTitle" type="java.lang.String" value="Senior 2  "/>
+              </JTabbedPaneConstraints>
+            </Constraint>
+          </Constraints>
+
+          <Layout>
+            <DimensionLayout dim="0">
+              <Group type="103" groupAlignment="0" attributes="0">
+                  <EmptySpace min="0" pref="1030" max="32767" attributes="0"/>
+                  <Group type="103" rootIndex="1" groupAlignment="0" attributes="0">
+                      <Component id="jPanel10" alignment="1" max="32767" attributes="0"/>
+                  </Group>
+              </Group>
+            </DimensionLayout>
+            <DimensionLayout dim="1">
+              <Group type="103" groupAlignment="0" attributes="0">
+                  <EmptySpace min="0" pref="1034" max="32767" attributes="0"/>
+                  <Group type="103" rootIndex="1" groupAlignment="0" attributes="0">
+                      <Group type="102" alignment="0" attributes="0">
+                          <Component id="jPanel10" min="-2" max="-2" attributes="0"/>
+                          <EmptySpace min="0" pref="0" max="32767" attributes="0"/>
+                      </Group>
+                  </Group>
+              </Group>
+            </DimensionLayout>
+          </Layout>
+          <SubComponents>
+            <Container class="javax.swing.JPanel" name="jPanel10">
+              <Properties>
+                <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+                  <Color blue="da" green="fb" red="ff" type="rgb"/>
+                </Property>
+              </Properties>
+
+              <Layout>
+                <DimensionLayout dim="0">
+                  <Group type="103" groupAlignment="0" attributes="0">
+                      <Group type="102" alignment="1" attributes="0">
+                          <Group type="103" groupAlignment="0" attributes="0">
+                              <Group type="102" attributes="0">
+                                  <Group type="103" groupAlignment="0" attributes="0">
+                                      <Component id="jLabel94" alignment="0" min="-2" pref="365" max="-2" attributes="0"/>
+                                      <Component id="jLabel95" alignment="0" min="-2" max="-2" attributes="0"/>
+                                      <Group type="102" alignment="0" attributes="0">
+                                          <Group type="103" groupAlignment="0" attributes="0">
+                                              <Component id="jLabel96" alignment="0" min="-2" max="-2" attributes="0"/>
+                                              <Component id="jLabel97" alignment="0" min="-2" max="-2" attributes="0"/>
+                                              <Component id="jLabel98" alignment="0" min="-2" max="-2" attributes="0"/>
+                                              <Component id="jLabel99" alignment="0" min="-2" max="-2" attributes="0"/>
+                                              <Component id="jLabel104" alignment="0" min="-2" max="-2" attributes="0"/>
+                                              <Group type="103" alignment="0" groupAlignment="1" attributes="0">
+                                                  <Component id="jLabel9" alignment="1" min="-2" pref="72" max="-2" attributes="0"/>
+                                                  <Component id="jLabel92" alignment="0" min="-2" max="-2" attributes="0"/>
+                                              </Group>
+                                          </Group>
+                                          <EmptySpace min="-2" pref="27" max="-2" attributes="0"/>
+                                          <Group type="103" groupAlignment="1" attributes="0">
+                                              <Component id="textField78" alignment="1" min="-2" pref="187" max="-2" attributes="0"/>
+                                              <Component id="textField82" alignment="1" min="-2" pref="187" max="-2" attributes="0"/>
+                                              <Component id="textField83" alignment="1" min="-2" pref="187" max="-2" attributes="0"/>
+                                              <Component id="textField79" alignment="1" min="-2" pref="187" max="-2" attributes="0"/>
+                                              <Component id="textField80" alignment="1" min="-2" pref="187" max="-2" attributes="0"/>
+                                              <Component id="textField81" alignment="1" min="-2" pref="187" max="-2" attributes="0"/>
+                                              <Component id="textField91" alignment="1" min="-2" pref="187" max="-2" attributes="0"/>
+                                          </Group>
+                                      </Group>
+                                  </Group>
+                                  <EmptySpace max="32767" attributes="0"/>
+                              </Group>
+                              <Group type="102" alignment="1" attributes="0">
+                                  <EmptySpace max="-2" attributes="0"/>
+                                  <Component id="textField70" min="-2" pref="111" max="-2" attributes="0"/>
+                                  <EmptySpace pref="98" max="32767" attributes="0"/>
+                                  <Group type="103" groupAlignment="0" attributes="0">
+                                      <Component id="textField90" min="-2" pref="111" max="-2" attributes="0"/>
+                                      <Component id="jLabel4" min="-2" max="-2" attributes="0"/>
+                                  </Group>
+                                  <Group type="103" groupAlignment="0" attributes="0">
+                                      <Group type="102" attributes="0">
+                                          <EmptySpace min="-2" pref="90" max="-2" attributes="0"/>
+                                          <Component id="textField88" min="-2" pref="111" max="-2" attributes="0"/>
+                                      </Group>
+                                      <Group type="102" alignment="0" attributes="0">
+                                          <EmptySpace min="-2" pref="110" max="-2" attributes="0"/>
+                                          <Component id="jLabel8" min="-2" max="-2" attributes="0"/>
+                                      </Group>
+                                  </Group>
+                                  <EmptySpace min="-2" pref="46" max="-2" attributes="0"/>
+                              </Group>
+                          </Group>
+                          <Group type="103" groupAlignment="0" attributes="0">
+                              <Group type="102" alignment="0" attributes="0">
+                                  <Group type="103" groupAlignment="0" attributes="0">
+                                      <Component id="jLabel102" alignment="0" min="-2" max="-2" attributes="0"/>
+                                      <Component id="jLabel103" alignment="0" min="-2" max="-2" attributes="0"/>
+                                      <Component id="jLabel107" alignment="0" min="-2" max="-2" attributes="0"/>
+                                  </Group>
+                                  <EmptySpace max="32767" attributes="0"/>
+                                  <Group type="103" groupAlignment="0" attributes="0">
+                                      <Component id="textField87" alignment="1" min="-2" pref="187" max="-2" attributes="0"/>
+                                      <Component id="textField86" alignment="1" min="-2" pref="187" max="-2" attributes="0"/>
+                                      <Component id="textField89" alignment="1" min="-2" pref="187" max="-2" attributes="0"/>
+                                  </Group>
+                              </Group>
+                              <Group type="102" alignment="0" attributes="0">
+                                  <Component id="jLabel101" min="-2" max="-2" attributes="0"/>
+                                  <EmptySpace max="32767" attributes="0"/>
+                                  <Component id="textField85" min="-2" pref="187" max="-2" attributes="0"/>
+                              </Group>
+                              <Group type="102" alignment="0" attributes="0">
+                                  <Component id="jLabel100" min="-2" max="-2" attributes="0"/>
+                                  <EmptySpace max="32767" attributes="0"/>
+                                  <Component id="textField84" min="-2" pref="187" max="-2" attributes="0"/>
+                              </Group>
+                              <Group type="102" attributes="0">
+                                  <Group type="103" groupAlignment="0" attributes="0">
+                                      <Component id="jLabel93" alignment="0" min="-2" pref="399" max="-2" attributes="0"/>
+                                      <Group type="102" alignment="0" attributes="0">
+                                          <EmptySpace min="-2" pref="79" max="-2" attributes="0"/>
+                                          <Component id="cmd5" min="-2" pref="232" max="-2" attributes="0"/>
+                                      </Group>
+                                  </Group>
+                                  <EmptySpace pref="33" max="32767" attributes="0"/>
+                              </Group>
+                          </Group>
+                          <EmptySpace min="-2" pref="25" max="-2" attributes="0"/>
+                      </Group>
+                  </Group>
+                </DimensionLayout>
+                <DimensionLayout dim="1">
+                  <Group type="103" groupAlignment="0" attributes="0">
+                      <Group type="102" alignment="0" attributes="0">
+                          <EmptySpace min="-2" pref="43" max="-2" attributes="0"/>
+                          <Group type="103" groupAlignment="1" attributes="0">
+                              <Group type="102" alignment="1" attributes="0">
+                                  <Group type="103" groupAlignment="3" attributes="0">
+                                      <Component id="jLabel94" alignment="3" min="-2" pref="45" max="-2" attributes="0"/>
+                                      <Component id="jLabel93" alignment="3" min="-2" pref="45" max="-2" attributes="0"/>
+                                  </Group>
+                                  <EmptySpace min="-2" pref="31" max="-2" attributes="0"/>
+                                  <Group type="103" groupAlignment="3" attributes="0">
+                                      <Component id="jLabel92" alignment="3" min="-2" max="-2" attributes="0"/>
+                                      <Component id="textField78" alignment="3" min="-2" max="-2" attributes="0"/>
+                                      <Component id="jLabel100" alignment="3" min="-2" max="-2" attributes="0"/>
+                                      <Component id="textField84" alignment="3" min="-2" max="-2" attributes="0"/>
+                                  </Group>
+                                  <EmptySpace min="-2" pref="36" max="-2" attributes="0"/>
+                                  <Group type="103" groupAlignment="3" attributes="0">
+                                      <Component id="textField85" alignment="3" min="-2" max="-2" attributes="0"/>
+                                      <Component id="jLabel101" alignment="3" min="-2" max="-2" attributes="0"/>
+                                      <Component id="jLabel95" alignment="3" min="-2" max="-2" attributes="0"/>
+                                      <Component id="textField79" alignment="3" min="-2" max="-2" attributes="0"/>
+                                  </Group>
+                                  <EmptySpace min="-2" pref="36" max="-2" attributes="0"/>
+                                  <Group type="103" groupAlignment="3" attributes="0">
+                                      <Component id="textField80" alignment="3" min="-2" max="-2" attributes="0"/>
+                                      <Component id="jLabel96" alignment="3" min="-2" max="-2" attributes="0"/>
+                                  </Group>
+                              </Group>
+                              <Group type="103" alignment="1" groupAlignment="3" attributes="0">
+                                  <Component id="jLabel103" alignment="3" min="-2" max="-2" attributes="0"/>
+                                  <Component id="textField87" alignment="3" min="-2" max="-2" attributes="0"/>
+                              </Group>
+                          </Group>
+                          <EmptySpace min="-2" pref="36" max="-2" attributes="0"/>
+                          <Group type="103" groupAlignment="0" attributes="0">
+                              <Group type="103" alignment="0" groupAlignment="3" attributes="0">
+                                  <Component id="jLabel97" alignment="3" min="-2" max="-2" attributes="0"/>
+                                  <Component id="textField81" alignment="3" min="-2" max="-2" attributes="0"/>
+                                  <Component id="jLabel102" alignment="3" min="-2" max="-2" attributes="0"/>
+                              </Group>
+                              <Component id="textField86" alignment="0" min="-2" max="-2" attributes="0"/>
+                          </Group>
+                          <EmptySpace min="-2" pref="36" max="-2" attributes="0"/>
+                          <Group type="103" groupAlignment="3" attributes="0">
+                              <Component id="textField89" alignment="3" min="-2" max="-2" attributes="0"/>
+                              <Component id="jLabel104" alignment="3" min="-2" max="-2" attributes="0"/>
+                              <Component id="jLabel107" alignment="3" min="-2" max="-2" attributes="0"/>
+                              <Component id="textField91" alignment="3" min="-2" max="-2" attributes="0"/>
+                          </Group>
+                          <EmptySpace min="-2" pref="74" max="-2" attributes="0"/>
+                          <Group type="103" groupAlignment="3" attributes="0">
+                              <Component id="jLabel4" alignment="3" min="-2" pref="46" max="-2" attributes="0"/>
+                              <Component id="jLabel8" alignment="3" min="-2" pref="46" max="-2" attributes="0"/>
+                              <Component id="jLabel9" alignment="3" min="-2" pref="46" max="-2" attributes="0"/>
+                          </Group>
+                          <EmptySpace max="-2" attributes="0"/>
+                          <Group type="103" groupAlignment="3" attributes="0">
+                              <Component id="textField88" alignment="3" min="-2" pref="76" max="-2" attributes="0"/>
+                              <Component id="cmd5" alignment="3" min="-2" pref="76" max="-2" attributes="0"/>
+                              <Component id="textField90" alignment="3" min="-2" pref="76" max="-2" attributes="0"/>
+                              <Component id="textField70" alignment="3" min="-2" pref="76" max="-2" attributes="0"/>
+                          </Group>
+                          <EmptySpace min="-2" pref="204" max="-2" attributes="0"/>
+                          <Group type="103" groupAlignment="3" attributes="0">
+                              <Component id="textField82" alignment="3" min="-2" max="-2" attributes="0"/>
+                              <Component id="jLabel98" alignment="3" min="-2" max="-2" attributes="0"/>
+                          </Group>
+                          <EmptySpace min="-2" pref="36" max="-2" attributes="0"/>
+                          <Group type="103" groupAlignment="3" attributes="0">
+                              <Component id="textField83" alignment="3" min="-2" max="-2" attributes="0"/>
+                              <Component id="jLabel99" alignment="3" min="-2" max="-2" attributes="0"/>
+                          </Group>
+                          <EmptySpace pref="21" max="32767" attributes="0"/>
+                      </Group>
+                  </Group>
+                </DimensionLayout>
+              </Layout>
+              <SubComponents>
+                <Component class="javax.swing.JLabel" name="jLabel92">
+                  <Properties>
+                    <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+                      <Font name="Yu Gothic UI Semilight" size="24" style="1"/>
+                    </Property>
+                    <Property name="text" type="java.lang.String" value="Network"/>
+                  </Properties>
+                </Component>
+                <Component class="javax.swing.JLabel" name="jLabel93">
+                  <Properties>
+                    <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+                      <Font name="Wide Latin" size="36" style="1"/>
+                    </Property>
+                    <Property name="text" type="java.lang.String" value="Second term"/>
+                  </Properties>
+                </Component>
+                <Component class="javax.swing.JLabel" name="jLabel94">
+                  <Properties>
+                    <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+                      <Font name="Wide Latin" size="36" style="1"/>
+                    </Property>
+                    <Property name="text" type="java.lang.String" value="First term"/>
+                  </Properties>
+                </Component>
+                <Component class="textfield.TextField" name="textField78">
+                  <Properties>
+                    <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+                      <Color blue="da" green="fb" red="ff" type="rgb"/>
+                    </Property>
+                    <Property name="shadowColor" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+                      <Color blue="55" green="94" red="ed" type="rgb"/>
+                    </Property>
+                  </Properties>
+                </Component>
+                <Component class="javax.swing.JLabel" name="jLabel95">
+                  <Properties>
+                    <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+                      <Font name="Yu Gothic UI Semilight" size="24" style="1"/>
+                    </Property>
+                    <Property name="text" type="java.lang.String" value="DSP"/>
+                  </Properties>
+                </Component>
+                <Component class="textfield.TextField" name="textField79">
+                  <Properties>
+                    <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+                      <Color blue="da" green="fb" red="ff" type="rgb"/>
+                    </Property>
+                    <Property name="foreground" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+                      <Color blue="0" green="0" red="0" type="rgb"/>
+                    </Property>
+                    <Property name="selectionColor" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+                      <Color blue="ff" green="ff" red="ff" type="rgb"/>
+                    </Property>
+                    <Property name="shadowColor" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+                      <Color blue="55" green="94" red="ed" type="rgb"/>
+                    </Property>
+                  </Properties>
+                </Component>
+                <Component class="javax.swing.JLabel" name="jLabel96">
+                  <Properties>
+                    <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+                      <Font name="Yu Gothic UI Semilight" size="24" style="1"/>
+                    </Property>
+                    <Property name="text" type="java.lang.String" value="CI"/>
+                  </Properties>
+                </Component>
+                <Component class="textfield.TextField" name="textField80">
+                  <Properties>
+                    <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+                      <Color blue="da" green="fb" red="ff" type="rgb"/>
+                    </Property>
+                    <Property name="shadowColor" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+                      <Color blue="55" green="94" red="ed" type="rgb"/>
+                    </Property>
+                  </Properties>
+                </Component>
+                <Component class="javax.swing.JLabel" name="jLabel97">
+                  <Properties>
+                    <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+                      <Font name="Yu Gothic UI Semilight" size="24" style="1"/>
+                    </Property>
+                    <Property name="text" type="java.lang.String" value="AI"/>
+                  </Properties>
+                </Component>
+                <Component class="textfield.TextField" name="textField81">
+                  <Properties>
+                    <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+                      <Color blue="da" green="fb" red="ff" type="rgb"/>
+                    </Property>
+                    <Property name="shadowColor" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+                      <Color blue="55" green="94" red="ed" type="rgb"/>
+                    </Property>
+                  </Properties>
+                </Component>
+                <Component class="javax.swing.JLabel" name="jLabel98">
+                  <Properties>
+                    <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+                      <Font name="Yu Gothic UI Semilight" size="24" style="1"/>
+                    </Property>
+                    <Property name="text" type="java.lang.String" value="Programming(C++)"/>
+                  </Properties>
+                </Component>
+                <Component class="textfield.TextField" name="textField82">
+                  <Properties>
+                    <Property name="text" type="java.lang.String" value="textField1"/>
+                    <Property name="shadowColor" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+                      <Color blue="ff" green="0" red="33" type="rgb"/>
+                    </Property>
+                  </Properties>
+                </Component>
+                <Component class="javax.swing.JLabel" name="jLabel99">
+                  <Properties>
+                    <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+                      <Font name="Yu Gothic UI Semilight" size="24" style="1"/>
+                    </Property>
+                    <Property name="text" type="java.lang.String" value="Programming(C++)"/>
+                  </Properties>
+                </Component>
+                <Component class="textfield.TextField" name="textField83">
+                  <Properties>
+                    <Property name="text" type="java.lang.String" value="textField1"/>
+                    <Property name="shadowColor" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+                      <Color blue="ff" green="0" red="33" type="rgb"/>
+                    </Property>
+                  </Properties>
+                </Component>
+                <Component class="javax.swing.JLabel" name="jLabel100">
+                  <Properties>
+                    <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+                      <Font name="Yu Gothic UI Semilight" size="24" style="1"/>
+                    </Property>
+                    <Property name="text" type="java.lang.String" value="Security"/>
+                  </Properties>
+                </Component>
+                <Component class="textfield.TextField" name="textField84">
+                  <Properties>
+                    <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+                      <Color blue="da" green="fb" red="ff" type="rgb"/>
+                    </Property>
+                    <Property name="shadowColor" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+                      <Color blue="55" green="94" red="ed" type="rgb"/>
+                    </Property>
+                  </Properties>
+                </Component>
+                <Component class="javax.swing.JLabel" name="jLabel101">
+                  <Properties>
+                    <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+                      <Font name="Yu Gothic UI Semilight" size="24" style="1"/>
+                    </Property>
+                    <Property name="text" type="java.lang.String" value="Systems"/>
+                  </Properties>
+                </Component>
+                <Component class="textfield.TextField" name="textField85">
+                  <Properties>
+                    <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+                      <Color blue="da" green="fb" red="ff" type="rgb"/>
+                    </Property>
+                    <Property name="shadowColor" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+                      <Color blue="55" green="94" red="ed" type="rgb"/>
+                    </Property>
+                  </Properties>
+                </Component>
+                <Component class="javax.swing.JLabel" name="jLabel102">
+                  <Properties>
+                    <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+                      <Font name="Yu Gothic UI Semilight" size="24" style="1"/>
+                    </Property>
+                    <Property name="text" type="java.lang.String" value="Control"/>
+                  </Properties>
+                </Component>
+                <Component class="textfield.TextField" name="textField86">
+                  <Properties>
+                    <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+                      <Color blue="da" green="fb" red="ff" type="rgb"/>
+                    </Property>
+                    <Property name="shadowColor" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+                      <Color blue="55" green="94" red="ed" type="rgb"/>
+                    </Property>
+                  </Properties>
+                </Component>
+                <Component class="javax.swing.JLabel" name="jLabel103">
+                  <Properties>
+                    <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+                      <Font name="Yu Gothic UI Semilight" size="24" style="1"/>
+                    </Property>
+                    <Property name="text" type="java.lang.String" value="Compiler"/>
+                  </Properties>
+                </Component>
+                <Component class="textfield.TextField" name="textField87">
+                  <Properties>
+                    <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+                      <Color blue="da" green="fb" red="ff" type="rgb"/>
+                    </Property>
+                    <Property name="shadowColor" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+                      <Color blue="55" green="94" red="ed" type="rgb"/>
+                    </Property>
+                  </Properties>
+                </Component>
+                <Component class="javax.swing.JLabel" name="jLabel104">
+                  <Properties>
+                    <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+                      <Font name="Yu Gothic UI Semilight" size="24" style="1"/>
+                    </Property>
+                    <Property name="text" type="java.lang.String" value="Control"/>
+                  </Properties>
+                </Component>
+                <Component class="textfield.TextField" name="textField88">
+                  <Properties>
+                    <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+                      <Color blue="9e" green="ec" red="ff" type="rgb"/>
+                    </Property>
+                    <Property name="shadowColor" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+                      <Color blue="55" green="94" red="ed" type="rgb"/>
+                    </Property>
+                  </Properties>
+                  <Events>
+                    <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="textField88ActionPerformed"/>
+                  </Events>
+                </Component>
+                <Component class="textfield.TextField" name="textField89">
+                  <Properties>
+                    <Property name="editable" type="boolean" value="false"/>
+                    <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+                      <Color blue="da" green="fb" red="ff" type="rgb"/>
+                    </Property>
+                    <Property name="shadowColor" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+                      <Color blue="55" green="94" red="ed" type="rgb"/>
+                    </Property>
+                  </Properties>
+                </Component>
+                <Component class="textfield.TextField" name="textField91">
+                  <Properties>
+                    <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+                      <Color blue="da" green="fb" red="ff" type="rgb"/>
+                    </Property>
+                    <Property name="shadowColor" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+                      <Color blue="55" green="94" red="ed" type="rgb"/>
+                    </Property>
+                  </Properties>
+                </Component>
+                <Component class="javax.swing.JLabel" name="jLabel107">
+                  <Properties>
+                    <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+                      <Font name="Yu Gothic UI Semilight" size="24" style="1"/>
+                    </Property>
+                    <Property name="text" type="java.lang.String" value="Computer vision"/>
+                  </Properties>
+                </Component>
+                <Component class="button.Button" name="cmd5">
+                  <Properties>
+                    <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+                      <Color blue="9e" green="ec" red="ff" type="rgb"/>
+                    </Property>
+                    <Property name="foreground" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+                      <Color blue="0" green="0" red="0" type="rgb"/>
+                    </Property>
+                    <Property name="text" type="java.lang.String" value="Calculate"/>
+                    <Property name="rippleColor" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+                      <Color blue="ff" green="ff" red="ff" type="rgb"/>
+                    </Property>
+                    <Property name="shadowColor" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+                      <Color blue="55" green="94" red="ed" type="rgb"/>
+                    </Property>
+                  </Properties>
+                  <Events>
+                    <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="cmd5ActionPerformed"/>
+                  </Events>
+                </Component>
+                <Component class="textfield.TextField" name="textField90">
+                  <Properties>
+                    <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+                      <Color blue="9e" green="ec" red="ff" type="rgb"/>
+                    </Property>
+                    <Property name="shadowColor" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+                      <Color blue="55" green="94" red="ed" type="rgb"/>
+                    </Property>
+                  </Properties>
+                  <Events>
+                    <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="textField90ActionPerformed"/>
+                  </Events>
+                </Component>
+                <Component class="javax.swing.JLabel" name="jLabel4">
+                  <Properties>
+                    <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+                      <Font name="Wide Latin" size="14" style="3"/>
+                    </Property>
+                    <Property name="text" type="java.lang.String" value="Average"/>
+                  </Properties>
+                </Component>
+                <Component class="javax.swing.JLabel" name="jLabel8">
+                  <Properties>
+                    <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+                      <Font name="Wide Latin" size="14" style="3"/>
+                    </Property>
+                    <Property name="text" type="java.lang.String" value="GPA"/>
+                  </Properties>
+                </Component>
+                <Component class="textfield.TextField" name="textField70">
+                  <Properties>
+                    <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+                      <Color blue="9e" green="ec" red="ff" type="rgb"/>
+                    </Property>
+                    <Property name="shadowColor" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+                      <Color blue="55" green="94" red="ed" type="rgb"/>
+                    </Property>
+                  </Properties>
+                </Component>
+                <Component class="javax.swing.JLabel" name="jLabel9">
+                  <Properties>
+                    <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+                      <Font name="Wide Latin" size="14" style="3"/>
+                    </Property>
+                    <Property name="text" type="java.lang.String" value="Total"/>
+                  </Properties>
+                </Component>
+              </SubComponents>
+            </Container>
           </SubComponents>
         </Container>
       </SubComponents>
     </Container>
-    <Component class="button1.MyButton" name="myButton2">
-      <Properties>
-        <Property name="text" type="java.lang.String" value="myButton2"/>
-        <Property name="radius" type="int" value="500"/>
-      </Properties>
-    </Component>
   </SubComponents>
 </Form>
