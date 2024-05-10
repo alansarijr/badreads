@@ -5,6 +5,8 @@
  */
 package main;
 
+import java.text.DecimalFormat;
+
 /**
  *
  * @author proxc
@@ -201,6 +203,11 @@ public class Home_Data extends javax.swing.JFrame {
 
         S1.setBackground(new java.awt.Color(255, 251, 218));
         S1.setShadowColor(new java.awt.Color(237, 148, 85));
+        S1.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                S1ActionPerformed(evt);
+            }
+        });
 
         jLabel21.setFont(new java.awt.Font("Yu Gothic UI Semilight", 1, 24)); // NOI18N
         jLabel21.setText("Electronics1");
@@ -215,7 +222,7 @@ public class Home_Data extends javax.swing.JFrame {
         S3.setShadowColor(new java.awt.Color(237, 148, 85));
 
         jLabel23.setFont(new java.awt.Font("Yu Gothic UI Semilight", 1, 24)); // NOI18N
-        jLabel23.setText("Discrete math");
+        jLabel23.setText("Circuits");
 
         S4.setBackground(new java.awt.Color(255, 251, 218));
         S4.setShadowColor(new java.awt.Color(237, 148, 85));
@@ -257,7 +264,7 @@ public class Home_Data extends javax.swing.JFrame {
         S9.setShadowColor(new java.awt.Color(237, 148, 85));
 
         jLabel28.setFont(new java.awt.Font("Yu Gothic UI Semilight", 1, 24)); // NOI18N
-        jLabel28.setText("Circuits");
+        jLabel28.setText("Discrete math");
 
         gpaTF.setBackground(new java.awt.Color(255, 236, 158));
         gpaTF.setShadowColor(new java.awt.Color(237, 148, 85));
@@ -300,13 +307,18 @@ public class Home_Data extends javax.swing.JFrame {
         TotalTF.setShadowColor(new java.awt.Color(237, 148, 85));
 
         jLabel1.setFont(new java.awt.Font("Wide Latin", 3, 14)); // NOI18N
-        jLabel1.setText("Average");
+        jLabel1.setText("Percentage");
 
         jLabel5.setFont(new java.awt.Font("Wide Latin", 3, 14)); // NOI18N
         jLabel5.setText("GPA");
 
         averageTF.setBackground(new java.awt.Color(255, 236, 158));
         averageTF.setShadowColor(new java.awt.Color(237, 148, 85));
+        averageTF.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                averageTFActionPerformed(evt);
+            }
+        });
 
         jLabel16.setFont(new java.awt.Font("Wide Latin", 3, 14)); // NOI18N
         jLabel16.setText("Total");
@@ -1374,11 +1386,12 @@ public class Home_Data extends javax.swing.JFrame {
         double tenth=Double.parseDouble(S10.getText());
         double eleventh=Double.parseDouble(S12.getText());
         double twelveth=Double.parseDouble(S12.getText());
+        DecimalFormat df = new DecimalFormat("#.#");
         
         gpa sopho=new gpa(first,second,third,fourth,fifth,sixth,seventh,eighth,ninth,tenth,eleventh,twelveth);
         TotalTF.setText(sopho.total()+"");
-        averageTF.setText(sopho.average()+"");
-        gpaTF.setText(sopho.Gpa()+"");
+        averageTF.setText(df.format(sopho.percentage())+"");
+        gpaTF.setText(df.format(sopho.Gpa())+"");
       
     }//GEN-LAST:event_calc1ActionPerformed
 
@@ -1417,6 +1430,14 @@ public class Home_Data extends javax.swing.JFrame {
     private void S11ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_S11ActionPerformed
         // TODO add your handling code here:
     }//GEN-LAST:event_S11ActionPerformed
+
+    private void averageTFActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_averageTFActionPerformed
+        // TODO add your handling code here:
+    }//GEN-LAST:event_averageTFActionPerformed
+
+    private void S1ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_S1ActionPerformed
+        // TODO add your handling code here:
+    }//GEN-LAST:event_S1ActionPerformed
 
     /**
      * @param args the command line arguments

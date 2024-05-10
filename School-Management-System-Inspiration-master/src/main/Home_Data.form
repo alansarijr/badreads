@@ -306,6 +306,9 @@
                   <Color blue="55" green="94" red="ed" type="rgb"/>
                 </Property>
               </Properties>
+              <Events>
+                <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="S1ActionPerformed"/>
+              </Events>
             </Component>
             <Component class="javax.swing.JLabel" name="jLabel21">
               <Properties>
@@ -348,7 +351,7 @@
                 <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
                   <Font name="Yu Gothic UI Semilight" size="24" style="1"/>
                 </Property>
-                <Property name="text" type="java.lang.String" value="Discrete math"/>
+                <Property name="text" type="java.lang.String" value="Circuits"/>
               </Properties>
             </Component>
             <Component class="textfield.TextField" name="S4">
@@ -470,7 +473,7 @@
                 <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
                   <Font name="Yu Gothic UI Semilight" size="24" style="1"/>
                 </Property>
-                <Property name="text" type="java.lang.String" value="Circuits"/>
+                <Property name="text" type="java.lang.String" value="Discrete math"/>
               </Properties>
             </Component>
             <Component class="textfield.TextField" name="gpaTF">
@@ -575,7 +578,7 @@
                 <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
                   <Font name="Wide Latin" size="14" style="3"/>
                 </Property>
-                <Property name="text" type="java.lang.String" value="Average"/>
+                <Property name="text" type="java.lang.String" value="Percentage"/>
               </Properties>
             </Component>
             <Component class="javax.swing.JLabel" name="jLabel5">
@@ -595,6 +598,9 @@
                   <Color blue="55" green="94" red="ed" type="rgb"/>
                 </Property>
               </Properties>
+              <Events>
+                <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="averageTFActionPerformed"/>
+              </Events>
             </Component>
             <Component class="javax.swing.JLabel" name="jLabel16">
               <Properties>

@@ -249,8 +249,8 @@
           </Properties>
           <Constraints>
             <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.support.JTabbedPaneSupportLayout" value="org.netbeans.modules.form.compat2.layouts.support.JTabbedPaneSupportLayout$JTabbedPaneConstraintsDescription">
-              <JTabbedPaneConstraints tabName="Enactus">
-                <Property name="tabTitle" type="java.lang.String" value="Enactus"/>
+              <JTabbedPaneConstraints tabName="ICPC">
+                <Property name="tabTitle" type="java.lang.String" value="ICPC"/>
               </JTabbedPaneConstraints>
             </Constraint>
           </Constraints>

@@ -158,7 +158,7 @@ public class Students_activites extends javax.swing.JFrame {
             .addComponent(jLabel4, javax.swing.GroupLayout.DEFAULT_SIZE, 516, Short.MAX_VALUE)
         );
 
-        tabbedPaneCustom1.addTab("Enactus", jPanel5);
+        tabbedPaneCustom1.addTab("ICPC", jPanel5);
 
         javax.swing.GroupLayout layout = new javax.swing.GroupLayout(getContentPane());
         getContentPane().setLayout(layout);
