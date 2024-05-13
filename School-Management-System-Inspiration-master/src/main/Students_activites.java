@@ -5,6 +5,11 @@
  */
 package main;
 
+//import java.awt.Image;
+//import java.io.File;
+//import java.util.logging.Level;
+//import java.util.logging.Logger;
+import javax.swing.ImageIcon;
 /**
  *
  * @author proxc
@@ -16,7 +21,24 @@ public class Students_activites extends javax.swing.JFrame {
      */
     public Students_activites() {
         initComponents();
-    }
+//        show(position);
+       }
+//    int position=0;
+//    public String[] takeimage()
+//    {
+//    File f=new File(getClass().getResource("/icon/pixels").getFile());
+//    String[] Images = f.list();
+//    return Images;
+//    }
+    
+//    public void show(int index)
+//{
+//    String [] Images=takeimage();
+//    String img=Images[index];
+//    ImageIcon icon =new ImageIcon(getClass().getResource("/icon/pixels"+img));
+//    Image image=icon.getImage().getScaledInstance(picture.getWidth(),picture.getHeight(),Image.SCALE_SMOOTH);
+//    picture.setIcon(new ImageIcon (image));
+//}
 
     /**
      * This method is called from within the constructor to initialize the form.
@@ -229,6 +251,45 @@ public class Students_activites extends javax.swing.JFrame {
 
         pack();
     }// </editor-fold>//GEN-END:initComponents
+     
+//    private void nextMousePressed(java.awt.event.MouseEvent evt) {                                  
+//    new Thread();
+//        try {
+//            Thread.sleep(300);
+//        } catch (InterruptedException ex) {
+//            Logger.getLogger(Students_activites.class.getName()).log(Level.SEVERE, null, ex);
+//        }
+//        int p=this.picture.getX();
+//        if(p>-1)
+//        {
+//         Animacion.Animacion.mover_izquierda(900,200, 1,2,picture);
+//        }
+//        position=position+1;
+//        if(position>=takeimage().length){
+//        position=takeimage().length-1;
+//        }
+//        show(position);
+//    } 
+//    
+//    private void previousMousePressed(java.awt.event.MouseEvent evt) {                                      
+//      new Thread();
+//        try {
+//            Thread.sleep(300);
+//        } catch (InterruptedException ex) {
+//            Logger.getLogger(Students_activites.class.getName()).log(Level.SEVERE, null, ex);
+//        }
+//        int p=this.picture.getX();
+//        if(p>-1)
+//        {
+//        Animacion.Animacion.mover_izquierda(900,200, 1,2,picture);
+//        }
+//        position=position-1;
+//        if(position<0){
+//        position=0;
+//        }
+//        show(position);
+//        
+//    }                                     
 
     /**
      * @param args the command line arguments
