@@ -96,7 +96,7 @@ public class Home extends javax.swing.JFrame {
         jLabel18.setFont(new java.awt.Font("Agency FB", 3, 65)); // NOI18N
         jLabel18.setForeground(new java.awt.Color(255, 255, 255));
         jLabel18.setText("Engineering Edge");
-        jPanel10.add(jLabel18, new org.netbeans.lib.awtextra.AbsoluteConstraints(300, 80, 390, 100));
+        jPanel10.add(jLabel18, new org.netbeans.lib.awtextra.AbsoluteConstraints(250, 80, 580, 100));
 
         jLabel19.setIcon(new javax.swing.ImageIcon(getClass().getResource("/icon/final logo.png"))); // NOI18N
         jPanel10.add(jLabel19, new org.netbeans.lib.awtextra.AbsoluteConstraints(0, 0, 220, 220));
@@ -369,7 +369,7 @@ public class Home extends javax.swing.JFrame {
 
         jPanel9.add(jPanel16, new org.netbeans.lib.awtextra.AbsoluteConstraints(370, 460, 140, 120));
 
-        jPanel1.add(jPanel9, new org.netbeans.lib.awtextra.AbsoluteConstraints(0, -1, 870, 630));
+        jPanel1.add(jPanel9, new org.netbeans.lib.awtextra.AbsoluteConstraints(0, -1, 860, 630));
 
         javax.swing.GroupLayout layout = new javax.swing.GroupLayout(getContentPane());
         getContentPane().setLayout(layout);
