@@ -5,13 +5,10 @@
  */
 package main;
 
-import java.awt.Image;
-import java.io.File;
-import java.util.logging.Level;
-import java.util.logging.Logger;
-import javax.swing.ImageIcon;
-
-
+/**
+ *
+ * @author proxc
+ */
 public class Students_activites extends javax.swing.JFrame {
 
     /**
@@ -19,23 +16,8 @@ public class Students_activites extends javax.swing.JFrame {
      */
     public Students_activites() {
         initComponents();
-        show(position);
     }
-    int position=0;
-    public String[] takeimage()
-    {
-    File f=new File(getClass().getResource("/icon.pixels").getFile());
-    String[] Images = f.list();
-    return Images;
-    }
-public void show(int index)
-{
-    String [] Images=takeimage();
-    String img=Images[index];
-    ImageIcon icon =new ImageIcon(getClass().getResource("/icon.pixels/"+img));
-    Image image=icon.getImage().getScaledInstance(picture.getWidth(),picture.getHeight(),Image.SCALE_SMOOTH);
-    picture.setIcon(new ImageIcon (image));
-}
+
     /**
      * This method is called from within the constructor to initialize the form.
      * WARNING: Do NOT modify this code. The content of this method is always
@@ -45,7 +27,15 @@ public void show(int index)
     // <editor-fold defaultstate="collapsed" desc="Generated Code">//GEN-BEGIN:initComponents
     private void initComponents() {
 
+        jPanel1 = new javax.swing.JPanel();
+        jLabel15 = new javax.swing.JLabel();
         tabbedPaneCustom1 = new raven.tabbed.TabbedPaneCustom();
+        jPanel2 = new javax.swing.JPanel();
+        jLabel5 = new javax.swing.JLabel();
+        jLabel6 = new javax.swing.JLabel();
+        jLabel7 = new javax.swing.JLabel();
+        imageAvatar1 = new swing.ImageAvatar();
+        imageAvatar2 = new swing.ImageAvatar();
         jPanel3 = new javax.swing.JPanel();
         jLabel8 = new javax.swing.JLabel();
         jLabel9 = new javax.swing.JLabel();
@@ -54,20 +44,11 @@ public void show(int index)
         jLabel3 = new javax.swing.JLabel();
         jPanel5 = new javax.swing.JPanel();
         jLabel4 = new javax.swing.JLabel();
-        jPanel2 = new javax.swing.JPanel();
-        imageAvatar4 = new swing.ImageAvatar();
-        jLabel1 = new javax.swing.JLabel();
-        jLabel2 = new javax.swing.JLabel();
-        jLabel5 = new javax.swing.JLabel();
-        picture = new javax.swing.JLabel();
-        previous = new javax.swing.JLabel();
-        next = new javax.swing.JLabel();
 
         setDefaultCloseOperation(javax.swing.WindowConstants.DISPOSE_ON_CLOSE);
         setBackground(new java.awt.Color(255, 255, 255));
         setLocation(new java.awt.Point(240, 100));
 
-<<<<<<< Updated upstream
         jPanel1.setBackground(new java.awt.Color(45, 118, 232));
 
         jLabel15.setFont(new java.awt.Font("Verdana", 1, 24)); // NOI18N
@@ -93,13 +74,10 @@ public void show(int index)
                 .addContainerGap(50, Short.MAX_VALUE))
         );
 
-=======
->>>>>>> Stashed changes
         tabbedPaneCustom1.setFont(new java.awt.Font("sansserif", 1, 12)); // NOI18N
         tabbedPaneCustom1.setSelectedColor(new java.awt.Color(49, 158, 242));
         tabbedPaneCustom1.setUnselectedColor(new java.awt.Color(185, 214, 255));
 
-<<<<<<< Updated upstream
         jPanel2.setBackground(new java.awt.Color(243, 243, 243));
 
         jLabel5.setText("About:");
@@ -156,8 +134,6 @@ public void show(int index)
 
         tabbedPaneCustom1.addTab("Pixels", jPanel2);
 
-=======
->>>>>>> Stashed changes
         jPanel3.setBackground(new java.awt.Color(243, 243, 243));
 
         jLabel8.setText("About:");
@@ -188,11 +164,7 @@ public void show(int index)
                     .addComponent(jLabel9, javax.swing.GroupLayout.PREFERRED_SIZE, 48, javax.swing.GroupLayout.PREFERRED_SIZE))
                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
                 .addComponent(jLabel10)
-<<<<<<< Updated upstream
                 .addContainerGap(379, Short.MAX_VALUE))
-=======
-                .addContainerGap(603, Short.MAX_VALUE))
->>>>>>> Stashed changes
         );
 
         tabbedPaneCustom1.addTab("IEEE", jPanel3);
@@ -212,11 +184,7 @@ public void show(int index)
         );
         jPanel4Layout.setVerticalGroup(
             jPanel4Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-<<<<<<< Updated upstream
             .addComponent(jLabel3, javax.swing.GroupLayout.DEFAULT_SIZE, 477, Short.MAX_VALUE)
-=======
-            .addComponent(jLabel3, javax.swing.GroupLayout.DEFAULT_SIZE, 700, Short.MAX_VALUE)
->>>>>>> Stashed changes
         );
 
         tabbedPaneCustom1.addTab("Bisho", jPanel4);
@@ -236,106 +204,15 @@ public void show(int index)
         );
         jPanel5Layout.setVerticalGroup(
             jPanel5Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-<<<<<<< Updated upstream
             .addComponent(jLabel4, javax.swing.GroupLayout.DEFAULT_SIZE, 477, Short.MAX_VALUE)
-=======
-            .addComponent(jLabel4, javax.swing.GroupLayout.DEFAULT_SIZE, 700, Short.MAX_VALUE)
->>>>>>> Stashed changes
         );
 
         tabbedPaneCustom1.addTab("ICPC", jPanel5);
-
-        jPanel2.setBackground(new java.awt.Color(255, 251, 218));
-
-        imageAvatar4.setGradientColor1(new java.awt.Color(255, 251, 218));
-        imageAvatar4.setGradientColor2(new java.awt.Color(255, 251, 218));
-        imageAvatar4.setImage(new javax.swing.ImageIcon(getClass().getResource("/icon/pixels.png"))); // NOI18N
-
-        jLabel1.setFont(new java.awt.Font("Serif", 3, 18)); // NOI18N
-        jLabel1.setText("Pixels is a student activity at faculty of engineering Helwan University, aims to spread the ");
-
-        jLabel2.setFont(new java.awt.Font("Serif", 3, 18)); // NOI18N
-        jLabel2.setText("engineering science, to create a productive community through many tracks such as  ");
-
-        jLabel5.setFont(new java.awt.Font("Serif", 3, 18)); // NOI18N
-        jLabel5.setText("academic track, competitions track, camps track Juniors track and Projects track.");
-
-        picture.setBackground(new java.awt.Color(255, 255, 255));
-        picture.setIcon(new javax.swing.ImageIcon(getClass().getResource("/icon/pixels2.png"))); // NOI18N
-
-        previous.setIcon(new javax.swing.ImageIcon(getClass().getResource("/main/images/download_52px.png"))); // NOI18N
-        previous.addMouseListener(new java.awt.event.MouseAdapter() {
-            public void mouseClicked(java.awt.event.MouseEvent evt) {
-                previousMouseClicked(evt);
-            }
-            public void mousePressed(java.awt.event.MouseEvent evt) {
-                previousMousePressed(evt);
-            }
-        });
-
-        next.setIcon(new javax.swing.ImageIcon(getClass().getResource("/main/images/download_52px.png"))); // NOI18N
-        next.addMouseListener(new java.awt.event.MouseAdapter() {
-            public void mousePressed(java.awt.event.MouseEvent evt) {
-                nextMousePressed(evt);
-            }
-        });
-
-        javax.swing.GroupLayout jPanel2Layout = new javax.swing.GroupLayout(jPanel2);
-        jPanel2.setLayout(jPanel2Layout);
-        jPanel2Layout.setHorizontalGroup(
-            jPanel2Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addGroup(jPanel2Layout.createSequentialGroup()
-                .addGap(237, 237, 237)
-                .addComponent(previous, javax.swing.GroupLayout.PREFERRED_SIZE, 59, javax.swing.GroupLayout.PREFERRED_SIZE)
-                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
-                .addComponent(next, javax.swing.GroupLayout.PREFERRED_SIZE, 60, javax.swing.GroupLayout.PREFERRED_SIZE)
-                .addGap(271, 271, 271))
-            .addGroup(jPanel2Layout.createSequentialGroup()
-                .addGroup(jPanel2Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                    .addGroup(jPanel2Layout.createSequentialGroup()
-                        .addContainerGap()
-                        .addComponent(imageAvatar4, javax.swing.GroupLayout.PREFERRED_SIZE, 224, javax.swing.GroupLayout.PREFERRED_SIZE)
-                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                        .addGroup(jPanel2Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                            .addComponent(jLabel1, javax.swing.GroupLayout.PREFERRED_SIZE, 707, javax.swing.GroupLayout.PREFERRED_SIZE)
-                            .addComponent(jLabel5, javax.swing.GroupLayout.PREFERRED_SIZE, 707, javax.swing.GroupLayout.PREFERRED_SIZE)))
-                    .addGroup(jPanel2Layout.createSequentialGroup()
-                        .addGap(236, 236, 236)
-                        .addComponent(jLabel2, javax.swing.GroupLayout.PREFERRED_SIZE, 707, javax.swing.GroupLayout.PREFERRED_SIZE))
-                    .addGroup(jPanel2Layout.createSequentialGroup()
-                        .addGap(32, 32, 32)
-                        .addComponent(picture, javax.swing.GroupLayout.PREFERRED_SIZE, 883, javax.swing.GroupLayout.PREFERRED_SIZE)))
-                .addContainerGap(14, Short.MAX_VALUE))
-        );
-        jPanel2Layout.setVerticalGroup(
-            jPanel2Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addGroup(jPanel2Layout.createSequentialGroup()
-                .addGroup(jPanel2Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                    .addGroup(jPanel2Layout.createSequentialGroup()
-                        .addGap(34, 34, 34)
-                        .addComponent(jLabel1, javax.swing.GroupLayout.PREFERRED_SIZE, 28, javax.swing.GroupLayout.PREFERRED_SIZE)
-                        .addGap(2, 2, 2)
-                        .addComponent(jLabel2, javax.swing.GroupLayout.PREFERRED_SIZE, 28, javax.swing.GroupLayout.PREFERRED_SIZE)
-                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                        .addComponent(jLabel5, javax.swing.GroupLayout.PREFERRED_SIZE, 28, javax.swing.GroupLayout.PREFERRED_SIZE))
-                    .addComponent(imageAvatar4, javax.swing.GroupLayout.PREFERRED_SIZE, 189, javax.swing.GroupLayout.PREFERRED_SIZE))
-                .addGap(18, 18, 18)
-                .addComponent(picture, javax.swing.GroupLayout.PREFERRED_SIZE, 414, javax.swing.GroupLayout.PREFERRED_SIZE)
-                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, 27, Short.MAX_VALUE)
-                .addGroup(jPanel2Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING, false)
-                    .addComponent(previous, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
-                    .addGroup(jPanel2Layout.createSequentialGroup()
-                        .addComponent(next, javax.swing.GroupLayout.PREFERRED_SIZE, 0, Short.MAX_VALUE)
-                        .addContainerGap())))
-        );
-
-        tabbedPaneCustom1.addTab("Pixels", jPanel2);
 
         javax.swing.GroupLayout layout = new javax.swing.GroupLayout(getContentPane());
         getContentPane().setLayout(layout);
         layout.setHorizontalGroup(
             layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-<<<<<<< Updated upstream
             .addComponent(jPanel1, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
             .addGroup(layout.createSequentialGroup()
                 .addComponent(tabbedPaneCustom1, javax.swing.GroupLayout.PREFERRED_SIZE, 962, javax.swing.GroupLayout.PREFERRED_SIZE)
@@ -348,62 +225,10 @@ public void show(int index)
                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
                 .addComponent(tabbedPaneCustom1, javax.swing.GroupLayout.DEFAULT_SIZE, 513, Short.MAX_VALUE)
                 .addContainerGap())
-=======
-            .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, layout.createSequentialGroup()
-                .addGap(0, 0, Short.MAX_VALUE)
-                .addComponent(tabbedPaneCustom1, javax.swing.GroupLayout.PREFERRED_SIZE, 962, javax.swing.GroupLayout.PREFERRED_SIZE))
-        );
-        layout.setVerticalGroup(
-            layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addComponent(tabbedPaneCustom1, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
->>>>>>> Stashed changes
         );
 
         pack();
     }// </editor-fold>//GEN-END:initComponents
-
-    private void previousMouseClicked(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_previousMouseClicked
-        // TODO add your handling code here:
-    }//GEN-LAST:event_previousMouseClicked
-
-    private void nextMousePressed(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_nextMousePressed
-    new Thread();
-        try {
-            Thread.sleep(300);
-        } catch (InterruptedException ex) {
-            Logger.getLogger(Students_activites.class.getName()).log(Level.SEVERE, null, ex);
-        }
-        int p=this.picture.getX();
-        if(p>-1)
-        {
-        Animacion.Animacion.mover_izquierda(900,200, 1,2,picture);
-        }
-        position=position+1;
-        if(position>=takeimage().length){
-        position=takeimage().length-1;
-        }
-        show(position);
-    }//GEN-LAST:event_nextMousePressed
-
-    private void previousMousePressed(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_previousMousePressed
-      new Thread();
-        try {
-            Thread.sleep(300);
-        } catch (InterruptedException ex) {
-            Logger.getLogger(Students_activites.class.getName()).log(Level.SEVERE, null, ex);
-        }
-        int p=this.picture.getX();
-        if(p>-1)
-        {
-        Animacion.Animacion.mover_izquierda(900,200, 1,2,picture);
-        }
-        position=position-1;
-        if(position<0){
-        position=0;
-        }
-        show(position);
-        
-    }//GEN-LAST:event_previousMousePressed
 
     /**
      * @param args the command line arguments
@@ -444,22 +269,22 @@ public void show(int index)
     }
 
     // Variables declaration - do not modify//GEN-BEGIN:variables
-    private swing.ImageAvatar imageAvatar4;
-    private javax.swing.JLabel jLabel1;
+    private swing.ImageAvatar imageAvatar1;
+    private swing.ImageAvatar imageAvatar2;
     private javax.swing.JLabel jLabel10;
-    private javax.swing.JLabel jLabel2;
+    private javax.swing.JLabel jLabel15;
     private javax.swing.JLabel jLabel3;
     private javax.swing.JLabel jLabel4;
     private javax.swing.JLabel jLabel5;
+    private javax.swing.JLabel jLabel6;
+    private javax.swing.JLabel jLabel7;
     private javax.swing.JLabel jLabel8;
     private javax.swing.JLabel jLabel9;
+    private javax.swing.JPanel jPanel1;
     private javax.swing.JPanel jPanel2;
     private javax.swing.JPanel jPanel3;
     private javax.swing.JPanel jPanel4;
     private javax.swing.JPanel jPanel5;
-    private javax.swing.JLabel next;
-    private javax.swing.JLabel picture;
-    private javax.swing.JLabel previous;
     private raven.tabbed.TabbedPaneCustom tabbedPaneCustom1;
     // End of variables declaration//GEN-END:variables
 }
