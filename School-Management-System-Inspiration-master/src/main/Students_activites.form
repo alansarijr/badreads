@@ -99,10 +99,10 @@
           <Font name="sansserif" size="12" style="1"/>
         </Property>
         <Property name="selectedColor" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
-          <Color blue="f2" green="9e" red="31" type="rgb"/>
+          <Color blue="9e" green="ec" red="ff" type="rgb"/>
         </Property>
         <Property name="unselectedColor" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
-          <Color blue="ff" green="d6" red="b9" type="rgb"/>
+          <Color blue="da" green="fb" red="ff" type="rgb"/>
         </Property>
       </Properties>
 

@@ -97,8 +97,8 @@ public class Students_activites extends javax.swing.JFrame {
         );
 
         tabbedPaneCustom1.setFont(new java.awt.Font("sansserif", 1, 12)); // NOI18N
-        tabbedPaneCustom1.setSelectedColor(new java.awt.Color(49, 158, 242));
-        tabbedPaneCustom1.setUnselectedColor(new java.awt.Color(185, 214, 255));
+        tabbedPaneCustom1.setSelectedColor(new java.awt.Color(255, 236, 158));
+        tabbedPaneCustom1.setUnselectedColor(new java.awt.Color(255, 251, 218));
 
         jPanel2.setBackground(new java.awt.Color(243, 243, 243));
 
