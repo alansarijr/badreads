@@ -129,6 +129,9 @@ public class Home extends javax.swing.JFrame {
             public void mouseExited(java.awt.event.MouseEvent evt) {
                 jPanel11MouseExited(evt);
             }
+            public void mousePressed(java.awt.event.MouseEvent evt) {
+                jPanel11MousePressed(evt);
+            }
         });
 
         jLabel21.setFont(new java.awt.Font("Tahoma", 1, 18)); // NOI18N
@@ -253,6 +256,9 @@ public class Home extends javax.swing.JFrame {
             public void mouseExited(java.awt.event.MouseEvent evt) {
                 jPanel14MouseExited(evt);
             }
+            public void mousePressed(java.awt.event.MouseEvent evt) {
+                jPanel14MousePressed(evt);
+            }
         });
 
         jLabel27.setFont(new java.awt.Font("Tahoma", 1, 18)); // NOI18N
@@ -315,7 +321,7 @@ public class Home extends javax.swing.JFrame {
                     .addGroup(jPanel15Layout.createSequentialGroup()
                         .addGap(36, 36, 36)
                         .addComponent(jLabel30, javax.swing.GroupLayout.PREFERRED_SIZE, 79, javax.swing.GroupLayout.PREFERRED_SIZE)))
-                .addContainerGap(javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
+                .addContainerGap(17, Short.MAX_VALUE))
         );
         jPanel15Layout.setVerticalGroup(
             jPanel15Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
@@ -336,6 +342,9 @@ public class Home extends javax.swing.JFrame {
             }
             public void mouseExited(java.awt.event.MouseEvent evt) {
                 jPanel16MouseExited(evt);
+            }
+            public void mousePressed(java.awt.event.MouseEvent evt) {
+                jPanel16MousePressed(evt);
             }
         });
 
@@ -383,10 +392,7 @@ public class Home extends javax.swing.JFrame {
 
         pack();
     }// </editor-fold>//GEN-END:initComponents
-     
-    
-    
-    
+        
     int xx,xy;
     private void exit1MousePressed(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_exit1MousePressed
         // TODO add your handling code here:
@@ -444,7 +450,7 @@ public class Home extends javax.swing.JFrame {
     private void jPanel13MousePressed(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_jPanel13MousePressed
         // TODO add your handling code here:
         //just a sample.
-        new Students().show();
+        new Summaries().show();
     }//GEN-LAST:event_jPanel13MousePressed
 
     private void jPanel14MouseEntered(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_jPanel14MouseEntered
@@ -482,6 +488,21 @@ public class Home extends javax.swing.JFrame {
         // TODO add your handling code here:
         new Students_activites().show();
     }//GEN-LAST:event_jPanel15MousePressed
+
+    private void jPanel14MousePressed(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_jPanel14MousePressed
+        // TODO add your handling code here:
+        new video().show();
+    }//GEN-LAST:event_jPanel14MousePressed
+
+    private void jPanel16MousePressed(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_jPanel16MousePressed
+        // TODO add your handling code here:
+        new Exams().show();
+    }//GEN-LAST:event_jPanel16MousePressed
+
+    private void jPanel11MousePressed(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_jPanel11MousePressed
+        // TODO add your handling code here:
+        new slides().show();
+    }//GEN-LAST:event_jPanel11MousePressed
  public void setColor(JPanel panel)
  {
      panel.setBackground(new java.awt.Color(197, 197, 197));
