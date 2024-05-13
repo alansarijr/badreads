@@ -551,7 +551,7 @@ public class Home_Data extends javax.swing.JFrame {
         percentageTF1.setShadowColor(new java.awt.Color(237, 148, 85));
 
         jLabel2.setFont(new java.awt.Font("Wide Latin", 3, 14)); // NOI18N
-        jLabel2.setText("Average");
+        jLabel2.setText("percentage");
 
         jLabel6.setFont(new java.awt.Font("Wide Latin", 3, 14)); // NOI18N
         jLabel6.setText("GPA");
@@ -599,7 +599,7 @@ public class Home_Data extends javax.swing.JFrame {
                                 .addComponent(jLabel11, javax.swing.GroupLayout.PREFERRED_SIZE, 80, javax.swing.GroupLayout.PREFERRED_SIZE)
                                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)))
                         .addGroup(jPanel7Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING, false)
-                            .addComponent(jLabel2, javax.swing.GroupLayout.DEFAULT_SIZE, 111, Short.MAX_VALUE)
+                            .addComponent(jLabel2, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
                             .addComponent(percentageTF1, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
                         .addGroup(jPanel7Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
                             .addGroup(jPanel7Layout.createSequentialGroup()
