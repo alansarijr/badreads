@@ -713,7 +713,7 @@ public class Home_Data extends javax.swing.JFrame {
                 .addComponent(jPanel7, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
         );
 
-        tabbedPaneCustom1.addTab("Junior   ", junior);
+        tabbedPaneCustom1.addTab("Junior", junior);
 
         senior1.setBackground(new java.awt.Color(243, 243, 243));
 

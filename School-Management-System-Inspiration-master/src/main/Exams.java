@@ -61,7 +61,7 @@ public class Exams extends javax.swing.JFrame {
             .addGroup(jPanel1Layout.createSequentialGroup()
                 .addGap(69, 69, 69)
                 .addComponent(jLabel15)
-                .addContainerGap(742, Short.MAX_VALUE))
+                .addContainerGap(748, Short.MAX_VALUE))
         );
         jPanel1Layout.setVerticalGroup(
             jPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
@@ -111,25 +111,25 @@ public class Exams extends javax.swing.JFrame {
                         .addComponent(imageAvatar3, javax.swing.GroupLayout.PREFERRED_SIZE, 251, javax.swing.GroupLayout.PREFERRED_SIZE)
                         .addGap(18, 18, 18)
                         .addComponent(imageAvatar4, javax.swing.GroupLayout.PREFERRED_SIZE, 251, javax.swing.GroupLayout.PREFERRED_SIZE)))
-                .addContainerGap(18, Short.MAX_VALUE))
+                .addContainerGap(46, Short.MAX_VALUE))
         );
         jPanel4Layout.setVerticalGroup(
             jPanel4Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
             .addGroup(jPanel4Layout.createSequentialGroup()
-                .addGap(49, 49, 49)
+                .addGap(52, 52, 52)
                 .addGroup(jPanel4Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
                     .addComponent(jLabel8, javax.swing.GroupLayout.PREFERRED_SIZE, 30, javax.swing.GroupLayout.PREFERRED_SIZE)
                     .addComponent(jLabel9, javax.swing.GroupLayout.PREFERRED_SIZE, 48, javax.swing.GroupLayout.PREFERRED_SIZE))
                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
                 .addComponent(jLabel10)
-                .addGap(62, 62, 62)
+                .addGap(45, 45, 45)
                 .addGroup(jPanel4Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.TRAILING)
                     .addComponent(imageAvatar4, javax.swing.GroupLayout.PREFERRED_SIZE, 221, javax.swing.GroupLayout.PREFERRED_SIZE)
                     .addComponent(imageAvatar3, javax.swing.GroupLayout.PREFERRED_SIZE, 221, javax.swing.GroupLayout.PREFERRED_SIZE))
-                .addContainerGap(98, Short.MAX_VALUE))
+                .addContainerGap(110, Short.MAX_VALUE))
         );
 
-        tabbedPaneCustom2.addTab("Pixels", jPanel4);
+        tabbedPaneCustom2.addTab("Sophomore", jPanel4);
 
         jPanel5.setBackground(new java.awt.Color(243, 243, 243));
 
@@ -161,10 +161,10 @@ public class Exams extends javax.swing.JFrame {
                     .addComponent(jLabel12, javax.swing.GroupLayout.PREFERRED_SIZE, 48, javax.swing.GroupLayout.PREFERRED_SIZE))
                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
                 .addComponent(jLabel13)
-                .addContainerGap(403, Short.MAX_VALUE))
+                .addContainerGap(401, Short.MAX_VALUE))
         );
 
-        tabbedPaneCustom2.addTab("IEEE", jPanel5);
+        tabbedPaneCustom2.addTab("Junior   ", jPanel5);
 
         jPanel6.setBackground(new java.awt.Color(243, 243, 243));
 
@@ -181,10 +181,10 @@ public class Exams extends javax.swing.JFrame {
         );
         jPanel6Layout.setVerticalGroup(
             jPanel6Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addComponent(jLabel3, javax.swing.GroupLayout.DEFAULT_SIZE, 501, Short.MAX_VALUE)
+            .addComponent(jLabel3, javax.swing.GroupLayout.DEFAULT_SIZE, 499, Short.MAX_VALUE)
         );
 
-        tabbedPaneCustom2.addTab("Bisho", jPanel6);
+        tabbedPaneCustom2.addTab("Senior 1  ", jPanel6);
 
         jPanel7.setBackground(new java.awt.Color(243, 243, 243));
 
@@ -201,10 +201,10 @@ public class Exams extends javax.swing.JFrame {
         );
         jPanel7Layout.setVerticalGroup(
             jPanel7Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addComponent(jLabel4, javax.swing.GroupLayout.DEFAULT_SIZE, 501, Short.MAX_VALUE)
+            .addComponent(jLabel4, javax.swing.GroupLayout.DEFAULT_SIZE, 499, Short.MAX_VALUE)
         );
 
-        tabbedPaneCustom2.addTab("ICPC", jPanel7);
+        tabbedPaneCustom2.addTab("Senior 2  ", jPanel7);
 
         javax.swing.GroupLayout layout = new javax.swing.GroupLayout(getContentPane());
         getContentPane().setLayout(layout);
@@ -217,7 +217,7 @@ public class Exams extends javax.swing.JFrame {
             .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
                 .addGroup(layout.createSequentialGroup()
                     .addContainerGap()
-                    .addComponent(tabbedPaneCustom2, javax.swing.GroupLayout.PREFERRED_SIZE, 962, javax.swing.GroupLayout.PREFERRED_SIZE)
+                    .addComponent(tabbedPaneCustom2, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
                     .addContainerGap(javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)))
         );
         layout.setVerticalGroup(
@@ -228,8 +228,8 @@ public class Exams extends javax.swing.JFrame {
                 .addContainerGap(549, Short.MAX_VALUE))
             .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
                 .addGroup(layout.createSequentialGroup()
-                    .addGap(154, 154, 154)
-                    .addComponent(tabbedPaneCustom2, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
+                    .addContainerGap(154, Short.MAX_VALUE)
+                    .addComponent(tabbedPaneCustom2, javax.swing.GroupLayout.PREFERRED_SIZE, 537, javax.swing.GroupLayout.PREFERRED_SIZE)
                     .addContainerGap()))
         );
 
@@ -272,8 +272,6 @@ public class Exams extends javax.swing.JFrame {
     }
 
     // Variables declaration - do not modify//GEN-BEGIN:variables
-    private swing.ImageAvatar imageAvatar1;
-    private swing.ImageAvatar imageAvatar2;
     private swing.ImageAvatar imageAvatar3;
     private swing.ImageAvatar imageAvatar4;
     private javax.swing.JLabel jLabel10;
@@ -283,18 +281,13 @@ public class Exams extends javax.swing.JFrame {
     private javax.swing.JLabel jLabel15;
     private javax.swing.JLabel jLabel3;
     private javax.swing.JLabel jLabel4;
-    private javax.swing.JLabel jLabel5;
-    private javax.swing.JLabel jLabel6;
-    private javax.swing.JLabel jLabel7;
     private javax.swing.JLabel jLabel8;
     private javax.swing.JLabel jLabel9;
     private javax.swing.JPanel jPanel1;
-    private javax.swing.JPanel jPanel2;
     private javax.swing.JPanel jPanel4;
     private javax.swing.JPanel jPanel5;
     private javax.swing.JPanel jPanel6;
     private javax.swing.JPanel jPanel7;
-    private raven.tabbed.TabbedPaneCustom tabbedPaneCustom1;
     private raven.tabbed.TabbedPaneCustom tabbedPaneCustom2;
     // End of variables declaration//GEN-END:variables
 }
