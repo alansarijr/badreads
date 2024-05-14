@@ -129,7 +129,7 @@ public class video extends javax.swing.JFrame {
                 .addContainerGap(120, Short.MAX_VALUE))
         );
 
-        tabbedPaneCustom1.addTab("Pixels", jPanel2);
+        tabbedPaneCustom1.addTab("Sophomore", jPanel2);
 
         jPanel3.setBackground(new java.awt.Color(243, 243, 243));
 
@@ -164,7 +164,7 @@ public class video extends javax.swing.JFrame {
                 .addContainerGap(425, Short.MAX_VALUE))
         );
 
-        tabbedPaneCustom1.addTab("IEEE", jPanel3);
+        tabbedPaneCustom1.addTab("Junior   ", jPanel3);
 
         jPanel4.setBackground(new java.awt.Color(243, 243, 243));
 
@@ -184,7 +184,7 @@ public class video extends javax.swing.JFrame {
             .addComponent(jLabel3, javax.swing.GroupLayout.DEFAULT_SIZE, 523, Short.MAX_VALUE)
         );
 
-        tabbedPaneCustom1.addTab("Bisho", jPanel4);
+        tabbedPaneCustom1.addTab("Senior 1  ", jPanel4);
 
         jPanel5.setBackground(new java.awt.Color(243, 243, 243));
 
@@ -204,7 +204,7 @@ public class video extends javax.swing.JFrame {
             .addComponent(jLabel4, javax.swing.GroupLayout.DEFAULT_SIZE, 523, Short.MAX_VALUE)
         );
 
-        tabbedPaneCustom1.addTab("ICPC", jPanel5);
+        tabbedPaneCustom1.addTab("Senior 2  ", jPanel5);
 
         javax.swing.GroupLayout layout = new javax.swing.GroupLayout(getContentPane());
         getContentPane().setLayout(layout);
