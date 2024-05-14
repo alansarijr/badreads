@@ -106,8 +106,8 @@
           </Properties>
           <Constraints>
             <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.support.JTabbedPaneSupportLayout" value="org.netbeans.modules.form.compat2.layouts.support.JTabbedPaneSupportLayout$JTabbedPaneConstraintsDescription">
-              <JTabbedPaneConstraints tabName="Pixels">
-                <Property name="tabTitle" type="java.lang.String" value="Pixels"/>
+              <JTabbedPaneConstraints tabName="Sophomore">
+                <Property name="tabTitle" type="java.lang.String" value="Sophomore"/>
               </JTabbedPaneConstraints>
             </Constraint>
           </Constraints>
@@ -223,8 +223,8 @@
           </Properties>
           <Constraints>
             <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.support.JTabbedPaneSupportLayout" value="org.netbeans.modules.form.compat2.layouts.support.JTabbedPaneSupportLayout$JTabbedPaneConstraintsDescription">
-              <JTabbedPaneConstraints tabName="IEEE">
-                <Property name="tabTitle" type="java.lang.String" value="IEEE"/>
+              <JTabbedPaneConstraints tabName="Junior   ">
+                <Property name="tabTitle" type="java.lang.String" value="Junior   "/>
               </JTabbedPaneConstraints>
             </Constraint>
           </Constraints>
@@ -285,8 +285,8 @@
           </Properties>
           <Constraints>
             <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.support.JTabbedPaneSupportLayout" value="org.netbeans.modules.form.compat2.layouts.support.JTabbedPaneSupportLayout$JTabbedPaneConstraintsDescription">
-              <JTabbedPaneConstraints tabName="Bisho">
-                <Property name="tabTitle" type="java.lang.String" value="Bisho"/>
+              <JTabbedPaneConstraints tabName="Senior 1  ">
+                <Property name="tabTitle" type="java.lang.String" value="Senior 1  "/>
               </JTabbedPaneConstraints>
             </Constraint>
           </Constraints>
@@ -326,8 +326,8 @@
           </Properties>
           <Constraints>
             <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.support.JTabbedPaneSupportLayout" value="org.netbeans.modules.form.compat2.layouts.support.JTabbedPaneSupportLayout$JTabbedPaneConstraintsDescription">
-              <JTabbedPaneConstraints tabName="ICPC">
-                <Property name="tabTitle" type="java.lang.String" value="ICPC"/>
+              <JTabbedPaneConstraints tabName="Senior 2  ">
+                <Property name="tabTitle" type="java.lang.String" value="Senior 2  "/>
               </JTabbedPaneConstraints>
             </Constraint>
           </Constraints>
