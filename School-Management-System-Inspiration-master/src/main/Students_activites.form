@@ -147,10 +147,7 @@
                               </Group>
                               <EmptySpace max="32767" attributes="0"/>
                           </Group>
-                          <Group type="102" alignment="1" attributes="0">
-                              <EmptySpace max="32767" attributes="0"/>
-                              <Component id="picture" min="-2" pref="639" max="-2" attributes="0"/>
-                          </Group>
+                          <Component id="picture" alignment="1" min="-2" pref="639" max="-2" attributes="0"/>
                       </Group>
                   </Group>
               </Group>
@@ -456,7 +453,7 @@
                       <Component id="previous5" min="-2" max="-2" attributes="0"/>
                       <EmptySpace min="-2" pref="102" max="-2" attributes="0"/>
                       <Component id="picture5" min="-2" max="-2" attributes="0"/>
-                      <EmptySpace pref="1030" max="32767" attributes="0"/>
+                      <EmptySpace pref="1104" max="32767" attributes="0"/>
                       <Component id="next5" min="-2" max="-2" attributes="0"/>
                       <EmptySpace max="-2" attributes="0"/>
                   </Group>
@@ -534,7 +531,7 @@
                   <Color blue="ff" green="33" red="33" type="rgb"/>
                 </Property>
                 <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
-                  <Image iconType="3" name="/pixels/pixels14.jpg"/>
+                  <Image iconType="3" name="/ICPC/ICPC2.jpg"/>
                 </Property>
               </Properties>
             </Component>

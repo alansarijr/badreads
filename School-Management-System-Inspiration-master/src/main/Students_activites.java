@@ -204,9 +204,7 @@ public class Students_activites extends javax.swing.JFrame {
                                 .addGap(154, 154, 154)
                                 .addComponent(next)))
                         .addContainerGap())
-                    .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, jPanel2Layout.createSequentialGroup()
-                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
-                        .addComponent(picture, javax.swing.GroupLayout.PREFERRED_SIZE, 639, javax.swing.GroupLayout.PREFERRED_SIZE))))
+                    .addComponent(picture, javax.swing.GroupLayout.Alignment.TRAILING, javax.swing.GroupLayout.PREFERRED_SIZE, 639, javax.swing.GroupLayout.PREFERRED_SIZE)))
         );
 
         tabbedPaneCustom1.addTab("Pixels", jPanel2);
@@ -311,7 +309,7 @@ public class Students_activites extends javax.swing.JFrame {
         jPanel10.setBackground(new java.awt.Color(255, 251, 218));
 
         picture5.setBackground(new java.awt.Color(51, 51, 255));
-        picture5.setIcon(new javax.swing.ImageIcon(getClass().getResource("/pixels/pixels14.jpg"))); // NOI18N
+        picture5.setIcon(new javax.swing.ImageIcon(getClass().getResource("/ICPC/ICPC2.jpg"))); // NOI18N
 
         next5.setBackground(new java.awt.Color(255, 251, 218));
         next5.setIcon(new javax.swing.ImageIcon(getClass().getResource("/icon/right arrow.png"))); // NOI18N
@@ -356,7 +354,7 @@ public class Students_activites extends javax.swing.JFrame {
                 .addComponent(previous5)
                 .addGap(102, 102, 102)
                 .addComponent(picture5)
-                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, 1030, Short.MAX_VALUE)
+                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, 1104, Short.MAX_VALUE)
                 .addComponent(next5)
                 .addContainerGap())
             .addGroup(jPanel10Layout.createSequentialGroup()
