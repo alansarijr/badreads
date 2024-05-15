@@ -716,7 +716,9 @@ public class Students_activites extends javax.swing.JFrame {
             Logger.getLogger(Students_activites.class.getName()).log(Level.SEVERE, null, ex);
         }
     }//GEN-LAST:event_jLabel28MousePressed
-                                          
+         
+    
+    
     /**
      * @param args the command line arguments
      */
