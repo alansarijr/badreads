@@ -1,7 +1,4 @@
-/*
- * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
- * Click nbfs://nbhost/SystemFileSystem/Templates/GUIForms/JFrame.java to edit this template
- */
+
 package main;
 
 /**
@@ -53,6 +50,7 @@ public class slides extends javax.swing.JFrame {
         comboBoxSuggestion9 = new combo_suggestion.ComboBoxSuggestion();
 
         setDefaultCloseOperation(javax.swing.WindowConstants.EXIT_ON_CLOSE);
+        setLocation(new java.awt.Point(220, 80));
 
         jPanel1.setBackground(new java.awt.Color(237, 148, 85));
 
