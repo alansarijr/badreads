@@ -24,6 +24,7 @@
     <DimensionLayout dim="0">
       <Group type="103" groupAlignment="0" attributes="0">
 <<<<<<< HEAD
+<<<<<<< HEAD
 <<<<<<< Updated upstream
           <Component id="jPanel1" max="32767" attributes="0"/>
           <Component id="tabbedPaneCustom2" max="32767" attributes="0"/>
@@ -34,6 +35,8 @@
           </Group>
 >>>>>>> Stashed changes
 =======
+=======
+>>>>>>> parent of 02cd62d (changes)
           <Group type="102" attributes="0">
               <EmptySpace max="-2" attributes="0"/>
               <Group type="103" groupAlignment="0" attributes="0">
@@ -41,6 +44,9 @@
                   <Component id="tabbedPaneCustom2" max="32767" attributes="0"/>
               </Group>
           </Group>
+<<<<<<< HEAD
+>>>>>>> parent of 02cd62d (changes)
+=======
 >>>>>>> parent of 02cd62d (changes)
       </Group>
     </DimensionLayout>
@@ -192,6 +198,7 @@
                           <Component id="switchButton10" alignment="0" min="-2" max="-2" attributes="0"/>
                       </Group>
 <<<<<<< HEAD
+<<<<<<< HEAD
 <<<<<<< Updated upstream
                       <EmptySpace pref="561" max="32767" attributes="0"/>
 =======
@@ -200,6 +207,9 @@
                   <Group type="103" rootIndex="1" groupAlignment="0" attributes="0">
                       <Component id="jPanel8" alignment="0" max="32767" attributes="0"/>
 >>>>>>> Stashed changes
+=======
+                      <EmptySpace pref="478" max="32767" attributes="0"/>
+>>>>>>> parent of 02cd62d (changes)
 =======
                       <EmptySpace pref="478" max="32767" attributes="0"/>
 >>>>>>> parent of 02cd62d (changes)

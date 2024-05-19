@@ -30,6 +30,7 @@
           <Component id="jPanel1" max="32767" attributes="0"/>
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
           <Component id="tabbedPaneCustom1" alignment="0" pref="974" max="32767" attributes="0"/>
 =======
           <Component id="tabbedPaneCustom1" alignment="0" pref="984" max="32767" attributes="0"/>
@@ -40,6 +41,9 @@
 =======
 >>>>>>> 5569bc3653c6de357619db190c7442aec219c1c8
 >>>>>>> Stashed changes
+=======
+          <Component id="tabbedPaneCustom1" alignment="0" pref="0" max="32767" attributes="0"/>
+>>>>>>> parent of 02cd62d (changes)
 =======
           <Component id="tabbedPaneCustom1" alignment="0" pref="0" max="32767" attributes="0"/>
 >>>>>>> parent of 02cd62d (changes)
@@ -98,7 +102,11 @@
                       <EmptySpace max="-2" attributes="0"/>
                       <Component id="comboBoxSuggestion2" min="-2" pref="230" max="-2" attributes="0"/>
 <<<<<<< HEAD
+<<<<<<< HEAD
                       <EmptySpace pref="373" max="32767" attributes="0"/>
+=======
+                      <EmptySpace pref="395" max="32767" attributes="0"/>
+>>>>>>> parent of 02cd62d (changes)
 =======
                       <EmptySpace pref="395" max="32767" attributes="0"/>
 >>>>>>> parent of 02cd62d (changes)
@@ -204,7 +212,11 @@
                       <EmptySpace max="-2" attributes="0"/>
                       <Component id="comboBoxSuggestion3" min="-2" pref="230" max="-2" attributes="0"/>
 <<<<<<< HEAD
+<<<<<<< HEAD
                       <EmptySpace pref="354" max="32767" attributes="0"/>
+=======
+                      <EmptySpace pref="376" max="32767" attributes="0"/>
+>>>>>>> parent of 02cd62d (changes)
 =======
                       <EmptySpace pref="376" max="32767" attributes="0"/>
 >>>>>>> parent of 02cd62d (changes)
@@ -319,7 +331,11 @@
                       <EmptySpace max="-2" attributes="0"/>
                       <Component id="comboBoxSuggestion5" min="-2" pref="230" max="-2" attributes="0"/>
 <<<<<<< HEAD
+<<<<<<< HEAD
                       <EmptySpace pref="389" max="32767" attributes="0"/>
+=======
+                      <EmptySpace pref="411" max="32767" attributes="0"/>
+>>>>>>> parent of 02cd62d (changes)
 =======
                       <EmptySpace pref="411" max="32767" attributes="0"/>
 >>>>>>> parent of 02cd62d (changes)
@@ -432,7 +448,11 @@
                       <EmptySpace min="-2" pref="2" max="-2" attributes="0"/>
                       <Component id="comboBoxSuggestion7" min="-2" pref="230" max="-2" attributes="0"/>
 <<<<<<< HEAD
+<<<<<<< HEAD
                       <EmptySpace pref="392" max="32767" attributes="0"/>
+=======
+                      <EmptySpace pref="414" max="32767" attributes="0"/>
+>>>>>>> parent of 02cd62d (changes)
 =======
                       <EmptySpace pref="414" max="32767" attributes="0"/>
 >>>>>>> parent of 02cd62d (changes)
@@ -516,6 +536,7 @@
           </SubComponents>
         </Container>
 <<<<<<< HEAD
+<<<<<<< HEAD
         <Container class="javax.swing.JPanel" name="jPanel2">
           <Properties>
             <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
@@ -527,16 +548,22 @@
               <JTabbedPaneConstraints tabName="Sophomore">
                 <Property name="tabTitle" type="java.lang.String" value="Sophomore"/>
 =======
+=======
+>>>>>>> parent of 02cd62d (changes)
         <Container class="javax.swing.JPanel" name="pnlParent">
           <Constraints>
             <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.support.JTabbedPaneSupportLayout" value="org.netbeans.modules.form.compat2.layouts.support.JTabbedPaneSupportLayout$JTabbedPaneConstraintsDescription">
               <JTabbedPaneConstraints tabName="tab6">
                 <Property name="tabTitle" type="java.lang.String" value="tab6"/>
+<<<<<<< HEAD
+>>>>>>> parent of 02cd62d (changes)
+=======
 >>>>>>> parent of 02cd62d (changes)
               </JTabbedPaneConstraints>
             </Constraint>
           </Constraints>
 
+<<<<<<< HEAD
 <<<<<<< HEAD
           <Layout>
             <DimensionLayout dim="0">
@@ -567,6 +594,8 @@
               </Properties>
             </Component>
 =======
+=======
+>>>>>>> parent of 02cd62d (changes)
           <Layout class="org.netbeans.modules.form.compat2.layouts.DesignBorderLayout"/>
           <SubComponents>
             <Container class="javax.swing.JPanel" name="pnlRight">
@@ -646,6 +675,9 @@
                 </Container>
               </SubComponents>
             </Container>
+<<<<<<< HEAD
+>>>>>>> parent of 02cd62d (changes)
+=======
 >>>>>>> parent of 02cd62d (changes)
           </SubComponents>
         </Container>

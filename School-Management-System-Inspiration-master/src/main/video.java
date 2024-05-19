@@ -433,6 +433,7 @@ public class video extends javax.swing.JFrame {
                 .addComponent(jPanel1, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
 <<<<<<< HEAD
+<<<<<<< HEAD
                 .addComponent(tabbedPaneCustom1, javax.swing.GroupLayout.DEFAULT_SIZE, 904, Short.MAX_VALUE))
 =======
             .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, layout.createSequentialGroup()
@@ -443,6 +444,9 @@ public class video extends javax.swing.JFrame {
             layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
             .addComponent(tabbedPaneCustom1, javax.swing.GroupLayout.Alignment.TRAILING, javax.swing.GroupLayout.DEFAULT_SIZE, 705, Short.MAX_VALUE)
 >>>>>>> Stashed changes
+=======
+                .addComponent(tabbedPaneCustom1, javax.swing.GroupLayout.DEFAULT_SIZE, 485, Short.MAX_VALUE))
+>>>>>>> parent of 02cd62d (changes)
 =======
                 .addComponent(tabbedPaneCustom1, javax.swing.GroupLayout.DEFAULT_SIZE, 485, Short.MAX_VALUE))
 >>>>>>> parent of 02cd62d (changes)

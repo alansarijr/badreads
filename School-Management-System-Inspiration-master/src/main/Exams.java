@@ -172,6 +172,7 @@ public class Exams extends javax.swing.JFrame {
                         .addComponent(comboBoxSuggestion1, javax.swing.GroupLayout.PREFERRED_SIZE, 31, javax.swing.GroupLayout.PREFERRED_SIZE))
                     .addComponent(switchButton10, javax.swing.GroupLayout.Alignment.LEADING, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE))
 <<<<<<< HEAD
+<<<<<<< HEAD
                 .addContainerGap(561, Short.MAX_VALUE))
 =======
                 .addGap(107, 107, 107)
@@ -184,6 +185,9 @@ public class Exams extends javax.swing.JFrame {
             .addGroup(jPanel4Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
                 .addComponent(jPanel8, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
 >>>>>>> Stashed changes
+=======
+                .addContainerGap(478, Short.MAX_VALUE))
+>>>>>>> parent of 02cd62d (changes)
 =======
                 .addContainerGap(478, Short.MAX_VALUE))
 >>>>>>> parent of 02cd62d (changes)
@@ -308,6 +312,7 @@ public class Exams extends javax.swing.JFrame {
                         .addComponent(comboBoxSuggestion6, javax.swing.GroupLayout.PREFERRED_SIZE, 31, javax.swing.GroupLayout.PREFERRED_SIZE))
                     .addComponent(switchButton14, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE))
 <<<<<<< HEAD
+<<<<<<< HEAD
                 .addContainerGap(553, Short.MAX_VALUE))
 =======
             .addComponent(jLabel3, javax.swing.GroupLayout.Alignment.TRAILING, javax.swing.GroupLayout.DEFAULT_SIZE, 999, Short.MAX_VALUE)
@@ -316,6 +321,9 @@ public class Exams extends javax.swing.JFrame {
             jPanel6Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
             .addComponent(jLabel3, javax.swing.GroupLayout.DEFAULT_SIZE, 666, Short.MAX_VALUE)
 >>>>>>> Stashed changes
+=======
+                .addContainerGap(470, Short.MAX_VALUE))
+>>>>>>> parent of 02cd62d (changes)
 =======
                 .addContainerGap(470, Short.MAX_VALUE))
 >>>>>>> parent of 02cd62d (changes)
@@ -365,6 +373,7 @@ public class Exams extends javax.swing.JFrame {
                         .addComponent(comboBoxSuggestion8, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE))
                     .addComponent(switchButton16, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE))
 <<<<<<< HEAD
+<<<<<<< HEAD
                 .addContainerGap(560, Short.MAX_VALUE))
 =======
             .addComponent(jLabel4, javax.swing.GroupLayout.Alignment.TRAILING, javax.swing.GroupLayout.DEFAULT_SIZE, 999, Short.MAX_VALUE)
@@ -373,6 +382,9 @@ public class Exams extends javax.swing.JFrame {
             jPanel7Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
             .addComponent(jLabel4, javax.swing.GroupLayout.DEFAULT_SIZE, 666, Short.MAX_VALUE)
 >>>>>>> Stashed changes
+=======
+                .addContainerGap(477, Short.MAX_VALUE))
+>>>>>>> parent of 02cd62d (changes)
 =======
                 .addContainerGap(477, Short.MAX_VALUE))
 >>>>>>> parent of 02cd62d (changes)
@@ -385,21 +397,28 @@ public class Exams extends javax.swing.JFrame {
         layout.setHorizontalGroup(
             layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
 <<<<<<< HEAD
+<<<<<<< HEAD
 <<<<<<< Updated upstream
             .addComponent(jPanel1, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
             .addComponent(tabbedPaneCustom2, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
 =======
+=======
+>>>>>>> parent of 02cd62d (changes)
             .addGroup(layout.createSequentialGroup()
                 .addContainerGap()
                 .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
                     .addComponent(jPanel1, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
                     .addComponent(tabbedPaneCustom2, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)))
+<<<<<<< HEAD
+>>>>>>> parent of 02cd62d (changes)
+=======
 >>>>>>> parent of 02cd62d (changes)
         );
         layout.setVerticalGroup(
             layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
             .addGroup(layout.createSequentialGroup()
                 .addComponent(jPanel1, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
+<<<<<<< HEAD
 <<<<<<< HEAD
                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
                 .addComponent(tabbedPaneCustom2, javax.swing.GroupLayout.PREFERRED_SIZE, 664, javax.swing.GroupLayout.PREFERRED_SIZE))
@@ -412,6 +431,10 @@ public class Exams extends javax.swing.JFrame {
             layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
             .addComponent(tabbedPaneCustom2, javax.swing.GroupLayout.DEFAULT_SIZE, 704, Short.MAX_VALUE)
 >>>>>>> Stashed changes
+=======
+                .addGap(1, 1, 1)
+                .addComponent(tabbedPaneCustom2, javax.swing.GroupLayout.DEFAULT_SIZE, 583, Short.MAX_VALUE))
+>>>>>>> parent of 02cd62d (changes)
 =======
                 .addGap(1, 1, 1)
                 .addComponent(tabbedPaneCustom2, javax.swing.GroupLayout.DEFAULT_SIZE, 583, Short.MAX_VALUE))

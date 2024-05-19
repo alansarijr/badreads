@@ -109,7 +109,11 @@ public class Summaries extends javax.swing.JFrame {
                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
                 .addComponent(comboBoxSuggestion2, javax.swing.GroupLayout.PREFERRED_SIZE, 230, javax.swing.GroupLayout.PREFERRED_SIZE)
 <<<<<<< HEAD
+<<<<<<< HEAD
                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, 373, Short.MAX_VALUE)
+=======
+                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, 395, Short.MAX_VALUE)
+>>>>>>> parent of 02cd62d (changes)
 =======
                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, 395, Short.MAX_VALUE)
 >>>>>>> parent of 02cd62d (changes)
@@ -172,7 +176,11 @@ public class Summaries extends javax.swing.JFrame {
                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
                 .addComponent(comboBoxSuggestion3, javax.swing.GroupLayout.PREFERRED_SIZE, 230, javax.swing.GroupLayout.PREFERRED_SIZE)
 <<<<<<< HEAD
+<<<<<<< HEAD
                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, 354, Short.MAX_VALUE)
+=======
+                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, 376, Short.MAX_VALUE)
+>>>>>>> parent of 02cd62d (changes)
 =======
                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, 376, Short.MAX_VALUE)
 >>>>>>> parent of 02cd62d (changes)
@@ -245,7 +253,11 @@ public class Summaries extends javax.swing.JFrame {
                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
                 .addComponent(comboBoxSuggestion5, javax.swing.GroupLayout.PREFERRED_SIZE, 230, javax.swing.GroupLayout.PREFERRED_SIZE)
 <<<<<<< HEAD
+<<<<<<< HEAD
                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, 389, Short.MAX_VALUE)
+=======
+                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, 411, Short.MAX_VALUE)
+>>>>>>> parent of 02cd62d (changes)
 =======
                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, 411, Short.MAX_VALUE)
 >>>>>>> parent of 02cd62d (changes)
@@ -311,7 +323,11 @@ public class Summaries extends javax.swing.JFrame {
                 .addGap(2, 2, 2)
                 .addComponent(comboBoxSuggestion7, javax.swing.GroupLayout.PREFERRED_SIZE, 230, javax.swing.GroupLayout.PREFERRED_SIZE)
 <<<<<<< HEAD
+<<<<<<< HEAD
                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, 392, Short.MAX_VALUE)
+=======
+                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, 414, Short.MAX_VALUE)
+>>>>>>> parent of 02cd62d (changes)
 =======
                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, 414, Short.MAX_VALUE)
 >>>>>>> parent of 02cd62d (changes)
@@ -343,8 +359,11 @@ public class Summaries extends javax.swing.JFrame {
         tabbedPaneCustom1.addTab("Senior 2  ", jPanel5);
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 <<<<<<< Updated upstream
 =======
+=======
+>>>>>>> parent of 02cd62d (changes)
         pnlParent.setLayout(new java.awt.BorderLayout());
 
         pnlRight.setLayout(new java.awt.CardLayout());
@@ -390,6 +409,9 @@ public class Summaries extends javax.swing.JFrame {
 
         tabbedPaneCustom1.addTab("tab6", pnlParent);
 
+<<<<<<< HEAD
+>>>>>>> parent of 02cd62d (changes)
+=======
 >>>>>>> parent of 02cd62d (changes)
         jPanel1.setBackground(new java.awt.Color(237, 148, 85));
 
@@ -448,7 +470,11 @@ public class Summaries extends javax.swing.JFrame {
 <<<<<<< Updated upstream
             .addComponent(jPanel1, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
 <<<<<<< HEAD
+<<<<<<< HEAD
             .addComponent(tabbedPaneCustom1, javax.swing.GroupLayout.DEFAULT_SIZE, 974, Short.MAX_VALUE)
+=======
+            .addComponent(tabbedPaneCustom1, javax.swing.GroupLayout.PREFERRED_SIZE, 0, Short.MAX_VALUE)
+>>>>>>> parent of 02cd62d (changes)
 =======
             .addComponent(tabbedPaneCustom1, javax.swing.GroupLayout.PREFERRED_SIZE, 0, Short.MAX_VALUE)
 >>>>>>> parent of 02cd62d (changes)

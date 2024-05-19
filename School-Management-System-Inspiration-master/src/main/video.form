@@ -147,6 +147,7 @@
                           </Group>
                       </Group>
 <<<<<<< HEAD
+<<<<<<< HEAD
                       <EmptySpace pref="792" max="32767" attributes="0"/>
 =======
                       <EmptySpace min="-2" pref="49" max="-2" attributes="0"/>
@@ -163,6 +164,9 @@
                       </Group>
                       <EmptySpace pref="264" max="32767" attributes="0"/>
 >>>>>>> Stashed changes
+=======
+                      <EmptySpace pref="371" max="32767" attributes="0"/>
+>>>>>>> parent of 02cd62d (changes)
 =======
                       <EmptySpace pref="371" max="32767" attributes="0"/>
 >>>>>>> parent of 02cd62d (changes)
