@@ -10,8 +10,6 @@ package main;
  */
 public class Exams extends javax.swing.JFrame {
 
-    
-    
     /**
      * Creates new form Exams
      */
