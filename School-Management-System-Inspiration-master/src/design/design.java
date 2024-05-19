@@ -3,7 +3,7 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-package test;
+package design;
 
 import java.awt.Color;
 
@@ -11,12 +11,12 @@ import java.awt.Color;
  *
  * @author RAVEN
  */
-public class Main extends javax.swing.JFrame {
+public class design extends javax.swing.JFrame {
 
     /**
      * Creates new form Main
      */
-    public Main() {
+    public design() {
         initComponents();
         getContentPane().setBackground(Color.WHITE);
     }
@@ -38,12 +38,12 @@ public class Main extends javax.swing.JFrame {
         imageAvatar1.setBackground(new java.awt.Color(102, 51, 255));
         imageAvatar1.setGradientColor1(new java.awt.Color(71, 61, 255));
         imageAvatar1.setGradientColor2(new java.awt.Color(211, 236, 6));
-        imageAvatar1.setImage(new javax.swing.ImageIcon(getClass().getResource("/test/p1.jpg"))); // NOI18N
+        imageAvatar1.setImage(new javax.swing.ImageIcon(getClass().getResource("/design/p1.jpg"))); // NOI18N
 
         imageAvatar2.setBackground(new java.awt.Color(102, 51, 255));
         imageAvatar2.setGradientColor1(new java.awt.Color(255, 60, 230));
         imageAvatar2.setGradientColor2(new java.awt.Color(47, 211, 115));
-        imageAvatar2.setImage(new javax.swing.ImageIcon(getClass().getResource("/test/p2.jpg"))); // NOI18N
+        imageAvatar2.setImage(new javax.swing.ImageIcon(getClass().getResource("/design/p2.jpg"))); // NOI18N
 
         javax.swing.GroupLayout layout = new javax.swing.GroupLayout(getContentPane());
         getContentPane().setLayout(layout);
@@ -87,20 +87,21 @@ public class Main extends javax.swing.JFrame {
                 }
             }
         } catch (ClassNotFoundException ex) {
-            java.util.logging.Logger.getLogger(Main.class.getName()).log(java.util.logging.Level.SEVERE, null, ex);
+            java.util.logging.Logger.getLogger(design.class.getName()).log(java.util.logging.Level.SEVERE, null, ex);
         } catch (InstantiationException ex) {
-            java.util.logging.Logger.getLogger(Main.class.getName()).log(java.util.logging.Level.SEVERE, null, ex);
+            java.util.logging.Logger.getLogger(design.class.getName()).log(java.util.logging.Level.SEVERE, null, ex);
         } catch (IllegalAccessException ex) {
-            java.util.logging.Logger.getLogger(Main.class.getName()).log(java.util.logging.Level.SEVERE, null, ex);
+            java.util.logging.Logger.getLogger(design.class.getName()).log(java.util.logging.Level.SEVERE, null, ex);
         } catch (javax.swing.UnsupportedLookAndFeelException ex) {
-            java.util.logging.Logger.getLogger(Main.class.getName()).log(java.util.logging.Level.SEVERE, null, ex);
+            java.util.logging.Logger.getLogger(design.class.getName()).log(java.util.logging.Level.SEVERE, null, ex);
         }
+        //</editor-fold>
         //</editor-fold>
 
         /* Create and display the form */
         java.awt.EventQueue.invokeLater(new Runnable() {
             public void run() {
-                new Main().setVisible(true);
+                new design().setVisible(true);
             }
         });
     }

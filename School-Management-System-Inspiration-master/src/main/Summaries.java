@@ -362,7 +362,7 @@ public class Summaries extends javax.swing.JFrame {
         // TODO add your handling code here:
         if (switchButton2.isSelected()) {
             switchButton3.setSelected(false);
-            switchButton3.setEnabled(true);
+            switchButton3.setEnabled(false);
         } else {
 
             switchButton3.setEnabled(true);
@@ -373,7 +373,7 @@ public class Summaries extends javax.swing.JFrame {
         // TODO add your handling code here:
         if (switchButton3.isSelected()) {
             switchButton2.setSelected(false);
-            switchButton2.setEnabled(true);
+            switchButton2.setEnabled(false);
         } else {
             switchButton2.setEnabled(true);
         }
