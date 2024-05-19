@@ -72,9 +72,9 @@ public class Students_activites extends javax.swing.JFrame {
         jLabel16 = new javax.swing.JLabel();
         jLabel17 = new javax.swing.JLabel();
         jPanel9 = new javax.swing.JPanel();
-        picture4 = new javax.swing.JLabel();
-        next4 = new javax.swing.JLabel();
-        previous4 = new javax.swing.JLabel();
+        picture1 = new javax.swing.JLabel();
+        next1 = new javax.swing.JLabel();
+        previous1 = new javax.swing.JLabel();
         imageAvatar5 = new swing.ImageAvatar();
         jLabel8 = new javax.swing.JLabel();
         jLabel9 = new javax.swing.JLabel();
@@ -230,21 +230,21 @@ public class Students_activites extends javax.swing.JFrame {
 
         jPanel9.setBackground(new java.awt.Color(255, 251, 218));
 
-        picture4.setBackground(new java.awt.Color(51, 51, 255));
-        picture4.setIcon(new javax.swing.ImageIcon(getClass().getResource("/IEEE/IEEE1.png"))); // NOI18N
+        picture1.setBackground(new java.awt.Color(51, 51, 255));
+        picture1.setIcon(new javax.swing.ImageIcon(getClass().getResource("/IEEE/IEEE1.png"))); // NOI18N
 
-        next4.setBackground(new java.awt.Color(255, 251, 218));
-        next4.setIcon(new javax.swing.ImageIcon(getClass().getResource("/icon/right arrow.png"))); // NOI18N
-        next4.addMouseListener(new java.awt.event.MouseAdapter() {
+        next1.setBackground(new java.awt.Color(255, 251, 218));
+        next1.setIcon(new javax.swing.ImageIcon(getClass().getResource("/icon/right arrow.png"))); // NOI18N
+        next1.addMouseListener(new java.awt.event.MouseAdapter() {
             public void mousePressed(java.awt.event.MouseEvent evt) {
-                next4MousePressed(evt);
+                next1MousePressed(evt);
             }
         });
 
-        previous4.setIcon(new javax.swing.ImageIcon(getClass().getResource("/icon/leftarrow.png"))); // NOI18N
-        previous4.addMouseListener(new java.awt.event.MouseAdapter() {
+        previous1.setIcon(new javax.swing.ImageIcon(getClass().getResource("/icon/leftarrow.png"))); // NOI18N
+        previous1.addMouseListener(new java.awt.event.MouseAdapter() {
             public void mousePressed(java.awt.event.MouseEvent evt) {
-                previous4MousePressed(evt);
+                previous1MousePressed(evt);
             }
         });
 
@@ -281,11 +281,11 @@ public class Students_activites extends javax.swing.JFrame {
             jPanel9Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
             .addGroup(jPanel9Layout.createSequentialGroup()
                 .addContainerGap()
-                .addComponent(previous4)
+                .addComponent(previous1)
                 .addGap(132, 132, 132)
-                .addComponent(picture4, javax.swing.GroupLayout.PREFERRED_SIZE, 1063, javax.swing.GroupLayout.PREFERRED_SIZE)
+                .addComponent(picture1, javax.swing.GroupLayout.PREFERRED_SIZE, 1063, javax.swing.GroupLayout.PREFERRED_SIZE)
                 .addGap(135, 135, 135)
-                .addComponent(next4)
+                .addComponent(next1)
                 .addContainerGap(javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
             .addGroup(jPanel9Layout.createSequentialGroup()
                 .addComponent(imageAvatar5, javax.swing.GroupLayout.PREFERRED_SIZE, 258, javax.swing.GroupLayout.PREFERRED_SIZE)
@@ -326,13 +326,13 @@ public class Students_activites extends javax.swing.JFrame {
                 .addGroup(jPanel9Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
                     .addGroup(jPanel9Layout.createSequentialGroup()
                         .addGap(274, 274, 274)
-                        .addComponent(previous4))
+                        .addComponent(previous1))
                     .addGroup(jPanel9Layout.createSequentialGroup()
                         .addGap(285, 285, 285)
-                        .addComponent(next4))
+                        .addComponent(next1))
                     .addGroup(jPanel9Layout.createSequentialGroup()
                         .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                        .addComponent(picture4, javax.swing.GroupLayout.PREFERRED_SIZE, 647, javax.swing.GroupLayout.PREFERRED_SIZE)))
+                        .addComponent(picture1, javax.swing.GroupLayout.PREFERRED_SIZE, 647, javax.swing.GroupLayout.PREFERRED_SIZE)))
                 .addContainerGap(222, Short.MAX_VALUE))
         );
 
@@ -473,13 +473,13 @@ public class Students_activites extends javax.swing.JFrame {
         setLocationRelativeTo(null);
     }// </editor-fold>//GEN-END:initComponents
 
-    private void next4MousePressed(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_next4MousePressed
+    private void next1MousePressed(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_next1MousePressed
         // TODO add your handling code here:
-    }//GEN-LAST:event_next4MousePressed
+    }//GEN-LAST:event_next1MousePressed
 
-    private void previous4MousePressed(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_previous4MousePressed
+    private void previous1MousePressed(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_previous1MousePressed
         // TODO add your handling code here:
-    }//GEN-LAST:event_previous4MousePressed
+    }//GEN-LAST:event_previous1MousePressed
 
     private void next5MousePressed(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_next5MousePressed
         // TODO add your handling code here:
@@ -664,13 +664,13 @@ public class Students_activites extends javax.swing.JFrame {
     private javax.swing.JPanel jPanel2;
     private javax.swing.JPanel jPanel9;
     private javax.swing.JLabel next;
-    private javax.swing.JLabel next4;
+    private javax.swing.JLabel next1;
     private javax.swing.JLabel next5;
     private javax.swing.JLabel picture;
-    private javax.swing.JLabel picture4;
+    private javax.swing.JLabel picture1;
     private javax.swing.JLabel picture5;
     private javax.swing.JLabel previous;
-    private javax.swing.JLabel previous4;
+    private javax.swing.JLabel previous1;
     private javax.swing.JLabel previous5;
     private raven.tabbed.TabbedPaneCustom tabbedPaneCustom1;
     // End of variables declaration//GEN-END:variables
