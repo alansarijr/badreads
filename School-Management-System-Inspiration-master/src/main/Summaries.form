@@ -6,9 +6,6 @@
     <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
       <Color blue="ff" green="ff" red="ff" type="rgb"/>
     </Property>
-    <Property name="bounds" type="java.awt.Rectangle" editor="org.netbeans.beaninfo.editors.RectangleEditor">
-      <Rectangle value="[220, 80, 0, 0]"/>
-    </Property>
   </Properties>
   <SyntheticProperties>
     <SyntheticProperty name="formSizePolicy" type="int" value="1"/>
@@ -32,6 +29,7 @@
 <<<<<<< Updated upstream
           <Component id="jPanel1" max="32767" attributes="0"/>
 <<<<<<< HEAD
+<<<<<<< HEAD
           <Component id="tabbedPaneCustom1" alignment="0" pref="974" max="32767" attributes="0"/>
 =======
           <Component id="tabbedPaneCustom1" alignment="0" pref="984" max="32767" attributes="0"/>
@@ -42,6 +40,9 @@
 =======
 >>>>>>> 5569bc3653c6de357619db190c7442aec219c1c8
 >>>>>>> Stashed changes
+=======
+          <Component id="tabbedPaneCustom1" alignment="0" pref="0" max="32767" attributes="0"/>
+>>>>>>> parent of 02cd62d (changes)
       </Group>
     </DimensionLayout>
     <DimensionLayout dim="1">
@@ -96,7 +97,11 @@
                       <Component id="switchButton2" min="-2" max="-2" attributes="0"/>
                       <EmptySpace max="-2" attributes="0"/>
                       <Component id="comboBoxSuggestion2" min="-2" pref="230" max="-2" attributes="0"/>
+<<<<<<< HEAD
                       <EmptySpace pref="373" max="32767" attributes="0"/>
+=======
+                      <EmptySpace pref="395" max="32767" attributes="0"/>
+>>>>>>> parent of 02cd62d (changes)
                       <Component id="comboBoxSuggestion1" min="-2" pref="230" max="-2" attributes="0"/>
                       <EmptySpace min="-2" pref="26" max="-2" attributes="0"/>
                       <Component id="switchButton3" min="-2" max="-2" attributes="0"/>
@@ -117,7 +122,7 @@
                               </Group>
                           </Group>
                       </Group>
-                      <EmptySpace pref="868" max="32767" attributes="0"/>
+                      <EmptySpace pref="860" max="32767" attributes="0"/>
                   </Group>
               </Group>
             </DimensionLayout>
@@ -198,7 +203,11 @@
                       <Component id="switchButton4" min="-2" max="-2" attributes="0"/>
                       <EmptySpace max="-2" attributes="0"/>
                       <Component id="comboBoxSuggestion3" min="-2" pref="230" max="-2" attributes="0"/>
+<<<<<<< HEAD
                       <EmptySpace pref="354" max="32767" attributes="0"/>
+=======
+                      <EmptySpace pref="376" max="32767" attributes="0"/>
+>>>>>>> parent of 02cd62d (changes)
                       <Component id="comboBoxSuggestion4" min="-2" pref="230" max="-2" attributes="0"/>
                       <EmptySpace min="-2" pref="45" max="-2" attributes="0"/>
                       <Component id="switchButton5" min="-2" max="-2" attributes="0"/>
@@ -309,7 +318,11 @@
                       <Component id="switchButton6" min="-2" max="-2" attributes="0"/>
                       <EmptySpace max="-2" attributes="0"/>
                       <Component id="comboBoxSuggestion5" min="-2" pref="230" max="-2" attributes="0"/>
+<<<<<<< HEAD
                       <EmptySpace pref="389" max="32767" attributes="0"/>
+=======
+                      <EmptySpace pref="411" max="32767" attributes="0"/>
+>>>>>>> parent of 02cd62d (changes)
                       <Component id="comboBoxSuggestion6" min="-2" pref="230" max="-2" attributes="0"/>
                       <EmptySpace max="-2" attributes="0"/>
                       <Component id="switchButton7" min="-2" max="-2" attributes="0"/>
@@ -418,7 +431,11 @@
                       <Component id="switchButton8" min="-2" max="-2" attributes="0"/>
                       <EmptySpace min="-2" pref="2" max="-2" attributes="0"/>
                       <Component id="comboBoxSuggestion7" min="-2" pref="230" max="-2" attributes="0"/>
+<<<<<<< HEAD
                       <EmptySpace pref="392" max="32767" attributes="0"/>
+=======
+                      <EmptySpace pref="414" max="32767" attributes="0"/>
+>>>>>>> parent of 02cd62d (changes)
                       <Component id="comboBoxSuggestion8" min="-2" pref="209" max="-2" attributes="0"/>
                       <EmptySpace min="-2" pref="26" max="-2" attributes="0"/>
                       <Component id="switchButton9" min="-2" max="-2" attributes="0"/>
@@ -498,6 +515,7 @@
             </Component>
           </SubComponents>
         </Container>
+<<<<<<< HEAD
         <Container class="javax.swing.JPanel" name="jPanel2">
           <Properties>
             <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
@@ -508,10 +526,18 @@
             <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.support.JTabbedPaneSupportLayout" value="org.netbeans.modules.form.compat2.layouts.support.JTabbedPaneSupportLayout$JTabbedPaneConstraintsDescription">
               <JTabbedPaneConstraints tabName="Sophomore">
                 <Property name="tabTitle" type="java.lang.String" value="Sophomore"/>
+=======
+        <Container class="javax.swing.JPanel" name="pnlParent">
+          <Constraints>
+            <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.support.JTabbedPaneSupportLayout" value="org.netbeans.modules.form.compat2.layouts.support.JTabbedPaneSupportLayout$JTabbedPaneConstraintsDescription">
+              <JTabbedPaneConstraints tabName="tab6">
+                <Property name="tabTitle" type="java.lang.String" value="tab6"/>
+>>>>>>> parent of 02cd62d (changes)
               </JTabbedPaneConstraints>
             </Constraint>
           </Constraints>
 
+<<<<<<< HEAD
           <Layout>
             <DimensionLayout dim="0">
               <Group type="103" groupAlignment="0" attributes="0">
@@ -540,6 +566,87 @@
                 </Property>
               </Properties>
             </Component>
+=======
+          <Layout class="org.netbeans.modules.form.compat2.layouts.DesignBorderLayout"/>
+          <SubComponents>
+            <Container class="javax.swing.JPanel" name="pnlRight">
+              <Constraints>
+                <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.DesignBorderLayout" value="org.netbeans.modules.form.compat2.layouts.DesignBorderLayout$BorderConstraintsDescription">
+                  <BorderConstraints direction="Center"/>
+                </Constraint>
+              </Constraints>
+
+              <Layout class="org.netbeans.modules.form.compat2.layouts.DesignCardLayout"/>
+              <SubComponents>
+                <Container class="javax.swing.JPanel" name="pnlTypography">
+                  <Constraints>
+                    <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.DesignCardLayout" value="org.netbeans.modules.form.compat2.layouts.DesignCardLayout$CardConstraintsDescription">
+                      <CardConstraints cardName="card2"/>
+                    </Constraint>
+                  </Constraints>
+
+                  <Layout>
+                    <DimensionLayout dim="0">
+                      <Group type="103" groupAlignment="0" attributes="0">
+                          <Group type="102" alignment="1" attributes="0">
+                              <EmptySpace min="0" pref="0" max="32767" attributes="0"/>
+                              <Component id="pnlParent1" min="-2" pref="1024" max="-2" attributes="0"/>
+                          </Group>
+                      </Group>
+                    </DimensionLayout>
+                    <DimensionLayout dim="1">
+                      <Group type="103" groupAlignment="0" attributes="0">
+                          <Group type="102" alignment="0" attributes="0">
+                              <EmptySpace min="-2" pref="36" max="-2" attributes="0"/>
+                              <Component id="pnlParent1" min="-2" pref="600" max="-2" attributes="0"/>
+                              <EmptySpace max="32767" attributes="0"/>
+                          </Group>
+                      </Group>
+                    </DimensionLayout>
+                  </Layout>
+                  <SubComponents>
+                    <Container class="javax.swing.JPanel" name="pnlParent1">
+
+                      <Layout class="org.netbeans.modules.form.compat2.layouts.DesignBorderLayout"/>
+                      <SubComponents>
+                        <Container class="javax.swing.JPanel" name="pnlRight1">
+                          <Constraints>
+                            <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.DesignBorderLayout" value="org.netbeans.modules.form.compat2.layouts.DesignBorderLayout$BorderConstraintsDescription">
+                              <BorderConstraints direction="Center"/>
+                            </Constraint>
+                          </Constraints>
+
+                          <Layout class="org.netbeans.modules.form.compat2.layouts.DesignCardLayout"/>
+                          <SubComponents>
+                            <Container class="javax.swing.JPanel" name="pnlTypography1">
+                              <Constraints>
+                                <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.DesignCardLayout" value="org.netbeans.modules.form.compat2.layouts.DesignCardLayout$CardConstraintsDescription">
+                                  <CardConstraints cardName="card2"/>
+                                </Constraint>
+                              </Constraints>
+
+                              <Layout>
+                                <DimensionLayout dim="0">
+                                  <Group type="103" groupAlignment="0" attributes="0">
+                                      <EmptySpace min="0" pref="1024" max="32767" attributes="0"/>
+                                  </Group>
+                                </DimensionLayout>
+                                <DimensionLayout dim="1">
+                                  <Group type="103" groupAlignment="0" attributes="0">
+                                      <EmptySpace min="0" pref="600" max="32767" attributes="0"/>
+                                  </Group>
+                                </DimensionLayout>
+                              </Layout>
+                            </Container>
+                          </SubComponents>
+                        </Container>
+                      </SubComponents>
+                    </Container>
+                  </SubComponents>
+                </Container>
+              </SubComponents>
+            </Container>
+>>>>>>> parent of 02cd62d (changes)
           </SubComponents>
         </Container>
       </SubComponents>
@@ -557,7 +664,7 @@
               <Group type="102" alignment="0" attributes="0">
                   <EmptySpace min="-2" pref="69" max="-2" attributes="0"/>
                   <Component id="jLabel15" min="-2" max="-2" attributes="0"/>
-                  <EmptySpace max="32767" attributes="0"/>
+                  <EmptySpace pref="743" max="32767" attributes="0"/>
               </Group>
           </Group>
         </DimensionLayout>

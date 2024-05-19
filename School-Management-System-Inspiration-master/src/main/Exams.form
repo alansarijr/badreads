@@ -3,9 +3,6 @@
 <Form version="1.3" maxVersion="1.9" type="org.netbeans.modules.form.forminfo.JFrameFormInfo">
   <Properties>
     <Property name="defaultCloseOperation" type="int" value="3"/>
-    <Property name="location" type="java.awt.Point" editor="org.netbeans.beaninfo.editors.PointEditor">
-      <Point value="[220, 80]"/>
-    </Property>
   </Properties>
   <SyntheticProperties>
     <SyntheticProperty name="formSizePolicy" type="int" value="1"/>
@@ -26,6 +23,7 @@
   <Layout>
     <DimensionLayout dim="0">
       <Group type="103" groupAlignment="0" attributes="0">
+<<<<<<< HEAD
 <<<<<<< Updated upstream
           <Component id="jPanel1" max="32767" attributes="0"/>
           <Component id="tabbedPaneCustom2" max="32767" attributes="0"/>
@@ -35,6 +33,15 @@
               <Component id="tabbedPaneCustom2" max="32767" attributes="0"/>
           </Group>
 >>>>>>> Stashed changes
+=======
+          <Group type="102" attributes="0">
+              <EmptySpace max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="0" attributes="0">
+                  <Component id="jPanel1" max="32767" attributes="0"/>
+                  <Component id="tabbedPaneCustom2" max="32767" attributes="0"/>
+              </Group>
+          </Group>
+>>>>>>> parent of 02cd62d (changes)
       </Group>
     </DimensionLayout>
     <DimensionLayout dim="1">
@@ -42,8 +49,8 @@
 <<<<<<< Updated upstream
           <Group type="102" alignment="0" attributes="0">
               <Component id="jPanel1" min="-2" max="-2" attributes="0"/>
-              <EmptySpace max="32767" attributes="0"/>
-              <Component id="tabbedPaneCustom2" min="-2" pref="664" max="-2" attributes="0"/>
+              <EmptySpace min="-2" pref="1" max="-2" attributes="0"/>
+              <Component id="tabbedPaneCustom2" pref="583" max="32767" attributes="0"/>
           </Group>
 =======
           <Component id="tabbedPaneCustom2" alignment="0" pref="704" max="32767" attributes="0"/>
@@ -137,7 +144,7 @@
                       <Component id="switchButton10" min="-2" max="-2" attributes="0"/>
                       <EmptySpace max="-2" attributes="0"/>
                       <Component id="comboBoxSuggestion2" min="-2" pref="230" max="-2" attributes="0"/>
-                      <EmptySpace pref="395" max="32767" attributes="0"/>
+                      <EmptySpace pref="389" max="32767" attributes="0"/>
                       <Component id="comboBoxSuggestion1" min="-2" pref="230" max="-2" attributes="0"/>
                       <EmptySpace max="-2" attributes="0"/>
                       <Component id="switchButton11" min="-2" max="-2" attributes="0"/>
@@ -184,6 +191,7 @@
                           </Group>
                           <Component id="switchButton10" alignment="0" min="-2" max="-2" attributes="0"/>
                       </Group>
+<<<<<<< HEAD
 <<<<<<< Updated upstream
                       <EmptySpace pref="561" max="32767" attributes="0"/>
 =======
@@ -192,6 +200,9 @@
                   <Group type="103" rootIndex="1" groupAlignment="0" attributes="0">
                       <Component id="jPanel8" alignment="0" max="32767" attributes="0"/>
 >>>>>>> Stashed changes
+=======
+                      <EmptySpace pref="478" max="32767" attributes="0"/>
+>>>>>>> parent of 02cd62d (changes)
                   </Group>
               </Group>
             </DimensionLayout>
@@ -327,7 +338,7 @@
                       <Component id="switchButton12" min="-2" max="-2" attributes="0"/>
                       <EmptySpace max="-2" attributes="0"/>
                       <Component id="comboBoxSuggestion3" min="-2" pref="230" max="-2" attributes="0"/>
-                      <EmptySpace pref="395" max="32767" attributes="0"/>
+                      <EmptySpace pref="389" max="32767" attributes="0"/>
                       <Component id="comboBoxSuggestion4" min="-2" pref="230" max="-2" attributes="0"/>
                       <EmptySpace max="-2" attributes="0"/>
                       <Component id="switchButton13" min="-2" max="-2" attributes="0"/>
@@ -353,7 +364,7 @@
                               <EmptySpace min="-2" pref="6" max="-2" attributes="0"/>
                           </Group>
                       </Group>
-                      <EmptySpace pref="251" max="32767" attributes="0"/>
+                      <EmptySpace pref="168" max="32767" attributes="0"/>
                       <Component id="jLabel11" min="-2" pref="30" max="-2" attributes="0"/>
                       <EmptySpace min="-2" pref="282" max="-2" attributes="0"/>
                   </Group>
@@ -447,7 +458,7 @@
                       <Component id="switchButton14" min="-2" max="-2" attributes="0"/>
                       <EmptySpace max="-2" attributes="0"/>
                       <Component id="comboBoxSuggestion5" min="-2" pref="230" max="-2" attributes="0"/>
-                      <EmptySpace pref="395" max="32767" attributes="0"/>
+                      <EmptySpace pref="389" max="32767" attributes="0"/>
                       <Component id="comboBoxSuggestion6" min="-2" pref="230" max="-2" attributes="0"/>
                       <EmptySpace max="-2" attributes="0"/>
                       <Component id="switchButton15" min="-2" max="-2" attributes="0"/>
@@ -470,7 +481,7 @@
                           </Group>
                           <Component id="switchButton14" min="-2" max="-2" attributes="0"/>
                       </Group>
-                      <EmptySpace pref="553" max="32767" attributes="0"/>
+                      <EmptySpace pref="470" max="32767" attributes="0"/>
                   </Group>
 =======
                   <Component id="jLabel3" alignment="0" pref="666" max="32767" attributes="0"/>
@@ -553,7 +564,7 @@
                       <Component id="switchButton16" min="-2" max="-2" attributes="0"/>
                       <EmptySpace max="-2" attributes="0"/>
                       <Component id="comboBoxSuggestion7" min="-2" pref="230" max="-2" attributes="0"/>
-                      <EmptySpace pref="416" max="32767" attributes="0"/>
+                      <EmptySpace pref="410" max="32767" attributes="0"/>
                       <Component id="comboBoxSuggestion8" min="-2" pref="209" max="-2" attributes="0"/>
                       <EmptySpace max="-2" attributes="0"/>
                       <Component id="switchButton17" min="-2" max="-2" attributes="0"/>
@@ -576,7 +587,7 @@
                           </Group>
                           <Component id="switchButton16" min="-2" max="-2" attributes="0"/>
                       </Group>
-                      <EmptySpace pref="560" max="32767" attributes="0"/>
+                      <EmptySpace pref="477" max="32767" attributes="0"/>
                   </Group>
 =======
                   <Component id="jLabel4" alignment="0" pref="666" max="32767" attributes="0"/>

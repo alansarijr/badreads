@@ -29,7 +29,7 @@
   <Layout>
     <DimensionLayout dim="0">
       <Group type="103" groupAlignment="0" attributes="0">
-          <Component id="tabbedPaneCustom1" alignment="0" pref="1434" max="32767" attributes="0"/>
+          <Component id="tabbedPaneCustom1" alignment="0" max="32767" attributes="0"/>
       </Group>
     </DimensionLayout>
     <DimensionLayout dim="1">
@@ -87,7 +87,7 @@
                                   <Component id="jLabel23" alignment="0" min="-2" max="-2" attributes="0"/>
                                   <Component id="jLabel28" alignment="0" min="-2" max="-2" attributes="0"/>
                               </Group>
-                              <EmptySpace pref="108" max="32767" attributes="0"/>
+                              <EmptySpace pref="62" max="32767" attributes="0"/>
                               <Group type="103" groupAlignment="0" attributes="0">
                                   <Component id="S3" alignment="1" min="-2" pref="187" max="-2" attributes="0"/>
                                   <Component id="S4" alignment="1" min="-2" pref="187" max="-2" attributes="0"/>
@@ -113,7 +113,7 @@
                                   <Component id="jLabel13" alignment="0" min="-2" max="-2" attributes="0"/>
                                   <Component id="jLabel14" alignment="0" min="-2" max="-2" attributes="0"/>
                               </Group>
-                              <EmptySpace pref="108" max="32767" attributes="0"/>
+                              <EmptySpace pref="62" max="32767" attributes="0"/>
                               <Group type="103" groupAlignment="0" attributes="0">
                                   <Component id="S8" min="-2" pref="187" max="-2" attributes="0"/>
                                   <Component id="S12" min="-2" pref="187" max="-2" attributes="0"/>
@@ -606,12 +606,9 @@
           <Layout>
             <DimensionLayout dim="0">
               <Group type="103" groupAlignment="0" attributes="0">
-                  <EmptySpace min="0" pref="1490" max="32767" attributes="0"/>
+                  <EmptySpace min="0" pref="1337" max="32767" attributes="0"/>
                   <Group type="103" rootIndex="1" groupAlignment="0" attributes="0">
-                      <Group type="102" alignment="0" attributes="0">
-                          <Component id="jPanel7" min="-2" max="-2" attributes="0"/>
-                          <EmptySpace min="0" pref="0" max="32767" attributes="0"/>
-                      </Group>
+                      <Component id="jPanel7" alignment="0" pref="1337" max="32767" attributes="0"/>
                   </Group>
               </Group>
             </DimensionLayout>
@@ -654,27 +651,31 @@
                                               </Group>
                                           </Group>
                                           <Group type="103" groupAlignment="0" attributes="0">
-                                              <Group type="103" groupAlignment="0" max="-2" attributes="0">
-                                                  <Group type="102" attributes="0">
-                                                      <EmptySpace min="-2" pref="69" max="-2" attributes="0"/>
-                                                      <Group type="103" groupAlignment="1" attributes="0">
-                                                          <Component id="j1" alignment="1" min="-2" pref="187" max="-2" attributes="0"/>
-                                                          <Component id="j2" alignment="1" min="-2" pref="187" max="-2" attributes="0"/>
-                                                          <Component id="j3" alignment="1" min="-2" pref="187" max="-2" attributes="0"/>
-                                                          <Component id="j4" alignment="1" min="-2" pref="187" max="-2" attributes="0"/>
-                                                          <Component id="j5" alignment="1" min="-2" pref="187" max="-2" attributes="0"/>
-                                                          <Component id="j6" alignment="1" min="-2" pref="187" max="-2" attributes="0"/>
+                                              <Group type="102" attributes="0">
+                                                  <Group type="103" groupAlignment="0" max="-2" attributes="0">
+                                                      <Group type="102" attributes="0">
+                                                          <EmptySpace min="-2" pref="69" max="-2" attributes="0"/>
+                                                          <Group type="103" groupAlignment="1" attributes="0">
+                                                              <Component id="j1" alignment="1" min="-2" pref="187" max="-2" attributes="0"/>
+                                                              <Component id="j2" alignment="1" min="-2" pref="187" max="-2" attributes="0"/>
+                                                              <Component id="j3" alignment="1" min="-2" pref="187" max="-2" attributes="0"/>
+                                                              <Component id="j4" alignment="1" min="-2" pref="187" max="-2" attributes="0"/>
+                                                              <Component id="j5" alignment="1" min="-2" pref="187" max="-2" attributes="0"/>
+                                                              <Component id="j6" alignment="1" min="-2" pref="187" max="-2" attributes="0"/>
+                                                          </Group>
+                                                      </Group>
+                                                      <Group type="102" alignment="1" attributes="0">
+                                                          <EmptySpace max="32767" attributes="0"/>
+                                                          <Component id="jLabel2" min="-2" max="-2" attributes="0"/>
+                                                          <EmptySpace min="-2" pref="35" max="-2" attributes="0"/>
                                                       </Group>
                                                   </Group>
-                                                  <Group type="102" alignment="1" attributes="0">
-                                                      <EmptySpace max="32767" attributes="0"/>
-                                                      <Component id="jLabel2" min="-2" max="-2" attributes="0"/>
-                                                      <EmptySpace min="-2" pref="35" max="-2" attributes="0"/>
-                                                  </Group>
+                                                  <EmptySpace min="-2" pref="59" max="-2" attributes="0"/>
                                               </Group>
-                                              <Group type="102" alignment="0" attributes="0">
-                                                  <EmptySpace min="-2" pref="84" max="-2" attributes="0"/>
+                                              <Group type="102" alignment="1" attributes="0">
+                                                  <EmptySpace max="-2" attributes="0"/>
                                                   <Component id="percentageTF1" min="-2" pref="152" max="-2" attributes="0"/>
+                                                  <EmptySpace min="-2" pref="79" max="-2" attributes="0"/>
                                               </Group>
                                           </Group>
                                       </Group>
@@ -683,7 +684,6 @@
                                           <Component id="jLabel11" min="-2" pref="80" max="-2" attributes="0"/>
                                       </Group>
                                   </Group>
-                                  <EmptySpace min="-2" pref="59" max="-2" attributes="0"/>
                                   <Group type="103" groupAlignment="0" attributes="0">
                                       <Group type="102" attributes="0">
                                           <EmptySpace min="-2" pref="61" max="-2" attributes="0"/>
@@ -697,7 +697,11 @@
                               </Group>
                           </Group>
                           <Group type="103" groupAlignment="0" attributes="0">
-                              <Group type="102" attributes="0">
+                              <Group type="102" alignment="0" attributes="0">
+                                  <EmptySpace min="-2" pref="102" max="-2" attributes="0"/>
+                                  <Component id="calc2" min="-2" pref="250" max="-2" attributes="0"/>
+                              </Group>
+                              <Group type="102" alignment="0" attributes="0">
                                   <EmptySpace min="-2" pref="35" max="-2" attributes="0"/>
                                   <Group type="103" groupAlignment="0" attributes="0">
                                       <Component id="jLabel45" min="-2" pref="399" max="-2" attributes="0"/>
@@ -710,7 +714,7 @@
                                               <Component id="jLabel59" min="-2" max="-2" attributes="0"/>
                                               <Component id="jLabel57" min="-2" max="-2" attributes="0"/>
                                           </Group>
-                                          <EmptySpace min="-2" pref="95" max="-2" attributes="0"/>
+                                          <EmptySpace min="-2" pref="40" max="-2" attributes="0"/>
                                           <Group type="103" groupAlignment="0" attributes="0">
                                               <Component id="j8" min="-2" pref="187" max="-2" attributes="0"/>
                                               <Component id="j7" min="-2" pref="187" max="-2" attributes="0"/>
@@ -722,12 +726,8 @@
                                       </Group>
                                   </Group>
                               </Group>
-                              <Group type="102" alignment="0" attributes="0">
-                                  <EmptySpace min="-2" pref="102" max="-2" attributes="0"/>
-                                  <Component id="calc2" min="-2" pref="250" max="-2" attributes="0"/>
-                              </Group>
                           </Group>
-                          <EmptySpace pref="170" max="32767" attributes="0"/>
+                          <EmptySpace min="-2" pref="483" max="-2" attributes="0"/>
                       </Group>
                   </Group>
                 </DimensionLayout>
@@ -782,7 +782,7 @@
                                       <Component id="j8" alignment="3" min="-2" max="-2" attributes="0"/>
                                       <Component id="jLabel53" alignment="3" min="-2" max="-2" attributes="0"/>
                                   </Group>
-                                  <EmptySpace min="-2" pref="32" max="-2" attributes="0"/>
+                                  <EmptySpace min="-2" pref="34" max="-2" attributes="0"/>
                                   <Group type="103" groupAlignment="3" attributes="0">
                                       <Component id="j9" alignment="3" min="-2" max="-2" attributes="0"/>
                                       <Component id="jLabel55" alignment="3" min="-2" max="-2" attributes="0"/>
@@ -805,7 +805,7 @@
                               </Group>
                           </Group>
                           <EmptySpace pref="99" max="32767" attributes="0"/>
-                          <Group type="103" groupAlignment="0" attributes="0">
+                          <Group type="103" groupAlignment="1" attributes="0">
                               <Group type="102" alignment="1" attributes="0">
                                   <Group type="103" groupAlignment="3" attributes="0">
                                       <Component id="jLabel11" alignment="3" min="-2" pref="46" max="-2" attributes="0"/>
@@ -1165,7 +1165,7 @@
           <Layout>
             <DimensionLayout dim="0">
               <Group type="103" groupAlignment="0" attributes="0">
-                  <EmptySpace min="0" pref="1429" max="32767" attributes="0"/>
+                  <EmptySpace min="0" pref="1337" max="32767" attributes="0"/>
                   <Group type="103" rootIndex="1" groupAlignment="0" attributes="0">
                       <Component id="jPanel8" alignment="0" max="32767" attributes="0"/>
                   </Group>
@@ -1173,7 +1173,7 @@
             </DimensionLayout>
             <DimensionLayout dim="1">
               <Group type="103" groupAlignment="0" attributes="0">
-                  <EmptySpace min="0" pref="1025" max="32767" attributes="0"/>
+                  <EmptySpace min="0" pref="1028" max="32767" attributes="0"/>
                   <Group type="103" rootIndex="1" groupAlignment="0" attributes="0">
                       <Group type="102" alignment="0" attributes="0">
                           <Component id="jPanel8" min="-2" max="-2" attributes="0"/>
@@ -1194,20 +1194,19 @@
               <Layout>
                 <DimensionLayout dim="0">
                   <Group type="103" groupAlignment="0" attributes="0">
-                      <Group type="102" attributes="0">
-                          <EmptySpace min="-2" pref="57" max="-2" attributes="0"/>
+                      <Group type="102" alignment="1" attributes="0">
                           <Group type="103" groupAlignment="0" attributes="0">
-                              <Component id="jLabel62" min="-2" pref="365" max="-2" attributes="0"/>
-                              <Group type="102" attributes="0">
+                              <Component id="jLabel62" alignment="0" min="-2" pref="365" max="-2" attributes="0"/>
+                              <Component id="jLabel63" alignment="0" min="-2" max="-2" attributes="0"/>
+                              <Group type="102" alignment="0" attributes="0">
                                   <Group type="103" groupAlignment="0" attributes="0">
-                                      <Component id="jLabel74" alignment="0" min="-2" max="-2" attributes="0"/>
-                                      <Component id="jLabel63" alignment="0" min="-2" max="-2" attributes="0"/>
                                       <Component id="jLabel60" alignment="0" min="-2" max="-2" attributes="0"/>
                                       <Component id="jLabel64" alignment="0" min="-2" max="-2" attributes="0"/>
                                       <Component id="jLabel65" alignment="0" min="-2" max="-2" attributes="0"/>
                                       <Component id="jLabel72" alignment="0" min="-2" max="-2" attributes="0"/>
+                                      <Component id="jLabel74" alignment="0" min="-2" max="-2" attributes="0"/>
                                   </Group>
-                                  <EmptySpace min="-2" pref="72" max="-2" attributes="0"/>
+                                  <EmptySpace min="-2" pref="27" max="-2" attributes="0"/>
                                   <Group type="103" groupAlignment="1" attributes="0">
                                       <Component id="a1" alignment="1" min="-2" pref="187" max="-2" attributes="0"/>
                                       <Component id="a2" alignment="1" min="-2" pref="187" max="-2" attributes="0"/>
@@ -1217,153 +1216,145 @@
                                       <Component id="a6" alignment="1" min="-2" pref="187" max="-2" attributes="0"/>
                                   </Group>
                               </Group>
+                              <Group type="102" alignment="0" attributes="0">
+                                  <Group type="103" groupAlignment="0" attributes="0">
+                                      <Group type="102" attributes="0">
+                                          <EmptySpace max="-2" attributes="0"/>
+                                          <Component id="totalTF2" min="-2" pref="111" max="-2" attributes="0"/>
+                                      </Group>
+                                      <Group type="102" alignment="0" attributes="0">
+                                          <EmptySpace min="-2" pref="28" max="-2" attributes="0"/>
+                                          <Component id="jLabel10" min="-2" pref="80" max="-2" attributes="0"/>
+                                      </Group>
+                                  </Group>
+                                  <EmptySpace min="-2" pref="90" max="-2" attributes="0"/>
+                                  <Group type="103" groupAlignment="0" max="-2" attributes="0">
+                                      <Component id="jLabel3" max="32767" attributes="0"/>
+                                      <Component id="percentageTF2" max="32767" attributes="0"/>
+                                  </Group>
+                                  <Group type="103" groupAlignment="0" attributes="0">
+                                      <Group type="102" alignment="0" attributes="0">
+                                          <EmptySpace min="-2" pref="90" max="-2" attributes="0"/>
+                                          <Component id="gpaTF2" min="-2" pref="111" max="-2" attributes="0"/>
+                                      </Group>
+                                      <Group type="102" alignment="1" attributes="0">
+                                          <EmptySpace min="-2" pref="120" max="-2" attributes="0"/>
+                                          <Component id="jLabel7" min="-2" max="-2" attributes="0"/>
+                                          <EmptySpace min="-2" pref="21" max="-2" attributes="0"/>
+                                      </Group>
+                                  </Group>
+                              </Group>
                           </Group>
-                          <EmptySpace pref="304" max="32767" attributes="0"/>
-                          <Group type="103" groupAlignment="0" max="-2" attributes="0">
-                              <Group type="102" alignment="1" attributes="0">
+                          <EmptySpace pref="360" max="32767" attributes="0"/>
+                          <Group type="103" groupAlignment="1" max="-2" attributes="0">
+                              <Group type="102" alignment="0" attributes="0">
+                                  <Component id="jLabel73" min="-2" max="-2" attributes="0"/>
+                                  <EmptySpace max="32767" attributes="0"/>
+                                  <Component id="a12" min="-2" pref="187" max="-2" attributes="0"/>
+                              </Group>
+                              <Group type="102" alignment="0" attributes="0">
                                   <Group type="103" groupAlignment="0" attributes="0">
                                       <Component id="jLabel70" alignment="0" min="-2" max="-2" attributes="0"/>
-                                      <Component id="jLabel69" alignment="0" min="-2" max="-2" attributes="0"/>
-                                      <Component id="jLabel68" alignment="0" min="-2" max="-2" attributes="0"/>
+                                      <Component id="jLabel71" alignment="0" min="-2" max="-2" attributes="0"/>
                                       <Component id="jLabel75" alignment="0" min="-2" max="-2" attributes="0"/>
-                                      <Component id="jLabel73" alignment="0" min="-2" max="-2" attributes="0"/>
-                                      <Group type="102" alignment="1" attributes="0">
-                                          <Component id="jLabel71" min="-2" max="-2" attributes="0"/>
-                                          <EmptySpace min="-2" pref="90" max="-2" attributes="0"/>
-                                      </Group>
                                   </Group>
                                   <EmptySpace max="32767" attributes="0"/>
                                   <Group type="103" groupAlignment="0" attributes="0">
-                                      <Group type="103" groupAlignment="1" attributes="0">
-                                          <Component id="a7" alignment="0" min="-2" pref="187" max="-2" attributes="0"/>
-                                          <Component id="a9" alignment="1" min="-2" pref="187" max="-2" attributes="0"/>
-                                      </Group>
-                                      <Component id="a12" min="-2" pref="187" max="-2" attributes="0"/>
-                                      <Component id="a8" min="-2" pref="187" max="-2" attributes="0"/>
-                                      <Component id="a11" min="-2" pref="187" max="-2" attributes="0"/>
-                                      <Component id="a10" min="-2" pref="187" max="-2" attributes="0"/>
+                                      <Component id="a9" alignment="1" min="-2" pref="187" max="-2" attributes="0"/>
+                                      <Component id="a10" alignment="1" min="-2" pref="187" max="-2" attributes="0"/>
+                                      <Component id="a11" alignment="1" min="-2" pref="187" max="-2" attributes="0"/>
                                   </Group>
-                                  <EmptySpace min="-2" pref="74" max="-2" attributes="0"/>
-                              </Group>
-                              <Group type="102" alignment="1" attributes="0">
-                                  <Component id="jLabel61" min="-2" pref="399" max="-2" attributes="0"/>
-                                  <EmptySpace min="-2" pref="162" max="-2" attributes="0"/>
-                              </Group>
-                          </Group>
-                      </Group>
-                      <Group type="102" alignment="0" attributes="0">
-                          <EmptySpace min="-2" pref="91" max="-2" attributes="0"/>
-                          <Group type="103" groupAlignment="0" attributes="0">
-                              <Group type="102" alignment="0" attributes="0">
-                                  <EmptySpace min="-2" pref="44" max="-2" attributes="0"/>
-                                  <Component id="jLabel10" min="-2" pref="80" max="-2" attributes="0"/>
-                                  <EmptySpace min="-2" pref="155" max="-2" attributes="0"/>
-                              </Group>
-                              <Group type="102" alignment="1" attributes="0">
-                                  <Component id="totalTF2" min="-2" pref="152" max="-2" attributes="0"/>
-                                  <EmptySpace min="-2" pref="127" max="-2" attributes="0"/>
-                              </Group>
-                          </Group>
-                          <Group type="103" groupAlignment="0" attributes="0">
-                              <Group type="102" alignment="0" attributes="0">
-                                  <EmptySpace min="-2" pref="15" max="-2" attributes="0"/>
-                                  <Component id="jLabel3" min="-2" max="-2" attributes="0"/>
-                                  <EmptySpace min="-2" pref="183" max="-2" attributes="0"/>
-                                  <Component id="jLabel7" min="-2" max="-2" attributes="0"/>
                               </Group>
                               <Group type="102" alignment="0" attributes="0">
-                                  <Component id="percentageTF2" min="-2" pref="152" max="-2" attributes="0"/>
-                                  <EmptySpace min="-2" pref="126" max="-2" attributes="0"/>
-                                  <Component id="gpaTF2" min="-2" pref="152" max="-2" attributes="0"/>
+                                  <Component id="jLabel69" min="-2" max="-2" attributes="0"/>
+                                  <EmptySpace max="32767" attributes="0"/>
+                                  <Component id="a8" min="-2" pref="187" max="-2" attributes="0"/>
+                              </Group>
+                              <Group type="102" alignment="0" attributes="0">
+                                  <Component id="jLabel68" min="-2" max="-2" attributes="0"/>
+                                  <EmptySpace max="32767" attributes="0"/>
+                                  <Component id="a7" min="-2" pref="187" max="-2" attributes="0"/>
+                              </Group>
+                              <Component id="jLabel61" alignment="0" min="-2" pref="399" max="-2" attributes="0"/>
+                              <Group type="102" alignment="0" attributes="0">
+                                  <EmptySpace min="-2" pref="92" max="-2" attributes="0"/>
+                                  <Component id="calc3" min="-2" pref="232" max="-2" attributes="0"/>
                               </Group>
                           </Group>
-                          <EmptySpace min="-2" pref="138" max="-2" attributes="0"/>
-                          <Component id="calc3" min="-2" pref="250" max="-2" attributes="0"/>
-                          <EmptySpace min="0" pref="0" max="32767" attributes="0"/>
+                          <EmptySpace min="-2" pref="29" max="-2" attributes="0"/>
                       </Group>
                   </Group>
                 </DimensionLayout>
                 <DimensionLayout dim="1">
                   <Group type="103" groupAlignment="0" attributes="0">
                       <Group type="102" alignment="0" attributes="0">
-                          <EmptySpace min="-2" pref="66" max="-2" attributes="0"/>
-                          <Group type="103" groupAlignment="3" attributes="0">
-                              <Component id="jLabel62" alignment="3" min="-2" pref="45" max="-2" attributes="0"/>
-                              <Component id="jLabel61" alignment="3" min="-2" pref="45" max="-2" attributes="0"/>
-                          </Group>
-                          <Group type="103" groupAlignment="0" attributes="0">
-                              <Group type="102" attributes="0">
-                                  <EmptySpace min="-2" pref="214" max="-2" attributes="0"/>
-                                  <Group type="103" groupAlignment="3" attributes="0">
-                                      <Component id="jLabel71" alignment="3" min="-2" max="-2" attributes="0"/>
-                                      <Component id="a10" alignment="3" min="-2" max="-2" attributes="0"/>
-                                  </Group>
-                              </Group>
+                          <EmptySpace min="-2" pref="43" max="-2" attributes="0"/>
+                          <Group type="103" groupAlignment="1" attributes="0">
                               <Group type="102" alignment="1" attributes="0">
-                                  <EmptySpace min="-2" pref="59" max="-2" attributes="0"/>
                                   <Group type="103" groupAlignment="3" attributes="0">
-                                      <Component id="a1" alignment="3" min="-2" max="-2" attributes="0"/>
+                                      <Component id="jLabel62" alignment="3" min="-2" pref="45" max="-2" attributes="0"/>
+                                      <Component id="jLabel61" alignment="3" min="-2" pref="45" max="-2" attributes="0"/>
+                                  </Group>
+                                  <EmptySpace min="-2" pref="31" max="-2" attributes="0"/>
+                                  <Group type="103" groupAlignment="3" attributes="0">
                                       <Component id="jLabel60" alignment="3" min="-2" max="-2" attributes="0"/>
+                                      <Component id="a1" alignment="3" min="-2" max="-2" attributes="0"/>
                                       <Component id="jLabel68" alignment="3" min="-2" max="-2" attributes="0"/>
-                                      <Component id="a9" alignment="3" min="-2" max="-2" attributes="0"/>
+                                      <Component id="a7" alignment="3" min="-2" max="-2" attributes="0"/>
                                   </Group>
                                   <EmptySpace min="-2" pref="36" max="-2" attributes="0"/>
                                   <Group type="103" groupAlignment="3" attributes="0">
-                                      <Component id="a2" alignment="3" min="-2" max="-2" attributes="0"/>
-                                      <Component id="jLabel63" alignment="3" min="-2" max="-2" attributes="0"/>
+                                      <Component id="a8" alignment="3" min="-2" max="-2" attributes="0"/>
                                       <Component id="jLabel69" alignment="3" min="-2" max="-2" attributes="0"/>
-                                      <Component id="a7" alignment="3" min="-2" max="-2" attributes="0"/>
+                                      <Component id="jLabel63" alignment="3" min="-2" max="-2" attributes="0"/>
+                                      <Component id="a2" alignment="3" min="-2" max="-2" attributes="0"/>
                                   </Group>
                                   <EmptySpace min="-2" pref="36" max="-2" attributes="0"/>
                                   <Group type="103" groupAlignment="3" attributes="0">
                                       <Component id="a3" alignment="3" min="-2" max="-2" attributes="0"/>
                                       <Component id="jLabel64" alignment="3" min="-2" max="-2" attributes="0"/>
                                   </Group>
-                                  <EmptySpace min="-2" pref="36" max="-2" attributes="0"/>
-                                  <Group type="103" groupAlignment="3" attributes="0">
-                                      <Component id="a4" alignment="3" min="-2" max="-2" attributes="0"/>
-                                      <Component id="jLabel65" alignment="3" min="-2" max="-2" attributes="0"/>
-                                      <Component id="jLabel70" alignment="3" min="-2" max="-2" attributes="0"/>
-                                      <Component id="a11" alignment="3" min="-2" max="-2" attributes="0"/>
-                                  </Group>
-                                  <EmptySpace min="-2" pref="36" max="-2" attributes="0"/>
-                                  <Group type="103" groupAlignment="3" attributes="0">
-                                      <Component id="a5" alignment="3" min="-2" max="-2" attributes="0"/>
-                                      <Component id="jLabel72" alignment="3" min="-2" max="-2" attributes="0"/>
-                                      <Component id="jLabel75" alignment="3" min="-2" max="-2" attributes="0"/>
-                                      <Component id="a8" alignment="3" min="-2" max="-2" attributes="0"/>
-                                  </Group>
-                                  <EmptySpace min="-2" pref="36" max="-2" attributes="0"/>
-                                  <Group type="103" groupAlignment="3" attributes="0">
-                                      <Component id="a6" alignment="3" min="-2" max="-2" attributes="0"/>
-                                      <Component id="jLabel74" alignment="3" min="-2" max="-2" attributes="0"/>
-                                      <Component id="jLabel73" alignment="3" min="-2" max="-2" attributes="0"/>
-                                      <Component id="a12" alignment="3" min="-2" max="-2" attributes="0"/>
-                                  </Group>
-                                  <EmptySpace min="-2" pref="54" max="-2" attributes="0"/>
+                              </Group>
+                              <Group type="103" alignment="1" groupAlignment="3" attributes="0">
+                                  <Component id="jLabel71" alignment="3" min="-2" max="-2" attributes="0"/>
+                                  <Component id="a9" alignment="3" min="-2" max="-2" attributes="0"/>
                               </Group>
                           </Group>
-                          <EmptySpace pref="86" max="32767" attributes="0"/>
-                          <Group type="103" groupAlignment="0" attributes="0">
-                              <Group type="102" alignment="1" attributes="0">
-                                  <Group type="103" groupAlignment="3" attributes="0">
-                                      <Component id="jLabel10" alignment="3" min="-2" pref="46" max="-2" attributes="0"/>
-                                      <Component id="jLabel3" alignment="3" min="-2" pref="46" max="-2" attributes="0"/>
-                                      <Component id="jLabel7" alignment="3" min="-2" pref="46" max="-2" attributes="0"/>
-                                  </Group>
-                                  <EmptySpace min="-2" pref="1" max="-2" attributes="0"/>
-                                  <Group type="103" groupAlignment="3" attributes="0">
-                                      <Component id="totalTF2" alignment="3" min="-2" pref="50" max="-2" attributes="0"/>
-                                      <Component id="percentageTF2" alignment="3" min="-2" pref="50" max="-2" attributes="0"/>
-                                      <Component id="gpaTF2" alignment="3" min="-2" pref="50" max="-2" attributes="0"/>
-                                  </Group>
-                                  <EmptySpace min="-2" pref="186" max="-2" attributes="0"/>
-                              </Group>
-                              <Group type="102" alignment="1" attributes="0">
-                                  <Component id="calc3" min="-2" pref="80" max="-2" attributes="0"/>
-                                  <EmptySpace min="-2" pref="185" max="-2" attributes="0"/>
-                              </Group>
+                          <EmptySpace min="-2" pref="36" max="-2" attributes="0"/>
+                          <Group type="103" groupAlignment="3" attributes="0">
+                              <Component id="jLabel65" alignment="3" min="-2" max="-2" attributes="0"/>
+                              <Component id="a4" alignment="3" min="-2" max="-2" attributes="0"/>
+                              <Component id="jLabel70" alignment="3" min="-2" max="-2" attributes="0"/>
+                              <Component id="a10" alignment="3" min="-2" max="-2" attributes="0"/>
                           </Group>
+                          <EmptySpace min="-2" pref="36" max="-2" attributes="0"/>
+                          <Group type="103" groupAlignment="3" attributes="0">
+                              <Component id="a11" alignment="3" min="-2" max="-2" attributes="0"/>
+                              <Component id="jLabel72" alignment="3" min="-2" max="-2" attributes="0"/>
+                              <Component id="jLabel75" alignment="3" min="-2" max="-2" attributes="0"/>
+                              <Component id="a5" alignment="3" min="-2" max="-2" attributes="0"/>
+                          </Group>
+                          <EmptySpace min="-2" pref="36" max="-2" attributes="0"/>
+                          <Group type="103" groupAlignment="3" attributes="0">
+                              <Component id="jLabel74" alignment="3" min="-2" max="-2" attributes="0"/>
+                              <Component id="a12" alignment="3" min="-2" max="-2" attributes="0"/>
+                              <Component id="jLabel73" alignment="3" min="-2" max="-2" attributes="0"/>
+                              <Component id="a6" alignment="3" min="-2" max="-2" attributes="0"/>
+                          </Group>
+                          <EmptySpace max="-2" attributes="0"/>
+                          <Group type="103" groupAlignment="3" attributes="0">
+                              <Component id="jLabel3" alignment="3" min="-2" pref="46" max="-2" attributes="0"/>
+                              <Component id="jLabel7" alignment="3" min="-2" pref="46" max="-2" attributes="0"/>
+                              <Component id="jLabel10" alignment="3" min="-2" pref="46" max="-2" attributes="0"/>
+                          </Group>
+                          <EmptySpace min="-2" pref="5" max="-2" attributes="0"/>
+                          <Group type="103" groupAlignment="3" attributes="0">
+                              <Component id="calc3" alignment="3" min="-2" pref="76" max="-2" attributes="0"/>
+                              <Component id="gpaTF2" alignment="3" min="-2" pref="76" max="-2" attributes="0"/>
+                              <Component id="percentageTF2" alignment="3" min="-2" pref="76" max="-2" attributes="0"/>
+                              <Component id="totalTF2" alignment="3" min="-2" pref="76" max="-2" attributes="0"/>
+                          </Group>
+                          <EmptySpace pref="338" max="32767" attributes="0"/>
                       </Group>
                   </Group>
                 </DimensionLayout>
@@ -1372,25 +1363,25 @@
                 <Component class="javax.swing.JLabel" name="jLabel60">
                   <Properties>
                     <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
-                      <Font name="Arial" size="24" style="1"/>
+                      <Font name="Yu Gothic UI Semilight" size="24" style="1"/>
                     </Property>
-                    <Property name="text" type="java.lang.String" value="Software Engineering"/>
+                    <Property name="text" type="java.lang.String" value="Software engineering"/>
                   </Properties>
                 </Component>
                 <Component class="javax.swing.JLabel" name="jLabel61">
                   <Properties>
                     <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
-                      <Font name="Arial" size="36" style="1"/>
+                      <Font name="Wide Latin" size="36" style="1"/>
                     </Property>
-                    <Property name="text" type="java.lang.String" value="Second Term:"/>
+                    <Property name="text" type="java.lang.String" value="Second term"/>
                   </Properties>
                 </Component>
                 <Component class="javax.swing.JLabel" name="jLabel62">
                   <Properties>
                     <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
-                      <Font name="Arial" size="36" style="1"/>
+                      <Font name="Wide Latin" size="36" style="1"/>
                     </Property>
-                    <Property name="text" type="java.lang.String" value="First Term:"/>
+                    <Property name="text" type="java.lang.String" value="First term"/>
                   </Properties>
                 </Component>
                 <Component class="textfield.TextField" name="a1">
@@ -1406,7 +1397,7 @@
                 <Component class="javax.swing.JLabel" name="jLabel63">
                   <Properties>
                     <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
-                      <Font name="Arial" size="24" style="1"/>
+                      <Font name="Yu Gothic UI Semilight" size="24" style="1"/>
                     </Property>
                     <Property name="text" type="java.lang.String" value="System &amp; Control"/>
                   </Properties>
@@ -1424,7 +1415,7 @@
                 <Component class="javax.swing.JLabel" name="jLabel64">
                   <Properties>
                     <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
-                      <Font name="Arial" size="24" style="1"/>
+                      <Font name="Yu Gothic UI Semilight" size="24" style="1"/>
                     </Property>
                     <Property name="text" type="java.lang.String" value="Digital signal"/>
                   </Properties>
@@ -1442,7 +1433,7 @@
                 <Component class="javax.swing.JLabel" name="jLabel65">
                   <Properties>
                     <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
-                      <Font name="Arial" size="24" style="1"/>
+                      <Font name="Yu Gothic UI Semilight" size="24" style="1"/>
                     </Property>
                     <Property name="text" type="java.lang.String" value="Computer network"/>
                   </Properties>
@@ -1460,7 +1451,7 @@
                 <Component class="javax.swing.JLabel" name="jLabel68">
                   <Properties>
                     <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
-                      <Font name="Arial" size="24" style="1"/>
+                      <Font name="Yu Gothic UI Semilight" size="24" style="1"/>
                     </Property>
                     <Property name="text" type="java.lang.String" value="Digital control"/>
                   </Properties>
@@ -1481,9 +1472,9 @@
                 <Component class="javax.swing.JLabel" name="jLabel69">
                   <Properties>
                     <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
-                      <Font name="Arial" size="24" style="1"/>
+                      <Font name="Yu Gothic UI Semilight" size="24" style="1"/>
                     </Property>
-                    <Property name="text" type="java.lang.String" value="Operating System"/>
+                    <Property name="text" type="java.lang.String" value="Operating system"/>
                   </Properties>
                 </Component>
                 <Component class="textfield.TextField" name="a8">
@@ -1499,9 +1490,9 @@
                 <Component class="javax.swing.JLabel" name="jLabel70">
                   <Properties>
                     <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
-                      <Font name="Arial" size="24" style="1"/>
+                      <Font name="Yu Gothic UI Semilight" size="24" style="1"/>
                     </Property>
-                    <Property name="text" type="java.lang.String" value="Parallel"/>
+                    <Property name="text" type="java.lang.String" value="Parallel&amp;Distributed"/>
                   </Properties>
                 </Component>
                 <Component class="textfield.TextField" name="a10">
@@ -1517,7 +1508,7 @@
                 <Component class="javax.swing.JLabel" name="jLabel71">
                   <Properties>
                     <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
-                      <Font name="Arial" size="24" style="1"/>
+                      <Font name="Yu Gothic UI Semilight" size="24" style="1"/>
                     </Property>
                     <Property name="text" type="java.lang.String" value="Artificial intelligen"/>
                   </Properties>
@@ -1538,7 +1529,7 @@
                 <Component class="javax.swing.JLabel" name="jLabel72">
                   <Properties>
                     <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
-                      <Font name="Arial" size="24" style="1"/>
+                      <Font name="Yu Gothic UI Semilight" size="24" style="1"/>
                     </Property>
                     <Property name="text" type="java.lang.String" value="VLSI"/>
                   </Properties>
@@ -1556,7 +1547,7 @@
                 <Component class="javax.swing.JLabel" name="jLabel73">
                   <Properties>
                     <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
-                      <Font name="Arial" size="24" style="1"/>
+                      <Font name="Yu Gothic UI Semilight" size="24" style="1"/>
                     </Property>
                     <Property name="text" type="java.lang.String" value="Project Management"/>
                   </Properties>
@@ -1574,9 +1565,9 @@
                 <Component class="javax.swing.JLabel" name="jLabel74">
                   <Properties>
                     <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
-                      <Font name="Arial" size="24" style="1"/>
+                      <Font name="Yu Gothic UI Semilight" size="24" style="1"/>
                     </Property>
-                    <Property name="text" type="java.lang.String" value="Economics"/>
+                    <Property name="text" type="java.lang.String" value="Engineering economics"/>
                   </Properties>
                 </Component>
                 <Component class="textfield.TextField" name="a12">
@@ -1602,7 +1593,7 @@
                 <Component class="javax.swing.JLabel" name="jLabel75">
                   <Properties>
                     <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
-                      <Font name="Arial" size="24" style="1"/>
+                      <Font name="Yu Gothic UI Semilight" size="24" style="1"/>
                     </Property>
                     <Property name="text" type="java.lang.String" value="Elective course"/>
                   </Properties>
@@ -1650,15 +1641,15 @@
                 <Component class="javax.swing.JLabel" name="jLabel3">
                   <Properties>
                     <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
-                      <Font name="Arial" size="24" style="1"/>
+                      <Font name="Wide Latin" size="14" style="3"/>
                     </Property>
-                    <Property name="text" type="java.lang.String" value="Percentage"/>
+                    <Property name="text" type="java.lang.String" value="percentage"/>
                   </Properties>
                 </Component>
                 <Component class="javax.swing.JLabel" name="jLabel7">
                   <Properties>
                     <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
-                      <Font name="Arial" size="24" style="1"/>
+                      <Font name="Wide Latin" size="14" style="3"/>
                     </Property>
                     <Property name="text" type="java.lang.String" value="GPA"/>
                   </Properties>
@@ -1676,7 +1667,7 @@
                 <Component class="javax.swing.JLabel" name="jLabel10">
                   <Properties>
                     <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
-                      <Font name="Arial" size="24" style="1"/>
+                      <Font name="Wide Latin" size="14" style="3"/>
                     </Property>
                     <Property name="text" type="java.lang.String" value="Total"/>
                   </Properties>
@@ -1702,7 +1693,7 @@
           <Layout>
             <DimensionLayout dim="0">
               <Group type="103" groupAlignment="0" attributes="0">
-                  <EmptySpace min="0" pref="1429" max="32767" attributes="0"/>
+                  <EmptySpace min="0" pref="1337" max="32767" attributes="0"/>
                   <Group type="103" rootIndex="1" groupAlignment="0" attributes="0">
                       <Component id="jPanel10" alignment="1" max="32767" attributes="0"/>
                   </Group>
@@ -1710,7 +1701,7 @@
             </DimensionLayout>
             <DimensionLayout dim="1">
               <Group type="103" groupAlignment="0" attributes="0">
-                  <EmptySpace min="0" pref="1027" max="32767" attributes="0"/>
+                  <EmptySpace min="0" pref="1029" max="32767" attributes="0"/>
                   <Group type="103" rootIndex="1" groupAlignment="0" attributes="0">
                       <Group type="102" alignment="0" attributes="0">
                           <Component id="jPanel10" min="-2" max="-2" attributes="0"/>
@@ -1731,163 +1722,161 @@
               <Layout>
                 <DimensionLayout dim="0">
                   <Group type="103" groupAlignment="0" attributes="0">
-                      <Group type="102" alignment="0" attributes="0">
-                          <EmptySpace min="-2" pref="57" max="-2" attributes="0"/>
+                      <Group type="102" alignment="1" attributes="0">
                           <Group type="103" groupAlignment="0" attributes="0">
-                              <Component id="jLabel94" alignment="0" min="-2" pref="365" max="-2" attributes="0"/>
                               <Group type="102" attributes="0">
-                                  <Group type="103" groupAlignment="1" attributes="0">
-                                      <Component id="jLabel96" alignment="0" min="-2" max="-2" attributes="0"/>
-                                      <Component id="jLabel97" alignment="0" min="-2" max="-2" attributes="0"/>
-                                      <Component id="jLabel104" alignment="0" min="-2" max="-2" attributes="0"/>
-                                      <Component id="jLabel95" alignment="0" min="-2" pref="61" max="-2" attributes="0"/>
-                                      <Component id="jLabel92" alignment="0" min="-2" max="-2" attributes="0"/>
-                                  </Group>
-                                  <EmptySpace min="-2" pref="192" max="-2" attributes="0"/>
-                                  <Group type="103" groupAlignment="1" attributes="0">
-                                      <Component id="b2" alignment="1" min="-2" pref="187" max="-2" attributes="0"/>
-                                      <Component id="b3" alignment="1" min="-2" pref="187" max="-2" attributes="0"/>
-                                      <Component id="b4" alignment="1" min="-2" pref="187" max="-2" attributes="0"/>
-                                      <Component id="b5" alignment="1" min="-2" pref="187" max="-2" attributes="0"/>
-                                      <Component id="b1" alignment="1" min="-2" pref="187" max="-2" attributes="0"/>
-                                  </Group>
-                              </Group>
-                          </Group>
-                          <EmptySpace pref="295" max="32767" attributes="0"/>
-                          <Group type="103" groupAlignment="0" attributes="0">
-                              <Component id="jLabel101" alignment="0" min="-2" max="-2" attributes="0"/>
-                              <Component id="jLabel93" min="-2" pref="399" max="-2" attributes="0"/>
-                              <Group type="102" alignment="0" attributes="0">
                                   <Group type="103" groupAlignment="0" attributes="0">
-                                      <Component id="jLabel103" min="-2" max="-2" attributes="0"/>
-                                      <Component id="jLabel102" min="-2" max="-2" attributes="0"/>
-                                      <Component id="jLabel100" min="-2" max="-2" attributes="0"/>
-                                      <Component id="jLabel107" alignment="0" min="-2" max="-2" attributes="0"/>
+                                      <Component id="jLabel94" alignment="0" min="-2" pref="365" max="-2" attributes="0"/>
+                                      <Component id="jLabel95" alignment="0" min="-2" max="-2" attributes="0"/>
+                                      <Group type="102" alignment="0" attributes="0">
+                                          <Group type="103" groupAlignment="0" attributes="0">
+                                              <Component id="jLabel96" alignment="0" min="-2" max="-2" attributes="0"/>
+                                              <Component id="jLabel97" alignment="0" min="-2" max="-2" attributes="0"/>
+                                              <Component id="jLabel104" alignment="0" min="-2" max="-2" attributes="0"/>
+                                              <Group type="103" alignment="0" groupAlignment="1" attributes="0">
+                                                  <Component id="jLabel9" alignment="1" min="-2" pref="72" max="-2" attributes="0"/>
+                                                  <Component id="jLabel92" alignment="0" min="-2" max="-2" attributes="0"/>
+                                              </Group>
+                                          </Group>
+                                          <EmptySpace min="-2" pref="150" max="-2" attributes="0"/>
+                                          <Group type="103" groupAlignment="1" attributes="0">
+                                              <Component id="b1" alignment="1" min="-2" pref="187" max="-2" attributes="0"/>
+                                              <Component id="b2" alignment="1" min="-2" pref="187" max="-2" attributes="0"/>
+                                              <Component id="b3" alignment="1" min="-2" pref="187" max="-2" attributes="0"/>
+                                              <Component id="b4" alignment="1" min="-2" pref="187" max="-2" attributes="0"/>
+                                              <Component id="b5" alignment="1" min="-2" pref="187" max="-2" attributes="0"/>
+                                          </Group>
+                                      </Group>
                                   </Group>
-                                  <EmptySpace min="-2" pref="78" max="-2" attributes="0"/>
+                                  <EmptySpace max="32767" attributes="0"/>
+                              </Group>
+                              <Group type="102" alignment="1" attributes="0">
+                                  <EmptySpace max="-2" attributes="0"/>
+                                  <Component id="totalTF3" min="-2" pref="111" max="-2" attributes="0"/>
+                                  <EmptySpace pref="266" max="32767" attributes="0"/>
+                                  <Group type="103" groupAlignment="0" max="-2" attributes="0">
+                                      <Component id="jLabel4" max="32767" attributes="0"/>
+                                      <Component id="percentageTF3" max="32767" attributes="0"/>
+                                  </Group>
                                   <Group type="103" groupAlignment="0" attributes="0">
-                                      <Component id="b10" min="-2" pref="187" max="-2" attributes="0"/>
-                                      <Component id="b6" min="-2" pref="187" max="-2" attributes="0"/>
-                                      <Component id="b8" min="-2" pref="187" max="-2" attributes="0"/>
-                                      <Component id="b7" min="-2" pref="187" max="-2" attributes="0"/>
-                                      <Component id="b9" alignment="0" min="-2" pref="187" max="-2" attributes="0"/>
+                                      <Group type="102" attributes="0">
+                                          <EmptySpace min="-2" pref="90" max="-2" attributes="0"/>
+                                          <Component id="gpaTF3" min="-2" pref="111" max="-2" attributes="0"/>
+                                      </Group>
+                                      <Group type="102" alignment="0" attributes="0">
+                                          <EmptySpace min="-2" pref="110" max="-2" attributes="0"/>
+                                          <Component id="jLabel8" min="-2" max="-2" attributes="0"/>
+                                      </Group>
                                   </Group>
+                                  <EmptySpace min="-2" pref="46" max="-2" attributes="0"/>
                               </Group>
                           </Group>
-                          <EmptySpace min="-2" pref="149" max="-2" attributes="0"/>
-                      </Group>
-                      <Group type="102" alignment="0" attributes="0">
-                          <EmptySpace min="-2" pref="96" max="-2" attributes="0"/>
                           <Group type="103" groupAlignment="0" attributes="0">
-                              <Group type="102" alignment="0" attributes="0">
-                                  <EmptySpace min="-2" pref="44" max="-2" attributes="0"/>
-                                  <Component id="jLabel9" min="-2" pref="72" max="-2" attributes="0"/>
-                                  <EmptySpace min="-2" pref="147" max="-2" attributes="0"/>
-                                  <Component id="jLabel4" min="-2" max="-2" attributes="0"/>
-                                  <EmptySpace min="-2" pref="159" max="-2" attributes="0"/>
-                                  <Component id="jLabel8" min="-2" max="-2" attributes="0"/>
+                              <Group type="102" attributes="0">
+                                  <Group type="103" groupAlignment="0" attributes="0">
+                                      <Component id="jLabel93" alignment="0" min="-2" pref="399" max="-2" attributes="0"/>
+                                      <Group type="102" alignment="0" attributes="0">
+                                          <EmptySpace min="-2" pref="79" max="-2" attributes="0"/>
+                                          <Component id="calc4" min="-2" pref="232" max="-2" attributes="0"/>
+                                      </Group>
+                                  </Group>
+                                  <EmptySpace pref="230" max="32767" attributes="0"/>
                               </Group>
-                              <Group type="102" alignment="0" attributes="0">
-                                  <Component id="totalTF3" min="-2" pref="152" max="-2" attributes="0"/>
-                                  <EmptySpace min="-2" pref="97" max="-2" attributes="0"/>
-                                  <Component id="percentageTF3" min="-2" pref="150" max="-2" attributes="0"/>
-                                  <EmptySpace min="-2" pref="106" max="-2" attributes="0"/>
-                                  <Component id="gpaTF3" min="-2" pref="150" max="-2" attributes="0"/>
+                              <Group type="102" attributes="0">
+                                  <Group type="103" groupAlignment="0" attributes="0">
+                                      <Group type="102" alignment="0" attributes="0">
+                                          <Group type="103" groupAlignment="0" attributes="0">
+                                              <Component id="jLabel102" alignment="0" min="-2" max="-2" attributes="0"/>
+                                              <Component id="jLabel103" alignment="0" min="-2" max="-2" attributes="0"/>
+                                              <Component id="jLabel107" alignment="0" min="-2" max="-2" attributes="0"/>
+                                          </Group>
+                                          <EmptySpace max="32767" attributes="0"/>
+                                          <Group type="103" groupAlignment="0" attributes="0">
+                                              <Component id="b8" alignment="1" min="-2" pref="187" max="-2" attributes="0"/>
+                                              <Component id="b10" alignment="1" min="-2" pref="187" max="-2" attributes="0"/>
+                                              <Component id="b9" alignment="1" min="-2" pref="187" max="-2" attributes="0"/>
+                                          </Group>
+                                      </Group>
+                                      <Group type="102" alignment="0" attributes="0">
+                                          <Component id="jLabel101" min="-2" max="-2" attributes="0"/>
+                                          <EmptySpace max="32767" attributes="0"/>
+                                          <Component id="b7" min="-2" pref="187" max="-2" attributes="0"/>
+                                      </Group>
+                                      <Group type="102" alignment="0" attributes="0">
+                                          <Component id="jLabel100" min="-2" max="-2" attributes="0"/>
+                                          <EmptySpace max="32767" attributes="0"/>
+                                          <Component id="b6" min="-2" pref="187" max="-2" attributes="0"/>
+                                      </Group>
+                                  </Group>
+                                  <EmptySpace min="-2" pref="25" max="-2" attributes="0"/>
                               </Group>
                           </Group>
-                          <EmptySpace min="-2" pref="176" max="-2" attributes="0"/>
-                          <Component id="calc4" min="-2" pref="250" max="-2" attributes="0"/>
-                          <EmptySpace max="32767" attributes="0"/>
                       </Group>
                   </Group>
                 </DimensionLayout>
                 <DimensionLayout dim="1">
                   <Group type="103" groupAlignment="0" attributes="0">
                       <Group type="102" alignment="0" attributes="0">
+                          <EmptySpace min="-2" pref="43" max="-2" attributes="0"/>
                           <Group type="103" groupAlignment="1" attributes="0">
                               <Group type="102" alignment="1" attributes="0">
-                                  <EmptySpace min="-2" pref="68" max="-2" attributes="0"/>
-                                  <Component id="jLabel94" min="-2" pref="45" max="-2" attributes="0"/>
-                                  <EmptySpace min="-2" pref="47" max="-2" attributes="0"/>
-                                  <Group type="103" groupAlignment="0" attributes="0">
-                                      <Group type="102" attributes="0">
-                                          <Component id="jLabel92" min="-2" max="-2" attributes="0"/>
-                                          <EmptySpace min="-2" pref="49" max="-2" attributes="0"/>
-                                          <Component id="jLabel97" min="-2" max="-2" attributes="0"/>
-                                          <EmptySpace min="-2" pref="49" max="-2" attributes="0"/>
-                                          <Component id="jLabel95" min="-2" max="-2" attributes="0"/>
-                                          <EmptySpace min="-2" pref="49" max="-2" attributes="0"/>
-                                          <Component id="jLabel104" min="-2" max="-2" attributes="0"/>
-                                          <EmptySpace min="-2" pref="49" max="-2" attributes="0"/>
-                                          <Component id="jLabel96" min="-2" max="-2" attributes="0"/>
-                                          <EmptySpace min="0" pref="0" max="32767" attributes="0"/>
-                                      </Group>
-                                      <Group type="102" attributes="0">
-                                          <Component id="b1" min="-2" max="-2" attributes="0"/>
-                                          <EmptySpace min="-2" pref="34" max="-2" attributes="0"/>
-                                          <Component id="b2" min="-2" max="-2" attributes="0"/>
-                                          <EmptySpace min="-2" pref="34" max="-2" attributes="0"/>
-                                          <Component id="b3" min="-2" max="-2" attributes="0"/>
-                                          <EmptySpace min="-2" pref="34" max="-2" attributes="0"/>
-                                          <Component id="b4" min="-2" max="-2" attributes="0"/>
-                                          <EmptySpace min="-2" pref="34" max="-2" attributes="0"/>
-                                          <Component id="b5" min="-2" max="-2" attributes="0"/>
-                                          <EmptySpace pref="15" max="32767" attributes="0"/>
-                                      </Group>
-                                  </Group>
-                              </Group>
-                              <Group type="102" alignment="1" attributes="0">
-                                  <EmptySpace max="-2" attributes="0"/>
-                                  <Component id="jLabel93" min="-2" pref="45" max="-2" attributes="0"/>
-                                  <EmptySpace min="-2" pref="47" max="-2" attributes="0"/>
                                   <Group type="103" groupAlignment="3" attributes="0">
-                                      <Component id="jLabel103" alignment="3" min="-2" max="-2" attributes="0"/>
-                                      <Component id="b8" alignment="3" min="-2" max="-2" attributes="0"/>
+                                      <Component id="jLabel94" alignment="3" min="-2" pref="45" max="-2" attributes="0"/>
+                                      <Component id="jLabel93" alignment="3" min="-2" pref="45" max="-2" attributes="0"/>
                                   </Group>
-                                  <EmptySpace min="-2" pref="34" max="-2" attributes="0"/>
+                                  <EmptySpace min="-2" pref="31" max="-2" attributes="0"/>
                                   <Group type="103" groupAlignment="3" attributes="0">
-                                      <Component id="jLabel102" alignment="3" min="-2" max="-2" attributes="0"/>
+                                      <Component id="jLabel92" alignment="3" min="-2" max="-2" attributes="0"/>
+                                      <Component id="b1" alignment="3" min="-2" max="-2" attributes="0"/>
+                                      <Component id="jLabel100" alignment="3" min="-2" max="-2" attributes="0"/>
                                       <Component id="b6" alignment="3" min="-2" max="-2" attributes="0"/>
                                   </Group>
-                                  <EmptySpace min="-2" pref="34" max="-2" attributes="0"/>
+                                  <EmptySpace min="-2" pref="36" max="-2" attributes="0"/>
                                   <Group type="103" groupAlignment="3" attributes="0">
-                                      <Component id="jLabel100" alignment="3" min="-2" max="-2" attributes="0"/>
                                       <Component id="b7" alignment="3" min="-2" max="-2" attributes="0"/>
-                                  </Group>
-                                  <EmptySpace min="-2" pref="34" max="-2" attributes="0"/>
-                                  <Group type="103" groupAlignment="3" attributes="0">
                                       <Component id="jLabel101" alignment="3" min="-2" max="-2" attributes="0"/>
-                                      <Component id="b9" alignment="3" min="-2" max="-2" attributes="0"/>
+                                      <Component id="jLabel95" alignment="3" min="-2" max="-2" attributes="0"/>
+                                      <Component id="b2" alignment="3" min="-2" max="-2" attributes="0"/>
                                   </Group>
-                                  <EmptySpace min="-2" pref="34" max="-2" attributes="0"/>
+                                  <EmptySpace min="-2" pref="36" max="-2" attributes="0"/>
                                   <Group type="103" groupAlignment="3" attributes="0">
-                                      <Component id="jLabel107" alignment="3" min="-2" max="-2" attributes="0"/>
-                                      <Component id="b10" alignment="3" min="-2" max="-2" attributes="0"/>
+                                      <Component id="b3" alignment="3" min="-2" max="-2" attributes="0"/>
+                                      <Component id="jLabel96" alignment="3" min="-2" max="-2" attributes="0"/>
                                   </Group>
-                                  <EmptySpace min="-2" pref="15" max="-2" attributes="0"/>
+                              </Group>
+                              <Group type="103" alignment="1" groupAlignment="3" attributes="0">
+                                  <Component id="jLabel103" alignment="3" min="-2" max="-2" attributes="0"/>
+                                  <Component id="b8" alignment="3" min="-2" max="-2" attributes="0"/>
                               </Group>
                           </Group>
-                          <EmptySpace min="-2" pref="200" max="-2" attributes="0"/>
-                          <Group type="103" groupAlignment="0" attributes="0">
-                              <Group type="102" alignment="1" attributes="0">
-                                  <Group type="103" groupAlignment="3" attributes="0">
-                                      <Component id="jLabel9" alignment="3" min="-2" pref="46" max="-2" attributes="0"/>
-                                      <Component id="jLabel4" alignment="3" min="-2" pref="46" max="-2" attributes="0"/>
-                                      <Component id="jLabel8" alignment="3" min="-2" pref="46" max="-2" attributes="0"/>
-                                  </Group>
-                                  <EmptySpace max="-2" attributes="0"/>
-                                  <Group type="103" groupAlignment="3" attributes="0">
-                                      <Component id="totalTF3" alignment="3" min="-2" pref="50" max="-2" attributes="0"/>
-                                      <Component id="percentageTF3" alignment="3" min="-2" pref="50" max="-2" attributes="0"/>
-                                      <Component id="gpaTF3" alignment="3" min="-2" pref="50" max="-2" attributes="0"/>
-                                  </Group>
-                              </Group>
-                              <Group type="102" alignment="1" attributes="0">
-                                  <Component id="calc4" min="-2" pref="80" max="-2" attributes="0"/>
-                                  <EmptySpace min="-2" pref="4" max="-2" attributes="0"/>
-                              </Group>
+                          <EmptySpace min="-2" pref="36" max="-2" attributes="0"/>
+                          <Group type="103" groupAlignment="3" attributes="0">
+                              <Component id="jLabel97" alignment="3" min="-2" max="-2" attributes="0"/>
+                              <Component id="b4" alignment="3" min="-2" max="-2" attributes="0"/>
+                              <Component id="jLabel102" alignment="3" min="-2" max="-2" attributes="0"/>
+                              <Component id="b9" alignment="3" min="-2" max="-2" attributes="0"/>
                           </Group>
-                          <EmptySpace min="-2" pref="204" max="-2" attributes="0"/>
+                          <EmptySpace min="-2" pref="36" max="-2" attributes="0"/>
+                          <Group type="103" groupAlignment="3" attributes="0">
+                              <Component id="jLabel104" alignment="3" min="-2" max="-2" attributes="0"/>
+                              <Component id="jLabel107" alignment="3" min="-2" max="-2" attributes="0"/>
+                              <Component id="b5" alignment="3" min="-2" max="-2" attributes="0"/>
+                              <Component id="b10" alignment="3" min="-2" max="-2" attributes="0"/>
+                          </Group>
+                          <EmptySpace min="-2" pref="74" max="-2" attributes="0"/>
+                          <Group type="103" groupAlignment="3" attributes="0">
+                              <Component id="jLabel4" alignment="3" min="-2" pref="46" max="-2" attributes="0"/>
+                              <Component id="jLabel8" alignment="3" min="-2" pref="46" max="-2" attributes="0"/>
+                              <Component id="jLabel9" alignment="3" min="-2" pref="46" max="-2" attributes="0"/>
+                          </Group>
+                          <EmptySpace max="-2" attributes="0"/>
+                          <Group type="103" groupAlignment="3" attributes="0">
+                              <Component id="gpaTF3" alignment="3" min="-2" pref="76" max="-2" attributes="0"/>
+                              <Component id="calc4" alignment="3" min="-2" pref="76" max="-2" attributes="0"/>
+                              <Component id="percentageTF3" alignment="3" min="-2" pref="76" max="-2" attributes="0"/>
+                              <Component id="totalTF3" alignment="3" min="-2" pref="76" max="-2" attributes="0"/>
+                          </Group>
+                          <EmptySpace pref="349" max="32767" attributes="0"/>
                       </Group>
                   </Group>
                 </DimensionLayout>
@@ -1896,7 +1885,7 @@
                 <Component class="javax.swing.JLabel" name="jLabel92">
                   <Properties>
                     <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
-                      <Font name="Arial" size="24" style="1"/>
+                      <Font name="Yu Gothic UI Semilight" size="24" style="1"/>
                     </Property>
                     <Property name="text" type="java.lang.String" value="Network"/>
                   </Properties>
@@ -1904,17 +1893,17 @@
                 <Component class="javax.swing.JLabel" name="jLabel93">
                   <Properties>
                     <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
-                      <Font name="Arial" size="36" style="1"/>
+                      <Font name="Wide Latin" size="36" style="1"/>
                     </Property>
-                    <Property name="text" type="java.lang.String" value="Second Term:"/>
+                    <Property name="text" type="java.lang.String" value="Second term"/>
                   </Properties>
                 </Component>
                 <Component class="javax.swing.JLabel" name="jLabel94">
                   <Properties>
                     <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
-                      <Font name="Arial" size="36" style="1"/>
+                      <Font name="Wide Latin" size="36" style="1"/>
                     </Property>
-                    <Property name="text" type="java.lang.String" value="First Term:"/>
+                    <Property name="text" type="java.lang.String" value="First term"/>
                   </Properties>
                 </Component>
                 <Component class="textfield.TextField" name="b1">
@@ -1930,7 +1919,7 @@
                 <Component class="javax.swing.JLabel" name="jLabel95">
                   <Properties>
                     <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
-                      <Font name="Arial" size="24" style="1"/>
+                      <Font name="Yu Gothic UI Semilight" size="24" style="1"/>
                     </Property>
                     <Property name="text" type="java.lang.String" value="DSP"/>
                   </Properties>
@@ -1954,7 +1943,7 @@
                 <Component class="javax.swing.JLabel" name="jLabel96">
                   <Properties>
                     <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
-                      <Font name="Arial" size="24" style="1"/>
+                      <Font name="Yu Gothic UI Semilight" size="24" style="1"/>
                     </Property>
                     <Property name="text" type="java.lang.String" value="CI"/>
                   </Properties>
@@ -1972,7 +1961,7 @@
                 <Component class="javax.swing.JLabel" name="jLabel97">
                   <Properties>
                     <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
-                      <Font name="Arial" size="24" style="1"/>
+                      <Font name="Yu Gothic UI Semilight" size="24" style="1"/>
                     </Property>
                     <Property name="text" type="java.lang.String" value="AI"/>
                   </Properties>
@@ -1990,7 +1979,7 @@
                 <Component class="javax.swing.JLabel" name="jLabel100">
                   <Properties>
                     <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
-                      <Font name="Arial" size="24" style="1"/>
+                      <Font name="Yu Gothic UI Semilight" size="24" style="1"/>
                     </Property>
                     <Property name="text" type="java.lang.String" value="Security"/>
                   </Properties>
@@ -2008,7 +1997,7 @@
                 <Component class="javax.swing.JLabel" name="jLabel101">
                   <Properties>
                     <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
-                      <Font name="Arial" size="24" style="1"/>
+                      <Font name="Yu Gothic UI Semilight" size="24" style="1"/>
                     </Property>
                     <Property name="text" type="java.lang.String" value="Systems"/>
                   </Properties>
@@ -2026,7 +2015,7 @@
                 <Component class="javax.swing.JLabel" name="jLabel102">
                   <Properties>
                     <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
-                      <Font name="Arial" size="24" style="1"/>
+                      <Font name="Yu Gothic UI Semilight" size="24" style="1"/>
                     </Property>
                     <Property name="text" type="java.lang.String" value="Control"/>
                   </Properties>
@@ -2044,7 +2033,7 @@
                 <Component class="javax.swing.JLabel" name="jLabel103">
                   <Properties>
                     <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
-                      <Font name="Arial" size="24" style="1"/>
+                      <Font name="Yu Gothic UI Semilight" size="24" style="1"/>
                     </Property>
                     <Property name="text" type="java.lang.String" value="Compiler"/>
                   </Properties>
@@ -2062,7 +2051,7 @@
                 <Component class="javax.swing.JLabel" name="jLabel104">
                   <Properties>
                     <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
-                      <Font name="Arial" size="24" style="1"/>
+                      <Font name="Yu Gothic UI Semilight" size="24" style="1"/>
                     </Property>
                     <Property name="text" type="java.lang.String" value="Control"/>
                   </Properties>
@@ -2093,7 +2082,7 @@
                 <Component class="javax.swing.JLabel" name="jLabel107">
                   <Properties>
                     <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
-                      <Font name="Arial" size="24" style="1"/>
+                      <Font name="Yu Gothic UI Semilight" size="24" style="1"/>
                     </Property>
                     <Property name="text" type="java.lang.String" value="Computer vision"/>
                   </Properties>
@@ -2134,15 +2123,15 @@
                 <Component class="javax.swing.JLabel" name="jLabel4">
                   <Properties>
                     <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
-                      <Font name="Arial" size="24" style="1"/>
+                      <Font name="Wide Latin" size="14" style="3"/>
                     </Property>
-                    <Property name="text" type="java.lang.String" value="Percentage"/>
+                    <Property name="text" type="java.lang.String" value="percentage"/>
                   </Properties>
                 </Component>
                 <Component class="javax.swing.JLabel" name="jLabel8">
                   <Properties>
                     <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
-                      <Font name="Arial" size="24" style="1"/>
+                      <Font name="Wide Latin" size="14" style="3"/>
                     </Property>
                     <Property name="text" type="java.lang.String" value="GPA"/>
                   </Properties>
@@ -2160,7 +2149,7 @@
                 <Component class="javax.swing.JLabel" name="jLabel9">
                   <Properties>
                     <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
-                      <Font name="Arial" size="24" style="1"/>
+                      <Font name="Wide Latin" size="14" style="3"/>
                     </Property>
                     <Property name="text" type="java.lang.String" value="Total"/>
                   </Properties>

@@ -57,6 +57,12 @@ public class Summaries extends javax.swing.JFrame {
         switchButton9 = new swing.SwitchButton();
         comboBoxSuggestion7 = new combo_suggestion.ComboBoxSuggestion();
         comboBoxSuggestion8 = new combo_suggestion.ComboBoxSuggestion();
+        pnlParent = new javax.swing.JPanel();
+        pnlRight = new javax.swing.JPanel();
+        pnlTypography = new javax.swing.JPanel();
+        pnlParent1 = new javax.swing.JPanel();
+        pnlRight1 = new javax.swing.JPanel();
+        pnlTypography1 = new javax.swing.JPanel();
         jPanel1 = new javax.swing.JPanel();
         jLabel15 = new javax.swing.JLabel();
 =======
@@ -67,7 +73,6 @@ public class Summaries extends javax.swing.JFrame {
 
         setDefaultCloseOperation(javax.swing.WindowConstants.DISPOSE_ON_CLOSE);
         setBackground(new java.awt.Color(255, 255, 255));
-        setBounds(new java.awt.Rectangle(220, 80, 0, 0));
 
         tabbedPaneCustom1.setFont(new java.awt.Font("sansserif", 1, 12)); // NOI18N
 <<<<<<< Updated upstream
@@ -103,7 +108,11 @@ public class Summaries extends javax.swing.JFrame {
                 .addComponent(switchButton2, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
                 .addComponent(comboBoxSuggestion2, javax.swing.GroupLayout.PREFERRED_SIZE, 230, javax.swing.GroupLayout.PREFERRED_SIZE)
+<<<<<<< HEAD
                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, 373, Short.MAX_VALUE)
+=======
+                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, 395, Short.MAX_VALUE)
+>>>>>>> parent of 02cd62d (changes)
                 .addComponent(comboBoxSuggestion1, javax.swing.GroupLayout.PREFERRED_SIZE, 230, javax.swing.GroupLayout.PREFERRED_SIZE)
                 .addGap(26, 26, 26)
                 .addComponent(switchButton3, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE))
@@ -119,7 +128,7 @@ public class Summaries extends javax.swing.JFrame {
                         .addGroup(jPanel2Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
                             .addComponent(comboBoxSuggestion2, javax.swing.GroupLayout.PREFERRED_SIZE, 31, javax.swing.GroupLayout.PREFERRED_SIZE)
                             .addComponent(comboBoxSuggestion1, javax.swing.GroupLayout.PREFERRED_SIZE, 31, javax.swing.GroupLayout.PREFERRED_SIZE))))
-                .addContainerGap(868, Short.MAX_VALUE))
+                .addContainerGap(860, Short.MAX_VALUE))
         );
 
         tabbedPaneCustom1.addTab("Sophomore", jPanel2);
@@ -162,7 +171,11 @@ public class Summaries extends javax.swing.JFrame {
                 .addComponent(switchButton4, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
                 .addComponent(comboBoxSuggestion3, javax.swing.GroupLayout.PREFERRED_SIZE, 230, javax.swing.GroupLayout.PREFERRED_SIZE)
+<<<<<<< HEAD
                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, 354, Short.MAX_VALUE)
+=======
+                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, 376, Short.MAX_VALUE)
+>>>>>>> parent of 02cd62d (changes)
                 .addComponent(comboBoxSuggestion4, javax.swing.GroupLayout.PREFERRED_SIZE, 230, javax.swing.GroupLayout.PREFERRED_SIZE)
                 .addGap(45, 45, 45)
                 .addComponent(switchButton5, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE))
@@ -231,7 +244,11 @@ public class Summaries extends javax.swing.JFrame {
                 .addComponent(switchButton6, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
                 .addComponent(comboBoxSuggestion5, javax.swing.GroupLayout.PREFERRED_SIZE, 230, javax.swing.GroupLayout.PREFERRED_SIZE)
+<<<<<<< HEAD
                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, 389, Short.MAX_VALUE)
+=======
+                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, 411, Short.MAX_VALUE)
+>>>>>>> parent of 02cd62d (changes)
                 .addComponent(comboBoxSuggestion6, javax.swing.GroupLayout.PREFERRED_SIZE, 230, javax.swing.GroupLayout.PREFERRED_SIZE)
                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
                 .addComponent(switchButton7, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE))
@@ -293,7 +310,11 @@ public class Summaries extends javax.swing.JFrame {
                 .addComponent(switchButton8, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
                 .addGap(2, 2, 2)
                 .addComponent(comboBoxSuggestion7, javax.swing.GroupLayout.PREFERRED_SIZE, 230, javax.swing.GroupLayout.PREFERRED_SIZE)
+<<<<<<< HEAD
                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, 392, Short.MAX_VALUE)
+=======
+                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, 414, Short.MAX_VALUE)
+>>>>>>> parent of 02cd62d (changes)
                 .addComponent(comboBoxSuggestion8, javax.swing.GroupLayout.PREFERRED_SIZE, 209, javax.swing.GroupLayout.PREFERRED_SIZE)
                 .addGap(26, 26, 26)
                 .addComponent(switchButton9, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
@@ -321,7 +342,55 @@ public class Summaries extends javax.swing.JFrame {
 
         tabbedPaneCustom1.addTab("Senior 2  ", jPanel5);
 
+<<<<<<< HEAD
 <<<<<<< Updated upstream
+=======
+        pnlParent.setLayout(new java.awt.BorderLayout());
+
+        pnlRight.setLayout(new java.awt.CardLayout());
+
+        pnlParent1.setLayout(new java.awt.BorderLayout());
+
+        pnlRight1.setLayout(new java.awt.CardLayout());
+
+        javax.swing.GroupLayout pnlTypography1Layout = new javax.swing.GroupLayout(pnlTypography1);
+        pnlTypography1.setLayout(pnlTypography1Layout);
+        pnlTypography1Layout.setHorizontalGroup(
+            pnlTypography1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+            .addGap(0, 1024, Short.MAX_VALUE)
+        );
+        pnlTypography1Layout.setVerticalGroup(
+            pnlTypography1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+            .addGap(0, 600, Short.MAX_VALUE)
+        );
+
+        pnlRight1.add(pnlTypography1, "card2");
+
+        pnlParent1.add(pnlRight1, java.awt.BorderLayout.CENTER);
+
+        javax.swing.GroupLayout pnlTypographyLayout = new javax.swing.GroupLayout(pnlTypography);
+        pnlTypography.setLayout(pnlTypographyLayout);
+        pnlTypographyLayout.setHorizontalGroup(
+            pnlTypographyLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+            .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, pnlTypographyLayout.createSequentialGroup()
+                .addGap(0, 0, Short.MAX_VALUE)
+                .addComponent(pnlParent1, javax.swing.GroupLayout.PREFERRED_SIZE, 1024, javax.swing.GroupLayout.PREFERRED_SIZE))
+        );
+        pnlTypographyLayout.setVerticalGroup(
+            pnlTypographyLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+            .addGroup(pnlTypographyLayout.createSequentialGroup()
+                .addGap(36, 36, 36)
+                .addComponent(pnlParent1, javax.swing.GroupLayout.PREFERRED_SIZE, 600, javax.swing.GroupLayout.PREFERRED_SIZE)
+                .addContainerGap(javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
+        );
+
+        pnlRight.add(pnlTypography, "card2");
+
+        pnlParent.add(pnlRight, java.awt.BorderLayout.CENTER);
+
+        tabbedPaneCustom1.addTab("tab6", pnlParent);
+
+>>>>>>> parent of 02cd62d (changes)
         jPanel1.setBackground(new java.awt.Color(237, 148, 85));
 
         jLabel15.setFont(new java.awt.Font("Verdana", 1, 24)); // NOI18N
@@ -337,7 +406,7 @@ public class Summaries extends javax.swing.JFrame {
             .addGroup(jPanel1Layout.createSequentialGroup()
                 .addGap(69, 69, 69)
                 .addComponent(jLabel15)
-                .addContainerGap(javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
+                .addContainerGap(743, Short.MAX_VALUE))
         );
         jPanel1Layout.setVerticalGroup(
             jPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
@@ -378,7 +447,11 @@ public class Summaries extends javax.swing.JFrame {
             layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
 <<<<<<< Updated upstream
             .addComponent(jPanel1, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
+<<<<<<< HEAD
             .addComponent(tabbedPaneCustom1, javax.swing.GroupLayout.DEFAULT_SIZE, 974, Short.MAX_VALUE)
+=======
+            .addComponent(tabbedPaneCustom1, javax.swing.GroupLayout.PREFERRED_SIZE, 0, Short.MAX_VALUE)
+>>>>>>> parent of 02cd62d (changes)
         );
         layout.setVerticalGroup(
             layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
@@ -485,6 +558,12 @@ public class Summaries extends javax.swing.JFrame {
     private javax.swing.JPanel jPanel3;
     private javax.swing.JPanel jPanel4;
     private javax.swing.JPanel jPanel5;
+    private javax.swing.JPanel pnlParent;
+    private javax.swing.JPanel pnlParent1;
+    private javax.swing.JPanel pnlRight;
+    private javax.swing.JPanel pnlRight1;
+    private javax.swing.JPanel pnlTypography;
+    private javax.swing.JPanel pnlTypography1;
     private swing.SwitchButton switchButton2;
 <<<<<<< Updated upstream
     private swing.SwitchButton switchButton3;
