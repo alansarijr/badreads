@@ -33,11 +33,14 @@ public class Summaries extends javax.swing.JFrame {
     private void initComponents() {
 
         tabbedPaneCustom1 = new raven.tabbed.TabbedPaneCustom();
+<<<<<<< Updated upstream
         jPanel2 = new javax.swing.JPanel();
         comboBoxSuggestion1 = new combo_suggestion.ComboBoxSuggestion();
         comboBoxSuggestion2 = new combo_suggestion.ComboBoxSuggestion();
         switchButton2 = new swing.SwitchButton();
         switchButton3 = new swing.SwitchButton();
+=======
+>>>>>>> Stashed changes
         jPanel3 = new javax.swing.JPanel();
         switchButton4 = new swing.SwitchButton();
         comboBoxSuggestion3 = new combo_suggestion.ComboBoxSuggestion();
@@ -49,18 +52,25 @@ public class Summaries extends javax.swing.JFrame {
         comboBoxSuggestion6 = new combo_suggestion.ComboBoxSuggestion();
         switchButton7 = new swing.SwitchButton();
         jPanel5 = new javax.swing.JPanel();
+<<<<<<< Updated upstream
         switchButton8 = new swing.SwitchButton();
         switchButton9 = new swing.SwitchButton();
         comboBoxSuggestion7 = new combo_suggestion.ComboBoxSuggestion();
         comboBoxSuggestion8 = new combo_suggestion.ComboBoxSuggestion();
         jPanel1 = new javax.swing.JPanel();
         jLabel15 = new javax.swing.JLabel();
+=======
+        jLabel4 = new javax.swing.JLabel();
+        jPanel2 = new javax.swing.JPanel();
+        switchButton2 = new swing.SwitchButton();
+>>>>>>> Stashed changes
 
         setDefaultCloseOperation(javax.swing.WindowConstants.DISPOSE_ON_CLOSE);
         setBackground(new java.awt.Color(255, 255, 255));
         setBounds(new java.awt.Rectangle(220, 80, 0, 0));
 
         tabbedPaneCustom1.setFont(new java.awt.Font("sansserif", 1, 12)); // NOI18N
+<<<<<<< Updated upstream
         tabbedPaneCustom1.setSelectedColor(new java.awt.Color(255, 236, 158));
         tabbedPaneCustom1.setUnselectedColor(new java.awt.Color(255, 236, 158));
 
@@ -134,12 +144,21 @@ public class Summaries extends javax.swing.JFrame {
         });
 
         switchButton5.setForeground(new java.awt.Color(240, 240, 240));
+=======
+        tabbedPaneCustom1.setSelectedColor(new java.awt.Color(49, 158, 242));
+        tabbedPaneCustom1.setUnselectedColor(new java.awt.Color(185, 214, 255));
+
+        jPanel3.setBackground(new java.awt.Color(243, 243, 243));
+
+        jLabel8.setText("About:");
+>>>>>>> Stashed changes
 
         javax.swing.GroupLayout jPanel3Layout = new javax.swing.GroupLayout(jPanel3);
         jPanel3.setLayout(jPanel3Layout);
         jPanel3Layout.setHorizontalGroup(
             jPanel3Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
             .addGroup(jPanel3Layout.createSequentialGroup()
+<<<<<<< Updated upstream
                 .addComponent(switchButton4, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
                 .addComponent(comboBoxSuggestion3, javax.swing.GroupLayout.PREFERRED_SIZE, 230, javax.swing.GroupLayout.PREFERRED_SIZE)
@@ -147,10 +166,16 @@ public class Summaries extends javax.swing.JFrame {
                 .addComponent(comboBoxSuggestion4, javax.swing.GroupLayout.PREFERRED_SIZE, 230, javax.swing.GroupLayout.PREFERRED_SIZE)
                 .addGap(45, 45, 45)
                 .addComponent(switchButton5, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE))
+=======
+                .addGap(14, 14, 14)
+                .addComponent(jLabel8, javax.swing.GroupLayout.PREFERRED_SIZE, 52, javax.swing.GroupLayout.PREFERRED_SIZE)
+                .addContainerGap(915, Short.MAX_VALUE))
+>>>>>>> Stashed changes
         );
         jPanel3Layout.setVerticalGroup(
             jPanel3Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
             .addGroup(jPanel3Layout.createSequentialGroup()
+<<<<<<< Updated upstream
                 .addGap(57, 57, 57)
                 .addGroup(jPanel3Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
                     .addComponent(switchButton5, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
@@ -159,12 +184,18 @@ public class Summaries extends javax.swing.JFrame {
                         .addComponent(comboBoxSuggestion4, javax.swing.GroupLayout.PREFERRED_SIZE, 31, javax.swing.GroupLayout.PREFERRED_SIZE))
                     .addComponent(switchButton4, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE))
                 .addContainerGap(861, Short.MAX_VALUE))
+=======
+                .addGap(36, 36, 36)
+                .addComponent(jLabel8, javax.swing.GroupLayout.PREFERRED_SIZE, 30, javax.swing.GroupLayout.PREFERRED_SIZE)
+                .addContainerGap(702, Short.MAX_VALUE))
+>>>>>>> Stashed changes
         );
 
         tabbedPaneCustom1.addTab("Junior   ", jPanel3);
 
         jPanel4.setBackground(new java.awt.Color(243, 243, 243));
 
+<<<<<<< Updated upstream
         switchButton6.setForeground(new java.awt.Color(240, 240, 240));
 
         comboBoxSuggestion5.setEditable(false);
@@ -184,11 +215,18 @@ public class Summaries extends javax.swing.JFrame {
         });
 
         switchButton7.setForeground(new java.awt.Color(240, 240, 240));
+=======
+        jLabel3.setFont(new java.awt.Font("sansserif", 1, 18)); // NOI18N
+        jLabel3.setForeground(new java.awt.Color(95, 95, 95));
+        jLabel3.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
+        jLabel3.setText("Tabbed 3");
+>>>>>>> Stashed changes
 
         javax.swing.GroupLayout jPanel4Layout = new javax.swing.GroupLayout(jPanel4);
         jPanel4.setLayout(jPanel4Layout);
         jPanel4Layout.setHorizontalGroup(
             jPanel4Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+<<<<<<< Updated upstream
             .addGroup(jPanel4Layout.createSequentialGroup()
                 .addComponent(switchButton6, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
@@ -211,12 +249,20 @@ public class Summaries extends javax.swing.JFrame {
                         .addComponent(comboBoxSuggestion6, javax.swing.GroupLayout.PREFERRED_SIZE, 31, javax.swing.GroupLayout.PREFERRED_SIZE)
                         .addGap(6, 6, 6)))
                 .addContainerGap(865, Short.MAX_VALUE))
+=======
+            .addComponent(jLabel3, javax.swing.GroupLayout.Alignment.TRAILING, javax.swing.GroupLayout.DEFAULT_SIZE, 981, Short.MAX_VALUE)
+        );
+        jPanel4Layout.setVerticalGroup(
+            jPanel4Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+            .addComponent(jLabel3, javax.swing.GroupLayout.DEFAULT_SIZE, 768, Short.MAX_VALUE)
+>>>>>>> Stashed changes
         );
 
         tabbedPaneCustom1.addTab("Senior 1  ", jPanel4);
 
         jPanel5.setBackground(new java.awt.Color(243, 243, 243));
 
+<<<<<<< Updated upstream
         switchButton8.setForeground(new java.awt.Color(240, 240, 240));
 
         switchButton9.setForeground(new java.awt.Color(240, 240, 240));
@@ -231,11 +277,18 @@ public class Summaries extends javax.swing.JFrame {
 
         comboBoxSuggestion8.setEditable(false);
         comboBoxSuggestion8.setModel(new javax.swing.DefaultComboBoxModel(new String[] { "Security", "Systems", "Compiler", "Control", "Computer vision" }));
+=======
+        jLabel4.setFont(new java.awt.Font("sansserif", 1, 18)); // NOI18N
+        jLabel4.setForeground(new java.awt.Color(95, 95, 95));
+        jLabel4.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
+        jLabel4.setText("Tabbed 4");
+>>>>>>> Stashed changes
 
         javax.swing.GroupLayout jPanel5Layout = new javax.swing.GroupLayout(jPanel5);
         jPanel5.setLayout(jPanel5Layout);
         jPanel5Layout.setHorizontalGroup(
             jPanel5Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+<<<<<<< Updated upstream
             .addGroup(jPanel5Layout.createSequentialGroup()
                 .addComponent(switchButton8, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
                 .addGap(2, 2, 2)
@@ -257,10 +310,18 @@ public class Summaries extends javax.swing.JFrame {
                         .addComponent(switchButton9, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
                         .addComponent(comboBoxSuggestion8, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)))
                 .addContainerGap(864, Short.MAX_VALUE))
+=======
+            .addComponent(jLabel4, javax.swing.GroupLayout.Alignment.TRAILING, javax.swing.GroupLayout.DEFAULT_SIZE, 981, Short.MAX_VALUE)
+        );
+        jPanel5Layout.setVerticalGroup(
+            jPanel5Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+            .addComponent(jLabel4, javax.swing.GroupLayout.DEFAULT_SIZE, 768, Short.MAX_VALUE)
+>>>>>>> Stashed changes
         );
 
         tabbedPaneCustom1.addTab("Senior 2  ", jPanel5);
 
+<<<<<<< Updated upstream
         jPanel1.setBackground(new java.awt.Color(237, 148, 85));
 
         jLabel15.setFont(new java.awt.Font("Verdana", 1, 24)); // NOI18N
@@ -286,10 +347,36 @@ public class Summaries extends javax.swing.JFrame {
                 .addContainerGap(97, Short.MAX_VALUE))
         );
 
+=======
+        jPanel2.setBackground(new java.awt.Color(243, 243, 243));
+
+        switchButton2.setForeground(new java.awt.Color(240, 240, 240));
+
+        javax.swing.GroupLayout jPanel2Layout = new javax.swing.GroupLayout(jPanel2);
+        jPanel2.setLayout(jPanel2Layout);
+        jPanel2Layout.setHorizontalGroup(
+            jPanel2Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+            .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, jPanel2Layout.createSequentialGroup()
+                .addContainerGap(921, Short.MAX_VALUE)
+                .addComponent(switchButton2, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
+                .addContainerGap())
+        );
+        jPanel2Layout.setVerticalGroup(
+            jPanel2Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+            .addGroup(jPanel2Layout.createSequentialGroup()
+                .addContainerGap()
+                .addComponent(switchButton2, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
+                .addContainerGap(733, Short.MAX_VALUE))
+        );
+
+        tabbedPaneCustom1.addTab("Sophomore", jPanel2);
+
+>>>>>>> Stashed changes
         javax.swing.GroupLayout layout = new javax.swing.GroupLayout(getContentPane());
         getContentPane().setLayout(layout);
         layout.setHorizontalGroup(
             layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+<<<<<<< Updated upstream
             .addComponent(jPanel1, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
             .addComponent(tabbedPaneCustom1, javax.swing.GroupLayout.DEFAULT_SIZE, 984, Short.MAX_VALUE)
         );
@@ -299,6 +386,13 @@ public class Summaries extends javax.swing.JFrame {
                 .addComponent(jPanel1, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
                 .addComponent(tabbedPaneCustom1, javax.swing.GroupLayout.PREFERRED_SIZE, 987, javax.swing.GroupLayout.PREFERRED_SIZE))
+=======
+            .addComponent(tabbedPaneCustom1, javax.swing.GroupLayout.Alignment.TRAILING, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
+        );
+        layout.setVerticalGroup(
+            layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+            .addComponent(tabbedPaneCustom1, javax.swing.GroupLayout.Alignment.TRAILING, javax.swing.GroupLayout.DEFAULT_SIZE, 806, Short.MAX_VALUE)
+>>>>>>> Stashed changes
         );
 
         pack();
@@ -371,6 +465,7 @@ public class Summaries extends javax.swing.JFrame {
     }
 
     // Variables declaration - do not modify//GEN-BEGIN:variables
+<<<<<<< Updated upstream
     private combo_suggestion.ComboBoxSuggestion comboBoxSuggestion1;
     private combo_suggestion.ComboBoxSuggestion comboBoxSuggestion2;
     private combo_suggestion.ComboBoxSuggestion comboBoxSuggestion3;
@@ -381,11 +476,17 @@ public class Summaries extends javax.swing.JFrame {
     private combo_suggestion.ComboBoxSuggestion comboBoxSuggestion8;
     private javax.swing.JLabel jLabel15;
     private javax.swing.JPanel jPanel1;
+=======
+    private javax.swing.JLabel jLabel3;
+    private javax.swing.JLabel jLabel4;
+    private javax.swing.JLabel jLabel8;
+>>>>>>> Stashed changes
     private javax.swing.JPanel jPanel2;
     private javax.swing.JPanel jPanel3;
     private javax.swing.JPanel jPanel4;
     private javax.swing.JPanel jPanel5;
     private swing.SwitchButton switchButton2;
+<<<<<<< Updated upstream
     private swing.SwitchButton switchButton3;
     private swing.SwitchButton switchButton4;
     private swing.SwitchButton switchButton5;
@@ -393,6 +494,8 @@ public class Summaries extends javax.swing.JFrame {
     private swing.SwitchButton switchButton7;
     private swing.SwitchButton switchButton8;
     private swing.SwitchButton switchButton9;
+=======
+>>>>>>> Stashed changes
     private raven.tabbed.TabbedPaneCustom tabbedPaneCustom1;
     // End of variables declaration//GEN-END:variables
 
