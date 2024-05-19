@@ -26,9 +26,10 @@ public class Exams extends javax.swing.JFrame {
     // <editor-fold defaultstate="collapsed" desc="Generated Code">//GEN-BEGIN:initComponents
     private void initComponents() {
 
+        jPanel1 = new javax.swing.JPanel();
+        jLabel15 = new javax.swing.JLabel();
         tabbedPaneCustom2 = new raven.tabbed.TabbedPaneCustom();
         jPanel4 = new javax.swing.JPanel();
-<<<<<<< Updated upstream
         switchButton10 = new swing.SwitchButton();
         switchButton11 = new swing.SwitchButton();
         comboBoxSuggestion2 = new combo_suggestion.ComboBoxSuggestion();
@@ -39,13 +40,6 @@ public class Exams extends javax.swing.JFrame {
         switchButton13 = new swing.SwitchButton();
         comboBoxSuggestion4 = new combo_suggestion.ComboBoxSuggestion();
         comboBoxSuggestion3 = new combo_suggestion.ComboBoxSuggestion();
-=======
-        jLabel10 = new javax.swing.JLabel();
-        imageAvatar3 = new swing.ImageAvatar();
-        imageAvatar4 = new swing.ImageAvatar();
-        jPanel8 = new javax.swing.JPanel();
-        jPanel5 = new javax.swing.JPanel();
->>>>>>> Stashed changes
         jPanel6 = new javax.swing.JPanel();
         switchButton14 = new swing.SwitchButton();
         switchButton15 = new swing.SwitchButton();
@@ -58,8 +52,8 @@ public class Exams extends javax.swing.JFrame {
         comboBoxSuggestion8 = new combo_suggestion.ComboBoxSuggestion();
 
         setDefaultCloseOperation(javax.swing.WindowConstants.EXIT_ON_CLOSE);
+        setLocation(new java.awt.Point(220, 80));
 
-<<<<<<< Updated upstream
         jPanel1.setBackground(new java.awt.Color(237, 148, 85));
 
         jLabel15.setFont(new java.awt.Font("Verdana", 1, 24)); // NOI18N
@@ -85,15 +79,12 @@ public class Exams extends javax.swing.JFrame {
                 .addContainerGap(50, Short.MAX_VALUE))
         );
 
-=======
->>>>>>> Stashed changes
         tabbedPaneCustom2.setFont(new java.awt.Font("sansserif", 1, 12)); // NOI18N
         tabbedPaneCustom2.setSelectedColor(new java.awt.Color(255, 236, 158));
         tabbedPaneCustom2.setUnselectedColor(new java.awt.Color(255, 236, 158));
 
         jPanel4.setBackground(new java.awt.Color(243, 243, 243));
 
-<<<<<<< Updated upstream
         switchButton10.setForeground(new java.awt.Color(240, 240, 240));
 
         switchButton11.setForeground(new java.awt.Color(240, 240, 240));
@@ -105,9 +96,6 @@ public class Exams extends javax.swing.JFrame {
                 comboBoxSuggestion2ActionPerformed(evt);
             }
         });
-=======
-        jLabel10.setText("to create a productive community through many tracks such as academic track, competitions track, camps track, Juniors track and Projects track.");
->>>>>>> Stashed changes
 
         comboBoxSuggestion1.setModel(new javax.swing.DefaultComboBoxModel(new String[] { "Advanced progarmming (Java)", "Basic Electronics", "Satistics and probability", "Logic design", "Workshops", "Presentation skills" }));
         comboBoxSuggestion1.addActionListener(new java.awt.event.ActionListener() {
@@ -116,54 +104,22 @@ public class Exams extends javax.swing.JFrame {
             }
         });
 
-        jPanel8.setBackground(new java.awt.Color(243, 243, 243));
-
-        javax.swing.GroupLayout jPanel8Layout = new javax.swing.GroupLayout(jPanel8);
-        jPanel8.setLayout(jPanel8Layout);
-        jPanel8Layout.setHorizontalGroup(
-            jPanel8Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addGap(0, 999, Short.MAX_VALUE)
-        );
-        jPanel8Layout.setVerticalGroup(
-            jPanel8Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addGap(0, 666, Short.MAX_VALUE)
-        );
-
         javax.swing.GroupLayout jPanel4Layout = new javax.swing.GroupLayout(jPanel4);
         jPanel4.setLayout(jPanel4Layout);
         jPanel4Layout.setHorizontalGroup(
             jPanel4Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-<<<<<<< Updated upstream
             .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, jPanel4Layout.createSequentialGroup()
                 .addComponent(switchButton10, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
                 .addComponent(comboBoxSuggestion2, javax.swing.GroupLayout.PREFERRED_SIZE, 230, javax.swing.GroupLayout.PREFERRED_SIZE)
-                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, 389, Short.MAX_VALUE)
+                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, 395, Short.MAX_VALUE)
                 .addComponent(comboBoxSuggestion1, javax.swing.GroupLayout.PREFERRED_SIZE, 230, javax.swing.GroupLayout.PREFERRED_SIZE)
                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
                 .addComponent(switchButton11, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE))
-=======
-            .addGroup(jPanel4Layout.createSequentialGroup()
-                .addGroup(jPanel4Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                    .addGroup(jPanel4Layout.createSequentialGroup()
-                        .addGap(82, 82, 82)
-                        .addComponent(jLabel10))
-                    .addGroup(jPanel4Layout.createSequentialGroup()
-                        .addGap(217, 217, 217)
-                        .addComponent(imageAvatar3, javax.swing.GroupLayout.PREFERRED_SIZE, 251, javax.swing.GroupLayout.PREFERRED_SIZE)
-                        .addGap(18, 18, 18)
-                        .addComponent(imageAvatar4, javax.swing.GroupLayout.PREFERRED_SIZE, 251, javax.swing.GroupLayout.PREFERRED_SIZE)))
-                .addContainerGap(88, Short.MAX_VALUE))
-            .addGroup(jPanel4Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, jPanel4Layout.createSequentialGroup()
-                    .addGap(0, 0, Short.MAX_VALUE)
-                    .addComponent(jPanel8, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)))
->>>>>>> Stashed changes
         );
         jPanel4Layout.setVerticalGroup(
             jPanel4Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
             .addGroup(jPanel4Layout.createSequentialGroup()
-<<<<<<< Updated upstream
                 .addGap(36, 36, 36)
                 .addGroup(jPanel4Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.TRAILING)
                     .addComponent(switchButton11, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
@@ -171,33 +127,13 @@ public class Exams extends javax.swing.JFrame {
                         .addComponent(comboBoxSuggestion2, javax.swing.GroupLayout.PREFERRED_SIZE, 31, javax.swing.GroupLayout.PREFERRED_SIZE)
                         .addComponent(comboBoxSuggestion1, javax.swing.GroupLayout.PREFERRED_SIZE, 31, javax.swing.GroupLayout.PREFERRED_SIZE))
                     .addComponent(switchButton10, javax.swing.GroupLayout.Alignment.LEADING, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE))
-<<<<<<< HEAD
-<<<<<<< HEAD
                 .addContainerGap(561, Short.MAX_VALUE))
-=======
-                .addGap(107, 107, 107)
-                .addComponent(jLabel10)
-                .addGap(45, 45, 45)
-                .addGroup(jPanel4Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.TRAILING)
-                    .addComponent(imageAvatar4, javax.swing.GroupLayout.PREFERRED_SIZE, 221, javax.swing.GroupLayout.PREFERRED_SIZE)
-                    .addComponent(imageAvatar3, javax.swing.GroupLayout.PREFERRED_SIZE, 221, javax.swing.GroupLayout.PREFERRED_SIZE))
-                .addContainerGap(277, Short.MAX_VALUE))
-            .addGroup(jPanel4Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                .addComponent(jPanel8, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
->>>>>>> Stashed changes
-=======
-                .addContainerGap(478, Short.MAX_VALUE))
->>>>>>> parent of 02cd62d (changes)
-=======
-                .addContainerGap(478, Short.MAX_VALUE))
->>>>>>> parent of 02cd62d (changes)
         );
 
         tabbedPaneCustom2.addTab("Sophomore", jPanel4);
 
         jPanel5.setBackground(new java.awt.Color(243, 243, 243));
 
-<<<<<<< Updated upstream
         jLabel11.setText("About:");
 
         switchButton12.setForeground(new java.awt.Color(240, 240, 240));
@@ -219,13 +155,10 @@ public class Exams extends javax.swing.JFrame {
             }
         });
 
-=======
->>>>>>> Stashed changes
         javax.swing.GroupLayout jPanel5Layout = new javax.swing.GroupLayout(jPanel5);
         jPanel5.setLayout(jPanel5Layout);
         jPanel5Layout.setHorizontalGroup(
             jPanel5Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-<<<<<<< Updated upstream
             .addGroup(jPanel5Layout.createSequentialGroup()
                 .addGap(76, 76, 76)
                 .addComponent(jLabel11, javax.swing.GroupLayout.PREFERRED_SIZE, 52, javax.swing.GroupLayout.PREFERRED_SIZE)
@@ -234,7 +167,7 @@ public class Exams extends javax.swing.JFrame {
                 .addComponent(switchButton12, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
                 .addComponent(comboBoxSuggestion3, javax.swing.GroupLayout.PREFERRED_SIZE, 230, javax.swing.GroupLayout.PREFERRED_SIZE)
-                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, 389, Short.MAX_VALUE)
+                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, 395, Short.MAX_VALUE)
                 .addComponent(comboBoxSuggestion4, javax.swing.GroupLayout.PREFERRED_SIZE, 230, javax.swing.GroupLayout.PREFERRED_SIZE)
                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
                 .addComponent(switchButton13, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE))
@@ -251,16 +184,9 @@ public class Exams extends javax.swing.JFrame {
                     .addGroup(jPanel5Layout.createSequentialGroup()
                         .addComponent(comboBoxSuggestion4, javax.swing.GroupLayout.PREFERRED_SIZE, 31, javax.swing.GroupLayout.PREFERRED_SIZE)
                         .addGap(6, 6, 6)))
-                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, 168, Short.MAX_VALUE)
+                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, 251, Short.MAX_VALUE)
                 .addComponent(jLabel11, javax.swing.GroupLayout.PREFERRED_SIZE, 30, javax.swing.GroupLayout.PREFERRED_SIZE)
                 .addGap(282, 282, 282))
-=======
-            .addGap(0, 999, Short.MAX_VALUE)
-        );
-        jPanel5Layout.setVerticalGroup(
-            jPanel5Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addGap(0, 666, Short.MAX_VALUE)
->>>>>>> Stashed changes
         );
 
         tabbedPaneCustom2.addTab("Junior   ", jPanel5);
@@ -291,12 +217,11 @@ public class Exams extends javax.swing.JFrame {
         jPanel6.setLayout(jPanel6Layout);
         jPanel6Layout.setHorizontalGroup(
             jPanel6Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-<<<<<<< Updated upstream
             .addGroup(jPanel6Layout.createSequentialGroup()
                 .addComponent(switchButton14, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
                 .addComponent(comboBoxSuggestion5, javax.swing.GroupLayout.PREFERRED_SIZE, 230, javax.swing.GroupLayout.PREFERRED_SIZE)
-                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, 389, Short.MAX_VALUE)
+                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, 395, Short.MAX_VALUE)
                 .addComponent(comboBoxSuggestion6, javax.swing.GroupLayout.PREFERRED_SIZE, 230, javax.swing.GroupLayout.PREFERRED_SIZE)
                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
                 .addComponent(switchButton15, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE))
@@ -311,22 +236,7 @@ public class Exams extends javax.swing.JFrame {
                         .addComponent(comboBoxSuggestion5, javax.swing.GroupLayout.PREFERRED_SIZE, 31, javax.swing.GroupLayout.PREFERRED_SIZE)
                         .addComponent(comboBoxSuggestion6, javax.swing.GroupLayout.PREFERRED_SIZE, 31, javax.swing.GroupLayout.PREFERRED_SIZE))
                     .addComponent(switchButton14, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE))
-<<<<<<< HEAD
-<<<<<<< HEAD
                 .addContainerGap(553, Short.MAX_VALUE))
-=======
-            .addComponent(jLabel3, javax.swing.GroupLayout.Alignment.TRAILING, javax.swing.GroupLayout.DEFAULT_SIZE, 999, Short.MAX_VALUE)
-        );
-        jPanel6Layout.setVerticalGroup(
-            jPanel6Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addComponent(jLabel3, javax.swing.GroupLayout.DEFAULT_SIZE, 666, Short.MAX_VALUE)
->>>>>>> Stashed changes
-=======
-                .addContainerGap(470, Short.MAX_VALUE))
->>>>>>> parent of 02cd62d (changes)
-=======
-                .addContainerGap(470, Short.MAX_VALUE))
->>>>>>> parent of 02cd62d (changes)
         );
 
         tabbedPaneCustom2.addTab("Senior 1  ", jPanel6);
@@ -352,12 +262,11 @@ public class Exams extends javax.swing.JFrame {
         jPanel7.setLayout(jPanel7Layout);
         jPanel7Layout.setHorizontalGroup(
             jPanel7Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-<<<<<<< Updated upstream
             .addGroup(jPanel7Layout.createSequentialGroup()
                 .addComponent(switchButton16, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
                 .addComponent(comboBoxSuggestion7, javax.swing.GroupLayout.PREFERRED_SIZE, 230, javax.swing.GroupLayout.PREFERRED_SIZE)
-                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, 410, Short.MAX_VALUE)
+                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, 416, Short.MAX_VALUE)
                 .addComponent(comboBoxSuggestion8, javax.swing.GroupLayout.PREFERRED_SIZE, 209, javax.swing.GroupLayout.PREFERRED_SIZE)
                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
                 .addComponent(switchButton17, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE))
@@ -372,22 +281,7 @@ public class Exams extends javax.swing.JFrame {
                         .addComponent(comboBoxSuggestion7, javax.swing.GroupLayout.PREFERRED_SIZE, 31, javax.swing.GroupLayout.PREFERRED_SIZE)
                         .addComponent(comboBoxSuggestion8, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE))
                     .addComponent(switchButton16, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE))
-<<<<<<< HEAD
-<<<<<<< HEAD
                 .addContainerGap(560, Short.MAX_VALUE))
-=======
-            .addComponent(jLabel4, javax.swing.GroupLayout.Alignment.TRAILING, javax.swing.GroupLayout.DEFAULT_SIZE, 999, Short.MAX_VALUE)
-        );
-        jPanel7Layout.setVerticalGroup(
-            jPanel7Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addComponent(jLabel4, javax.swing.GroupLayout.DEFAULT_SIZE, 666, Short.MAX_VALUE)
->>>>>>> Stashed changes
-=======
-                .addContainerGap(477, Short.MAX_VALUE))
->>>>>>> parent of 02cd62d (changes)
-=======
-                .addContainerGap(477, Short.MAX_VALUE))
->>>>>>> parent of 02cd62d (changes)
         );
 
         tabbedPaneCustom2.addTab("Senior 2  ", jPanel7);
@@ -396,49 +290,15 @@ public class Exams extends javax.swing.JFrame {
         getContentPane().setLayout(layout);
         layout.setHorizontalGroup(
             layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< Updated upstream
             .addComponent(jPanel1, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
             .addComponent(tabbedPaneCustom2, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
-=======
-=======
->>>>>>> parent of 02cd62d (changes)
-            .addGroup(layout.createSequentialGroup()
-                .addContainerGap()
-                .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                    .addComponent(jPanel1, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
-                    .addComponent(tabbedPaneCustom2, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)))
-<<<<<<< HEAD
->>>>>>> parent of 02cd62d (changes)
-=======
->>>>>>> parent of 02cd62d (changes)
         );
         layout.setVerticalGroup(
             layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
             .addGroup(layout.createSequentialGroup()
                 .addComponent(jPanel1, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
-<<<<<<< HEAD
-<<<<<<< HEAD
                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
                 .addComponent(tabbedPaneCustom2, javax.swing.GroupLayout.PREFERRED_SIZE, 664, javax.swing.GroupLayout.PREFERRED_SIZE))
-=======
-            .addGroup(layout.createSequentialGroup()
-                .addContainerGap()
-                .addComponent(tabbedPaneCustom2, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
-        );
-        layout.setVerticalGroup(
-            layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addComponent(tabbedPaneCustom2, javax.swing.GroupLayout.DEFAULT_SIZE, 704, Short.MAX_VALUE)
->>>>>>> Stashed changes
-=======
-                .addGap(1, 1, 1)
-                .addComponent(tabbedPaneCustom2, javax.swing.GroupLayout.DEFAULT_SIZE, 583, Short.MAX_VALUE))
->>>>>>> parent of 02cd62d (changes)
-=======
-                .addGap(1, 1, 1)
-                .addComponent(tabbedPaneCustom2, javax.swing.GroupLayout.DEFAULT_SIZE, 583, Short.MAX_VALUE))
->>>>>>> parent of 02cd62d (changes)
         );
 
         pack();
@@ -508,7 +368,6 @@ public class Exams extends javax.swing.JFrame {
     }
 
     // Variables declaration - do not modify//GEN-BEGIN:variables
-<<<<<<< Updated upstream
     private combo_suggestion.ComboBoxSuggestion comboBoxSuggestion1;
     private combo_suggestion.ComboBoxSuggestion comboBoxSuggestion2;
     private combo_suggestion.ComboBoxSuggestion comboBoxSuggestion3;
@@ -520,18 +379,10 @@ public class Exams extends javax.swing.JFrame {
     private javax.swing.JLabel jLabel11;
     private javax.swing.JLabel jLabel15;
     private javax.swing.JPanel jPanel1;
-=======
-    private swing.ImageAvatar imageAvatar3;
-    private swing.ImageAvatar imageAvatar4;
-    private javax.swing.JLabel jLabel10;
-    private javax.swing.JLabel jLabel3;
-    private javax.swing.JLabel jLabel4;
->>>>>>> Stashed changes
     private javax.swing.JPanel jPanel4;
     private javax.swing.JPanel jPanel5;
     private javax.swing.JPanel jPanel6;
     private javax.swing.JPanel jPanel7;
-<<<<<<< Updated upstream
     private swing.SwitchButton switchButton10;
     private swing.SwitchButton switchButton11;
     private swing.SwitchButton switchButton12;
@@ -540,9 +391,6 @@ public class Exams extends javax.swing.JFrame {
     private swing.SwitchButton switchButton15;
     private swing.SwitchButton switchButton16;
     private swing.SwitchButton switchButton17;
-=======
-    private javax.swing.JPanel jPanel8;
->>>>>>> Stashed changes
     private raven.tabbed.TabbedPaneCustom tabbedPaneCustom2;
     // End of variables declaration//GEN-END:variables
 }

@@ -3,6 +3,9 @@
 <Form version="1.3" maxVersion="1.9" type="org.netbeans.modules.form.forminfo.JFrameFormInfo">
   <Properties>
     <Property name="defaultCloseOperation" type="int" value="3"/>
+    <Property name="location" type="java.awt.Point" editor="org.netbeans.beaninfo.editors.PointEditor">
+      <Point value="[220, 80]"/>
+    </Property>
   </Properties>
   <SyntheticProperties>
     <SyntheticProperty name="formSizePolicy" type="int" value="1"/>
@@ -23,28 +26,17 @@
   <Layout>
     <DimensionLayout dim="0">
       <Group type="103" groupAlignment="0" attributes="0">
-<<<<<<< Updated upstream
           <Component id="tabbedPaneCustom1" max="32767" attributes="0"/>
           <Component id="jPanel1" max="32767" attributes="0"/>
-=======
-          <Group type="102" alignment="1" attributes="0">
-              <EmptySpace min="0" pref="0" max="32767" attributes="0"/>
-              <Component id="tabbedPaneCustom1" min="-2" pref="962" max="-2" attributes="0"/>
-          </Group>
->>>>>>> Stashed changes
       </Group>
     </DimensionLayout>
     <DimensionLayout dim="1">
       <Group type="103" groupAlignment="0" attributes="0">
-<<<<<<< Updated upstream
           <Group type="102" alignment="1" attributes="0">
               <Component id="jPanel1" min="-2" max="-2" attributes="0"/>
               <EmptySpace max="-2" attributes="0"/>
-              <Component id="tabbedPaneCustom1" pref="485" max="32767" attributes="0"/>
+              <Component id="tabbedPaneCustom1" pref="904" max="32767" attributes="0"/>
           </Group>
-=======
-          <Component id="tabbedPaneCustom1" alignment="1" pref="705" max="32767" attributes="0"/>
->>>>>>> Stashed changes
       </Group>
     </DimensionLayout>
   </Layout>
@@ -55,7 +47,6 @@
           <Font name="sansserif" size="12" style="1"/>
         </Property>
         <Property name="selectedColor" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
-<<<<<<< Updated upstream
           <Color blue="9e" green="ec" red="ff" type="rgb"/>
         </Property>
         <Property name="unselectedColor" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
@@ -69,18 +60,6 @@
       <Layout class="org.netbeans.modules.form.compat2.layouts.support.JTabbedPaneSupportLayout"/>
       <SubComponents>
         <Container class="javax.swing.JPanel" name="jPanel3">
-=======
-          <Color blue="f2" green="9e" red="31" type="rgb"/>
-        </Property>
-        <Property name="unselectedColor" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
-          <Color blue="ff" green="d6" red="b9" type="rgb"/>
-        </Property>
-      </Properties>
-
-      <Layout class="org.netbeans.modules.form.compat2.layouts.support.JTabbedPaneSupportLayout"/>
-      <SubComponents>
-        <Container class="javax.swing.JPanel" name="jPanel2">
->>>>>>> Stashed changes
           <Properties>
             <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
               <Color blue="f3" green="f3" red="f3" type="rgb"/>
@@ -97,7 +76,6 @@
           <Layout>
             <DimensionLayout dim="0">
               <Group type="103" groupAlignment="0" attributes="0">
-<<<<<<< Updated upstream
                   <Group type="102" alignment="1" attributes="0">
                       <Component id="switchButton3" min="-2" max="-2" attributes="0"/>
                       <EmptySpace max="-2" attributes="0"/>
@@ -107,34 +85,12 @@
                       <EmptySpace max="-2" attributes="0"/>
                       <Component id="switchButton2" min="-2" max="-2" attributes="0"/>
                       <EmptySpace max="-2" attributes="0"/>
-=======
-                  <Group type="102" alignment="0" attributes="0">
-                      <Group type="103" groupAlignment="0" attributes="0">
-                          <Group type="102" alignment="0" attributes="0">
-                              <EmptySpace min="-2" pref="18" max="-2" attributes="0"/>
-                              <Component id="jLabel5" min="-2" pref="52" max="-2" attributes="0"/>
-                              <EmptySpace type="unrelated" max="-2" attributes="0"/>
-                              <Group type="103" groupAlignment="0" attributes="0">
-                                  <Component id="jLabel7" alignment="0" min="-2" max="-2" attributes="0"/>
-                                  <Component id="jLabel6" alignment="0" min="-2" pref="791" max="-2" attributes="0"/>
-                              </Group>
-                          </Group>
-                          <Group type="102" alignment="0" attributes="0">
-                              <EmptySpace min="-2" pref="217" max="-2" attributes="0"/>
-                              <Component id="imageAvatar1" min="-2" pref="251" max="-2" attributes="0"/>
-                              <EmptySpace type="separate" max="-2" attributes="0"/>
-                              <Component id="imageAvatar2" min="-2" pref="251" max="-2" attributes="0"/>
-                          </Group>
-                      </Group>
-                      <EmptySpace pref="18" max="32767" attributes="0"/>
->>>>>>> Stashed changes
                   </Group>
               </Group>
             </DimensionLayout>
             <DimensionLayout dim="1">
               <Group type="103" groupAlignment="0" attributes="0">
                   <Group type="102" alignment="0" attributes="0">
-<<<<<<< Updated upstream
                       <EmptySpace min="-2" pref="45" max="-2" attributes="0"/>
                       <Group type="103" groupAlignment="1" attributes="0">
                           <Component id="switchButton3" min="-2" max="-2" attributes="0"/>
@@ -146,36 +102,12 @@
                               </Group>
                           </Group>
                       </Group>
-<<<<<<< HEAD
-<<<<<<< HEAD
                       <EmptySpace pref="792" max="32767" attributes="0"/>
-=======
-                      <EmptySpace min="-2" pref="49" max="-2" attributes="0"/>
-                      <Group type="103" groupAlignment="3" attributes="0">
-                          <Component id="jLabel5" alignment="3" min="-2" pref="30" max="-2" attributes="0"/>
-                          <Component id="jLabel6" alignment="3" min="-2" pref="48" max="-2" attributes="0"/>
-                      </Group>
-                      <EmptySpace max="-2" attributes="0"/>
-                      <Component id="jLabel7" min="-2" max="-2" attributes="0"/>
-                      <EmptySpace min="-2" pref="62" max="-2" attributes="0"/>
-                      <Group type="103" groupAlignment="1" attributes="0">
-                          <Component id="imageAvatar2" alignment="1" min="-2" pref="221" max="-2" attributes="0"/>
-                          <Component id="imageAvatar1" alignment="1" min="-2" pref="221" max="-2" attributes="0"/>
-                      </Group>
-                      <EmptySpace pref="264" max="32767" attributes="0"/>
->>>>>>> Stashed changes
-=======
-                      <EmptySpace pref="371" max="32767" attributes="0"/>
->>>>>>> parent of 02cd62d (changes)
-=======
-                      <EmptySpace pref="371" max="32767" attributes="0"/>
->>>>>>> parent of 02cd62d (changes)
                   </Group>
               </Group>
             </DimensionLayout>
           </Layout>
           <SubComponents>
-<<<<<<< Updated upstream
             <Component class="swing.SwitchButton" name="switchButton2">
               <Properties>
                 <Property name="foreground" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
@@ -224,124 +156,6 @@
               <Events>
                 <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="comboBoxSuggestion1ActionPerformed"/>
               </Events>
-=======
-            <Component class="javax.swing.JLabel" name="jLabel5">
-              <Properties>
-                <Property name="text" type="java.lang.String" value="About:"/>
-              </Properties>
-            </Component>
-            <Component class="javax.swing.JLabel" name="jLabel6">
-              <Properties>
-                <Property name="text" type="java.lang.String" value="Pixels is a student activity at faculty of engineering Helwan University, aims to spread the engineering science, to create a productive community through many tracks such as academic track, competitions track, camps track, Juniors track and Projects track."/>
-              </Properties>
-            </Component>
-            <Component class="javax.swing.JLabel" name="jLabel7">
-              <Properties>
-                <Property name="text" type="java.lang.String" value="to create a productive community through many tracks such as academic track, competitions track, camps track, Juniors track and Projects track."/>
-              </Properties>
-            </Component>
-            <Container class="swing.ImageAvatar" name="imageAvatar1">
-              <Properties>
-                <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
-                  <Color blue="ff" green="33" red="66" type="rgb"/>
-                </Property>
-                <Property name="gradientColor1" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
-                  <Color blue="ff" green="3d" red="47" type="rgb"/>
-                </Property>
-                <Property name="gradientColor2" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
-                  <Color blue="6" green="ec" red="d3" type="rgb"/>
-                </Property>
-                <Property name="image" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
-                  <Image iconType="3" name="/test/p1.jpg"/>
-                </Property>
-              </Properties>
-
-              <Layout class="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout">
-                <Property name="useNullLayout" type="boolean" value="true"/>
-              </Layout>
-            </Container>
-            <Container class="swing.ImageAvatar" name="imageAvatar2">
-              <Properties>
-                <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
-                  <Color blue="ff" green="33" red="66" type="rgb"/>
-                </Property>
-                <Property name="gradientColor1" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
-                  <Color blue="e6" green="3c" red="ff" type="rgb"/>
-                </Property>
-                <Property name="gradientColor2" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
-                  <Color blue="73" green="d3" red="2f" type="rgb"/>
-                </Property>
-                <Property name="image" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
-                  <Image iconType="3" name="/test/p2.jpg"/>
-                </Property>
-              </Properties>
-
-              <Layout class="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout">
-                <Property name="useNullLayout" type="boolean" value="true"/>
-              </Layout>
-            </Container>
-          </SubComponents>
-        </Container>
-        <Container class="javax.swing.JPanel" name="jPanel3">
-          <Properties>
-            <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
-              <Color blue="f3" green="f3" red="f3" type="rgb"/>
-            </Property>
-          </Properties>
-          <Constraints>
-            <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.support.JTabbedPaneSupportLayout" value="org.netbeans.modules.form.compat2.layouts.support.JTabbedPaneSupportLayout$JTabbedPaneConstraintsDescription">
-              <JTabbedPaneConstraints tabName="Junior   ">
-                <Property name="tabTitle" type="java.lang.String" value="Junior   "/>
-              </JTabbedPaneConstraints>
-            </Constraint>
-          </Constraints>
-
-          <Layout>
-            <DimensionLayout dim="0">
-              <Group type="103" groupAlignment="0" attributes="0">
-                  <Group type="102" alignment="0" attributes="0">
-                      <EmptySpace min="-2" pref="14" max="-2" attributes="0"/>
-                      <Component id="jLabel8" min="-2" pref="52" max="-2" attributes="0"/>
-                      <EmptySpace type="unrelated" max="-2" attributes="0"/>
-                      <Group type="103" groupAlignment="0" attributes="0">
-                          <Component id="jLabel10" alignment="0" min="-2" max="-2" attributes="0"/>
-                          <Component id="jLabel9" alignment="0" min="-2" pref="811" max="-2" attributes="0"/>
-                      </Group>
-                      <EmptySpace pref="68" max="32767" attributes="0"/>
-                  </Group>
-              </Group>
-            </DimensionLayout>
-            <DimensionLayout dim="1">
-              <Group type="103" groupAlignment="0" attributes="0">
-                  <Group type="102" alignment="0" attributes="0">
-                      <EmptySpace min="-2" pref="27" max="-2" attributes="0"/>
-                      <Group type="103" groupAlignment="3" attributes="0">
-                          <Component id="jLabel8" alignment="3" min="-2" pref="30" max="-2" attributes="0"/>
-                          <Component id="jLabel9" alignment="3" min="-2" pref="48" max="-2" attributes="0"/>
-                      </Group>
-                      <EmptySpace max="-2" attributes="0"/>
-                      <Component id="jLabel10" min="-2" max="-2" attributes="0"/>
-                      <EmptySpace pref="569" max="32767" attributes="0"/>
-                  </Group>
-              </Group>
-            </DimensionLayout>
-          </Layout>
-          <SubComponents>
-            <Component class="javax.swing.JLabel" name="jLabel8">
-              <Properties>
-                <Property name="text" type="java.lang.String" value="About:"/>
-              </Properties>
-            </Component>
-            <Component class="javax.swing.JLabel" name="jLabel9">
-              <Properties>
-                <Property name="text" type="java.lang.String" value="IEEE, Institute of Electrical and Electronics Engineers, is the biggest professional association that is dedicated to advancing technological"/>
-              </Properties>
-            </Component>
-            <Component class="javax.swing.JLabel" name="jLabel10">
-              <Properties>
-                <Property name="text" type="java.lang.String" value="innovation and excellence. It was formed 1963 with roots that go back to 1884."/>
-              </Properties>
->>>>>>> Stashed changes
             </Component>
           </SubComponents>
         </Container>
@@ -353,13 +167,8 @@
           </Properties>
           <Constraints>
             <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.support.JTabbedPaneSupportLayout" value="org.netbeans.modules.form.compat2.layouts.support.JTabbedPaneSupportLayout$JTabbedPaneConstraintsDescription">
-<<<<<<< Updated upstream
               <JTabbedPaneConstraints tabName="Junior">
                 <Property name="tabTitle" type="java.lang.String" value="Junior"/>
-=======
-              <JTabbedPaneConstraints tabName="Senior 1  ">
-                <Property name="tabTitle" type="java.lang.String" value="Senior 1  "/>
->>>>>>> Stashed changes
               </JTabbedPaneConstraints>
             </Constraint>
           </Constraints>
@@ -367,7 +176,6 @@
           <Layout>
             <DimensionLayout dim="0">
               <Group type="103" groupAlignment="0" attributes="0">
-<<<<<<< Updated upstream
                   <Group type="102" alignment="1" attributes="0">
                       <Component id="switchButton5" min="-2" max="-2" attributes="0"/>
                       <EmptySpace max="-2" attributes="0"/>
@@ -377,14 +185,10 @@
                       <EmptySpace max="-2" attributes="0"/>
                       <Component id="switchButton4" min="-2" max="-2" attributes="0"/>
                   </Group>
-=======
-                  <Component id="jLabel3" alignment="1" pref="957" max="32767" attributes="0"/>
->>>>>>> Stashed changes
               </Group>
             </DimensionLayout>
             <DimensionLayout dim="1">
               <Group type="103" groupAlignment="0" attributes="0">
-<<<<<<< Updated upstream
                   <Group type="102" attributes="0">
                       <EmptySpace min="-2" pref="42" max="-2" attributes="0"/>
                       <Group type="103" groupAlignment="1" attributes="0">
@@ -397,16 +201,12 @@
                               </Group>
                           </Group>
                       </Group>
-                      <EmptySpace pref="374" max="32767" attributes="0"/>
+                      <EmptySpace pref="795" max="32767" attributes="0"/>
                   </Group>
-=======
-                  <Component id="jLabel3" alignment="0" pref="667" max="32767" attributes="0"/>
->>>>>>> Stashed changes
               </Group>
             </DimensionLayout>
           </Layout>
           <SubComponents>
-<<<<<<< Updated upstream
             <Component class="swing.SwitchButton" name="switchButton4">
               <Properties>
                 <Property name="foreground" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
@@ -458,20 +258,6 @@
                 <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="comboBoxSuggestion5ActionPerformed"/>
               </Events>
             </Component>
-=======
-            <Component class="javax.swing.JLabel" name="jLabel3">
-              <Properties>
-                <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
-                  <Font name="sansserif" size="18" style="1"/>
-                </Property>
-                <Property name="foreground" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
-                  <Color blue="5f" green="5f" red="5f" type="rgb"/>
-                </Property>
-                <Property name="horizontalAlignment" type="int" value="0"/>
-                <Property name="text" type="java.lang.String" value="Tabbed 3"/>
-              </Properties>
-            </Component>
->>>>>>> Stashed changes
           </SubComponents>
         </Container>
         <Container class="javax.swing.JPanel" name="jPanel5">
@@ -482,13 +268,8 @@
           </Properties>
           <Constraints>
             <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.support.JTabbedPaneSupportLayout" value="org.netbeans.modules.form.compat2.layouts.support.JTabbedPaneSupportLayout$JTabbedPaneConstraintsDescription">
-<<<<<<< Updated upstream
               <JTabbedPaneConstraints tabName="Senior 1 ">
                 <Property name="tabTitle" type="java.lang.String" value="Senior 1 "/>
-=======
-              <JTabbedPaneConstraints tabName="Senior 2  ">
-                <Property name="tabTitle" type="java.lang.String" value="Senior 2  "/>
->>>>>>> Stashed changes
               </JTabbedPaneConstraints>
             </Constraint>
           </Constraints>
@@ -496,7 +277,6 @@
           <Layout>
             <DimensionLayout dim="0">
               <Group type="103" groupAlignment="0" attributes="0">
-<<<<<<< Updated upstream
                   <Group type="102" alignment="1" attributes="0">
                       <Component id="switchButton7" min="-2" max="-2" attributes="0"/>
                       <EmptySpace max="-2" attributes="0"/>
@@ -506,14 +286,10 @@
                       <EmptySpace max="-2" attributes="0"/>
                       <Component id="switchButton6" min="-2" max="-2" attributes="0"/>
                   </Group>
-=======
-                  <Component id="jLabel4" alignment="1" pref="957" max="32767" attributes="0"/>
->>>>>>> Stashed changes
               </Group>
             </DimensionLayout>
             <DimensionLayout dim="1">
               <Group type="103" groupAlignment="0" attributes="0">
-<<<<<<< Updated upstream
                   <Group type="102" alignment="0" attributes="0">
                       <EmptySpace min="-2" pref="47" max="-2" attributes="0"/>
                       <Group type="103" groupAlignment="0" attributes="0">
@@ -524,16 +300,12 @@
                               <Component id="comboBoxSuggestion7" alignment="3" min="-2" pref="31" max="-2" attributes="0"/>
                           </Group>
                       </Group>
-                      <EmptySpace pref="369" max="32767" attributes="0"/>
+                      <EmptySpace pref="790" max="32767" attributes="0"/>
                   </Group>
-=======
-                  <Component id="jLabel4" alignment="0" pref="667" max="32767" attributes="0"/>
->>>>>>> Stashed changes
               </Group>
             </DimensionLayout>
           </Layout>
           <SubComponents>
-<<<<<<< Updated upstream
             <Component class="swing.SwitchButton" name="switchButton6">
               <Properties>
                 <Property name="foreground" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
@@ -638,7 +410,7 @@
                       </Group>
                       <EmptySpace min="-2" pref="171" max="-2" attributes="0"/>
                       <Component id="jLabel5" min="-2" pref="30" max="-2" attributes="0"/>
-                      <EmptySpace pref="174" max="32767" attributes="0"/>
+                      <EmptySpace pref="595" max="32767" attributes="0"/>
                   </Group>
               </Group>
             </DimensionLayout>
@@ -692,25 +464,12 @@
                     <StringItem index="4" value="Computer vision"/>
                   </StringArray>
                 </Property>
-=======
-            <Component class="javax.swing.JLabel" name="jLabel4">
-              <Properties>
-                <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
-                  <Font name="sansserif" size="18" style="1"/>
-                </Property>
-                <Property name="foreground" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
-                  <Color blue="5f" green="5f" red="5f" type="rgb"/>
-                </Property>
-                <Property name="horizontalAlignment" type="int" value="0"/>
-                <Property name="text" type="java.lang.String" value="Tabbed 4"/>
->>>>>>> Stashed changes
               </Properties>
             </Component>
           </SubComponents>
         </Container>
       </SubComponents>
     </Container>
-<<<<<<< Updated upstream
     <Container class="javax.swing.JPanel" name="jPanel1">
       <Properties>
         <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
@@ -756,7 +515,5 @@
         </Component>
       </SubComponents>
     </Container>
-=======
->>>>>>> Stashed changes
   </SubComponents>
 </Form>

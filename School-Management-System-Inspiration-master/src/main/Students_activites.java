@@ -92,17 +92,6 @@ public class Students_activites extends javax.swing.JFrame {
         jLabel27 = new javax.swing.JLabel();
         jLabel28 = new javax.swing.JLabel();
         jLabel29 = new javax.swing.JLabel();
-        jPanel11 = new javax.swing.JPanel();
-        picture6 = new javax.swing.JLabel();
-        next6 = new javax.swing.JLabel();
-        previous6 = new javax.swing.JLabel();
-        imageAvatar7 = new swing.ImageAvatar();
-        jLabel34 = new javax.swing.JLabel();
-        jLabel35 = new javax.swing.JLabel();
-        jLabel6 = new javax.swing.JLabel();
-        jLabel7 = new javax.swing.JLabel();
-        jLabel12 = new javax.swing.JLabel();
-        jLabel13 = new javax.swing.JLabel();
 
         setDefaultCloseOperation(javax.swing.WindowConstants.DISPOSE_ON_CLOSE);
         setBackground(new java.awt.Color(255, 255, 255));
@@ -465,106 +454,6 @@ public class Students_activites extends javax.swing.JFrame {
 
         tabbedPaneCustom1.addTab("FEHU-CPC", jPanel10);
 
-        jPanel11.setBackground(new java.awt.Color(255, 251, 218));
-
-        picture6.setBackground(new java.awt.Color(51, 51, 255));
-        picture6.setIcon(new javax.swing.ImageIcon(getClass().getResource("/pixels/pixels14.jpg"))); // NOI18N
-
-        next6.setBackground(new java.awt.Color(255, 251, 218));
-        next6.setIcon(new javax.swing.ImageIcon(getClass().getResource("/icon/right arrow.png"))); // NOI18N
-        next6.addMouseListener(new java.awt.event.MouseAdapter() {
-            public void mousePressed(java.awt.event.MouseEvent evt) {
-                next6MousePressed(evt);
-            }
-        });
-
-        previous6.setIcon(new javax.swing.ImageIcon(getClass().getResource("/icon/leftarrow.png"))); // NOI18N
-        previous6.addMouseListener(new java.awt.event.MouseAdapter() {
-            public void mousePressed(java.awt.event.MouseEvent evt) {
-                previous6MousePressed(evt);
-            }
-        });
-
-        imageAvatar7.setGradientColor1(new java.awt.Color(255, 251, 218));
-        imageAvatar7.setGradientColor2(new java.awt.Color(255, 251, 218));
-        imageAvatar7.setImage(new javax.swing.ImageIcon(getClass().getResource("/icon/pixels.png"))); // NOI18N
-
-        jLabel34.setIcon(new javax.swing.ImageIcon(getClass().getResource("/icon/instgram icon1.png"))); // NOI18N
-
-        jLabel35.setIcon(new javax.swing.ImageIcon(getClass().getResource("/icon/face icon.png"))); // NOI18N
-
-        jLabel6.setFont(new java.awt.Font("Arial", 1, 18)); // NOI18N
-        jLabel6.setText("Pixels is a student activity at faculty of engineering Helwan University");
-
-        jLabel7.setFont(new java.awt.Font("Arial", 1, 18)); // NOI18N
-        jLabel7.setText("aims to spread the engineering science, to create a productive community");
-
-        jLabel12.setFont(new java.awt.Font("Arial", 1, 18)); // NOI18N
-        jLabel12.setText("through many tracks such as academic track, competitions track,camp ");
-
-        jLabel13.setFont(new java.awt.Font("Arial", 1, 18)); // NOI18N
-        jLabel13.setText("track, Juniors track and Projects track.");
-
-        javax.swing.GroupLayout jPanel11Layout = new javax.swing.GroupLayout(jPanel11);
-        jPanel11.setLayout(jPanel11Layout);
-        jPanel11Layout.setHorizontalGroup(
-            jPanel11Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addGroup(jPanel11Layout.createSequentialGroup()
-                .addComponent(previous6)
-                .addGap(105, 105, 105)
-                .addComponent(picture6)
-                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, 707, Short.MAX_VALUE)
-                .addComponent(next6)
-                .addContainerGap())
-            .addGroup(jPanel11Layout.createSequentialGroup()
-                .addComponent(imageAvatar7, javax.swing.GroupLayout.PREFERRED_SIZE, 258, javax.swing.GroupLayout.PREFERRED_SIZE)
-                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                .addGroup(jPanel11Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                    .addComponent(jLabel6, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
-                    .addGroup(jPanel11Layout.createSequentialGroup()
-                        .addGroup(jPanel11Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                            .addComponent(jLabel7, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
-                            .addComponent(jLabel12, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
-                            .addComponent(jLabel13, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
-                        .addGap(51, 51, 51)))
-                .addGap(18, 18, 18)
-                .addComponent(jLabel34)
-                .addGap(21, 21, 21)
-                .addComponent(jLabel35)
-                .addGap(28, 28, 28))
-        );
-        jPanel11Layout.setVerticalGroup(
-            jPanel11Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addGroup(jPanel11Layout.createSequentialGroup()
-                .addGroup(jPanel11Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                    .addComponent(imageAvatar7, javax.swing.GroupLayout.PREFERRED_SIZE, 202, javax.swing.GroupLayout.PREFERRED_SIZE)
-                    .addGroup(jPanel11Layout.createSequentialGroup()
-                        .addGap(10, 10, 10)
-                        .addGroup(jPanel11Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.TRAILING)
-                            .addComponent(jLabel6)
-                            .addComponent(jLabel35, javax.swing.GroupLayout.PREFERRED_SIZE, 55, javax.swing.GroupLayout.PREFERRED_SIZE)
-                            .addComponent(jLabel34))
-                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                        .addComponent(jLabel7)
-                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                        .addComponent(jLabel12)
-                        .addGap(11, 11, 11)
-                        .addComponent(jLabel13)))
-                .addGroup(jPanel11Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                    .addGroup(jPanel11Layout.createSequentialGroup()
-                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
-                        .addGroup(jPanel11Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                            .addComponent(previous6, javax.swing.GroupLayout.Alignment.TRAILING)
-                            .addComponent(next6, javax.swing.GroupLayout.Alignment.TRAILING))
-                        .addContainerGap(807, Short.MAX_VALUE))
-                    .addGroup(jPanel11Layout.createSequentialGroup()
-                        .addGap(31, 31, 31)
-                        .addComponent(picture6, javax.swing.GroupLayout.PREFERRED_SIZE, 639, javax.swing.GroupLayout.PREFERRED_SIZE)
-                        .addContainerGap(188, Short.MAX_VALUE))))
-        );
-
-        tabbedPaneCustom1.addTab("Bisho", jPanel11);
-
         javax.swing.GroupLayout layout = new javax.swing.GroupLayout(getContentPane());
         getContentPane().setLayout(layout);
         layout.setHorizontalGroup(
@@ -637,14 +526,6 @@ public class Students_activites extends javax.swing.JFrame {
         }
         show(position);
     }//GEN-LAST:event_nextMousePressed
-
-    private void previous6MousePressed(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_previous6MousePressed
-        // TODO add your handling code here:
-    }//GEN-LAST:event_previous6MousePressed
-
-    private void next6MousePressed(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_next6MousePressed
-        // TODO add your handling code here:
-    }//GEN-LAST:event_next6MousePressed
 
     private void jLabel3MousePressed(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_jLabel3MousePressed
         try {
@@ -761,10 +642,7 @@ public class Students_activites extends javax.swing.JFrame {
     private swing.ImageAvatar imageAvatar1;
     private swing.ImageAvatar imageAvatar5;
     private swing.ImageAvatar imageAvatar6;
-    private swing.ImageAvatar imageAvatar7;
     private javax.swing.JLabel jLabel10;
-    private javax.swing.JLabel jLabel12;
-    private javax.swing.JLabel jLabel13;
     private javax.swing.JLabel jLabel14;
     private javax.swing.JLabel jLabel15;
     private javax.swing.JLabel jLabel16;
@@ -778,30 +656,22 @@ public class Students_activites extends javax.swing.JFrame {
     private javax.swing.JLabel jLabel28;
     private javax.swing.JLabel jLabel29;
     private javax.swing.JLabel jLabel3;
-    private javax.swing.JLabel jLabel34;
-    private javax.swing.JLabel jLabel35;
     private javax.swing.JLabel jLabel4;
     private javax.swing.JLabel jLabel5;
-    private javax.swing.JLabel jLabel6;
-    private javax.swing.JLabel jLabel7;
     private javax.swing.JLabel jLabel8;
     private javax.swing.JLabel jLabel9;
     private javax.swing.JPanel jPanel10;
-    private javax.swing.JPanel jPanel11;
     private javax.swing.JPanel jPanel2;
     private javax.swing.JPanel jPanel9;
     private javax.swing.JLabel next;
     private javax.swing.JLabel next1;
     private javax.swing.JLabel next5;
-    private javax.swing.JLabel next6;
     private javax.swing.JLabel picture;
     private javax.swing.JLabel picture1;
     private javax.swing.JLabel picture5;
-    private javax.swing.JLabel picture6;
     private javax.swing.JLabel previous;
     private javax.swing.JLabel previous1;
     private javax.swing.JLabel previous5;
-    private javax.swing.JLabel previous6;
     private raven.tabbed.TabbedPaneCustom tabbedPaneCustom1;
     // End of variables declaration//GEN-END:variables
 }
