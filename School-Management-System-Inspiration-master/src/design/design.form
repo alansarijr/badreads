@@ -58,7 +58,7 @@
           <Color blue="6" green="ec" red="d3" type="rgb"/>
         </Property>
         <Property name="image" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
-          <Image iconType="3" name="/test/p1.jpg"/>
+          <Image iconType="3" name="/design/p1.jpg"/>
         </Property>
       </Properties>
 
@@ -78,7 +78,7 @@
           <Color blue="73" green="d3" red="2f" type="rgb"/>
         </Property>
         <Property name="image" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
-          <Image iconType="3" name="/test/p2.jpg"/>
+          <Image iconType="3" name="/design/p2.jpg"/>
         </Property>
       </Properties>
 
