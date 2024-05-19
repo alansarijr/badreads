@@ -5,9 +5,6 @@
  */
 package main;
 
-import home20.Home20;
-import java.awt.Frame;
-import javax.swing.JFrame;
 import javax.swing.JPanel;
 
 /**
@@ -82,8 +79,28 @@ public class Summaries extends javax.swing.JFrame {
         });
 
         switchButton2.setForeground(new java.awt.Color(240, 240, 240));
+        switchButton2.addMouseListener(new java.awt.event.MouseAdapter() {
+            public void mousePressed(java.awt.event.MouseEvent evt) {
+                switchButton2MousePressed(evt);
+            }
+        });
+        switchButton2.addMouseMotionListener(new java.awt.event.MouseMotionAdapter() {
+            public void mouseMoved(java.awt.event.MouseEvent evt) {
+                switchButton2MouseMoved(evt);
+            }
+        });
 
         switchButton3.setForeground(new java.awt.Color(240, 240, 240));
+        switchButton3.addMouseListener(new java.awt.event.MouseAdapter() {
+            public void mousePressed(java.awt.event.MouseEvent evt) {
+                switchButton3MousePressed(evt);
+            }
+        });
+        switchButton3.addMouseMotionListener(new java.awt.event.MouseMotionAdapter() {
+            public void mouseDragged(java.awt.event.MouseEvent evt) {
+                switchButton3MouseDragged(evt);
+            }
+        });
 
         javax.swing.GroupLayout jPanel2Layout = new javax.swing.GroupLayout(jPanel2);
         jPanel2.setLayout(jPanel2Layout);
@@ -291,7 +308,7 @@ public class Summaries extends javax.swing.JFrame {
         layout.setHorizontalGroup(
             layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
             .addComponent(jPanel1, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
-            .addComponent(tabbedPaneCustom1, javax.swing.GroupLayout.DEFAULT_SIZE, 974, Short.MAX_VALUE)
+            .addComponent(tabbedPaneCustom1, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
         );
         layout.setVerticalGroup(
             layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
@@ -331,6 +348,36 @@ public class Summaries extends javax.swing.JFrame {
     private void comboBoxSuggestion7ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_comboBoxSuggestion7ActionPerformed
         // TODO add your handling code here:
     }//GEN-LAST:event_comboBoxSuggestion7ActionPerformed
+
+    private void switchButton2MouseMoved(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_switchButton2MouseMoved
+        // TODO add your handling code here:  
+    }//GEN-LAST:event_switchButton2MouseMoved
+
+    private void switchButton3MouseDragged(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_switchButton3MouseDragged
+        // TODO add your handling code here:
+
+    }//GEN-LAST:event_switchButton3MouseDragged
+
+    private void switchButton2MousePressed(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_switchButton2MousePressed
+        // TODO add your handling code here:
+        if (switchButton2.isSelected()) {
+            switchButton3.setSelected(false);
+            switchButton3.setEnabled(true);
+        } else {
+
+            switchButton3.setEnabled(true);
+        }
+    }//GEN-LAST:event_switchButton2MousePressed
+
+    private void switchButton3MousePressed(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_switchButton3MousePressed
+        // TODO add your handling code here:
+        if (switchButton3.isSelected()) {
+            switchButton2.setSelected(false);
+            switchButton2.setEnabled(true);
+        } else {
+            switchButton2.setEnabled(true);
+        }
+    }//GEN-LAST:event_switchButton3MousePressed
 
     /**
      * @param args the command line arguments
