@@ -516,11 +516,11 @@
                   </Group>
                   <Group type="102" alignment="1" attributes="0">
                       <EmptySpace min="-2" pref="20" max="-2" attributes="0"/>
-                      <Component id="previous5" min="-2" max="-2" attributes="0"/>
+                      <Component id="previous2" min="-2" max="-2" attributes="0"/>
                       <EmptySpace min="-2" pref="181" max="-2" attributes="0"/>
-                      <Component id="picture5" min="-2" pref="993" max="-2" attributes="0"/>
+                      <Component id="picture2" min="-2" pref="993" max="-2" attributes="0"/>
                       <EmptySpace min="-2" pref="140" max="-2" attributes="0"/>
-                      <Component id="next5" min="-2" max="-2" attributes="0"/>
+                      <Component id="next2" min="-2" max="-2" attributes="0"/>
                       <EmptySpace max="32767" attributes="0"/>
                   </Group>
               </Group>
@@ -551,15 +551,15 @@
                       <Group type="103" groupAlignment="0" attributes="0">
                           <Group type="102" attributes="0">
                               <EmptySpace min="-2" pref="280" max="-2" attributes="0"/>
-                              <Component id="previous5" min="-2" max="-2" attributes="0"/>
+                              <Component id="previous2" min="-2" max="-2" attributes="0"/>
                           </Group>
                           <Group type="102" alignment="0" attributes="0">
                               <EmptySpace min="-2" pref="274" max="-2" attributes="0"/>
-                              <Component id="next5" min="-2" max="-2" attributes="0"/>
+                              <Component id="next2" min="-2" max="-2" attributes="0"/>
                           </Group>
                           <Group type="102" alignment="0" attributes="0">
                               <EmptySpace max="-2" attributes="0"/>
-                              <Component id="picture5" min="-2" pref="638" max="-2" attributes="0"/>
+                              <Component id="picture2" min="-2" pref="638" max="-2" attributes="0"/>
                           </Group>
                       </Group>
                       <EmptySpace pref="225" max="32767" attributes="0"/>
@@ -568,7 +568,7 @@
             </DimensionLayout>
           </Layout>
           <SubComponents>
-            <Component class="javax.swing.JLabel" name="picture5">
+            <Component class="javax.swing.JLabel" name="picture2">
               <Properties>
                 <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
                   <Color blue="ff" green="33" red="33" type="rgb"/>
@@ -578,7 +578,7 @@
                 </Property>
               </Properties>
             </Component>
-            <Component class="javax.swing.JLabel" name="next5">
+            <Component class="javax.swing.JLabel" name="next2">
               <Properties>
                 <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
                   <Color blue="da" green="fb" red="ff" type="rgb"/>
@@ -588,17 +588,17 @@
                 </Property>
               </Properties>
               <Events>
-                <EventHandler event="mousePressed" listener="java.awt.event.MouseListener" parameters="java.awt.event.MouseEvent" handler="next5MousePressed"/>
+                <EventHandler event="mousePressed" listener="java.awt.event.MouseListener" parameters="java.awt.event.MouseEvent" handler="next2MousePressed"/>
               </Events>
             </Component>
-            <Component class="javax.swing.JLabel" name="previous5">
+            <Component class="javax.swing.JLabel" name="previous2">
               <Properties>
                 <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
                   <Image iconType="3" name="/icon/leftarrow.png"/>
                 </Property>
               </Properties>
               <Events>
-                <EventHandler event="mousePressed" listener="java.awt.event.MouseListener" parameters="java.awt.event.MouseEvent" handler="previous5MousePressed"/>
+                <EventHandler event="mousePressed" listener="java.awt.event.MouseListener" parameters="java.awt.event.MouseEvent" handler="previous2MousePressed"/>
               </Events>
             </Component>
             <Container class="swing.ImageAvatar" name="imageAvatar6">

@@ -86,7 +86,7 @@
                       <EmptySpace max="32767" attributes="0"/>
                   </Group>
                   <Group type="102" alignment="1" attributes="0">
-                      <EmptySpace pref="393" max="32767" attributes="0"/>
+                      <EmptySpace pref="369" max="32767" attributes="0"/>
                       <Group type="103" groupAlignment="0" attributes="0">
                           <Group type="102" alignment="1" attributes="0">
                               <Group type="103" groupAlignment="1" attributes="0">
@@ -95,7 +95,6 @@
                               </Group>
                               <EmptySpace min="-2" pref="308" max="-2" attributes="0"/>
                           </Group>
-<<<<<<< HEAD
                           <Group type="102" alignment="1" attributes="0">
                               <Component id="jLabel1" min="-2" max="-2" attributes="0"/>
                               <EmptySpace min="-2" pref="202" max="-2" attributes="0"/>
@@ -109,20 +108,6 @@
                           <EmptySpace min="-2" pref="183" max="-2" attributes="0"/>
                       </Group>
                   </Group>
-=======
-                          <Group type="103" alignment="1" groupAlignment="1" attributes="0">
-                              <Group type="102" attributes="0">
-                                  <Component id="jLabel1" min="-2" max="-2" attributes="0"/>
-                                  <EmptySpace min="-2" pref="191" max="-2" attributes="0"/>
-                              </Group>
-                              <Group type="102" attributes="0">
-                                  <Component id="jLabel11" min="-2" max="-2" attributes="0"/>
-                                  <EmptySpace min="-2" pref="179" max="-2" attributes="0"/>
-                              </Group>
-                          </Group>
-                      </Group>
-                  </Group>
->>>>>>> feeb25a9cc715b3c6f8b4a51952ee32830a692ec
               </Group>
             </DimensionLayout>
             <DimensionLayout dim="1">
@@ -146,17 +131,22 @@
                               <Component id="jLabel16" min="-2" pref="45" max="-2" attributes="0"/>
                           </Group>
                           <Group type="102" alignment="0" attributes="0">
-                              <EmptySpace min="-2" pref="131" max="-2" attributes="0"/>
-                              <Component id="jLabel11" min="-2" pref="111" max="-2" attributes="0"/>
-                              <EmptySpace min="-2" pref="57" max="-2" attributes="0"/>
+                              <EmptySpace min="-2" pref="299" max="-2" attributes="0"/>
                               <Component id="switchButton2" min="-2" max="-2" attributes="0"/>
                           </Group>
                       </Group>
-                      <EmptySpace pref="86" max="32767" attributes="0"/>
+                      <EmptySpace pref="109" max="32767" attributes="0"/>
                       <Component id="comboBoxSuggestion1" min="-2" pref="31" max="-2" attributes="0"/>
-                      <EmptySpace min="-2" pref="175" max="-2" attributes="0"/>
-                      <Component id="jLabel1" min="-2" pref="111" max="-2" attributes="0"/>
+                      <EmptySpace min="-2" pref="168" max="-2" attributes="0"/>
+                      <Component id="jLabel1" min="-2" pref="96" max="-2" attributes="0"/>
                       <EmptySpace min="-2" pref="160" max="-2" attributes="0"/>
+                  </Group>
+                  <Group type="103" rootIndex="1" groupAlignment="0" attributes="0">
+                      <Group type="102" alignment="0" attributes="0">
+                          <EmptySpace min="-2" pref="280" max="-2" attributes="0"/>
+                          <Component id="jLabel2" min="-2" pref="96" max="-2" attributes="0"/>
+                          <EmptySpace pref="638" max="32767" attributes="0"/>
+                      </Group>
                   </Group>
               </Group>
             </DimensionLayout>
@@ -237,22 +227,14 @@
             <Component class="javax.swing.JLabel" name="jLabel1">
               <Properties>
                 <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
-<<<<<<< HEAD
                   <Image iconType="3" name="/icon/youtubeicon.png"/>
-=======
-                  <Image iconType="3" name="/icon/icons8-youtube-logo-150.png"/>
->>>>>>> feeb25a9cc715b3c6f8b4a51952ee32830a692ec
                 </Property>
               </Properties>
             </Component>
-            <Component class="javax.swing.JLabel" name="jLabel11">
+            <Component class="javax.swing.JLabel" name="jLabel2">
               <Properties>
                 <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
-<<<<<<< HEAD
                   <Image iconType="3" name="/icon/youtubeicon.png"/>
-=======
-                  <Image iconType="3" name="/icon/icons8-youtube-logo-150.png"/>
->>>>>>> feeb25a9cc715b3c6f8b4a51952ee32830a692ec
                 </Property>
               </Properties>
             </Component>
@@ -275,7 +257,6 @@
           <Layout>
             <DimensionLayout dim="0">
               <Group type="103" groupAlignment="0" attributes="0">
-<<<<<<< HEAD
                   <EmptySpace min="0" pref="969" max="32767" attributes="0"/>
                   <Group type="103" rootIndex="1" groupAlignment="0" attributes="0">
                       <Group type="102" attributes="0">
@@ -283,18 +264,11 @@
                           <Component id="jPanel7" min="-2" max="-2" attributes="0"/>
                           <EmptySpace min="0" pref="0" max="32767" attributes="0"/>
                       </Group>
-=======
-                  <Group type="102" alignment="0" attributes="0">
-                      <EmptySpace max="-2" attributes="0"/>
-                      <Component id="jPanel7" min="-2" max="-2" attributes="0"/>
-                      <EmptySpace max="32767" attributes="0"/>
->>>>>>> feeb25a9cc715b3c6f8b4a51952ee32830a692ec
                   </Group>
               </Group>
             </DimensionLayout>
             <DimensionLayout dim="1">
               <Group type="103" groupAlignment="0" attributes="0">
-<<<<<<< HEAD
                   <EmptySpace min="0" pref="1014" max="32767" attributes="0"/>
                   <Group type="103" rootIndex="1" groupAlignment="0" attributes="0">
                       <Group type="102" attributes="0">
@@ -302,11 +276,6 @@
                           <Component id="jPanel7" min="-2" max="-2" attributes="0"/>
                           <EmptySpace min="0" pref="0" max="32767" attributes="0"/>
                       </Group>
-=======
-                  <Group type="102" alignment="1" attributes="0">
-                      <EmptySpace min="0" pref="0" max="32767" attributes="0"/>
-                      <Component id="jPanel7" min="-2" max="-2" attributes="0"/>
->>>>>>> feeb25a9cc715b3c6f8b4a51952ee32830a692ec
                   </Group>
               </Group>
             </DimensionLayout>
@@ -346,7 +315,6 @@
                                   </Group>
                                   <EmptySpace min="-2" pref="308" max="-2" attributes="0"/>
                               </Group>
-<<<<<<< HEAD
                               <Group type="102" alignment="1" attributes="0">
                                   <Component id="jLabel5" min="-2" max="-2" attributes="0"/>
                                   <EmptySpace min="-2" pref="202" max="-2" attributes="0"/>
@@ -360,20 +328,6 @@
                               <EmptySpace min="-2" pref="183" max="-2" attributes="0"/>
                           </Group>
                       </Group>
-=======
-                              <Group type="103" alignment="1" groupAlignment="1" attributes="0">
-                                  <Group type="102" attributes="0">
-                                      <Component id="jLabel5" min="-2" max="-2" attributes="0"/>
-                                      <EmptySpace min="-2" pref="182" max="-2" attributes="0"/>
-                                  </Group>
-                                  <Group type="102" attributes="0">
-                                      <Component id="jLabel13" min="-2" max="-2" attributes="0"/>
-                                      <EmptySpace min="-2" pref="182" max="-2" attributes="0"/>
-                                  </Group>
-                              </Group>
-                          </Group>
-                      </Group>
->>>>>>> feeb25a9cc715b3c6f8b4a51952ee32830a692ec
                   </Group>
                 </DimensionLayout>
                 <DimensionLayout dim="1">
@@ -397,7 +351,6 @@
                                   <Component id="jLabel21" min="-2" pref="45" max="-2" attributes="0"/>
                               </Group>
                               <Group type="102" alignment="0" attributes="0">
-<<<<<<< HEAD
                                   <EmptySpace min="-2" pref="299" max="-2" attributes="0"/>
                                   <Component id="switchButton4" min="-2" max="-2" attributes="0"/>
                               </Group>
@@ -415,20 +368,6 @@
                               <EmptySpace pref="638" max="32767" attributes="0"/>
                           </Group>
                       </Group>
-=======
-                                  <EmptySpace min="-2" pref="158" max="-2" attributes="0"/>
-                                  <Component id="jLabel13" min="-2" pref="112" max="-2" attributes="0"/>
-                                  <EmptySpace min="-2" pref="29" max="-2" attributes="0"/>
-                                  <Component id="switchButton4" min="-2" max="-2" attributes="0"/>
-                              </Group>
-                          </Group>
-                          <EmptySpace pref="113" max="32767" attributes="0"/>
-                          <Component id="comboBoxSuggestion5" min="-2" pref="31" max="-2" attributes="0"/>
-                          <EmptySpace min="-2" pref="150" max="-2" attributes="0"/>
-                          <Component id="jLabel5" min="-2" pref="114" max="-2" attributes="0"/>
-                          <EmptySpace min="-2" pref="160" max="-2" attributes="0"/>
-                      </Group>
->>>>>>> feeb25a9cc715b3c6f8b4a51952ee32830a692ec
                   </Group>
                 </DimensionLayout>
               </Layout>
@@ -456,17 +395,10 @@
                     <Property name="model" type="javax.swing.ComboBoxModel" editor="org.netbeans.modules.form.editors2.ComboBoxModelEditor">
                       <StringArray count="6">
                         <StringItem index="0" value="Data Structures"/>
-<<<<<<< HEAD
                         <StringItem index="1" value="Electronic Circuits"/>
                         <StringItem index="2" value="Numerical"/>
                         <StringItem index="3" value="Signals"/>
                         <StringItem index="4" value="Computer Architecture"/>
-=======
-                        <StringItem index="1" value="Computer Arch"/>
-                        <StringItem index="2" value="Electronics ciruits"/>
-                        <StringItem index="3" value="Numerical "/>
-                        <StringItem index="4" value="Signals"/>
->>>>>>> feeb25a9cc715b3c6f8b4a51952ee32830a692ec
                         <StringItem index="5" value="Creative Thinking"/>
                       </StringArray>
                     </Property>
@@ -484,17 +416,10 @@
                     <Property name="model" type="javax.swing.ComboBoxModel" editor="org.netbeans.modules.form.editors2.ComboBoxModelEditor">
                       <StringArray count="6">
                         <StringItem index="0" value="Database"/>
-<<<<<<< HEAD
                         <StringItem index="1" value="Communication"/>
                         <StringItem index="2" value="Measure"/>
                         <StringItem index="3" value="Power &amp; Machines"/>
                         <StringItem index="4" value="MP_MC"/>
-=======
-                        <StringItem index="1" value="Comunications"/>
-                        <StringItem index="2" value="power and machines"/>
-                        <StringItem index="3" value="Measure"/>
-                        <StringItem index="4" value="MP-MC"/>
->>>>>>> feeb25a9cc715b3c6f8b4a51952ee32830a692ec
                         <StringItem index="5" value="Operations Research"/>
                       </StringArray>
                     </Property>
@@ -522,7 +447,6 @@
                 <Component class="javax.swing.JLabel" name="jLabel5">
                   <Properties>
                     <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
-<<<<<<< HEAD
                       <Image iconType="3" name="/icon/youtubeicon.png"/>
                     </Property>
                   </Properties>
@@ -531,16 +455,6 @@
                   <Properties>
                     <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
                       <Image iconType="3" name="/icon/youtubeicon.png"/>
-=======
-                      <Image iconType="3" name="/icon/icons8-youtube-logo-150.png"/>
-                    </Property>
-                  </Properties>
-                </Component>
-                <Component class="javax.swing.JLabel" name="jLabel13">
-                  <Properties>
-                    <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
-                      <Image iconType="3" name="/icon/icons8-youtube-logo-150.png"/>
->>>>>>> feeb25a9cc715b3c6f8b4a51952ee32830a692ec
                     </Property>
                   </Properties>
                 </Component>
@@ -565,11 +479,7 @@
           <Layout>
             <DimensionLayout dim="0">
               <Group type="103" groupAlignment="0" attributes="0">
-<<<<<<< HEAD
                   <EmptySpace min="0" pref="969" max="32767" attributes="0"/>
-=======
-                  <EmptySpace min="0" pref="993" max="32767" attributes="0"/>
->>>>>>> feeb25a9cc715b3c6f8b4a51952ee32830a692ec
                   <Group type="103" rootIndex="1" groupAlignment="0" attributes="0">
                       <Group type="102" attributes="0">
                           <EmptySpace min="0" pref="0" max="32767" attributes="0"/>
@@ -629,7 +539,6 @@
                               </Group>
                               <Group type="102" alignment="1" attributes="0">
                                   <Component id="jLabel7" min="-2" max="-2" attributes="0"/>
-<<<<<<< HEAD
                                   <EmptySpace min="-2" pref="202" max="-2" attributes="0"/>
                               </Group>
                           </Group>
@@ -639,14 +548,6 @@
                               <EmptySpace pref="666" max="32767" attributes="0"/>
                               <Component id="jLabel8" min="-2" max="-2" attributes="0"/>
                               <EmptySpace min="-2" pref="183" max="-2" attributes="0"/>
-=======
-                                  <EmptySpace min="-2" pref="183" max="-2" attributes="0"/>
-                              </Group>
-                              <Group type="102" alignment="1" attributes="0">
-                                  <Component id="jLabel14" min="-2" pref="164" max="-2" attributes="0"/>
-                                  <EmptySpace min="-2" pref="183" max="-2" attributes="0"/>
-                              </Group>
->>>>>>> feeb25a9cc715b3c6f8b4a51952ee32830a692ec
                           </Group>
                       </Group>
                   </Group>
@@ -672,7 +573,6 @@
                                   <Component id="jLabel23" min="-2" pref="45" max="-2" attributes="0"/>
                               </Group>
                               <Group type="102" alignment="0" attributes="0">
-<<<<<<< HEAD
                                   <EmptySpace min="-2" pref="299" max="-2" attributes="0"/>
                                   <Component id="switchButton6" min="-2" max="-2" attributes="0"/>
                               </Group>
@@ -690,20 +590,6 @@
                               <EmptySpace pref="638" max="32767" attributes="0"/>
                           </Group>
                       </Group>
-=======
-                                  <EmptySpace min="-2" pref="164" max="-2" attributes="0"/>
-                                  <Component id="jLabel14" min="-2" pref="112" max="-2" attributes="0"/>
-                                  <EmptySpace min="-2" pref="23" max="-2" attributes="0"/>
-                                  <Component id="switchButton6" min="-2" max="-2" attributes="0"/>
-                              </Group>
-                          </Group>
-                          <EmptySpace pref="113" max="32767" attributes="0"/>
-                          <Component id="comboBoxSuggestion7" min="-2" pref="31" max="-2" attributes="0"/>
-                          <EmptySpace min="-2" pref="148" max="-2" attributes="0"/>
-                          <Component id="jLabel7" min="-2" pref="116" max="-2" attributes="0"/>
-                          <EmptySpace min="-2" pref="160" max="-2" attributes="0"/>
-                      </Group>
->>>>>>> feeb25a9cc715b3c6f8b4a51952ee32830a692ec
                   </Group>
                 </DimensionLayout>
               </Layout>
@@ -730,21 +616,12 @@
                     <Property name="editable" type="boolean" value="false"/>
                     <Property name="model" type="javax.swing.ComboBoxModel" editor="org.netbeans.modules.form.editors2.ComboBoxModelEditor">
                       <StringArray count="6">
-<<<<<<< HEAD
                         <StringItem index="0" value="Computer network"/>
                         <StringItem index="1" value="Digital signal"/>
                         <StringItem index="2" value="Software engineering"/>
                         <StringItem index="3" value="Linear systems &amp; Control"/>
                         <StringItem index="4" value="Engineering economics"/>
                         <StringItem index="5" value="VLSI"/>
-=======
-                        <StringItem index="0" value="Software engineering"/>
-                        <StringItem index="1" value="System &amp; Control"/>
-                        <StringItem index="2" value="Digital signal "/>
-                        <StringItem index="3" value="Computer network"/>
-                        <StringItem index="4" value="VLSI"/>
-                        <StringItem index="5" value="Engineering economics"/>
->>>>>>> feeb25a9cc715b3c6f8b4a51952ee32830a692ec
                       </StringArray>
                     </Property>
                   </Properties>
@@ -760,21 +637,12 @@
                     <Property name="editable" type="boolean" value="false"/>
                     <Property name="model" type="javax.swing.ComboBoxModel" editor="org.netbeans.modules.form.editors2.ComboBoxModelEditor">
                       <StringArray count="6">
-<<<<<<< HEAD
                         <StringItem index="0" value="Operating Systems"/>
                         <StringItem index="1" value="Digital Control Systems"/>
                         <StringItem index="2" value="Artificial Intelligenece"/>
                         <StringItem index="3" value="Parallel &amp; Distributed Systems"/>
                         <StringItem index="4" value="Project Management"/>
                         <StringItem index="5" value="Elective Course"/>
-=======
-                        <StringItem index="0" value="Digital control"/>
-                        <StringItem index="1" value="Operating system"/>
-                        <StringItem index="2" value="Artificial intelligent"/>
-                        <StringItem index="3" value="Parallel &amp; Distributed"/>
-                        <StringItem index="4" value="Elective course"/>
-                        <StringItem index="5" value="Project Management"/>
->>>>>>> feeb25a9cc715b3c6f8b4a51952ee32830a692ec
                       </StringArray>
                     </Property>
                   </Properties>
@@ -801,7 +669,6 @@
                 <Component class="javax.swing.JLabel" name="jLabel7">
                   <Properties>
                     <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
-<<<<<<< HEAD
                       <Image iconType="3" name="/icon/youtubeicon.png"/>
                     </Property>
                   </Properties>
@@ -810,16 +677,6 @@
                   <Properties>
                     <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
                       <Image iconType="3" name="/icon/youtubeicon.png"/>
-=======
-                      <Image iconType="3" name="/icon/icons8-youtube-logo-150.png"/>
-                    </Property>
-                  </Properties>
-                </Component>
-                <Component class="javax.swing.JLabel" name="jLabel14">
-                  <Properties>
-                    <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
-                      <Image iconType="3" name="/icon/icons8-youtube-logo-150.png"/>
->>>>>>> feeb25a9cc715b3c6f8b4a51952ee32830a692ec
                     </Property>
                   </Properties>
                 </Component>
@@ -844,7 +701,7 @@
           <Layout>
             <DimensionLayout dim="0">
               <Group type="103" groupAlignment="0" attributes="0">
-                  <EmptySpace min="0" pref="993" max="32767" attributes="0"/>
+                  <EmptySpace min="0" pref="969" max="32767" attributes="0"/>
                   <Group type="103" rootIndex="1" groupAlignment="0" attributes="0">
                       <Group type="102" attributes="0">
                           <EmptySpace min="0" pref="0" max="32767" attributes="0"/>
@@ -903,7 +760,6 @@
                                   <EmptySpace min="-2" pref="308" max="-2" attributes="0"/>
                               </Group>
                               <Group type="102" alignment="1" attributes="0">
-<<<<<<< HEAD
                                   <Component id="jLabel9" min="-2" max="-2" attributes="0"/>
                                   <EmptySpace min="-2" pref="202" max="-2" attributes="0"/>
                               </Group>
@@ -916,16 +772,6 @@
                               <EmptySpace min="-2" pref="183" max="-2" attributes="0"/>
                           </Group>
                       </Group>
-=======
-                                  <Group type="103" groupAlignment="1" attributes="0">
-                                      <Component id="jLabel4" min="-2" pref="164" max="-2" attributes="0"/>
-                                      <Component id="jLabel3" min="-2" max="-2" attributes="0"/>
-                                  </Group>
-                                  <EmptySpace min="-2" pref="194" max="-2" attributes="0"/>
-                              </Group>
-                          </Group>
-                      </Group>
->>>>>>> feeb25a9cc715b3c6f8b4a51952ee32830a692ec
                   </Group>
                 </DimensionLayout>
                 <DimensionLayout dim="1">
@@ -949,7 +795,6 @@
                                   <Component id="jLabel25" min="-2" pref="45" max="-2" attributes="0"/>
                               </Group>
                               <Group type="102" alignment="0" attributes="0">
-<<<<<<< HEAD
                                   <EmptySpace min="-2" pref="299" max="-2" attributes="0"/>
                                   <Component id="switchButton8" min="-2" max="-2" attributes="0"/>
                               </Group>
@@ -967,20 +812,6 @@
                               <EmptySpace pref="638" max="32767" attributes="0"/>
                           </Group>
                       </Group>
-=======
-                                  <EmptySpace min="-2" pref="151" max="-2" attributes="0"/>
-                                  <Component id="jLabel4" min="-2" pref="119" max="-2" attributes="0"/>
-                                  <EmptySpace min="-2" pref="29" max="-2" attributes="0"/>
-                                  <Component id="switchButton10" min="-2" max="-2" attributes="0"/>
-                              </Group>
-                          </Group>
-                          <EmptySpace pref="113" max="32767" attributes="0"/>
-                          <Component id="comboBoxSuggestion10" min="-2" pref="31" max="-2" attributes="0"/>
-                          <EmptySpace min="-2" pref="149" max="-2" attributes="0"/>
-                          <Component id="jLabel3" min="-2" pref="115" max="-2" attributes="0"/>
-                          <EmptySpace min="-2" pref="160" max="-2" attributes="0"/>
-                      </Group>
->>>>>>> feeb25a9cc715b3c6f8b4a51952ee32830a692ec
                   </Group>
                 </DimensionLayout>
               </Layout>
@@ -1008,17 +839,10 @@
                     <Property name="model" type="javax.swing.ComboBoxModel" editor="org.netbeans.modules.form.editors2.ComboBoxModelEditor">
                       <StringArray count="5">
                         <StringItem index="0" value="Network"/>
-<<<<<<< HEAD
                         <StringItem index="1" value="Control"/>
                         <StringItem index="2" value="Dsp"/>
                         <StringItem index="3" value="CI"/>
                         <StringItem index="4" value="AI"/>
-=======
-                        <StringItem index="1" value="DSP"/>
-                        <StringItem index="2" value="CI"/>
-                        <StringItem index="3" value="AI"/>
-                        <StringItem index="4" value="Control"/>
->>>>>>> feeb25a9cc715b3c6f8b4a51952ee32830a692ec
                       </StringArray>
                     </Property>
                   </Properties>
@@ -1038,11 +862,7 @@
                         <StringItem index="1" value="Systems"/>
                         <StringItem index="2" value="Compiler"/>
                         <StringItem index="3" value="Control"/>
-<<<<<<< HEAD
                         <StringItem index="4" value="Computer Vision"/>
-=======
-                        <StringItem index="4" value="Computer vision"/>
->>>>>>> feeb25a9cc715b3c6f8b4a51952ee32830a692ec
                       </StringArray>
                     </Property>
                   </Properties>
@@ -1069,22 +889,14 @@
                 <Component class="javax.swing.JLabel" name="jLabel9">
                   <Properties>
                     <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
-<<<<<<< HEAD
                       <Image iconType="3" name="/icon/youtubeicon.png"/>
-=======
-                      <Image iconType="3" name="/icon/icons8-youtube-logo-150.png"/>
->>>>>>> feeb25a9cc715b3c6f8b4a51952ee32830a692ec
                     </Property>
                   </Properties>
                 </Component>
                 <Component class="javax.swing.JLabel" name="jLabel10">
                   <Properties>
                     <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
-<<<<<<< HEAD
                       <Image iconType="3" name="/icon/youtubeicon.png"/>
-=======
-                      <Image iconType="3" name="/icon/icons8-youtube-logo-150.png"/>
->>>>>>> feeb25a9cc715b3c6f8b4a51952ee32830a692ec
                     </Property>
                   </Properties>
                 </Component>
