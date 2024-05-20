@@ -160,6 +160,9 @@
                   <Color blue="f0" green="f0" red="f0" type="rgb"/>
                 </Property>
               </Properties>
+              <Events>
+                <EventHandler event="keyPressed" listener="java.awt.event.KeyListener" parameters="java.awt.event.KeyEvent" handler="switchButton2KeyPressed"/>
+              </Events>
             </Component>
             <Component class="swing.SwitchButton" name="switchButton3">
               <Properties>
@@ -167,6 +170,10 @@
                   <Color blue="f0" green="f0" red="f0" type="rgb"/>
                 </Property>
               </Properties>
+              <Events>
+                <EventHandler event="mouseClicked" listener="java.awt.event.MouseListener" parameters="java.awt.event.MouseEvent" handler="switchButton3MouseClicked"/>
+                <EventHandler event="mousePressed" listener="java.awt.event.MouseListener" parameters="java.awt.event.MouseEvent" handler="switchButton3MousePressed"/>
+              </Events>
             </Component>
             <Component class="combo_suggestion.ComboBoxSuggestion" name="comboBoxSuggestion2">
               <Properties>
@@ -232,6 +239,9 @@
                   <Image iconType="3" name="/icon/icons8-youtube-logo-150.png"/>
                 </Property>
               </Properties>
+              <Events>
+                <EventHandler event="mousePressed" listener="java.awt.event.MouseListener" parameters="java.awt.event.MouseEvent" handler="jLabel1MousePressed"/>
+              </Events>
             </Component>
             <Component class="javax.swing.JLabel" name="jLabel3">
               <Properties>
@@ -239,6 +249,9 @@
                   <Image iconType="3" name="/icon/icons8-youtube-logo-150.png"/>
                 </Property>
               </Properties>
+              <Events>
+                <EventHandler event="mousePressed" listener="java.awt.event.MouseListener" parameters="java.awt.event.MouseEvent" handler="jLabel3MousePressed"/>
+              </Events>
             </Component>
           </SubComponents>
         </Container>
@@ -378,6 +391,9 @@
                   <Image iconType="3" name="/icon/icons8-youtube-logo-150.png"/>
                 </Property>
               </Properties>
+              <Events>
+                <EventHandler event="mousePressed" listener="java.awt.event.MouseListener" parameters="java.awt.event.MouseEvent" handler="jLabel2MousePressed"/>
+              </Events>
             </Component>
             <Component class="javax.swing.JLabel" name="jLabel4">
               <Properties>
@@ -385,6 +401,9 @@
                   <Image iconType="3" name="/icon/icons8-youtube-logo-150.png"/>
                 </Property>
               </Properties>
+              <Events>
+                <EventHandler event="mousePressed" listener="java.awt.event.MouseListener" parameters="java.awt.event.MouseEvent" handler="jLabel4MousePressed"/>
+              </Events>
             </Component>
             <Component class="combo_suggestion.ComboBoxSuggestion" name="comboBoxSuggestion5">
               <Properties>
@@ -623,6 +642,9 @@
                       <Image iconType="3" name="/icon/icons8-youtube-logo-150.png"/>
                     </Property>
                   </Properties>
+                  <Events>
+                    <EventHandler event="mousePressed" listener="java.awt.event.MouseListener" parameters="java.awt.event.MouseEvent" handler="jLabel7MousePressed"/>
+                  </Events>
                 </Component>
                 <Component class="javax.swing.JLabel" name="jLabel8">
                   <Properties>
@@ -630,6 +652,9 @@
                       <Image iconType="3" name="/icon/icons8-youtube-logo-150.png"/>
                     </Property>
                   </Properties>
+                  <Events>
+                    <EventHandler event="mousePressed" listener="java.awt.event.MouseListener" parameters="java.awt.event.MouseEvent" handler="jLabel8MousePressed"/>
+                  </Events>
                 </Component>
               </SubComponents>
             </Container>
@@ -834,6 +859,9 @@
                       <Image iconType="3" name="/icon/icons8-youtube-logo-150.png"/>
                     </Property>
                   </Properties>
+                  <Events>
+                    <EventHandler event="mousePressed" listener="java.awt.event.MouseListener" parameters="java.awt.event.MouseEvent" handler="jLabel9MousePressed"/>
+                  </Events>
                 </Component>
                 <Component class="javax.swing.JLabel" name="jLabel10">
                   <Properties>
@@ -841,6 +869,9 @@
                       <Image iconType="3" name="/icon/icons8-youtube-logo-150.png"/>
                     </Property>
                   </Properties>
+                  <Events>
+                    <EventHandler event="mousePressed" listener="java.awt.event.MouseListener" parameters="java.awt.event.MouseEvent" handler="jLabel10MousePressed"/>
+                  </Events>
                 </Component>
               </SubComponents>
             </Container>

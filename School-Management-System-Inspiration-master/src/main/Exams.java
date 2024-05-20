@@ -4,6 +4,14 @@
  */
 package main;
 
+import java.awt.Desktop;
+import java.io.IOException;
+import java.net.MalformedURLException;
+import java.net.URISyntaxException;
+import java.net.URL;
+import java.util.logging.Level;
+import java.util.logging.Logger;
+
 /**
  *
  * @author bishoykamel
@@ -105,8 +113,18 @@ public class Exams extends javax.swing.JFrame {
         jLabel16.setText("Second Term:");
 
         jLabel1.setIcon(new javax.swing.ImageIcon(getClass().getResource("/icon/icons8-google-drive-150.png"))); // NOI18N
+        jLabel1.addMouseListener(new java.awt.event.MouseAdapter() {
+            public void mousePressed(java.awt.event.MouseEvent evt) {
+                jLabel1MousePressed(evt);
+            }
+        });
 
         jLabel2.setIcon(new javax.swing.ImageIcon(getClass().getResource("/icon/icons8-google-drive-150.png"))); // NOI18N
+        jLabel2.addMouseListener(new java.awt.event.MouseAdapter() {
+            public void mousePressed(java.awt.event.MouseEvent evt) {
+                jLabel2MousePressed(evt);
+            }
+        });
 
         javax.swing.GroupLayout jPanel3Layout = new javax.swing.GroupLayout(jPanel3);
         jPanel3.setLayout(jPanel3Layout);
@@ -207,8 +225,18 @@ public class Exams extends javax.swing.JFrame {
         jLabel21.setText("Second Term:");
 
         jLabel5.setIcon(new javax.swing.ImageIcon(getClass().getResource("/icon/icons8-google-drive-150.png"))); // NOI18N
+        jLabel5.addMouseListener(new java.awt.event.MouseAdapter() {
+            public void mousePressed(java.awt.event.MouseEvent evt) {
+                jLabel5MousePressed(evt);
+            }
+        });
 
         jLabel6.setIcon(new javax.swing.ImageIcon(getClass().getResource("/icon/icons8-google-drive-150.png"))); // NOI18N
+        jLabel6.addMouseListener(new java.awt.event.MouseAdapter() {
+            public void mousePressed(java.awt.event.MouseEvent evt) {
+                jLabel6MousePressed(evt);
+            }
+        });
 
         javax.swing.GroupLayout jPanel7Layout = new javax.swing.GroupLayout(jPanel7);
         jPanel7.setLayout(jPanel7Layout);
@@ -320,8 +348,18 @@ public class Exams extends javax.swing.JFrame {
         jLabel23.setText("Second Term:");
 
         jLabel7.setIcon(new javax.swing.ImageIcon(getClass().getResource("/icon/icons8-google-drive-150.png"))); // NOI18N
+        jLabel7.addMouseListener(new java.awt.event.MouseAdapter() {
+            public void mousePressed(java.awt.event.MouseEvent evt) {
+                jLabel7MousePressed(evt);
+            }
+        });
 
         jLabel8.setIcon(new javax.swing.ImageIcon(getClass().getResource("/icon/icons8-google-drive-150.png"))); // NOI18N
+        jLabel8.addMouseListener(new java.awt.event.MouseAdapter() {
+            public void mousePressed(java.awt.event.MouseEvent evt) {
+                jLabel8MousePressed(evt);
+            }
+        });
 
         javax.swing.GroupLayout jPanel8Layout = new javax.swing.GroupLayout(jPanel8);
         jPanel8.setLayout(jPanel8Layout);
@@ -437,8 +475,18 @@ public class Exams extends javax.swing.JFrame {
         jLabel25.setText("Second Term:");
 
         jLabel9.setIcon(new javax.swing.ImageIcon(getClass().getResource("/icon/icons8-google-drive-150.png"))); // NOI18N
+        jLabel9.addMouseListener(new java.awt.event.MouseAdapter() {
+            public void mousePressed(java.awt.event.MouseEvent evt) {
+                jLabel9MousePressed(evt);
+            }
+        });
 
         jLabel10.setIcon(new javax.swing.ImageIcon(getClass().getResource("/icon/icons8-google-drive-150.png"))); // NOI18N
+        jLabel10.addMouseListener(new java.awt.event.MouseAdapter() {
+            public void mousePressed(java.awt.event.MouseEvent evt) {
+                jLabel10MousePressed(evt);
+            }
+        });
 
         javax.swing.GroupLayout jPanel9Layout = new javax.swing.GroupLayout(jPanel9);
         jPanel9.setLayout(jPanel9Layout);
@@ -582,6 +630,483 @@ public class Exams extends javax.swing.JFrame {
     private void comboBoxSuggestion9ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_comboBoxSuggestion9ActionPerformed
         // TODO add your handling code here:
     }//GEN-LAST:event_comboBoxSuggestion9ActionPerformed
+
+    private void jLabel2MousePressed(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_jLabel2MousePressed
+        // TODO add your handling code here:
+        if (comboBoxSuggestion2.getSelectedIndex() == 0) {
+            try {
+                // TODO add your handling code here:
+                Desktop.getDesktop().browse(new URL("https://drive.google.com/file/d/1pYy4SoBRYHxdyrxiT20ZjMvSbqq2HyaG/view?usp=drivesdk").toURI());
+            } catch (MalformedURLException ex) {
+                Logger.getLogger(Students_activites.class.getName()).log(Level.SEVERE, null, ex);
+            } catch (URISyntaxException | IOException ex) {
+                Logger.getLogger(Students_activites.class.getName()).log(Level.SEVERE, null, ex);
+            }
+        } else if (comboBoxSuggestion2.getSelectedIndex() == 1) {
+            try {
+                // TODO add your handling code here:
+                Desktop.getDesktop().browse(new URL("https://drive.google.com/file/d/1pQoLlMqXAkV_5JXePM1klWFrYT2NmF7V/view?usp=drivesdk").toURI());
+            } catch (MalformedURLException ex) {
+                Logger.getLogger(Students_activites.class.getName()).log(Level.SEVERE, null, ex);
+            } catch (URISyntaxException | IOException ex) {
+                Logger.getLogger(Students_activites.class.getName()).log(Level.SEVERE, null, ex);
+            }
+        } else if (comboBoxSuggestion2.getSelectedIndex() == 2) {
+            try {
+                // TODO add your handling code here:
+                Desktop.getDesktop().browse(new URL("https://drive.google.com/file/d/1pRlBRTd-UghLnUrpcc0IyHY8Ji1Ud9lK/view?usp=drivesdk").toURI());
+            } catch (MalformedURLException ex) {
+                Logger.getLogger(Students_activites.class.getName()).log(Level.SEVERE, null, ex);
+            } catch (URISyntaxException | IOException ex) {
+                Logger.getLogger(Students_activites.class.getName()).log(Level.SEVERE, null, ex);
+            }
+        } else if (comboBoxSuggestion2.getSelectedIndex() == 3) {
+            try {
+                // TODO add your handling code here:
+                Desktop.getDesktop().browse(new URL("https://drive.google.com/file/d/1pYeJZUw87eyz9XpVYMIeDNEbAz8HxVF9/view?usp=drivesdk").toURI());
+            } catch (MalformedURLException ex) {
+                Logger.getLogger(Students_activites.class.getName()).log(Level.SEVERE, null, ex);
+            } catch (URISyntaxException | IOException ex) {
+                Logger.getLogger(Students_activites.class.getName()).log(Level.SEVERE, null, ex);
+            }
+        } else if (comboBoxSuggestion2.getSelectedIndex() == 4) {
+            try {
+                // TODO add your handling code here:
+                Desktop.getDesktop().browse(new URL("https://www.proprofs.com/quiz-school/story.php?title=english-test-technical-writing").toURI());
+            } catch (MalformedURLException ex) {
+                Logger.getLogger(Students_activites.class.getName()).log(Level.SEVERE, null, ex);
+            } catch (URISyntaxException | IOException ex) {
+                Logger.getLogger(Students_activites.class.getName()).log(Level.SEVERE, null, ex);
+            }
+        } else if (comboBoxSuggestion2.getSelectedIndex() == 5) {
+            try {
+                // TODO add your handling code here:
+                Desktop.getDesktop().browse(new URL("https://drive.google.com/file/d/1pT3V2W7ZhVvuw9UvzYMjVmh6iSJKhV2O/view?usp=drivesdk").toURI());
+            } catch (MalformedURLException ex) {
+                Logger.getLogger(Students_activites.class.getName()).log(Level.SEVERE, null, ex);
+            } catch (URISyntaxException | IOException ex) {
+                Logger.getLogger(Students_activites.class.getName()).log(Level.SEVERE, null, ex);
+            }
+    }                                    
+    }
+    
+    private void jLabel1MousePressed(java.awt.event.MouseEvent evt) {                                     
+        // TODO add your handling code here:
+        if (comboBoxSuggestion1.getSelectedIndex() == 0) {
+            try {
+                // TODO add your handling code here:
+                Desktop.getDesktop().browse(new URL("https://drive.google.com/drive/folders/1RTVqbkw6lN_eAx9odwLJ2EKV2uSXTMdf?usp=drive_link").toURI());
+            } catch (MalformedURLException ex) {
+                Logger.getLogger(Students_activites.class.getName()).log(Level.SEVERE, null, ex);
+            } catch (URISyntaxException | IOException ex) {
+                Logger.getLogger(Students_activites.class.getName()).log(Level.SEVERE, null, ex);
+            }
+        } else if (comboBoxSuggestion1.getSelectedIndex() == 1) {
+            try {
+                // TODO add your handling code here:
+                Desktop.getDesktop().browse(new URL("https://drive.google.com/drive/folders/1RTVqbkw6lN_eAx9odwLJ2EKV2uSXTMdf?usp=drive_link").toURI());
+            } catch (MalformedURLException ex) {
+                Logger.getLogger(Students_activites.class.getName()).log(Level.SEVERE, null, ex);
+            } catch (URISyntaxException | IOException ex) {
+                Logger.getLogger(Students_activites.class.getName()).log(Level.SEVERE, null, ex);
+            }
+        } else if (comboBoxSuggestion1.getSelectedIndex() == 2) {
+            try {
+                // TODO add your handling code here:
+                Desktop.getDesktop().browse(new URL("https://drive.google.com/drive/folders/1RTVqbkw6lN_eAx9odwLJ2EKV2uSXTMdf?usp=drive_link").toURI());
+            } catch (MalformedURLException ex) {
+                Logger.getLogger(Students_activites.class.getName()).log(Level.SEVERE, null, ex);
+            } catch (URISyntaxException | IOException ex) {
+                Logger.getLogger(Students_activites.class.getName()).log(Level.SEVERE, null, ex);
+            }
+        } else if (comboBoxSuggestion1.getSelectedIndex() == 3) {
+            try {
+                // TODO add your handling code here:
+                Desktop.getDesktop().browse(new URL("https://drive.google.com/drive/folders/1RTVqbkw6lN_eAx9odwLJ2EKV2uSXTMdf?usp=drive_link").toURI());
+            } catch (MalformedURLException ex) {
+                Logger.getLogger(Students_activites.class.getName()).log(Level.SEVERE, null, ex);
+            } catch (URISyntaxException | IOException ex) {
+                Logger.getLogger(Students_activites.class.getName()).log(Level.SEVERE, null, ex);
+            }
+        } else if (comboBoxSuggestion1.getSelectedIndex() == 4) {
+            try {
+                // TODO add your handling code here:
+                Desktop.getDesktop().browse(new URL("https://drive.google.com/drive/folders/1RTVqbkw6lN_eAx9odwLJ2EKV2uSXTMdf?usp=drive_link").toURI());
+            } catch (MalformedURLException ex) {
+                Logger.getLogger(Students_activites.class.getName()).log(Level.SEVERE, null, ex);
+            } catch (URISyntaxException | IOException ex) {
+                Logger.getLogger(Students_activites.class.getName()).log(Level.SEVERE, null, ex);
+            }
+        } else if (comboBoxSuggestion1.getSelectedIndex() == 5) {
+            try {
+                // TODO add your handling code here:
+                Desktop.getDesktop().browse(new URL("https://drive.google.com/drive/folders/1RTVqbkw6lN_eAx9odwLJ2EKV2uSXTMdf?usp=drive_link").toURI());
+            } catch (MalformedURLException ex) {
+                Logger.getLogger(Students_activites.class.getName()).log(Level.SEVERE, null, ex);
+            } catch (URISyntaxException | IOException ex) {
+                Logger.getLogger(Students_activites.class.getName()).log(Level.SEVERE, null, ex);
+            }
+        }
+    }//GEN-LAST:event_jLabel2MousePressed
+/*
+    private void jLabel1MousePressed(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_jLabel1MousePressed
+        // TODO add your handling code here:
+        
+    }//GEN-LAST:event_jLabel1MousePressed
+*/
+    private void jLabel6MousePressed(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_jLabel6MousePressed
+        // TODO add your handling code here:
+        if (comboBoxSuggestion4.getSelectedIndex() == 0) {
+            try {
+                // TODO add your handling code here:
+                Desktop.getDesktop().browse(new URL("https://github.com/BK9797/Engineering_Edge").toURI());
+            } catch (MalformedURLException ex) {
+                Logger.getLogger(Students_activites.class.getName()).log(Level.SEVERE, null, ex);
+            } catch (URISyntaxException | IOException ex) {
+                Logger.getLogger(Students_activites.class.getName()).log(Level.SEVERE, null, ex);
+            }
+        } else if (comboBoxSuggestion4.getSelectedIndex() == 1) {
+            try {
+                // TODO add your handling code here:
+                Desktop.getDesktop().browse(new URL("https://github.com/BK9797/Engineering_Edge").toURI());
+            } catch (MalformedURLException ex) {
+                Logger.getLogger(Students_activites.class.getName()).log(Level.SEVERE, null, ex);
+            } catch (URISyntaxException | IOException ex) {
+                Logger.getLogger(Students_activites.class.getName()).log(Level.SEVERE, null, ex);
+            }
+        } else if (comboBoxSuggestion4.getSelectedIndex() == 2) {
+            try {
+                // TODO add your handling code here:
+                Desktop.getDesktop().browse(new URL("https://github.com/BK9797/Engineering_Edge").toURI());
+            } catch (MalformedURLException ex) {
+                Logger.getLogger(Students_activites.class.getName()).log(Level.SEVERE, null, ex);
+            } catch (URISyntaxException | IOException ex) {
+                Logger.getLogger(Students_activites.class.getName()).log(Level.SEVERE, null, ex);
+            }
+        } else if (comboBoxSuggestion4.getSelectedIndex() == 3) {
+            try {
+                // TODO add your handling code here:
+                Desktop.getDesktop().browse(new URL("https://github.com/BK9797/Engineering_Edge").toURI());
+            } catch (MalformedURLException ex) {
+                Logger.getLogger(Students_activites.class.getName()).log(Level.SEVERE, null, ex);
+            } catch (URISyntaxException | IOException ex) {
+                Logger.getLogger(Students_activites.class.getName()).log(Level.SEVERE, null, ex);
+            }
+        } else if (comboBoxSuggestion4.getSelectedIndex() == 4) {
+            try {
+                // TODO add your handling code here:
+                Desktop.getDesktop().browse(new URL("https://github.com/BK9797/Engineering_Edge").toURI());
+            } catch (MalformedURLException ex) {
+                Logger.getLogger(Students_activites.class.getName()).log(Level.SEVERE, null, ex);
+            } catch (URISyntaxException | IOException ex) {
+                Logger.getLogger(Students_activites.class.getName()).log(Level.SEVERE, null, ex);
+            }
+        } else if (comboBoxSuggestion4.getSelectedIndex() == 5) {
+            try {
+                // TODO add your handling code here:
+                Desktop.getDesktop().browse(new URL("https://github.com/BK9797/Engineering_Edge").toURI());
+            } catch (MalformedURLException ex) {
+                Logger.getLogger(Students_activites.class.getName()).log(Level.SEVERE, null, ex);
+            } catch (URISyntaxException | IOException ex) {
+                Logger.getLogger(Students_activites.class.getName()).log(Level.SEVERE, null, ex);
+            }
+        }
+    }//GEN-LAST:event_jLabel6MousePressed
+
+    private void jLabel5MousePressed(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_jLabel5MousePressed
+        // TODO add your handling code here:
+        if (comboBoxSuggestion5.getSelectedIndex() == 0) {
+            try {
+                // TODO add your handling code here:
+                Desktop.getDesktop().browse(new URL("https://github.com/BK9797/Engineering_Edge").toURI());
+            } catch (MalformedURLException ex) {
+                Logger.getLogger(Students_activites.class.getName()).log(Level.SEVERE, null, ex);
+            } catch (URISyntaxException | IOException ex) {
+                Logger.getLogger(Students_activites.class.getName()).log(Level.SEVERE, null, ex);
+            }
+        } else if (comboBoxSuggestion5.getSelectedIndex() == 1) {
+            try {
+                // TODO add your handling code here:
+                Desktop.getDesktop().browse(new URL("https://github.com/BK9797/Engineering_Edge").toURI());
+            } catch (MalformedURLException ex) {
+                Logger.getLogger(Students_activites.class.getName()).log(Level.SEVERE, null, ex);
+            } catch (URISyntaxException | IOException ex) {
+                Logger.getLogger(Students_activites.class.getName()).log(Level.SEVERE, null, ex);
+            }
+        } else if (comboBoxSuggestion5.getSelectedIndex() == 2) {
+            try {
+                // TODO add your handling code here:
+                Desktop.getDesktop().browse(new URL("https://github.com/BK9797/Engineering_Edge").toURI());
+            } catch (MalformedURLException ex) {
+                Logger.getLogger(Students_activites.class.getName()).log(Level.SEVERE, null, ex);
+            } catch (URISyntaxException | IOException ex) {
+                Logger.getLogger(Students_activites.class.getName()).log(Level.SEVERE, null, ex);
+            }
+        } else if (comboBoxSuggestion5.getSelectedIndex() == 3) {
+            try {
+                // TODO add your handling code here:
+                Desktop.getDesktop().browse(new URL("https://github.com/BK9797/Engineering_Edge").toURI());
+            } catch (MalformedURLException ex) {
+                Logger.getLogger(Students_activites.class.getName()).log(Level.SEVERE, null, ex);
+            } catch (URISyntaxException | IOException ex) {
+                Logger.getLogger(Students_activites.class.getName()).log(Level.SEVERE, null, ex);
+            }
+        } else if (comboBoxSuggestion5.getSelectedIndex() == 4) {
+            try {
+                // TODO add your handling code here:
+                Desktop.getDesktop().browse(new URL("https://github.com/BK9797/Engineering_Edge").toURI());
+            } catch (MalformedURLException ex) {
+                Logger.getLogger(Students_activites.class.getName()).log(Level.SEVERE, null, ex);
+            } catch (URISyntaxException | IOException ex) {
+                Logger.getLogger(Students_activites.class.getName()).log(Level.SEVERE, null, ex);
+            }
+        } else if (comboBoxSuggestion5.getSelectedIndex() == 5) {
+            try {
+                // TODO add your handling code here:
+                Desktop.getDesktop().browse(new URL("https://github.com/BK9797/Engineering_Edge").toURI());
+            } catch (MalformedURLException ex) {
+                Logger.getLogger(Students_activites.class.getName()).log(Level.SEVERE, null, ex);
+            } catch (URISyntaxException | IOException ex) {
+                Logger.getLogger(Students_activites.class.getName()).log(Level.SEVERE, null, ex);
+            }
+        }
+    }//GEN-LAST:event_jLabel5MousePressed
+
+    private void jLabel8MousePressed(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_jLabel8MousePressed
+        // TODO add your handling code here:
+        if (comboBoxSuggestion6.getSelectedIndex() == 0) {
+            try {
+                // TODO add your handling code here:
+                Desktop.getDesktop().browse(new URL("https://github.com/BK9797/Engineering_Edge").toURI());
+            } catch (MalformedURLException ex) {
+                Logger.getLogger(Students_activites.class.getName()).log(Level.SEVERE, null, ex);
+            } catch (URISyntaxException | IOException ex) {
+                Logger.getLogger(Students_activites.class.getName()).log(Level.SEVERE, null, ex);
+            }
+        } else if (comboBoxSuggestion6.getSelectedIndex() == 1) {
+            try {
+                // TODO add your handling code here:
+                Desktop.getDesktop().browse(new URL("https://github.com/BK9797/Engineering_Edge").toURI());
+            } catch (MalformedURLException ex) {
+                Logger.getLogger(Students_activites.class.getName()).log(Level.SEVERE, null, ex);
+            } catch (URISyntaxException | IOException ex) {
+                Logger.getLogger(Students_activites.class.getName()).log(Level.SEVERE, null, ex);
+            }
+        } else if (comboBoxSuggestion6.getSelectedIndex() == 2) {
+            try {
+                // TODO add your handling code here:
+                Desktop.getDesktop().browse(new URL("https://github.com/BK9797/Engineering_Edge").toURI());
+            } catch (MalformedURLException ex) {
+                Logger.getLogger(Students_activites.class.getName()).log(Level.SEVERE, null, ex);
+            } catch (URISyntaxException | IOException ex) {
+                Logger.getLogger(Students_activites.class.getName()).log(Level.SEVERE, null, ex);
+            }
+        } else if (comboBoxSuggestion6.getSelectedIndex() == 3) {
+            try {
+                // TODO add your handling code here:
+                Desktop.getDesktop().browse(new URL("https://github.com/BK9797/Engineering_Edge").toURI());
+            } catch (MalformedURLException ex) {
+                Logger.getLogger(Students_activites.class.getName()).log(Level.SEVERE, null, ex);
+            } catch (URISyntaxException | IOException ex) {
+                Logger.getLogger(Students_activites.class.getName()).log(Level.SEVERE, null, ex);
+            }
+        } else if (comboBoxSuggestion6.getSelectedIndex() == 4) {
+            try {
+                // TODO add your handling code here:
+                Desktop.getDesktop().browse(new URL("https://github.com/BK9797/Engineering_Edge").toURI());
+            } catch (MalformedURLException ex) {
+                Logger.getLogger(Students_activites.class.getName()).log(Level.SEVERE, null, ex);
+            } catch (URISyntaxException | IOException ex) {
+                Logger.getLogger(Students_activites.class.getName()).log(Level.SEVERE, null, ex);
+            }
+        } else if (comboBoxSuggestion6.getSelectedIndex() == 5) {
+            try {
+                // TODO add your handling code here:
+                Desktop.getDesktop().browse(new URL("https://github.com/BK9797/Engineering_Edge").toURI());
+            } catch (MalformedURLException ex) {
+                Logger.getLogger(Students_activites.class.getName()).log(Level.SEVERE, null, ex);
+            } catch (URISyntaxException | IOException ex) {
+                Logger.getLogger(Students_activites.class.getName()).log(Level.SEVERE, null, ex);
+            }
+        }
+    }//GEN-LAST:event_jLabel8MousePressed
+
+    private void jLabel7MousePressed(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_jLabel7MousePressed
+        // TODO add your handling code here:
+        if (comboBoxSuggestion7.getSelectedIndex() == 0) {
+            try {
+                // TODO add your handling code here:
+                Desktop.getDesktop().browse(new URL("https://github.com/BK9797/Engineering_Edge").toURI());
+            } catch (MalformedURLException ex) {
+                Logger.getLogger(Students_activites.class.getName()).log(Level.SEVERE, null, ex);
+            } catch (URISyntaxException | IOException ex) {
+                Logger.getLogger(Students_activites.class.getName()).log(Level.SEVERE, null, ex);
+            }
+        } else if (comboBoxSuggestion7.getSelectedIndex() == 1) {
+            try {
+                // TODO add your handling code here:
+                Desktop.getDesktop().browse(new URL("https://github.com/BK9797/Engineering_Edge").toURI());
+            } catch (MalformedURLException ex) {
+                Logger.getLogger(Students_activites.class.getName()).log(Level.SEVERE, null, ex);
+            } catch (URISyntaxException | IOException ex) {
+                Logger.getLogger(Students_activites.class.getName()).log(Level.SEVERE, null, ex);
+            }
+        } else if (comboBoxSuggestion7.getSelectedIndex() == 2) {
+            try {
+                // TODO add your handling code here:
+                Desktop.getDesktop().browse(new URL("https://github.com/BK9797/Engineering_Edge").toURI());
+            } catch (MalformedURLException ex) {
+                Logger.getLogger(Students_activites.class.getName()).log(Level.SEVERE, null, ex);
+            } catch (URISyntaxException | IOException ex) {
+                Logger.getLogger(Students_activites.class.getName()).log(Level.SEVERE, null, ex);
+            }
+        } else if (comboBoxSuggestion7.getSelectedIndex() == 3) {
+            try {
+                // TODO add your handling code here:
+                Desktop.getDesktop().browse(new URL("https://github.com/BK9797/Engineering_Edge").toURI());
+            } catch (MalformedURLException ex) {
+                Logger.getLogger(Students_activites.class.getName()).log(Level.SEVERE, null, ex);
+            } catch (URISyntaxException | IOException ex) {
+                Logger.getLogger(Students_activites.class.getName()).log(Level.SEVERE, null, ex);
+            }
+        } else if (comboBoxSuggestion7.getSelectedIndex() == 4) {
+            try {
+                // TODO add your handling code here:
+                Desktop.getDesktop().browse(new URL("https://github.com/BK9797/Engineering_Edge").toURI());
+            } catch (MalformedURLException ex) {
+                Logger.getLogger(Students_activites.class.getName()).log(Level.SEVERE, null, ex);
+            } catch (URISyntaxException | IOException ex) {
+                Logger.getLogger(Students_activites.class.getName()).log(Level.SEVERE, null, ex);
+            }
+        } else if (comboBoxSuggestion7.getSelectedIndex() == 5) {
+            try {
+                // TODO add your handling code here:
+                Desktop.getDesktop().browse(new URL("https://github.com/BK9797/Engineering_Edge").toURI());
+            } catch (MalformedURLException ex) {
+                Logger.getLogger(Students_activites.class.getName()).log(Level.SEVERE, null, ex);
+            } catch (URISyntaxException | IOException ex) {
+                Logger.getLogger(Students_activites.class.getName()).log(Level.SEVERE, null, ex);
+            }
+        }
+    }//GEN-LAST:event_jLabel7MousePressed
+
+    private void jLabel10MousePressed(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_jLabel10MousePressed
+        // TODO add your handling code here:
+        if (comboBoxSuggestion8.getSelectedIndex() == 0) {
+            try {
+                // TODO add your handling code here:
+                Desktop.getDesktop().browse(new URL("https://github.com/BK9797/Engineering_Edge").toURI());
+            } catch (MalformedURLException ex) {
+                Logger.getLogger(Students_activites.class.getName()).log(Level.SEVERE, null, ex);
+            } catch (URISyntaxException | IOException ex) {
+                Logger.getLogger(Students_activites.class.getName()).log(Level.SEVERE, null, ex);
+            }
+        } else if (comboBoxSuggestion8.getSelectedIndex() == 1) {
+            try {
+                // TODO add your handling code here:
+                Desktop.getDesktop().browse(new URL("https://github.com/BK9797/Engineering_Edge").toURI());
+            } catch (MalformedURLException ex) {
+                Logger.getLogger(Students_activites.class.getName()).log(Level.SEVERE, null, ex);
+            } catch (URISyntaxException | IOException ex) {
+                Logger.getLogger(Students_activites.class.getName()).log(Level.SEVERE, null, ex);
+            }
+        } else if (comboBoxSuggestion8.getSelectedIndex() == 2) {
+            try {
+                // TODO add your handling code here:
+                Desktop.getDesktop().browse(new URL("https://github.com/BK9797/Engineering_Edge").toURI());
+            } catch (MalformedURLException ex) {
+                Logger.getLogger(Students_activites.class.getName()).log(Level.SEVERE, null, ex);
+            } catch (URISyntaxException | IOException ex) {
+                Logger.getLogger(Students_activites.class.getName()).log(Level.SEVERE, null, ex);
+            }
+        } else if (comboBoxSuggestion8.getSelectedIndex() == 3) {
+            try {
+                // TODO add your handling code here:
+                Desktop.getDesktop().browse(new URL("https://github.com/BK9797/Engineering_Edge").toURI());
+            } catch (MalformedURLException ex) {
+                Logger.getLogger(Students_activites.class.getName()).log(Level.SEVERE, null, ex);
+            } catch (URISyntaxException | IOException ex) {
+                Logger.getLogger(Students_activites.class.getName()).log(Level.SEVERE, null, ex);
+            }
+        } else if (comboBoxSuggestion8.getSelectedIndex() == 4) {
+            try {
+                // TODO add your handling code here:
+                Desktop.getDesktop().browse(new URL("https://github.com/BK9797/Engineering_Edge").toURI());
+            } catch (MalformedURLException ex) {
+                Logger.getLogger(Students_activites.class.getName()).log(Level.SEVERE, null, ex);
+            } catch (URISyntaxException | IOException ex) {
+                Logger.getLogger(Students_activites.class.getName()).log(Level.SEVERE, null, ex);
+            }
+        } else if (comboBoxSuggestion8.getSelectedIndex() == 5) {
+            try {
+                // TODO add your handling code here:
+                Desktop.getDesktop().browse(new URL("https://github.com/BK9797/Engineering_Edge").toURI());
+            } catch (MalformedURLException ex) {
+                Logger.getLogger(Students_activites.class.getName()).log(Level.SEVERE, null, ex);
+            } catch (URISyntaxException | IOException ex) {
+                Logger.getLogger(Students_activites.class.getName()).log(Level.SEVERE, null, ex);
+            }
+        }
+    }//GEN-LAST:event_jLabel10MousePressed
+
+    private void jLabel9MousePressed(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_jLabel9MousePressed
+        // TODO add your handling code here:
+        if (comboBoxSuggestion9.getSelectedIndex() == 0) {
+            try {
+                // TODO add your handling code here:
+                Desktop.getDesktop().browse(new URL("https://github.com/BK9797/Engineering_Edge").toURI());
+            } catch (MalformedURLException ex) {
+                Logger.getLogger(Students_activites.class.getName()).log(Level.SEVERE, null, ex);
+            } catch (URISyntaxException | IOException ex) {
+                Logger.getLogger(Students_activites.class.getName()).log(Level.SEVERE, null, ex);
+            }
+        } else if (comboBoxSuggestion9.getSelectedIndex() == 1) {
+            try {
+                // TODO add your handling code here:
+                Desktop.getDesktop().browse(new URL("https://github.com/BK9797/Engineering_Edge").toURI());
+            } catch (MalformedURLException ex) {
+                Logger.getLogger(Students_activites.class.getName()).log(Level.SEVERE, null, ex);
+            } catch (URISyntaxException | IOException ex) {
+                Logger.getLogger(Students_activites.class.getName()).log(Level.SEVERE, null, ex);
+            }
+        } else if (comboBoxSuggestion9.getSelectedIndex() == 2) {
+            try {
+                // TODO add your handling code here:
+                Desktop.getDesktop().browse(new URL("https://github.com/BK9797/Engineering_Edge").toURI());
+            } catch (MalformedURLException ex) {
+                Logger.getLogger(Students_activites.class.getName()).log(Level.SEVERE, null, ex);
+            } catch (URISyntaxException | IOException ex) {
+                Logger.getLogger(Students_activites.class.getName()).log(Level.SEVERE, null, ex);
+            }
+        } else if (comboBoxSuggestion9.getSelectedIndex() == 3) {
+            try {
+                // TODO add your handling code here:
+                Desktop.getDesktop().browse(new URL("https://github.com/BK9797/Engineering_Edge").toURI());
+            } catch (MalformedURLException ex) {
+                Logger.getLogger(Students_activites.class.getName()).log(Level.SEVERE, null, ex);
+            } catch (URISyntaxException | IOException ex) {
+                Logger.getLogger(Students_activites.class.getName()).log(Level.SEVERE, null, ex);
+            }
+        } else if (comboBoxSuggestion9.getSelectedIndex() == 4) {
+            try {
+                // TODO add your handling code here:
+                Desktop.getDesktop().browse(new URL("https://github.com/BK9797/Engineering_Edge").toURI());
+            } catch (MalformedURLException ex) {
+                Logger.getLogger(Students_activites.class.getName()).log(Level.SEVERE, null, ex);
+            } catch (URISyntaxException | IOException ex) {
+                Logger.getLogger(Students_activites.class.getName()).log(Level.SEVERE, null, ex);
+            }
+        } else if (comboBoxSuggestion9.getSelectedIndex() == 5) {
+            try {
+                // TODO add your handling code here:
+                Desktop.getDesktop().browse(new URL("https://github.com/BK9797/Engineering_Edge").toURI());
+            } catch (MalformedURLException ex) {
+                Logger.getLogger(Students_activites.class.getName()).log(Level.SEVERE, null, ex);
+            } catch (URISyntaxException | IOException ex) {
+                Logger.getLogger(Students_activites.class.getName()).log(Level.SEVERE, null, ex);
+            }
+        }
+    }//GEN-LAST:event_jLabel9MousePressed
 
     /**
      * @param args the command line arguments

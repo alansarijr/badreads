@@ -232,6 +232,9 @@
                   <Image iconType="3" name="/icon/icons8-google-drive-150.png"/>
                 </Property>
               </Properties>
+              <Events>
+                <EventHandler event="mousePressed" listener="java.awt.event.MouseListener" parameters="java.awt.event.MouseEvent" handler="jLabel1MousePressed"/>
+              </Events>
             </Component>
             <Component class="javax.swing.JLabel" name="jLabel2">
               <Properties>
@@ -239,6 +242,9 @@
                   <Image iconType="3" name="/icon/icons8-google-drive-150.png"/>
                 </Property>
               </Properties>
+              <Events>
+                <EventHandler event="mousePressed" listener="java.awt.event.MouseListener" parameters="java.awt.event.MouseEvent" handler="jLabel2MousePressed"/>
+              </Events>
             </Component>
           </SubComponents>
         </Container>
@@ -446,6 +452,9 @@
                       <Image iconType="3" name="/icon/icons8-google-drive-150.png"/>
                     </Property>
                   </Properties>
+                  <Events>
+                    <EventHandler event="mousePressed" listener="java.awt.event.MouseListener" parameters="java.awt.event.MouseEvent" handler="jLabel5MousePressed"/>
+                  </Events>
                 </Component>
                 <Component class="javax.swing.JLabel" name="jLabel6">
                   <Properties>
@@ -453,6 +462,9 @@
                       <Image iconType="3" name="/icon/icons8-google-drive-150.png"/>
                     </Property>
                   </Properties>
+                  <Events>
+                    <EventHandler event="mousePressed" listener="java.awt.event.MouseListener" parameters="java.awt.event.MouseEvent" handler="jLabel6MousePressed"/>
+                  </Events>
                 </Component>
               </SubComponents>
             </Container>
@@ -662,6 +674,9 @@
                       <Image iconType="3" name="/icon/icons8-google-drive-150.png"/>
                     </Property>
                   </Properties>
+                  <Events>
+                    <EventHandler event="mousePressed" listener="java.awt.event.MouseListener" parameters="java.awt.event.MouseEvent" handler="jLabel7MousePressed"/>
+                  </Events>
                 </Component>
                 <Component class="javax.swing.JLabel" name="jLabel8">
                   <Properties>
@@ -669,6 +684,9 @@
                       <Image iconType="3" name="/icon/icons8-google-drive-150.png"/>
                     </Property>
                   </Properties>
+                  <Events>
+                    <EventHandler event="mousePressed" listener="java.awt.event.MouseListener" parameters="java.awt.event.MouseEvent" handler="jLabel8MousePressed"/>
+                  </Events>
                 </Component>
               </SubComponents>
             </Container>
@@ -865,6 +883,9 @@
                       <Image iconType="3" name="/icon/icons8-google-drive-150.png"/>
                     </Property>
                   </Properties>
+                  <Events>
+                    <EventHandler event="mousePressed" listener="java.awt.event.MouseListener" parameters="java.awt.event.MouseEvent" handler="jLabel9MousePressed"/>
+                  </Events>
                 </Component>
                 <Component class="javax.swing.JLabel" name="jLabel10">
                   <Properties>
@@ -872,6 +893,9 @@
                       <Image iconType="3" name="/icon/icons8-google-drive-150.png"/>
                     </Property>
                   </Properties>
+                  <Events>
+                    <EventHandler event="mousePressed" listener="java.awt.event.MouseListener" parameters="java.awt.event.MouseEvent" handler="jLabel10MousePressed"/>
+                  </Events>
                 </Component>
               </SubComponents>
             </Container>

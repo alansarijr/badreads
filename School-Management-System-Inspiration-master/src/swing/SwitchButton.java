@@ -134,4 +134,8 @@ public class SwitchButton extends Component {
     public void addEventSelected(EventSwitchSelected event) {
         events.add(event);
     }
+
+    public boolean isSelected(boolean b) {
+        throw new UnsupportedOperationException("Not supported yet."); // Generated from nbfs://nbhost/SystemFileSystem/Templates/Classes/Code/GeneratedMethodBody
+    }
 }

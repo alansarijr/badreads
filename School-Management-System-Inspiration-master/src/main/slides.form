@@ -235,6 +235,9 @@
                   <Image iconType="3" name="/icon/icons8-google-drive-150.png"/>
                 </Property>
               </Properties>
+              <Events>
+                <EventHandler event="mousePressed" listener="java.awt.event.MouseListener" parameters="java.awt.event.MouseEvent" handler="jLabel1MousePressed"/>
+              </Events>
             </Component>
             <Component class="javax.swing.JLabel" name="jLabel2">
               <Properties>
@@ -242,6 +245,9 @@
                   <Image iconType="3" name="/icon/icons8-google-drive-150.png"/>
                 </Property>
               </Properties>
+              <Events>
+                <EventHandler event="mousePressed" listener="java.awt.event.MouseListener" parameters="java.awt.event.MouseEvent" handler="jLabel2MousePressed"/>
+              </Events>
             </Component>
             <Component class="javax.swing.JLabel" name="jLabel3">
               <Properties>
@@ -249,6 +255,9 @@
                   <Image iconType="3" name="/icon/icons8-google-classroom-150.png"/>
                 </Property>
               </Properties>
+              <Events>
+                <EventHandler event="mousePressed" listener="java.awt.event.MouseListener" parameters="java.awt.event.MouseEvent" handler="jLabel3MousePressed"/>
+              </Events>
             </Component>
             <Component class="javax.swing.JLabel" name="jLabel4">
               <Properties>
@@ -256,6 +265,9 @@
                   <Image iconType="3" name="/icon/icons8-google-classroom-150.png"/>
                 </Property>
               </Properties>
+              <Events>
+                <EventHandler event="mousePressed" listener="java.awt.event.MouseListener" parameters="java.awt.event.MouseEvent" handler="jLabel4MousePressed"/>
+              </Events>
             </Component>
           </SubComponents>
         </Container>
@@ -400,6 +412,9 @@
                   <Image iconType="3" name="/icon/icons8-google-drive-150.png"/>
                 </Property>
               </Properties>
+              <Events>
+                <EventHandler event="mousePressed" listener="java.awt.event.MouseListener" parameters="java.awt.event.MouseEvent" handler="jLabel28MousePressed"/>
+              </Events>
             </Component>
             <Component class="javax.swing.JLabel" name="jLabel29">
               <Properties>
@@ -407,6 +422,9 @@
                   <Image iconType="3" name="/icon/icons8-google-classroom-150.png"/>
                 </Property>
               </Properties>
+              <Events>
+                <EventHandler event="mousePressed" listener="java.awt.event.MouseListener" parameters="java.awt.event.MouseEvent" handler="jLabel29MousePressed"/>
+              </Events>
             </Component>
             <Component class="combo_suggestion.ComboBoxSuggestion" name="comboBoxSuggestion15">
               <Properties>
@@ -456,6 +474,9 @@
                   <Image iconType="3" name="/icon/icons8-google-drive-150.png"/>
                 </Property>
               </Properties>
+              <Events>
+                <EventHandler event="mousePressed" listener="java.awt.event.MouseListener" parameters="java.awt.event.MouseEvent" handler="jLabel43MousePressed"/>
+              </Events>
             </Component>
             <Component class="javax.swing.JLabel" name="jLabel44">
               <Properties>
@@ -463,6 +484,9 @@
                   <Image iconType="3" name="/icon/icons8-google-classroom-150.png"/>
                 </Property>
               </Properties>
+              <Events>
+                <EventHandler event="mousePressed" listener="java.awt.event.MouseListener" parameters="java.awt.event.MouseEvent" handler="jLabel44MousePressed"/>
+              </Events>
             </Component>
           </SubComponents>
         </Container>
@@ -617,6 +641,9 @@
                   <Image iconType="3" name="/icon/icons8-google-drive-150.png"/>
                 </Property>
               </Properties>
+              <Events>
+                <EventHandler event="mousePressed" listener="java.awt.event.MouseListener" parameters="java.awt.event.MouseEvent" handler="jLabel33MousePressed"/>
+              </Events>
             </Component>
             <Component class="javax.swing.JLabel" name="jLabel34">
               <Properties>
@@ -624,6 +651,9 @@
                   <Image iconType="3" name="/icon/icons8-google-drive-150.png"/>
                 </Property>
               </Properties>
+              <Events>
+                <EventHandler event="mousePressed" listener="java.awt.event.MouseListener" parameters="java.awt.event.MouseEvent" handler="jLabel34MousePressed"/>
+              </Events>
             </Component>
             <Component class="javax.swing.JLabel" name="jLabel35">
               <Properties>
@@ -631,6 +661,9 @@
                   <Image iconType="3" name="/icon/icons8-google-classroom-150.png"/>
                 </Property>
               </Properties>
+              <Events>
+                <EventHandler event="mousePressed" listener="java.awt.event.MouseListener" parameters="java.awt.event.MouseEvent" handler="jLabel35MousePressed"/>
+              </Events>
             </Component>
             <Component class="javax.swing.JLabel" name="jLabel36">
               <Properties>
@@ -638,6 +671,9 @@
                   <Image iconType="3" name="/icon/icons8-google-classroom-150.png"/>
                 </Property>
               </Properties>
+              <Events>
+                <EventHandler event="mousePressed" listener="java.awt.event.MouseListener" parameters="java.awt.event.MouseEvent" handler="jLabel36MousePressed"/>
+              </Events>
             </Component>
             <Component class="combo_suggestion.ComboBoxSuggestion" name="comboBoxSuggestion10">
               <Properties>
@@ -828,6 +864,9 @@
                   <Image iconType="3" name="/icon/icons8-google-drive-150.png"/>
                 </Property>
               </Properties>
+              <Events>
+                <EventHandler event="mousePressed" listener="java.awt.event.MouseListener" parameters="java.awt.event.MouseEvent" handler="jLabel39MousePressed"/>
+              </Events>
             </Component>
             <Component class="javax.swing.JLabel" name="jLabel40">
               <Properties>
@@ -835,6 +874,9 @@
                   <Image iconType="3" name="/icon/icons8-google-drive-150.png"/>
                 </Property>
               </Properties>
+              <Events>
+                <EventHandler event="mousePressed" listener="java.awt.event.MouseListener" parameters="java.awt.event.MouseEvent" handler="jLabel40MousePressed"/>
+              </Events>
             </Component>
             <Component class="javax.swing.JLabel" name="jLabel41">
               <Properties>
@@ -842,6 +884,9 @@
                   <Image iconType="3" name="/icon/icons8-google-classroom-150.png"/>
                 </Property>
               </Properties>
+              <Events>
+                <EventHandler event="mousePressed" listener="java.awt.event.MouseListener" parameters="java.awt.event.MouseEvent" handler="jLabel41MousePressed"/>
+              </Events>
             </Component>
             <Component class="javax.swing.JLabel" name="jLabel42">
               <Properties>
@@ -849,6 +894,9 @@
                   <Image iconType="3" name="/icon/icons8-google-classroom-150.png"/>
                 </Property>
               </Properties>
+              <Events>
+                <EventHandler event="mousePressed" listener="java.awt.event.MouseListener" parameters="java.awt.event.MouseEvent" handler="jLabel42MousePressed"/>
+              </Events>
             </Component>
             <Component class="combo_suggestion.ComboBoxSuggestion" name="comboBoxSuggestion18">
               <Properties>
