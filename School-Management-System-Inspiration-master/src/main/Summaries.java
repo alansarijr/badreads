@@ -624,7 +624,7 @@ public class Summaries extends javax.swing.JFrame {
         } else if (comboBoxSuggestion2.getSelectedIndex() == 1) {
             try {
                 // TODO add your handling code here:
-                Desktop.getDesktop().browse(new URL("https://drive.google.com/drive/folders/1eV3ECMPkvCjwA-kFx6OrIrLz0Kkwa06a").toURI());
+                Desktop.getDesktop().browse(new URL("https://drive.google.com/drive/folders/1mupPGwZooggx5HBDwQkTIl9Tkf1l9OOw").toURI());
             } catch (MalformedURLException ex) {
                 Logger.getLogger(Students_activites.class.getName()).log(Level.SEVERE, null, ex);
             } catch (URISyntaxException | IOException ex) {
@@ -674,7 +674,7 @@ public class Summaries extends javax.swing.JFrame {
         if (comboBoxSuggestion1.getSelectedIndex() == 0) {
             try {
                 // TODO add your handling code here:
-                Desktop.getDesktop().browse(new URL("https://drive.google.com/drive/folders/1eV3ECMPkvCjwA-kFx6OrIrLz0Kkwa06a").toURI());
+                Desktop.getDesktop().browse(new URL("https://docs.google.com/document/d/1_sArn-je5erTOxFV23yYYabY6G67inIj/edit").toURI());
             } catch (MalformedURLException ex) {
                 Logger.getLogger(Students_activites.class.getName()).log(Level.SEVERE, null, ex);
             } catch (URISyntaxException | IOException ex) {
