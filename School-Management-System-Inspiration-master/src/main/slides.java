@@ -77,7 +77,7 @@ public class slides extends javax.swing.JFrame {
         comboBoxSuggestion18 = new combo_suggestion.ComboBoxSuggestion();
         comboBoxSuggestion19 = new combo_suggestion.ComboBoxSuggestion();
 
-        setDefaultCloseOperation(javax.swing.WindowConstants.EXIT_ON_CLOSE);
+        setDefaultCloseOperation(javax.swing.WindowConstants.DISPOSE_ON_CLOSE);
         setLocation(new java.awt.Point(220, 80));
 
         tabbedPaneCustom1.setFont(new java.awt.Font("sansserif", 1, 12)); // NOI18N

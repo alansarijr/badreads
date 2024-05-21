@@ -19,7 +19,7 @@ public class Summaries extends javax.swing.JFrame {
      * Creates new form Home_Data
      */
     public Summaries() {
-        initComponents();
+        initComponents();      
     }
 
     /**
@@ -75,6 +75,11 @@ public class Summaries extends javax.swing.JFrame {
         setDefaultCloseOperation(javax.swing.WindowConstants.DISPOSE_ON_CLOSE);
         setBackground(new java.awt.Color(255, 255, 255));
         setBounds(new java.awt.Rectangle(220, 80, 0, 0));
+        addWindowListener(new java.awt.event.WindowAdapter() {
+            public void windowClosed(java.awt.event.WindowEvent evt) {
+                formWindowClosed(evt);
+            }
+        });
 
         tabbedPaneCustom1.setFont(new java.awt.Font("sansserif", 1, 12)); // NOI18N
         tabbedPaneCustom1.setSelectedColor(new java.awt.Color(255, 236, 158));
@@ -83,12 +88,23 @@ public class Summaries extends javax.swing.JFrame {
         jPanel3.setBackground(new java.awt.Color(255, 251, 218));
 
         switchButton2.setForeground(new java.awt.Color(240, 240, 240));
+        switchButton2.addMouseListener(new java.awt.event.MouseAdapter() {
+            public void mousePressed(java.awt.event.MouseEvent evt) {
+                switchButton2MousePressed(evt);
+            }
+        });
 
         switchButton3.setForeground(new java.awt.Color(240, 240, 240));
+        switchButton3.addMouseListener(new java.awt.event.MouseAdapter() {
+            public void mousePressed(java.awt.event.MouseEvent evt) {
+                switchButton3MousePressed(evt);
+            }
+        });
 
         comboBoxSuggestion2.setBackground(new java.awt.Color(255, 236, 158));
         comboBoxSuggestion2.setEditable(false);
         comboBoxSuggestion2.setModel(new javax.swing.DefaultComboBoxModel(new String[] { "Programming C++", "Electronics 1", "Maths 3", "Circuits", "Technical writting", "Discrete math" }));
+        comboBoxSuggestion2.setEnabled(false);
         comboBoxSuggestion2.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 comboBoxSuggestion2ActionPerformed(evt);
@@ -98,6 +114,7 @@ public class Summaries extends javax.swing.JFrame {
         comboBoxSuggestion1.setBackground(new java.awt.Color(255, 236, 158));
         comboBoxSuggestion1.setEditable(false);
         comboBoxSuggestion1.setModel(new javax.swing.DefaultComboBoxModel(new String[] { "Advanced progarmming (Java)", "Basic Electronics", "Satistics and probability", "Logic design", "Workshops", "Presentation skills" }));
+        comboBoxSuggestion1.setEnabled(false);
         comboBoxSuggestion1.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 comboBoxSuggestion1ActionPerformed(evt);
@@ -128,6 +145,17 @@ public class Summaries extends javax.swing.JFrame {
         jPanel3.setLayout(jPanel3Layout);
         jPanel3Layout.setHorizontalGroup(
             jPanel3Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+            .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, jPanel3Layout.createSequentialGroup()
+                .addContainerGap(423, Short.MAX_VALUE)
+                .addGroup(jPanel3Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                    .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, jPanel3Layout.createSequentialGroup()
+                        .addGroup(jPanel3Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.TRAILING)
+                            .addComponent(comboBoxSuggestion1, javax.swing.GroupLayout.PREFERRED_SIZE, 292, javax.swing.GroupLayout.PREFERRED_SIZE)
+                            .addComponent(comboBoxSuggestion2, javax.swing.GroupLayout.PREFERRED_SIZE, 292, javax.swing.GroupLayout.PREFERRED_SIZE))
+                        .addGap(308, 308, 308))
+                    .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, jPanel3Layout.createSequentialGroup()
+                        .addComponent(jLabel1, javax.swing.GroupLayout.PREFERRED_SIZE, 181, javax.swing.GroupLayout.PREFERRED_SIZE)
+                        .addGap(133, 133, 133))))
             .addGroup(jPanel3Layout.createSequentialGroup()
                 .addGap(49, 49, 49)
                 .addGroup(jPanel3Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.TRAILING)
@@ -140,17 +168,6 @@ public class Summaries extends javax.swing.JFrame {
                         .addGap(53, 53, 53)
                         .addComponent(switchButton3, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)))
                 .addGap(0, 0, Short.MAX_VALUE))
-            .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, jPanel3Layout.createSequentialGroup()
-                .addContainerGap(423, Short.MAX_VALUE)
-                .addGroup(jPanel3Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                    .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, jPanel3Layout.createSequentialGroup()
-                        .addGroup(jPanel3Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.TRAILING)
-                            .addComponent(comboBoxSuggestion1, javax.swing.GroupLayout.PREFERRED_SIZE, 292, javax.swing.GroupLayout.PREFERRED_SIZE)
-                            .addComponent(comboBoxSuggestion2, javax.swing.GroupLayout.PREFERRED_SIZE, 292, javax.swing.GroupLayout.PREFERRED_SIZE))
-                        .addGap(308, 308, 308))
-                    .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, jPanel3Layout.createSequentialGroup()
-                        .addComponent(jLabel1, javax.swing.GroupLayout.PREFERRED_SIZE, 181, javax.swing.GroupLayout.PREFERRED_SIZE)
-                        .addGap(133, 133, 133))))
             .addGroup(jPanel3Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
                 .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, jPanel3Layout.createSequentialGroup()
                     .addContainerGap(690, Short.MAX_VALUE)
@@ -195,12 +212,23 @@ public class Summaries extends javax.swing.JFrame {
         jPanel7.setBackground(new java.awt.Color(255, 251, 218));
 
         switchButton4.setForeground(new java.awt.Color(240, 240, 240));
+        switchButton4.addMouseListener(new java.awt.event.MouseAdapter() {
+            public void mousePressed(java.awt.event.MouseEvent evt) {
+                switchButton4MousePressed(evt);
+            }
+        });
 
         switchButton5.setForeground(new java.awt.Color(240, 240, 240));
+        switchButton5.addMouseListener(new java.awt.event.MouseAdapter() {
+            public void mousePressed(java.awt.event.MouseEvent evt) {
+                switchButton5MousePressed(evt);
+            }
+        });
 
         comboBoxSuggestion4.setBackground(new java.awt.Color(255, 236, 158));
         comboBoxSuggestion4.setEditable(false);
         comboBoxSuggestion4.setModel(new javax.swing.DefaultComboBoxModel(new String[] { "Data Structures", "Electronic Circuits", "Numerical", "Signals", "Computer Architecture", "Creative Thinking" }));
+        comboBoxSuggestion4.setEnabled(false);
         comboBoxSuggestion4.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 comboBoxSuggestion4ActionPerformed(evt);
@@ -210,6 +238,7 @@ public class Summaries extends javax.swing.JFrame {
         comboBoxSuggestion5.setBackground(new java.awt.Color(255, 236, 158));
         comboBoxSuggestion5.setEditable(false);
         comboBoxSuggestion5.setModel(new javax.swing.DefaultComboBoxModel(new String[] { "Database", "Communication", "Measure", "Power & Machines", "MP_MC", "Operations Research" }));
+        comboBoxSuggestion5.setEnabled(false);
         comboBoxSuggestion5.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 comboBoxSuggestion5ActionPerformed(evt);
@@ -579,7 +608,7 @@ public class Summaries extends javax.swing.JFrame {
     }// </editor-fold>//GEN-END:initComponents
 
     private void comboBoxSuggestion2ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_comboBoxSuggestion2ActionPerformed
-        // TODO add your handling code here:
+        // TODO add your handling code here:       
     }//GEN-LAST:event_comboBoxSuggestion2ActionPerformed
 
     private void comboBoxSuggestion1ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_comboBoxSuggestion1ActionPerformed
@@ -1081,6 +1110,50 @@ public class Summaries extends javax.swing.JFrame {
             }
     }           
     }//GEN-LAST:event_jLabel9MousePressed
+
+    private void switchButton3MousePressed(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_switchButton3MousePressed
+        // TODO add your handling code here:
+        if(switchButton3.isSelected()){
+            comboBoxSuggestion2.setEnabled(false);
+        }
+        else {
+            comboBoxSuggestion2.setEnabled(true);
+        }
+    }//GEN-LAST:event_switchButton3MousePressed
+
+    private void formWindowClosed(java.awt.event.WindowEvent evt) {//GEN-FIRST:event_formWindowClosed
+        // TODO add your handling code here:
+    }//GEN-LAST:event_formWindowClosed
+
+    private void switchButton2MousePressed(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_switchButton2MousePressed
+        // TODO add your handling code here:
+        if(switchButton2.isSelected()){
+            comboBoxSuggestion1.setEnabled(false);
+        }
+        else {
+            comboBoxSuggestion1.setEnabled(true);
+        }
+    }//GEN-LAST:event_switchButton2MousePressed
+
+    private void switchButton5MousePressed(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_switchButton5MousePressed
+        // TODO add your handling code here:
+        if(switchButton5.isSelected()){
+            comboBoxSuggestion4.setEnabled(false);
+        }
+        else {
+            comboBoxSuggestion4.setEnabled(true);
+        }
+    }//GEN-LAST:event_switchButton5MousePressed
+
+    private void switchButton4MousePressed(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_switchButton4MousePressed
+        // TODO add your handling code here:
+        if(switchButton4.isSelected()){
+            comboBoxSuggestion5.setEnabled(false);
+        }
+        else {
+            comboBoxSuggestion5.setEnabled(true);
+        }
+    }//GEN-LAST:event_switchButton4MousePressed
 
     /**
      * @param args the command line arguments
