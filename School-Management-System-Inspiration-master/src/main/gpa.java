@@ -1,10 +1,6 @@
 package main;
 
 
-/**
- *
- * @author dell
- */
 public class gpa {
     double first,second,third,fourth,fifth,sixth,seventh,eighth,ninth,tenth,eleventh,twelveth;
     double total,percentage,gpa;
@@ -25,8 +21,13 @@ public class gpa {
     
     }
     public double total(){
-     this.total=first+second+third+fourth+fifth+sixth+seventh+eighth+ninth+tenth+eleventh+twelveth;
-     return total;
+        if((first<0 || first >150) || (second<0 || second >150) || (third<0 || third >150) || (fourth<0 || fourth >150) || (fifth<0 || fifth >100) || (sixth<0 || sixth >50) || (seventh<0 || seventh >150) || (eighth<0 || eighth >150) || (ninth<0 || ninth >150) || (tenth<0 || tenth >150) || (eleventh<0 || eleventh >100) || (twelveth<0 || twelveth >50))
+        {
+            return total=0;
+        } else {
+            this.total = first + second + third + fourth + fifth + sixth + seventh + eighth + ninth + tenth + eleventh + twelveth;
+            return total;
+        }
     }
     public double percentage(){
      this.percentage=(total/1500)*100;
@@ -34,6 +35,10 @@ public class gpa {
     
     }
     public double Gpa(){
+    if ((first < 0 || first > 150) || (second < 0 || second > 150) || (third < 0 || third > 150) || (fourth < 0 || fourth > 150) || (fifth < 0 || fifth > 100) || (sixth < 0 || sixth > 50) || (seventh < 0 || seventh > 150) || (eighth < 0 || eighth > 150) || (ninth < 0 || ninth > 150) || (tenth < 0 || tenth > 150) || (eleventh < 0 || eleventh > 100) || (twelveth < 0 || twelveth > 50)) {
+       return gpa = 0;
+    } else{
+            
      if(first>=143 && first<=150){
      gpa+=3*4.3;} //A+
      else if(first>=136){
@@ -514,4 +519,6 @@ public class gpa {
      
      gpa=gpa/30;
      return gpa;
-}}
+    }
+    }
+}
