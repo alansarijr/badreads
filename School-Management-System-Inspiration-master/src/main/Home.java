@@ -579,4 +579,6 @@ public class Home extends javax.swing.JFrame {
     private javax.swing.JPanel jPanel16;
     private javax.swing.JPanel jPanel9;
     // End of variables declaration//GEN-END:variables
+
+//===== By Ela3azeem Bisho Kamel =====//
 }
