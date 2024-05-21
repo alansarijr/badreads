@@ -163,6 +163,9 @@
                   <Color blue="f0" green="f0" red="f0" type="rgb"/>
                 </Property>
               </Properties>
+              <Events>
+                <EventHandler event="mousePressed" listener="java.awt.event.MouseListener" parameters="java.awt.event.MouseEvent" handler="switchButton2MousePressed"/>
+              </Events>
             </Component>
             <Component class="swing.SwitchButton" name="switchButton3">
               <Properties>
@@ -170,6 +173,9 @@
                   <Color blue="f0" green="f0" red="f0" type="rgb"/>
                 </Property>
               </Properties>
+              <Events>
+                <EventHandler event="mousePressed" listener="java.awt.event.MouseListener" parameters="java.awt.event.MouseEvent" handler="switchButton3MousePressed"/>
+              </Events>
             </Component>
             <Component class="combo_suggestion.ComboBoxSuggestion" name="comboBoxSuggestion2">
               <Properties>
@@ -382,6 +388,9 @@
                   <Color blue="f0" green="f0" red="f0" type="rgb"/>
                 </Property>
               </Properties>
+              <Events>
+                <EventHandler event="mousePressed" listener="java.awt.event.MouseListener" parameters="java.awt.event.MouseEvent" handler="switchButton10MousePressed"/>
+              </Events>
             </Component>
             <Component class="swing.SwitchButton" name="switchButton11">
               <Properties>
@@ -389,6 +398,9 @@
                   <Color blue="f0" green="f0" red="f0" type="rgb"/>
                 </Property>
               </Properties>
+              <Events>
+                <EventHandler event="mousePressed" listener="java.awt.event.MouseListener" parameters="java.awt.event.MouseEvent" handler="switchButton11MousePressed"/>
+              </Events>
             </Component>
             <Component class="javax.swing.JLabel" name="jLabel19">
               <Properties>
@@ -611,6 +623,9 @@
                   <Color blue="f0" green="f0" red="f0" type="rgb"/>
                 </Property>
               </Properties>
+              <Events>
+                <EventHandler event="mousePressed" listener="java.awt.event.MouseListener" parameters="java.awt.event.MouseEvent" handler="switchButton12MousePressed"/>
+              </Events>
             </Component>
             <Component class="swing.SwitchButton" name="switchButton13">
               <Properties>
@@ -618,6 +633,9 @@
                   <Color blue="f0" green="f0" red="f0" type="rgb"/>
                 </Property>
               </Properties>
+              <Events>
+                <EventHandler event="mousePressed" listener="java.awt.event.MouseListener" parameters="java.awt.event.MouseEvent" handler="switchButton13MousePressed"/>
+              </Events>
             </Component>
             <Component class="javax.swing.JLabel" name="jLabel31">
               <Properties>
@@ -834,6 +852,9 @@
                   <Color blue="f0" green="f0" red="f0" type="rgb"/>
                 </Property>
               </Properties>
+              <Events>
+                <EventHandler event="mousePressed" listener="java.awt.event.MouseListener" parameters="java.awt.event.MouseEvent" handler="switchButton14MousePressed"/>
+              </Events>
             </Component>
             <Component class="swing.SwitchButton" name="switchButton15">
               <Properties>
@@ -841,6 +862,9 @@
                   <Color blue="f0" green="f0" red="f0" type="rgb"/>
                 </Property>
               </Properties>
+              <Events>
+                <EventHandler event="mousePressed" listener="java.awt.event.MouseListener" parameters="java.awt.event.MouseEvent" handler="switchButton15MousePressed"/>
+              </Events>
             </Component>
             <Component class="javax.swing.JLabel" name="jLabel37">
               <Properties>

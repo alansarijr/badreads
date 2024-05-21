@@ -87,8 +87,18 @@ public class slides extends javax.swing.JFrame {
         jPanel3.setBackground(new java.awt.Color(255, 251, 218));
 
         switchButton2.setForeground(new java.awt.Color(240, 240, 240));
+        switchButton2.addMouseListener(new java.awt.event.MouseAdapter() {
+            public void mousePressed(java.awt.event.MouseEvent evt) {
+                switchButton2MousePressed(evt);
+            }
+        });
 
         switchButton3.setForeground(new java.awt.Color(240, 240, 240));
+        switchButton3.addMouseListener(new java.awt.event.MouseAdapter() {
+            public void mousePressed(java.awt.event.MouseEvent evt) {
+                switchButton3MousePressed(evt);
+            }
+        });
 
         comboBoxSuggestion2.setBackground(new java.awt.Color(255, 236, 158));
         comboBoxSuggestion2.setEditable(false);
@@ -216,8 +226,18 @@ public class slides extends javax.swing.JFrame {
         jPanel6.setBackground(new java.awt.Color(255, 251, 218));
 
         switchButton10.setForeground(new java.awt.Color(240, 240, 240));
+        switchButton10.addMouseListener(new java.awt.event.MouseAdapter() {
+            public void mousePressed(java.awt.event.MouseEvent evt) {
+                switchButton10MousePressed(evt);
+            }
+        });
 
         switchButton11.setForeground(new java.awt.Color(240, 240, 240));
+        switchButton11.addMouseListener(new java.awt.event.MouseAdapter() {
+            public void mousePressed(java.awt.event.MouseEvent evt) {
+                switchButton11MousePressed(evt);
+            }
+        });
 
         jLabel19.setFont(new java.awt.Font("Arial", 1, 36)); // NOI18N
         jLabel19.setText("First Term:");
@@ -344,8 +364,18 @@ public class slides extends javax.swing.JFrame {
         jPanel10.setBackground(new java.awt.Color(255, 251, 218));
 
         switchButton12.setForeground(new java.awt.Color(240, 240, 240));
+        switchButton12.addMouseListener(new java.awt.event.MouseAdapter() {
+            public void mousePressed(java.awt.event.MouseEvent evt) {
+                switchButton12MousePressed(evt);
+            }
+        });
 
         switchButton13.setForeground(new java.awt.Color(240, 240, 240));
+        switchButton13.addMouseListener(new java.awt.event.MouseAdapter() {
+            public void mousePressed(java.awt.event.MouseEvent evt) {
+                switchButton13MousePressed(evt);
+            }
+        });
 
         jLabel31.setFont(new java.awt.Font("Arial", 1, 36)); // NOI18N
         jLabel31.setText("First Term:");
@@ -478,8 +508,18 @@ public class slides extends javax.swing.JFrame {
         jPanel11.setBackground(new java.awt.Color(255, 251, 218));
 
         switchButton14.setForeground(new java.awt.Color(240, 240, 240));
+        switchButton14.addMouseListener(new java.awt.event.MouseAdapter() {
+            public void mousePressed(java.awt.event.MouseEvent evt) {
+                switchButton14MousePressed(evt);
+            }
+        });
 
         switchButton15.setForeground(new java.awt.Color(240, 240, 240));
+        switchButton15.addMouseListener(new java.awt.event.MouseAdapter() {
+            public void mousePressed(java.awt.event.MouseEvent evt) {
+                switchButton15MousePressed(evt);
+            }
+        });
 
         jLabel37.setFont(new java.awt.Font("Arial", 1, 36)); // NOI18N
         jLabel37.setText("First Term:");
@@ -1595,6 +1635,86 @@ public class slides extends javax.swing.JFrame {
             }
         }
     }//GEN-LAST:event_jLabel42MousePressed
+
+    private void switchButton3MousePressed(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_switchButton3MousePressed
+        // TODO add your handling code here:
+        if(switchButton2.isSelected()){
+            comboBoxSuggestion1.setEnabled(false);
+        }
+        else {
+            comboBoxSuggestion1.setEnabled(true);
+        }
+    }//GEN-LAST:event_switchButton3MousePressed
+
+    private void switchButton2MousePressed(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_switchButton2MousePressed
+        // TODO add your handling code here:
+        if(switchButton2.isSelected()){
+            comboBoxSuggestion1.setEnabled(false);
+        }
+        else {
+            comboBoxSuggestion1.setEnabled(true);
+        }
+    }//GEN-LAST:event_switchButton2MousePressed
+
+    private void switchButton11MousePressed(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_switchButton11MousePressed
+        // TODO add your handling code here:
+        if(switchButton2.isSelected()){
+            comboBoxSuggestion1.setEnabled(false);
+        }
+        else {
+            comboBoxSuggestion1.setEnabled(true);
+        }
+    }//GEN-LAST:event_switchButton11MousePressed
+
+    private void switchButton10MousePressed(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_switchButton10MousePressed
+        // TODO add your handling code here:
+        if(switchButton2.isSelected()){
+            comboBoxSuggestion1.setEnabled(false);
+        }
+        else {
+            comboBoxSuggestion1.setEnabled(true);
+        }
+    }//GEN-LAST:event_switchButton10MousePressed
+
+    private void switchButton13MousePressed(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_switchButton13MousePressed
+        // TODO add your handling code here:
+        if(switchButton2.isSelected()){
+            comboBoxSuggestion1.setEnabled(false);
+        }
+        else {
+            comboBoxSuggestion1.setEnabled(true);
+        }
+    }//GEN-LAST:event_switchButton13MousePressed
+
+    private void switchButton12MousePressed(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_switchButton12MousePressed
+        // TODO add your handling code here:
+        if(switchButton2.isSelected()){
+            comboBoxSuggestion1.setEnabled(false);
+        }
+        else {
+            comboBoxSuggestion1.setEnabled(true);
+        }
+    }//GEN-LAST:event_switchButton12MousePressed
+
+    private void switchButton15MousePressed(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_switchButton15MousePressed
+        // TODO add your handling code here:
+        if(switchButton2.isSelected()){
+            comboBoxSuggestion1.setEnabled(false);
+        }
+        else {
+            comboBoxSuggestion1.setEnabled(true);
+        }
+    }//GEN-LAST:event_switchButton15MousePressed
+
+    private void switchButton14MousePressed(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_switchButton14MousePressed
+        // TODO add your handling code here:
+        if(switchButton2.isSelected()){
+            comboBoxSuggestion1.setEnabled(false);
+        }
+        else {
+            comboBoxSuggestion1.setEnabled(true);
+        }
+    }//GEN-LAST:event_switchButton14MousePressed
 
     /**
      * @param args the command line arguments

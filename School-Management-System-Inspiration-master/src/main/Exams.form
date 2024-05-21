@@ -157,6 +157,9 @@
                   <Color blue="f0" green="f0" red="f0" type="rgb"/>
                 </Property>
               </Properties>
+              <Events>
+                <EventHandler event="mousePressed" listener="java.awt.event.MouseListener" parameters="java.awt.event.MouseEvent" handler="switchButton2MousePressed"/>
+              </Events>
             </Component>
             <Component class="swing.SwitchButton" name="switchButton3">
               <Properties>
@@ -164,6 +167,9 @@
                   <Color blue="f0" green="f0" red="f0" type="rgb"/>
                 </Property>
               </Properties>
+              <Events>
+                <EventHandler event="mousePressed" listener="java.awt.event.MouseListener" parameters="java.awt.event.MouseEvent" handler="switchButton3MousePressed"/>
+              </Events>
             </Component>
             <Component class="combo_suggestion.ComboBoxSuggestion" name="comboBoxSuggestion2">
               <Properties>
@@ -371,6 +377,9 @@
                       <Color blue="f0" green="f0" red="f0" type="rgb"/>
                     </Property>
                   </Properties>
+                  <Events>
+                    <EventHandler event="mousePressed" listener="java.awt.event.MouseListener" parameters="java.awt.event.MouseEvent" handler="switchButton4MousePressed"/>
+                  </Events>
                 </Component>
                 <Component class="swing.SwitchButton" name="switchButton5">
                   <Properties>
@@ -378,6 +387,9 @@
                       <Color blue="f0" green="f0" red="f0" type="rgb"/>
                     </Property>
                   </Properties>
+                  <Events>
+                    <EventHandler event="mousePressed" listener="java.awt.event.MouseListener" parameters="java.awt.event.MouseEvent" handler="switchButton5MousePressed"/>
+                  </Events>
                 </Component>
                 <Component class="combo_suggestion.ComboBoxSuggestion" name="comboBoxSuggestion4">
                   <Properties>
@@ -593,6 +605,9 @@
                       <Color blue="f0" green="f0" red="f0" type="rgb"/>
                     </Property>
                   </Properties>
+                  <Events>
+                    <EventHandler event="mousePressed" listener="java.awt.event.MouseListener" parameters="java.awt.event.MouseEvent" handler="switchButton6MousePressed"/>
+                  </Events>
                 </Component>
                 <Component class="swing.SwitchButton" name="switchButton7">
                   <Properties>
@@ -600,6 +615,9 @@
                       <Color blue="f0" green="f0" red="f0" type="rgb"/>
                     </Property>
                   </Properties>
+                  <Events>
+                    <EventHandler event="mousePressed" listener="java.awt.event.MouseListener" parameters="java.awt.event.MouseEvent" handler="switchButton7MousePressed"/>
+                  </Events>
                 </Component>
                 <Component class="combo_suggestion.ComboBoxSuggestion" name="comboBoxSuggestion6">
                   <Properties>
@@ -815,6 +833,9 @@
                       <Color blue="f0" green="f0" red="f0" type="rgb"/>
                     </Property>
                   </Properties>
+                  <Events>
+                    <EventHandler event="mousePressed" listener="java.awt.event.MouseListener" parameters="java.awt.event.MouseEvent" handler="switchButton8MousePressed"/>
+                  </Events>
                 </Component>
                 <Component class="swing.SwitchButton" name="switchButton9">
                   <Properties>
@@ -822,6 +843,9 @@
                       <Color blue="f0" green="f0" red="f0" type="rgb"/>
                     </Property>
                   </Properties>
+                  <Events>
+                    <EventHandler event="mousePressed" listener="java.awt.event.MouseListener" parameters="java.awt.event.MouseEvent" handler="switchButton9MousePressed"/>
+                  </Events>
                 </Component>
                 <Component class="combo_suggestion.ComboBoxSuggestion" name="comboBoxSuggestion8">
                   <Properties>
